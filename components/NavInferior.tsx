@@ -9,11 +9,12 @@ const ABAS: { id: Aba; href: string; nome: string; Icone: typeof Sol }[] = [
   { id: "diario", href: "/diario/", nome: "Diário", Icone: Livro },
 ];
 
+/** Barra inferior do celular. No computador a navegação fica no Cabecalho. */
 export function NavInferior({ atual }: { atual?: Aba }) {
   return (
     <nav
       aria-label="Navegação principal"
-      className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white"
+      className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white md:hidden"
       style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
     >
       <div className="mx-auto grid max-w-md grid-cols-3 gap-2 px-3 pb-3 pt-2">

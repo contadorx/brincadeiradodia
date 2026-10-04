@@ -7,6 +7,7 @@ import { CartaoApoio } from "@/components/CartaoApoio";
 import { ApagarDados } from "@/components/ApagarDados";
 import { NavInferior } from "@/components/NavInferior";
 import { Voltar } from "@/components/Icones";
+import { Cabecalho, CONTEUDO } from "@/components/Cabecalho";
 
 export const metadata: Metadata = {
   title: "Sobre e apoio",
@@ -32,12 +33,15 @@ export default async function Pagina() {
 
   return (
     <>
-      <main className="pb-nav mx-auto flex max-w-md flex-col gap-7 px-5 pt-3.5">
-        <Link href="/" className="inline-flex min-h-11 items-center gap-1 self-start font-bold text-tinta no-underline">
+      <Cabecalho atual="sobre" />
+      <main className={`pb-nav flex flex-col gap-7 pt-3.5 md:pt-8 ${CONTEUDO}`}>
+        <Link href="/" className="inline-flex min-h-11 items-center gap-1 self-start font-bold text-tinta no-underline md:hidden">
           <Voltar tamanho={22} />
           Hoje
         </Link>
-        <h1 className="m-0 -mt-3 font-display text-[30px] font-extrabold tracking-tight">Sobre o Brincadeira do Dia</h1>
+        <h1 className="m-0 -mt-3 font-display text-[30px] font-extrabold tracking-tight md:mt-0 md:text-[40px]">Sobre o Brincadeira do Dia</h1>
+        <div className="flex flex-col gap-7 md:grid md:grid-cols-12 md:items-start md:gap-12">
+        <div className="flex max-w-[65ch] flex-col gap-7 md:col-span-7">
 
         <Secao id="o-que-e" titulo="O que é">
           <p className="m-0">
@@ -88,7 +92,7 @@ export default async function Pagina() {
 
         <Secao id="privacidade" titulo="Privacidade">
           <p className="m-0">
-            Não tem cadastro. A idade, o apelido e o diário ficam guardados só neste celular e não são enviados para lugar nenhum.
+            Não tem cadastro. A idade, o apelido e o diário ficam guardados só neste aparelho e não são enviados para lugar nenhum.
           </p>
           <p className="m-0">
             Para saber se o site está ajudando, contamos de forma anônima quantas vezes as páginas são abertas e quantas brincadeiras são começadas e
@@ -97,7 +101,20 @@ export default async function Pagina() {
           <ApagarDados />
         </Secao>
 
-        <div id="apoio" className="flex scroll-mt-4 flex-col gap-4">
+        {SITE.contato ? (
+          <Secao id="contato" titulo="Contato">
+            <p className="m-0">
+              Sugestões de brincadeiras e correções: <span className="font-bold select-all">{SITE.contato}</span>
+            </p>
+          </Secao>
+        ) : null}
+
+        <Link href="/instalar/" className="font-bold">
+          Como instalar o app e criar um lembrete
+        </Link>
+        </div>
+
+        <div id="apoio" className="flex scroll-mt-4 flex-col gap-4 md:sticky md:top-6 md:col-span-5">
           <CartaoApoio pix={pix} url={SITE.url} modo="secao" />
           {qr ? (
             <div className="flex flex-col items-center gap-2 rounded-3xl border border-linha p-5">
@@ -117,18 +134,7 @@ export default async function Pagina() {
             </dl>
           </div>
         </div>
-
-        {SITE.contato ? (
-          <Secao id="contato" titulo="Contato">
-            <p className="m-0">
-              Sugestões de brincadeiras e correções: <span className="font-bold select-all">{SITE.contato}</span>
-            </p>
-          </Secao>
-        ) : null}
-
-        <Link href="/instalar/" className="font-bold">
-          Como colocar na tela inicial e criar um lembrete
-        </Link>
+        </div>
       </main>
       <NavInferior />
     </>

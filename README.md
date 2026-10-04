@@ -1,12 +1,16 @@
 # Brincadeira do Dia
 
-PWA gratuito com uma brincadeira de 10 minutos por dia para pais e cuidadores
-fazerem com a criança, com o que têm em casa. O site é para os adultos; a criança
-brinca longe da tela.
+Site e PWA gratuito com uma brincadeira de 10 minutos por dia para pais e cuidadores
+fazerem com a criança, com o que têm em casa. Funciona no navegador do computador e no
+celular. O site é para os adultos; a criança brinca longe da tela.
+
+- **Computador e tablet:** barra de navegação no topo, telas em duas colunas e atalhos de
+  teclado no modo "Brincando" (setas mudam o passo, espaço começa ou pausa o tempo).
+- **Celular:** coluna única, barra de navegação embaixo e botões grandes para uma mão.
 
 - **Sem login e sem banco de dados.** Perfil, diário e preferências ficam no próprio celular (IndexedDB).
 - **Funciona sem internet** depois da primeira visita (service worker com o site inteiro em cache).
-- **Instalável** na tela inicial (Android e iPhone).
+- **Instalável** como app no celular (Android e iPhone) e no computador (Chrome, Edge e Safari do Mac).
 - **Métricas anônimas** com Umami no seu VPS, sem cookies (veja `docs/metricas.md`).
 - **Apoio voluntário**: compartilhar e PIX, num cartão discreto depois da 10ª brincadeira e na página Sobre.
 
@@ -105,5 +109,5 @@ docs/metricas.md      instalação do painel e o que olhar nele
 ## Privacidade
 
 Nada do que a família digita sai do aparelho. As métricas são agregadas e anônimas, sem
-cookies. O botão "Apagar meus dados deste celular", na página Sobre, limpa tudo.
+cookies. O botão "Apagar meus dados deste aparelho", na página Sobre, limpa tudo.
 O site não substitui a orientação do pediatra.

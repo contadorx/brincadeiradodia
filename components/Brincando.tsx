@@ -116,12 +116,43 @@ export function Brincando({
   }
 
   const ultimo = passo === b.passos.length - 1;
+
+  // Atalhos no computador: setas mudam o passo, espaço começa ou pausa o tempo.
+  useEffect(() => {
+    if (fase !== "brincando") return;
+    const aoTeclar = (e: KeyboardEvent) => {
+      const alvo = e.target as HTMLElement | null;
+      if (alvo && (alvo.closest("input, textarea, select, button, a") || alvo.isContentEditable)) return;
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        if (passo < b.passos.length - 1) setPasso(passo + 1);
+      } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        if (passo > 0) setPasso(passo - 1);
+      } else if (e.key === " ") {
+        e.preventDefault();
+        if (rodando) {
+          setRodando(false);
+          soltarTela();
+        } else if (restante > 0) {
+          setRodando(true);
+          prenderTela();
+          if (!comecou) {
+            setComecou(true);
+            evento("brincadeira_iniciada", { id: b.id, area: b.area, nivel });
+          }
+        }
+      }
+    };
+    window.addEventListener("keydown", aoTeclar);
+    return () => window.removeEventListener("keydown", aoTeclar);
+  }, [fase, passo, rodando, restante, comecou, nivel, b, prenderTela, soltarTela]);
   const conversa = b.conversa[passo % b.conversa.length];
   const fracao = restante / total;
 
   if (fase === "registro") {
     return (
-      <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-5 pb-7 pt-6">
+      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-5 pb-7 pt-6 md:max-w-xl md:justify-center md:py-12">
         <p className="m-0 text-sm font-bold uppercase tracking-wider text-suave">{b.nome}</p>
         <h1 className="m-0 font-display text-[30px] font-extrabold leading-tight">Como foi?</h1>
         <div className="grid grid-cols-3 gap-2" role="group" aria-label="Reação da criança">
@@ -139,7 +170,7 @@ export function Brincando({
         </div>
         <div className="flex flex-col gap-1.5">
           <label htmlFor="nota" className="font-bold">
-            Anotação <span className="font-normal text-suave">(opcional, fica só neste celular)</span>
+            Anotação <span className="font-normal text-suave">(opcional, fica só neste aparelho)</span>
           </label>
           <textarea
             id="nota"
@@ -155,7 +186,7 @@ export function Brincando({
           type="button"
           onClick={salvar}
           disabled={!reacao}
-          className="mt-auto flex min-h-[58px] items-center justify-center rounded-2xl bg-azul text-lg font-bold text-white disabled:opacity-50"
+          className="mt-auto flex min-h-[58px] items-center justify-center rounded-2xl bg-azul text-lg font-bold text-white transition-colors hover:bg-azul-escuro disabled:opacity-50 md:mt-2"
         >
           Salvar no diário
         </button>
@@ -168,18 +199,18 @@ export function Brincando({
 
   if (fase === "feito") {
     return (
-      <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-5 pb-7 pt-8">
+      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-5 pb-7 pt-8 md:max-w-xl md:justify-center md:py-12">
         <div className="grid size-16 place-items-center rounded-full bg-folha-claro text-folha">
           <Check tamanho={34} />
         </div>
         <h1 className="m-0 font-display text-[30px] font-extrabold leading-tight">Pronto! Está no diário.</h1>
         <p className="m-0 text-suave">Amanhã tem outra. Se ela pedir para repetir esta, ótimo: repetir também ensina.</p>
         {mostrarApoio ? <CartaoApoio pix={pix} url={url} modo="cartao" aoFechar={() => setMostrarApoio(false)} /> : null}
-        <div className="mt-auto flex flex-col gap-2.5">
-          <Link href="/diario/" className="flex min-h-[54px] items-center justify-center rounded-2xl bg-azul text-[17px] font-bold text-white no-underline">
+        <div className="mt-auto flex flex-col gap-2.5 md:mt-2 md:flex-row">
+          <Link href="/diario/" className="flex min-h-[54px] items-center justify-center rounded-2xl bg-azul text-[17px] font-bold text-white no-underline transition-colors hover:bg-azul-escuro md:flex-1">
             Ver o diário
           </Link>
-          <Link href="/" className="flex min-h-[54px] items-center justify-center rounded-2xl border-[1.5px] border-tinta font-bold text-tinta no-underline">
+          <Link href="/" className="flex min-h-[54px] items-center justify-center rounded-2xl border-[1.5px] border-tinta font-bold text-tinta no-underline transition-colors hover:bg-painel md:flex-1">
             Voltar para hoje
           </Link>
         </div>
@@ -189,7 +220,7 @@ export function Brincando({
 
   return (
     <main className="min-h-dvh bg-noite text-[#F4F6FA]">
-      <div className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-5 pb-6 pt-4">
+      <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-5 pb-6 pt-4 md:max-w-5xl md:px-8 md:pb-10 md:pt-8">
         <div className="flex items-center justify-between gap-3">
           <div className="flex min-w-0 flex-col">
             <span className="text-xs font-bold uppercase tracking-wider text-noite-suave">Brincando agora</span>
@@ -204,8 +235,10 @@ export function Brincando({
           </Link>
         </div>
 
-        <div className="relative mx-auto size-[220px]">
-          <svg width="220" height="220" viewBox="0 0 220 220" aria-hidden="true" className="absolute inset-0 -rotate-90">
+        <div className="flex flex-1 flex-col gap-5 md:grid md:grid-cols-2 md:items-center md:gap-14">
+        <div className="flex flex-col items-center gap-5">
+        <div className="relative mx-auto size-[220px] md:size-[320px]">
+          <svg viewBox="0 0 220 220" aria-hidden="true" className="absolute inset-0 size-full -rotate-90">
             <circle cx="110" cy="110" r="96" fill="none" stroke="#2C3550" strokeWidth="14" />
             <circle
               cx="110"
@@ -219,7 +252,7 @@ export function Brincando({
             />
           </svg>
           <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
-            <span role="timer" aria-live="off" className="font-display text-[58px] font-extrabold tabular-nums tracking-tight">
+            <span role="timer" aria-live="off" className="font-display text-[58px] font-extrabold tabular-nums tracking-tight md:text-[84px]">
               {mmss(restante)}
             </span>
             <span className="mt-2 text-sm text-noite-suave">{restante === 0 ? "tempo encerrado" : `de ${b.minutos} min`}</span>
@@ -227,7 +260,7 @@ export function Brincando({
         </div>
 
         {rodando ? (
-          <button type="button" onClick={pausar} className="mx-auto min-h-11 rounded-full border-[1.5px] border-noite-linha px-5 font-bold text-[#F4F6FA]">
+          <button type="button" onClick={pausar} className="mx-auto min-h-11 rounded-full border-[1.5px] border-noite-linha px-5 font-bold text-[#F4F6FA] transition-colors hover:bg-noite-2">
             Pausar o tempo
           </button>
         ) : (
@@ -247,12 +280,15 @@ export function Brincando({
             <span key={k} className={`block h-1.5 w-7 rounded-sm ${k === passo ? "bg-sol" : k < passo ? "bg-[#8D96AD]" : "bg-noite-linha"}`} />
           ))}
         </div>
+        </div>
+
+        <div className="flex flex-1 flex-col gap-5 md:flex-none">
 
         <div className="flex flex-col gap-3 rounded-[22px] bg-noite-2 p-5" aria-live="polite">
           <span className="text-[13px] font-bold uppercase tracking-wider text-sol">
             Passo {passo + 1} de {b.passos.length}
           </span>
-          <p className="m-0 font-display text-2xl font-semibold leading-snug">{b.passos[passo]}</p>
+          <p className="m-0 font-display text-2xl font-semibold leading-snug md:text-[30px]">{b.passos[passo]}</p>
           <div className="border-t border-noite-linha pt-3">
             <span className="text-[13px] text-noite-suave">Puxe conversa</span>
             <p className="m-0 mt-0.5 text-lg italic">“{conversa}”</p>
@@ -288,6 +324,11 @@ export function Brincando({
           <Celular tamanho={18} className="mt-px shrink-0" />
           Com o tempo correndo, a tela fica acesa. Pode deixar o celular de lado e brincar.
         </p>
+        <p className="m-0 hidden text-sm text-noite-suave md:block">
+          Atalhos do teclado: as setas ← e → mudam o passo, e a barra de espaço começa ou pausa o tempo.
+        </p>
+        </div>
+        </div>
       </div>
     </main>
   );

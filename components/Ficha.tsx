@@ -9,6 +9,7 @@ import { semanaDeUso } from "@/lib/plano";
 import { evento } from "@/lib/metricas";
 import { compartilhar } from "@/lib/compartilhar";
 import { Alerta, Compartilhar, Play, Voltar } from "./Icones";
+import { Cabecalho, CONTEUDO } from "./Cabecalho";
 
 export type Nivel = "facil" | "normal" | "dificil";
 const NIVEIS: { id: Nivel; nome: string }[] = [
@@ -66,13 +67,14 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
 
   return (
     <>
-      <main className="mx-auto flex max-w-md flex-col gap-5 px-5 pt-3.5" style={{ paddingBottom: "calc(112px + env(safe-area-inset-bottom, 0px))" }}>
+      <Cabecalho />
+      <main className={`flex flex-col gap-5 pb-[calc(112px+env(safe-area-inset-bottom,0px))] pt-3.5 md:pb-16 md:pt-6 ${CONTEUDO}`}>
         <div className="flex items-center justify-between">
-          <Link href="/" className="inline-flex min-h-11 items-center gap-1 font-bold text-tinta no-underline">
+          <Link href="/" className="inline-flex min-h-11 items-center gap-1 rounded-full font-bold text-tinta no-underline hover:text-azul">
             <Voltar tamanho={22} />
             Hoje
           </Link>
-          <button type="button" onClick={compartilharFicha} aria-label="Compartilhar a brincadeira" className="grid size-11 place-items-center rounded-full bg-painel text-tinta">
+          <button type="button" onClick={compartilharFicha} aria-label="Compartilhar a brincadeira" className="grid size-11 place-items-center rounded-full bg-painel text-tinta transition-colors hover:bg-linha">
             <Compartilhar tamanho={20} />
           </button>
         </div>
@@ -82,6 +84,8 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
           </p>
         ) : null}
 
+        <div className="flex flex-col gap-5 md:grid md:grid-cols-12 md:items-start md:gap-10">
+        <div className="flex flex-col gap-5 md:col-span-7">
         <div className="flex flex-col gap-2.5">
           <div className="flex flex-wrap gap-2">
             <span className="inline-flex min-h-[30px] items-center rounded-full bg-sol-claro px-3 text-[13px] font-bold">{NOME_AREA[b.area]}</span>
@@ -92,8 +96,8 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
               </span>
             ))}
           </div>
-          <h1 className="m-0 font-display text-[34px] font-extrabold leading-[1.02] tracking-tight">{b.nome}</h1>
-          <p className="m-0 text-suave">{b.serve}</p>
+          <h1 className="m-0 font-display text-[34px] font-extrabold leading-[1.02] tracking-tight md:text-[48px]">{b.nome}</h1>
+          <p className="m-0 text-suave md:text-lg">{b.serve}</p>
         </div>
 
         <section aria-labelledby="precisa" className="flex flex-col gap-2">
@@ -128,6 +132,9 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
           </ol>
         </section>
 
+        </div>
+
+        <aside className="flex flex-col gap-5 md:sticky md:top-6 md:col-span-5 md:rounded-3xl md:border md:border-linha md:p-6">
         <section aria-labelledby="nivel" className="flex flex-col gap-2.5">
           <h2 id="nivel" className="m-0 font-display text-[19px] font-extrabold">
             Ajuste para a criança
@@ -139,7 +146,7 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
                 type="button"
                 aria-pressed={nivel === n.id}
                 onClick={() => escolherNivel(n.id)}
-                className={`min-h-11 rounded-[10px] text-[15px] font-bold ${nivel === n.id ? "bg-white text-tinta shadow-sm" : "text-suave"}`}
+                className={`min-h-11 rounded-[10px] text-[15px] font-bold transition-colors ${nivel === n.id ? "bg-white text-tinta shadow-sm" : "text-suave hover:text-tinta"}`}
               >
                 {n.nome}
               </button>
@@ -171,9 +178,19 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
         ) : null}
 
         <p className="m-0 text-[13px] text-suave">Base: {b.base}.</p>
+
+        <Link
+          href={`/brincadeira/${b.id}/brincando/`}
+          className="hidden min-h-[58px] items-center justify-center gap-2.5 rounded-2xl bg-azul text-lg font-bold text-white no-underline transition-colors hover:bg-azul-escuro md:flex"
+        >
+          <Play tamanho={20} />
+          Começar os {b.minutos} minutos
+        </Link>
+        </aside>
+        </div>
       </main>
 
-      <div className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white" style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}>
+      <div className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}>
         <div className="mx-auto max-w-md px-5 pb-5 pt-3">
           <Link
             href={`/brincadeira/${b.id}/brincando/`}

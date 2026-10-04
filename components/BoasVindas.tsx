@@ -38,28 +38,30 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
   }
 
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-5 pb-7 pt-5">
-      <Marca />
+    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-6 px-5 pb-7 pt-5 md:grid md:max-w-5xl md:grid-cols-2 md:items-center md:gap-16 md:px-8 md:py-12">
+      <div className="flex flex-col gap-6 md:gap-8">
+        <Marca />
 
-      <div className="flex items-center gap-4" aria-hidden="true">
-        <div className="flex size-28 shrink-0 flex-col items-center justify-center rounded-full bg-sol leading-none">
-          <span className="font-display text-[50px] font-extrabold tracking-tighter">10</span>
-          <span className="mt-0.5 text-[15px] font-bold">minutos</span>
+        <div className="flex items-center gap-4" aria-hidden="true">
+          <div className="flex size-28 shrink-0 flex-col items-center justify-center rounded-full bg-sol leading-none md:size-40">
+            <span className="font-display text-[50px] font-extrabold tracking-tighter md:text-[72px]">10</span>
+            <span className="mt-0.5 text-[15px] font-bold md:text-lg">minutos</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="block size-14 -rotate-[8deg] rounded-[14px] bg-azul md:size-20" />
+            <span className="ml-8 block size-9 rounded-full bg-folha md:ml-12 md:size-12" />
+          </div>
         </div>
+
         <div className="flex flex-col gap-2">
-          <span className="block size-14 -rotate-[8deg] rounded-[14px] bg-azul" />
-          <span className="ml-8 block size-9 rounded-full bg-folha" />
+          <h1 className="m-0 font-display text-[28px] font-extrabold leading-[1.12] tracking-tight md:text-[40px]">
+            {existente ? "Ajustar a criança e a idade" : "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa."}
+          </h1>
+          <p className="m-0 text-suave md:text-lg">Feito para pais e cuidadores. A criança brinca com você, longe da tela.</p>
         </div>
       </div>
 
-      <div className="flex flex-col gap-2">
-        <h1 className="m-0 font-display text-[28px] font-extrabold leading-[1.12] tracking-tight">
-          {existente ? "Ajustar a criança e a idade" : "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa."}
-        </h1>
-        <p className="m-0 text-suave">Feito para pais e cuidadores. A criança brinca com você, longe da tela.</p>
-      </div>
-
-      <form onSubmit={continuar} className="flex flex-1 flex-col gap-6">
+      <form onSubmit={continuar} className="flex flex-1 flex-col gap-6 md:flex-none md:rounded-3xl md:border md:border-linha md:p-8 md:shadow-sm">
         <fieldset className="m-0 flex flex-col border-0 p-0">
           <legend className="mb-2.5 p-0 text-[17px] font-bold">Qual a idade da criança?</legend>
           <div className="grid grid-cols-3 gap-2">
@@ -73,8 +75,12 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
                   aria-pressed={ativa}
                   disabled={!disponivel}
                   onClick={() => setFaixa(f)}
-                  className={`flex min-h-[52px] flex-col items-center justify-center rounded-[14px] border-[1.5px] px-1 text-[15px] font-bold leading-tight ${
-                    ativa ? "border-azul bg-azul text-white" : disponivel ? "border-borda bg-white text-tinta" : "border-linha bg-painel text-suave"
+                  className={`flex min-h-[52px] flex-col items-center justify-center rounded-[14px] border-[1.5px] px-1 text-[15px] font-bold leading-tight transition-colors ${
+                    ativa
+                      ? "border-azul bg-azul text-white"
+                      : disponivel
+                        ? "border-borda bg-white text-tinta hover:border-azul"
+                        : "border-linha bg-painel text-suave"
                   }`}
                 >
                   {NOME_FAIXA[f]}
@@ -102,13 +108,13 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
 
         <p className="m-0 flex items-start gap-2 text-sm text-suave">
           <Cadeado tamanho={18} className="mt-px shrink-0" />
-          Sem cadastro. O apelido e a idade ficam só neste celular.
+          Sem cadastro. O apelido e a idade ficam só neste aparelho.
         </p>
 
         <button
           type="submit"
           disabled={salvando}
-          className="mt-auto flex min-h-[58px] items-center justify-center rounded-2xl bg-azul text-lg font-bold text-white disabled:opacity-60"
+          className="mt-auto flex min-h-[58px] items-center justify-center rounded-2xl bg-azul text-lg font-bold text-white transition-colors hover:bg-azul-escuro disabled:opacity-60 md:mt-0"
         >
           {existente ? "Salvar" : "Ver a brincadeira de hoje"}
         </button>

@@ -124,6 +124,12 @@ export const Coracao = (p: P) => (
     <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" />
   </Base>
 );
+export const Monitor = (p: P) => (
+  <Base {...p}>
+    <rect x="3" y="4" width="18" height="12" rx="2" />
+    <path d="M8 20h8M12 16v4" />
+  </Base>
+);
 export const Celular = (p: P) => (
   <Base {...p}>
     <rect x="6" y="2" width="12" height="20" rx="3" />

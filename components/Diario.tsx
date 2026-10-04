@@ -11,6 +11,7 @@ import { useDados } from "@/lib/useDados";
 import { Carregando } from "./Carregando";
 import { Baixar } from "./Icones";
 import { NavInferior } from "./NavInferior";
+import { Cabecalho, CONTEUDO } from "./Cabecalho";
 
 const REACAO = {
   adorou: { nome: "Adorou", classe: "bg-folha-claro text-folha-escuro" },
@@ -74,13 +75,16 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
 
   return (
     <>
-      <main className="pb-nav mx-auto flex max-w-md flex-col gap-4 px-5 pt-5">
+      <Cabecalho atual="diario" />
+      <main className={`pb-nav flex flex-col gap-4 pt-5 md:gap-6 md:pt-8 ${CONTEUDO}`}>
         <div>
-          <h1 className="m-0 font-display text-[30px] font-extrabold tracking-tight">{perfil.apelido ? `Diário de ${perfil.apelido}` : "Diário"}</h1>
-          <p className="m-0 mt-0.5 text-[15px] text-suave">Fica só neste celular.</p>
+          <h1 className="m-0 font-display text-[30px] font-extrabold tracking-tight md:text-[40px]">{perfil.apelido ? `Diário de ${perfil.apelido}` : "Diário"}</h1>
+          <p className="m-0 mt-0.5 text-[15px] text-suave">Fica só neste aparelho.</p>
         </div>
 
-        <div className="flex flex-col gap-3.5 rounded-[22px] bg-folha-claro p-[18px]">
+        <div className="flex flex-col gap-4 md:grid md:grid-cols-12 md:items-start md:gap-10">
+        <div className="flex flex-col gap-4 md:col-span-5">
+        <div className="flex flex-col gap-3.5 rounded-[22px] bg-folha-claro p-[18px] md:p-6">
           <div className="flex flex-wrap items-baseline gap-x-2.5">
             <span className="font-display text-[44px] font-extrabold leading-none tracking-tight">{qtd} de 7</span>
             <span className="text-folha-escuro">dias com brincadeira nos últimos 7 dias</span>
@@ -107,7 +111,9 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
           </div>
         </div>
 
-        <section aria-labelledby="registros" className="flex flex-col gap-2">
+        </div>
+
+        <section aria-labelledby="registros" className="flex flex-col gap-2 md:col-span-7 md:row-span-3">
           <h2 id="registros" className="m-0 font-display text-[19px] font-extrabold">
             O que vocês fizeram
           </h2>
@@ -136,7 +142,7 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
                     onClick={() => apagar(r.id)}
                     className={`nao-imprimir min-h-9 self-end text-sm font-bold ${apagando === r.id ? "text-alerta" : "text-suave"}`}
                   >
-                    {apagando === r.id ? "Tocar de novo para apagar" : "Apagar"}
+                    {apagando === r.id ? "Confirmar: apagar" : "Apagar"}
                   </button>
                 </div>
               );
@@ -145,7 +151,7 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
         </section>
 
         {preferidas.length ? (
-          <section aria-labelledby="preferidas" className="flex flex-col gap-2">
+          <section aria-labelledby="preferidas" className="flex flex-col gap-2 md:col-span-5">
             <h2 id="preferidas" className="m-0 font-display text-[19px] font-extrabold">
               As preferidas
             </h2>
@@ -159,12 +165,12 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
           </section>
         ) : null}
 
-        <div className="nao-imprimir flex flex-col gap-2">
+        <div className="nao-imprimir flex flex-col gap-2 md:col-span-5">
           <div className="grid grid-cols-2 gap-2">
             <button
               type="button"
               onClick={exportar}
-              className="flex min-h-[52px] items-center justify-center gap-2 rounded-[14px] border-[1.5px] border-tinta bg-white font-bold text-tinta"
+              className="flex min-h-[52px] items-center justify-center gap-2 rounded-[14px] border-[1.5px] border-tinta bg-white font-bold text-tinta transition-colors hover:bg-painel"
             >
               <Baixar tamanho={20} />
               Exportar
@@ -172,7 +178,7 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
             <button
               type="button"
               onClick={() => arquivo.current?.click()}
-              className="flex min-h-[52px] items-center justify-center rounded-[14px] border-[1.5px] border-borda bg-white font-bold text-tinta"
+              className="flex min-h-[52px] items-center justify-center rounded-[14px] border-[1.5px] border-borda bg-white font-bold text-tinta transition-colors hover:bg-painel"
             >
               Importar
             </button>
@@ -186,7 +192,8 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
               {aviso}
             </p>
           ) : null}
-          <p className="m-0 text-center text-[13px] text-suave">Sem conta e sem nuvem. Antes de trocar de celular, exporte o diário.</p>
+          <p className="m-0 text-center text-[13px] text-suave">Sem conta e sem nuvem. Antes de trocar de aparelho, exporte o diário.</p>
+        </div>
         </div>
       </main>
       <NavInferior atual="diario" />

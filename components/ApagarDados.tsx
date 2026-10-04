@@ -20,7 +20,7 @@ export function ApagarDados() {
       }}
       className={`min-h-11 self-start rounded-xl border-[1.5px] px-4 font-bold ${armado ? "border-alerta bg-alerta-claro text-alerta" : "border-borda text-tinta"}`}
     >
-      {armado ? "Tocar de novo para apagar tudo" : "Apagar meus dados deste celular"}
+      {armado ? "Confirmar: apagar tudo" : "Apagar meus dados deste aparelho"}
     </button>
   );
 }

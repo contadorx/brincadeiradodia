@@ -57,6 +57,18 @@ body {
   padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
 }
 
+@media (min-width: 768px) {
+  .pb-nav {
+    padding-bottom: 64px;
+  }
+}
+
+/* No Tailwind 4 os botões vêm com cursor padrão; no computador queremos a mãozinha. */
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]) {
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

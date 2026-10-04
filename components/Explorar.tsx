@@ -16,6 +16,7 @@ import { evento } from "@/lib/metricas";
 import { useDados } from "@/lib/useDados";
 import { Avancar, Lupa } from "./Icones";
 import { NavInferior } from "./NavInferior";
+import { Cabecalho, CONTEUDO } from "./Cabecalho";
 
 const TEMPOS = [5, 10, 15] as const;
 type Material = Etiqueta | "nada";
@@ -32,7 +33,7 @@ function Chip({ ativo, onClick, children }: { ativo: boolean; onClick: () => voi
       type="button"
       aria-pressed={ativo}
       onClick={onClick}
-      className={`min-h-11 rounded-full border-[1.5px] px-3.5 text-[15px] font-bold ${ativo ? "border-azul bg-azul text-white" : "border-borda bg-white text-tinta"}`}
+      className={`min-h-11 rounded-full border-[1.5px] px-3.5 text-[15px] font-bold transition-colors ${ativo ? "border-azul bg-azul text-white" : "border-borda bg-white text-tinta hover:border-azul"}`}
     >
       {children}
     </button>
@@ -69,8 +70,11 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
 
   return (
     <>
-      <main className="pb-nav mx-auto flex max-w-md flex-col gap-5 px-5 pt-5">
-        <h1 className="m-0 font-display text-[30px] font-extrabold tracking-tight">Explorar</h1>
+      <Cabecalho atual="explorar" />
+      <main className={`pb-nav flex flex-col gap-5 pt-5 md:pt-8 ${CONTEUDO}`}>
+        <h1 className="m-0 font-display text-[30px] font-extrabold tracking-tight md:text-[40px]">Explorar</h1>
+        <div className="flex flex-col gap-5 md:grid md:grid-cols-12 md:items-start md:gap-10">
+        <aside className="flex flex-col gap-5 md:sticky md:top-6 md:col-span-4">
 
         <div className="flex min-h-[52px] items-center gap-2.5 rounded-[14px] bg-painel px-3.5">
           <Lupa tamanho={20} className="shrink-0 text-suave" />
@@ -121,7 +125,7 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
 
         <fieldset className="m-0 border-0 p-0">
           <legend className="mb-2.5 p-0 text-[17px] font-bold">Quanto tempo vocês têm?</legend>
-          <div className="grid grid-cols-3 gap-2">
+          <div className="flex flex-wrap gap-2">
             {TEMPOS.map((t) => (
               <Chip
                 key={t}
@@ -137,17 +141,20 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
           </div>
         </fieldset>
 
-        <section aria-labelledby="resultados" className="flex flex-col gap-2">
+        </aside>
+
+        <section aria-labelledby="resultados" className="flex flex-col gap-2 md:col-span-8">
           <h2 id="resultados" className="m-0 mb-0.5 font-display text-[19px] font-extrabold" aria-live="polite">
             {resultado.length === 0
               ? "Nenhuma brincadeira com esses filtros"
               : `${resultado.length} ${resultado.length === 1 ? "brincadeira" : "brincadeiras"}`}
           </h2>
+          <div className="flex flex-col gap-2 md:grid md:grid-cols-2 md:gap-3">
           {resultado.map((b) => (
             <Link
               key={b.id}
               href={`/brincadeira/${b.id}/`}
-              className="flex items-center justify-between gap-3 rounded-2xl border border-linha px-3.5 py-3 text-tinta no-underline"
+              className="flex items-center justify-between gap-3 rounded-2xl border border-linha px-3.5 py-3 text-tinta no-underline transition-colors hover:border-azul hover:bg-painel md:min-h-[88px] md:px-4"
             >
               <span className="flex min-w-0 flex-col">
                 <span className="font-display text-[17px] font-extrabold">{b.nome}</span>
@@ -158,6 +165,7 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
               <Avancar tamanho={20} className="shrink-0 text-suave" />
             </Link>
           ))}
+          </div>
           {resultado.length === 0 ? (
             <button
               type="button"
@@ -173,6 +181,7 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
             </button>
           ) : null}
         </section>
+        </div>
       </main>
       <NavInferior atual="explorar" />
     </>

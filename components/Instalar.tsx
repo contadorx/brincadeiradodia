@@ -5,8 +5,9 @@ import { useEffect, useState } from "react";
 import { gerarLembreteIcs } from "@/lib/ics";
 import { baixarArquivo } from "@/lib/compartilhar";
 import { evento } from "@/lib/metricas";
-import { Baixar, Cadeado, Compartilhar, Coracao, SemWifi, Sino } from "./Icones";
+import { Baixar, Cadeado, Compartilhar, Coracao, Monitor, SemWifi, Sino } from "./Icones";
 import { Selo } from "./Marca";
+import { Cabecalho } from "./Cabecalho";
 
 type EventoInstalar = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: "accepted" | "dismissed" }> };
 
@@ -14,6 +15,7 @@ export function Instalar({ url }: { url: string }) {
   const [pedido, setPedido] = useState<EventoInstalar | null>(null);
   const [instalado, setInstalado] = useState(false);
   const [iphone, setIphone] = useState(false);
+  const [celular, setCelular] = useState(true);
   const [hora, setHora] = useState("19:00");
   const [aviso, setAviso] = useState("");
 
@@ -23,6 +25,7 @@ export function Instalar({ url }: { url: string }) {
         (navigator as Navigator & { standalone?: boolean }).standalone === true,
     );
     setIphone(/iPhone|iPad|iPod/i.test(navigator.userAgent));
+    setCelular(/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent));
     const guardar = (e: Event) => {
       e.preventDefault();
       setPedido(e as EventoInstalar);
@@ -45,13 +48,15 @@ export function Instalar({ url }: { url: string }) {
     setAviso(
       iphone
         ? "Abra o arquivo baixado e toque em Adicionar à agenda."
-        : "Abra o arquivo baixado e escolha a agenda do celular. O lembrete se repete todo dia.",
+        : "Abra o arquivo baixado e escolha a sua agenda. O lembrete se repete todo dia.",
     );
   }
 
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-4 px-5 pb-7 pt-3.5">
-      <div className="flex justify-end">
+    <>
+    <Cabecalho />
+    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-4 px-5 pb-7 pt-3.5 md:min-h-0 md:max-w-2xl md:px-8 md:pt-10">
+      <div className="flex justify-end md:hidden">
         <Link href="/" className="inline-flex min-h-11 items-center px-1 font-bold text-suave no-underline">
           Voltar
         </Link>
@@ -79,6 +84,18 @@ export function Instalar({ url }: { url: string }) {
               <Baixar tamanho={20} />
               Instalar agora
             </button>
+          ) : null}
+          {!celular ? (
+            <div className="flex gap-3 rounded-2xl bg-painel p-3.5">
+              <Monitor tamanho={22} className="mt-0.5 shrink-0" />
+              <div>
+                <p className="m-0 font-bold">No computador</p>
+                <p className="m-0 mt-0.5 text-[15px]">
+                  No Chrome ou no Edge, clique no ícone de instalar no fim da barra de endereço, ou no menu, em Instalar. No Safari do Mac, use Arquivo
+                  e depois Adicionar ao Dock.
+                </p>
+              </div>
+            </div>
           ) : null}
           <div className={`flex gap-3 rounded-2xl bg-painel p-3.5 ${iphone ? "order-last" : ""}`}>
             <Baixar tamanho={22} className="mt-0.5 shrink-0" />
@@ -115,11 +132,13 @@ export function Instalar({ url }: { url: string }) {
             onChange={(e) => setHora(e.target.value || "19:00")}
             className="min-h-11 rounded-xl border-[1.5px] border-borda bg-white px-3 text-base text-tinta"
           />
-          <button type="button" onClick={baixarLembrete} className="ml-auto min-h-11 rounded-xl bg-tinta px-4 font-bold text-white">
+          <button type="button" onClick={baixarLembrete} className="ml-auto min-h-11 rounded-xl bg-tinta px-4 font-bold text-white transition-colors hover:bg-azul-escuro">
             Adicionar
           </button>
         </div>
-        <p className="m-0 text-sm text-suave">O lembrete fica na agenda do seu celular. O site não guarda seu horário nem manda notificações.</p>
+        <p className="m-0 text-sm text-suave">
+          O lembrete fica na sua agenda (do celular, do Google ou do Outlook). O site não guarda seu horário nem manda notificações.
+        </p>
         {aviso ? (
           <p role="status" className="m-0 text-sm font-bold">
             {aviso}
@@ -142,5 +161,6 @@ export function Instalar({ url }: { url: string }) {
         </li>
       </ul>
     </main>
+    </>
   );
 }
