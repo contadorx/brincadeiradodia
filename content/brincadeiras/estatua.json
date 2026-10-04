@@ -1,0 +1,30 @@
+{
+  "id": "estatua",
+  "nome": "Estátua",
+  "area": "autocontrole",
+  "ordem": 2,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina controlar o corpo e prestar atenção no som.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Coloque uma música animada no celular, com a tela virada para baixo.",
+    "Com a música tocando, todo mundo dança.",
+    "Quando a música parar, todo mundo vira estátua. Se alguém se mexer, riam e comecem de novo.",
+    "Revezem: depois a criança grita “Estátua!” e você congela."
+  ],
+  "facil": "Você também vira estátua, de um jeito engraçado, e a criança imita você.",
+  "dificil": "Antes de parar a música, mostre um desenho de bonequinho numa pose, como braços para cima ou numa perna só. A criança congela naquela pose.",
+  "conversa": [
+    "Que bicho você é nessa dança?",
+    "Foi difícil ficar parado?"
+  ],
+  "seguranca": "Tire do caminho tapetes que escorregam e brinquedos espalhados. Descalço é melhor que de meia.",
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (dança da estátua)"
+}

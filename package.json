@@ -1,0 +1,35 @@
+{
+  "name": "brincadeira-do-dia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PWA gratuito com uma brincadeira de 10 minutos por dia para pais fazerem com os filhos, sem tela para a criança.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/gerar-sw.mjs",
+    "preview": "npx --yes serve@14 out -l 4173",
+    "icones": "python3 scripts/gerar-icones.py",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource/atkinson-hyperlegible": "5.3.0",
+    "idb-keyval": "6.3.0",
+    "next": "16.3.8",
+    "qrcode": "1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.19.0",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}

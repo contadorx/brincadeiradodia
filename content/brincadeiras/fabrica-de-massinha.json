@@ -1,0 +1,35 @@
+{
+  "id": "fabrica-de-massinha",
+  "nome": "Fábrica de massinha",
+  "area": "corpo",
+  "ordem": 2,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina o uso das mãos e dos dedos, a coordenação fina.",
+  "materiais": [
+    "Massinha",
+    "Um brinquedo para fazer marcas"
+  ],
+  "etiquetas": [
+    "massinha"
+  ],
+  "passos": [
+    "Façam bolinhas e cobrinhas de massinha.",
+    "Achatem as bolinhas para virar rodas, biscoitos ou moedas.",
+    "Passe um brinquedo na massinha e vejam a marca que fica.",
+    "Montem juntos um bicho ou um carro e contem as partes."
+  ],
+  "facil": "Só apertar, amassar e rolar. Você faz uma forma e a criança copia.",
+  "dificil": "A criança monta sozinha uma figura completa, com corpo, 4 patas ou rodas e cabeça, e corta a massinha com faca de plástico.",
+  "conversa": [
+    "Quantas rodas tem um carro? E uma bicicleta?",
+    "Qual bolinha ficou maior?"
+  ],
+  "seguranca": "Massinha não é comida. A caseira tem muito sal, então fique de olho.",
+  "base": "Marcos do CDC aos 3 anos: materiais como massinha e giz para criar"
+}

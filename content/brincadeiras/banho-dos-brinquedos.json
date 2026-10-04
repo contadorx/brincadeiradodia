@@ -1,0 +1,39 @@
+{
+  "id": "banho-dos-brinquedos",
+  "nome": "Banho dos brinquedos",
+  "area": "fazdeconta",
+  "ordem": 2,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "banho"
+  ],
+  "serve": "Treina seguir uma sequência e a coordenação das mãos.",
+  "materiais": [
+    "Bacia com um pouco de água",
+    "Esponja e um pouco de sabão",
+    "Pano para secar",
+    "Brinquedos de plástico"
+  ],
+  "etiquetas": [
+    "agua",
+    "brinquedos"
+  ],
+  "passos": [
+    "Combinem a ordem do banho: molha, ensaboa, enxágua e seca.",
+    "Os brinquedos chegam sujos. Pode passar um pouco de terra ou de tinta guache.",
+    "A criança lava um por um, seguindo a ordem.",
+    "No fim, ela entrega os brinquedos limpos para os “clientes”."
+  ],
+  "facil": "Você fala cada passo na hora: “Agora ensaboa!”",
+  "dificil": "A criança lembra a ordem sozinha. Os clientes chegam com pedidos especiais, como “só as rodas, por favor”.",
+  "conversa": [
+    "Qual é o próximo passo?",
+    "Esse estava mais sujo ou mais limpo que o outro?"
+  ],
+  "seguranca": "Um adulto sempre do lado, mesmo com pouca água. No fim, esvazie a bacia e seque o chão.",
+  "base": "Marcos do CDC aos 3 anos: seguir instruções de mais de um passo"
+}

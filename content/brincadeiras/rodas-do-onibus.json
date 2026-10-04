@@ -1,0 +1,31 @@
+{
+  "id": "rodas-do-onibus",
+  "nome": "As rodas do ônibus",
+  "area": "musica",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina memória, ritmo e controlar o corpo junto com a música.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Cantem a música com gestos: mãos girando para as rodas, apertar a buzina, braço de limpador de para-brisa.",
+    "A cada parte nova, entra um gesto novo.",
+    "Cantem devagar e depois bem rápido.",
+    "Deixe a criança inventar uma parte nova: o que mais tem no ônibus?"
+  ],
+  "facil": "Só os gestos das rodas e da buzina, cantando junto.",
+  "dificil": "Numa rodada, a palavra “ônibus” não pode ser cantada, só mostrada com um gesto.",
+  "conversa": [
+    "Quem mais anda de ônibus?",
+    "Que barulho o ônibus faz?"
+  ],
+  "seguranca": null,
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (músicas que acumulam gestos)"
+}

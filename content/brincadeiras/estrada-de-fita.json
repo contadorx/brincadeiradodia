@@ -1,0 +1,36 @@
+{
+  "id": "estrada-de-fita",
+  "nome": "Estrada de fita",
+  "area": "corpo",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina coordenação, equilíbrio e atenção.",
+  "materiais": [
+    "Fita crepe",
+    "1 ou 2 carrinhos"
+  ],
+  "etiquetas": [
+    "fita",
+    "brinquedos"
+  ],
+  "passos": [
+    "Cole no chão uma estrada de fita crepe com uma reta, uma curva e um zigue-zague.",
+    "A criança leva o carrinho pela estrada sem sair da linha.",
+    "Depois ela mesma é o carro: anda em cima da fita sem pisar fora.",
+    "Mudem a estrada de lugar e repitam."
+  ],
+  "facil": "Estrada larga, com duas fitas paralelas, e só retas e curvas suaves.",
+  "dificil": "Estrada estreita, com ponte (um livro, só para o carrinho) e túnel (embaixo de uma cadeira). Para a criança, o desafio é andar na fita com um pé colado na frente do outro.",
+  "conversa": [
+    "Para onde vai essa estrada?",
+    "Na curva, o carro vai rápido ou devagar?"
+  ],
+  "seguranca": "Piso seco, sem quinas por perto, e a criança descalça. Ninguém pisa no livro.",
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (desafios de movimento e equilíbrio)"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "vagas-numeradas",
+  "nome": "Vagas numeradas",
+  "area": "raciocinio",
+  "ordem": 2,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina contar um por um e comparar quantidades.",
+  "materiais": [
+    "Papelão ou papel",
+    "Caneta",
+    "5 a 10 carrinhos ou tampas de pote"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Desenhe 3 vagas: na primeira, 1 bolinha; na segunda, 2; na terceira, 3.",
+    "A criança coloca um carrinho em cima de cada bolinha.",
+    "Contem juntos, tocando cada um: um, dois, três.",
+    "Pergunte qual vaga tem mais."
+  ],
+  "facil": "Use só as vagas de 1 e 2 e conte junto, guiando a mão da criança.",
+  "dificil": "Vagas de 1 a 4, com o número escrito ao lado das bolinhas. Depois esconda um carrinho e pergunte quantos ficaram.",
+  "conversa": [
+    "Quantos cabem aqui?",
+    "Se chegar mais um, quantos vão ficar?"
+  ],
+  "seguranca": "Use carrinhos ou tampas de pote. Tampinha de garrafa não serve, porque cabe na boca.",
+  "base": "Marcos do CDC aos 3 anos: brincadeiras de contar com objetos do dia a dia"
+}

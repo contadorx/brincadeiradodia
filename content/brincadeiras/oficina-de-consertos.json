@@ -1,0 +1,35 @@
+{
+  "id": "oficina-de-consertos",
+  "nome": "Oficina de consertos",
+  "area": "fazdeconta",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar, lembrar pedidos e conversar dentro de uma história.",
+  "materiais": [
+    "Brinquedos",
+    "Ferramentas de faz de conta: colher de pau, prendedor de roupa, uma caixinha"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Antes de começar, planejem o que a oficina vai consertar hoje. A criança pode desenhar o plano.",
+    "A criança é quem conserta e você é o cliente: “Meu brinquedo está fazendo um barulho estranho!”",
+    "Enquanto ela conserta, pergunte o que estava quebrado e como ela arrumou.",
+    "No fim, o cliente paga com dinheirinho de papel. Depois invertam os papéis."
+  ],
+  "facil": "Você começa consertando, mostra como faz e depois passa a vez.",
+  "dificil": "O cliente pede 2 ou 3 coisas de uma vez, como “trocar a roda e limpar o vidro”, e a criança precisa lembrar de todas antes de entregar.",
+  "conversa": [
+    "O que aconteceu com esse brinquedo?",
+    "Quanto custa o conserto?"
+  ],
+  "seguranca": null,
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (faz de conta com plano)"
+}

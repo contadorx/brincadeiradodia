@@ -1,0 +1,35 @@
+{
+  "id": "lanche-semaforo",
+  "nome": "Lanche semáforo",
+  "area": "musica",
+  "ordem": 2,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir passos, as cores e a contagem.",
+  "materiais": [
+    "Biscoito de água e sal ou uma fatia de pão",
+    "Frutas que a criança já come, em 3 cores (ex.: morango, banana ou manga, uva verde ou kiwi)"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Um adulto corta as frutas antes. A criança lava as mãos.",
+    "Mostre como é o semáforo: vermelho em cima, amarelo no meio, verde embaixo.",
+    "A criança monta o lanche na ordem certa, um pedaço de cada vez.",
+    "Contem os pedaços antes de comer."
+  ],
+  "facil": "Só duas cores, e você aponta onde vai cada uma.",
+  "dificil": "Desenhe a receita em 3 quadrinhos e a criança segue sozinha. Ou monte um semáforo e peça para ela fazer outro igual.",
+  "conversa": [
+    "Qual cor vem primeiro?",
+    "Quantos pedaços de banana você usou?"
+  ],
+  "seguranca": "Uva e tomate-cereja sempre cortados em quatro, no sentido do comprimento. A faca fica com o adulto.",
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (cozinhar seguindo passos)"
+}

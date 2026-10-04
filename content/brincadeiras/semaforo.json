@@ -1,0 +1,35 @@
+{
+  "id": "semaforo",
+  "nome": "Semáforo",
+  "area": "autocontrole",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina esperar e parar na hora certa, que é o autocontrole.",
+  "materiais": [
+    "Uma folha com 3 círculos pintados: vermelho, amarelo e verde",
+    "Um prato de plástico para servir de volante (opcional)"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Combine a regra: verde anda, vermelho para.",
+    "A criança “dirige” pela sala segurando o volante.",
+    "Troque a cor sem avisar, às vezes rápido, às vezes devagar.",
+    "Quando ela parar certinho, comemore: “Freou na hora!”"
+  ],
+  "facil": "Dirija junto com a criança e diga a cor em voz alta: “Vermelho, para!”",
+  "dificil": "Inclua o amarelo, que é andar bem devagar. Se ficar fácil, inverta a regra: “Agora vermelho anda e verde para!” Antes dos 4 anos isso é difícil, e errar e rir faz parte.",
+  "conversa": [
+    "Por que o carro precisa parar no vermelho?",
+    "Quer ser o semáforo agora?"
+  ],
+  "seguranca": "Tire do caminho tapetes que escorregam e brinquedos espalhados no chão.",
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (jogos de movimento com regras)"
+}

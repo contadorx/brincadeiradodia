@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* Visual "bilhete na geladeira": fundo branco, tinta azul-marinho,
+   botões azuis, destaques amarelos como marca-texto. */
+@theme {
+  --color-tinta: #1c2333;
+  --color-suave: #5a6273;
+  --color-linha: #dce1ea;
+  --color-borda: #c9d0dc;
+  --color-painel: #f2f4f8;
+  --color-azul: #2f55c9;
+  --color-azul-escuro: #2346a8;
+  --color-azul-claro: #e8eefc;
+  --color-sol: #ffc845;
+  --color-sol-claro: #fff4d6;
+  --color-folha: #23804f;
+  --color-folha-claro: #e3f3ea;
+  --color-folha-escuro: #1f4d35;
+  --color-alerta: #7a2e0b;
+  --color-alerta-claro: #fff0e6;
+  --color-noite: #161b29;
+  --color-noite-2: #222a3d;
+  --color-noite-linha: #3a4460;
+  --color-noite-suave: #a9b1c4;
+
+  --font-display: "Bricolage Grotesque Variable", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--color-tinta);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-azul);
+  outline-offset: 2px;
+}
+
+.marca-texto {
+  background: linear-gradient(transparent 60%, var(--color-sol) 60%);
+}
+
+.pb-nav {
+  padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .nao-imprimir {
+    display: none !important;
+  }
+  body {
+    font-size: 12pt;
+  }
+}

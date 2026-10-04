@@ -1,0 +1,37 @@
+{
+  "id": "corrida-da-rampa",
+  "nome": "Corrida da rampa",
+  "area": "explorar",
+  "ordem": 2,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina prever e conferir, causa e efeito, contar e comparar.",
+  "materiais": [
+    "2 ou 3 carrinhos ou bolas que rolam (nada pequeno)",
+    "Uma tábua, bandeja ou livro grande de capa dura",
+    "Livros ou almofadas para apoiar"
+  ],
+  "etiquetas": [
+    "brinquedos",
+    "livro"
+  ],
+  "passos": [
+    "Monte uma rampa apoiando a tábua numa pilha de livros.",
+    "Antes de soltar, pergunte qual brinquedo vai mais longe e deixe a criança escolher.",
+    "Soltem juntos e marquem onde cada um parou, com um sapato ou um bloco.",
+    "Contem os passos até cada brinquedo e vejam se o palpite estava certo."
+  ],
+  "facil": "Só soltar, comemorar e repetir, usando palavras como rápido, devagar, longe e perto.",
+  "dificil": "Mude a altura da rampa e pergunte antes: “Se ficar mais alta, vai mais longe ou mais perto?” A criança dá o palpite e vocês testam.",
+  "conversa": [
+    "Por que você acha que esse foi mais longe?",
+    "O que a gente pode mudar para ir mais rápido?"
+  ],
+  "seguranca": "Rampa baixa e firme. Ninguém sobe nela.",
+  "base": "Marcos do CDC aos 3 anos: resolver problemas com perguntas que guiam"
+}

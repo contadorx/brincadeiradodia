@@ -1,0 +1,36 @@
+{
+  "id": "garagem-das-cores",
+  "nome": "Garagem das cores",
+  "area": "raciocinio",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina separar por categorias, as cores e trocar de regra, que é a flexibilidade.",
+  "materiais": [
+    "Carrinhos ou blocos de cores diferentes",
+    "3 folhas coloridas ou caixas"
+  ],
+  "etiquetas": [
+    "brinquedos",
+    "papel"
+  ],
+  "passos": [
+    "Coloque 2 ou 3 folhas coloridas no chão. São as garagens.",
+    "A criança estaciona cada brinquedo na garagem da mesma cor.",
+    "Confiram juntos se todos os vermelhos estão na garagem vermelha.",
+    "Misture tudo e recomecem."
+  ],
+  "facil": "Só 2 cores e poucos brinquedos. Você separa o primeiro junto com a criança.",
+  "dificil": "Depois de separar por cor, troque a regra: agora por tamanho, grandes aqui e pequenos ali. Se a criança continuar separando por cor, é normal nessa idade.",
+  "conversa": [
+    "Qual garagem tem mais?",
+    "Esse vai para qual garagem? Por quê?"
+  ],
+  "seguranca": "Blocos grandes e carrinhos sem peças soltas. Nada que caiba inteiro na boca.",
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (separar e trocar a regra)"
+}

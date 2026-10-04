@@ -1,0 +1,35 @@
+{
+  "id": "leitura-com-perguntas",
+  "nome": "Leitura com perguntas",
+  "area": "linguagem",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Amplia o vocabulário, o tamanho das frases e a compreensão de histórias.",
+  "materiais": [
+    "Um livro com figuras"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Sentem juntos e deixe a criança virar as páginas.",
+    "Em cada página, pergunte: “O que é isso?” ou “O que ele está fazendo?”",
+    "Quando a criança responder, aumente a frase. Se ela disser “carro”, diga “isso, um carro vermelho bem rápido”.",
+    "Ligue a história com a vida dela: “Você já andou de ônibus?”"
+  ],
+  "facil": "Só aponte e dê nome às coisas. Deixe a criança completar palavras que já conhece: “O cachorro faz…”",
+  "dificil": "Use um livro que a criança já conhece. Antes de virar a página, pergunte o que vem depois. No fim, peça para ela contar um pedaço da história.",
+  "conversa": [
+    "O que você acha que vai acontecer agora?",
+    "Como ele está se sentindo?",
+    "Qual foi a parte de que você mais gostou?"
+  ],
+  "seguranca": null,
+  "base": "Leitura dialogada e marcos do CDC aos 3 anos: dizer o que acontece numa figura"
+}

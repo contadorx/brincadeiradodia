@@ -1,0 +1,32 @@
+{
+  "id": "caca-as-cores",
+  "nome": "Caça às cores",
+  "area": "explorar",
+  "ordem": 1,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina atenção, cores, contagem e vocabulário.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolha uma cor: “Vamos achar coisas vermelhas?”",
+    "Cada vez que a criança achar uma, contem juntos em voz alta.",
+    "A cada 3 ou 4 achados, troque a cor ou o tipo de coisa: carros, flores, portas.",
+    "No fim, pergunte do que vocês acharam mais."
+  ],
+  "facil": "Só aponte e dê nome junto com a criança: “Olha, um carro vermelho!”",
+  "dificil": "Dois critérios ao mesmo tempo, como “uma coisa vermelha e redonda”. Ou o contrário: “Ache uma coisa que não é vermelha”.",
+  "conversa": [
+    "Onde mais a gente vê essa cor?",
+    "Qual é a sua cor preferida? Por quê?"
+  ],
+  "seguranca": "Na calçada, sempre de mãos dadas, longe do meio-fio e das saídas de garagem. Na janela, só se tiver tela de proteção, e nunca com a criança em cima de móvel.",
+  "base": "Marcos do CDC aos 3 e 4 anos: contar objetos e nomear cores do dia a dia"
+}
