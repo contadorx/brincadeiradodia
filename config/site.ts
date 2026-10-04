@@ -1,6 +1,6 @@
 /**
  * Configurações do site. É o único arquivo que você precisa editar para
- * publicar: PIX, contato, métricas e custos.
+ * publicar: responsável, contato, PIX, métricas e apoio.
  */
 export const SITE = {
   nome: "Brincadeira do Dia",
@@ -8,7 +8,16 @@ export const SITE = {
   descricao:
     "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa. Para pais e cuidadores, sem tela para a criança.",
 
-  /** E-mail para contato que aparece na página Sobre. Deixe "" para esconder. */
+  /**
+   * Responsável pelo site (controlador dos dados, pela LGPD).
+   * Aparece nos Termos de Uso e na Política de Privacidade. OBRIGATÓRIO antes de publicar.
+   */
+  responsavel: "",
+
+  /**
+   * E-mail de contato: é o canal para dúvidas, sugestões e pedidos sobre dados pessoais.
+   * OBRIGATÓRIO antes de publicar (a LGPD exige um canal de atendimento).
+   */
   contato: "",
 
   /**
@@ -30,12 +39,30 @@ export const SITE = {
    */
   apoio: { aPartirDeRegistros: 10, intervaloDias: 30 },
 
-  /** Transparência: o que o apoio paga. Edite os valores reais. */
-  custosAno: [
-    { item: "Domínio brincadeiradodia.com.br", valor: "[VALOR/ANO]" },
-    { item: "Hospedagem do site", valor: "R$ 0 (plano gratuito)" },
-    { item: "Servidor das métricas (já existente)", valor: "[VALOR/ANO]" },
+  /**
+   * Revisão voluntária. As brincadeiras vão ao ar com as fontes; a revisão de uma profissional
+   * é um selo que chega depois ("Revisada por [nome], [profissão], em [mês/ano]").
+   * Se `convidar` for true e `contato` estiver preenchido, a página Sobre convida
+   * profissionais a doar uma revisão.
+   */
+  revisao: { convidar: true },
+
+  /** O que o apoio ajuda a pagar (sem valores). Aparece na página Sobre. */
+  apoioCobre: [
+    "Domínio do site",
+    "Servidores e hospedagem",
+    "Pesquisa e revisão de novas brincadeiras",
+    "Evolução do aplicativo",
   ],
+
+  /**
+   * Onde ficam os servidores (para a Política de Privacidade).
+   * Ajuste se mudar de provedor ou de região.
+   */
+  provedores: {
+    hospedagem: "Vercel (Estados Unidos)",
+    metricas: "servidor próprio contratado na Contabo [informe o país do datacenter]",
+  },
 
   /**
    * Métricas anônimas com Umami (sem cookies). Preencha depois de subir o
@@ -47,3 +74,11 @@ export const SITE = {
     dominio: "brincadeiradodia.com.br",
   },
 } as const;
+
+/**
+ * Versão dos Termos de Uso e da Política de Privacidade.
+ * Mudou o texto de forma relevante? Troque a data: na próxima visita, cada família
+ * vê os termos de novo e precisa aceitar outra vez.
+ */
+export const VERSAO_TERMOS = "2026-10-04";
+export const DATA_TERMOS = "4 de outubro de 2026";

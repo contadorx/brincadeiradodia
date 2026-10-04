@@ -1,0 +1,53 @@
+{
+  "id": "restaurante-com-plano",
+  "nome": "Restaurante com plano",
+  "area": "fazdeconta",
+  "ordem": 3,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar antes de brincar e seguir o próprio plano.",
+  "materiais": [
+    "Papel e giz de cera",
+    "Panelinhas de brinquedo, ou potes e colheres de plástico",
+    "Um pano de prato preso na cintura para ser o avental, sem amarrar no pescoço"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Antes de brincar, pergunte: “Quem você vai ser? O que vai fazer?”",
+    "Ajude a criança a desenhar o plano: ela cozinhando, uma panela, um prato. Vale rabisco.",
+    "Você é o cliente: chegue, sente e peça um prato.",
+    "Ela cozinha de mentira e serve. Prove e diga se gostou.",
+    "Se a brincadeira se perder, olhem o desenho: “O que dizia o seu plano?”",
+    "No fim, troquem: você cozinha e ela é a cliente."
+  ],
+  "facil": "Façam o plano só falando, sem desenho, e dê opções: “Você quer ser quem cozinha ou quem serve?”",
+  "dificil": "O plano tem dois passos: “Primeiro anoto o pedido, depois cozinho.” Inclua um cardápio desenhado e uma conta para pagar com dinheiro de papel.",
+  "conversa": [
+    "O que tem no cardápio hoje?",
+    "O que o cliente pediu mesmo?",
+    "O que o seu restaurante vai servir amanhã?"
+  ],
+  "seguranca": "Brinquem longe do fogão de verdade, só com panelinhas, potes e colheres de plástico. A comida é só de mentira. Giz de cera atóxico, com selo do Inmetro.",
+  "base": "Inspirada no plano antes de brincar, sugerido no guia de funções executivas do Harvard Center e no currículo Tools of the Mind",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Tools of the Mind: dicas para as famílias",
+      "url": "https://archive.toolsofthemind.org/learn/tools-for-parents/"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ajudante-de-cozinha",
+  "nome": "Ajudante de cozinha",
+  "area": "musica",
+  "ordem": 4,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir uma tarefa de vários passos, do começo ao fim.",
+  "materiais": [
+    "Frutas ou legumes firmes que vocês vão usar, como maçã, laranja, cenoura e batata",
+    "Uma bacia com água sobre a mesa e um pano de prato"
+  ],
+  "etiquetas": [
+    "cozinha",
+    "agua"
+  ],
+  "passos": [
+    "Explique a tarefa em 3 passos: lavar, secar e separar.",
+    "A criança lava cada fruta na bacia, esfregando com as mãos.",
+    "Ela seca com o pano e põe na mesa.",
+    "Peça para separar: “As frutas aqui, os legumes ali.”",
+    "Esvaziem a bacia, guardem tudo juntos e agradeça: “Você fez tudo, do começo ao fim.”"
+  ],
+  "facil": "Dê um passo de cada vez e faça junto. Comece com frutas firmes e grandes, como maçã e laranja.",
+  "dificil": "Diga os 3 passos de uma vez, no começo, e veja se ela lembra sem você repetir. Depois inclua mexer: uma salada de frutas que você corta e ela mistura com a colher.",
+  "conversa": [
+    "Como a gente fez, do começo ao fim?",
+    "Qual é a mais pesada?",
+    "O que vamos fazer com essas frutas?"
+  ],
+  "seguranca": "A bacia fica sobre a mesa ou no chão, e a criança nunca sobe em cadeira. Fique do lado enquanto houver água; no fim, esvazie a bacia e seque o chão. Faca e fogão só com o adulto. Na salada, só frutas que a criança já come; uva e tomate-cereja sempre cortados em quatro, no comprimento.",
+  "base": "Deixar a criança ajudar na cozinha com tarefas simples, como lavar frutas e legumes ou mexer, é uma das dicas do CDC para a idade de 3 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
+}

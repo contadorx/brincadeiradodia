@@ -1,0 +1,41 @@
+{
+  "id": "danca-e-para",
+  "nome": "Dança e para",
+  "area": "autocontrole",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina parar quando a música para, mesmo com vontade de continuar.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Coloque uma música animada no celular, com a tela virada para baixo, e dancem juntos.",
+    "Pause a música e parem os dois: “Parou!”",
+    "Volte a música e dancem de novo.",
+    "Repita várias vezes, parando em momentos diferentes.",
+    "Troquem: a criança diz “Parou!” e você congela até ela dizer “Dança!”"
+  ],
+  "facil": "Pare junto com ela e diga “Parou!” bem alto, com a mão aberta para a frente.",
+  "dificil": "Ao parar, mostre uma pose para copiar: braços para cima, mãos na cabeça. Ou demore mais para voltar a música.",
+  "conversa": [
+    "Foi difícil parar?",
+    "Que música você quer dançar?",
+    "Que pose a gente faz na próxima?"
+  ],
+  "seguranca": "Abra espaço: tire do chão brinquedos e tapetes que escorregam, longe de quinas. Descalço é melhor que de meia. O celular fica com o adulto.",
+  "base": "A dança que para e recomeça está no guia de funções executivas do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

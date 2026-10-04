@@ -1,0 +1,45 @@
+{
+  "id": "como-o-bichinho-se-sente",
+  "nome": "Como o bichinho se sente?",
+  "area": "linguagem",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar nome ao que sente: feliz, triste, bravo, com medo.",
+  "materiais": [
+    "Um bicho de pelúcia ou boneco"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Faça o bichinho ficar feliz: pule com ele e diga “Ele está feliz!”, com cara de feliz.",
+    "Agora triste: abaixe a cabeça dele e faça cara de choro de mentira.",
+    "Peça para a criança fazer a mesma cara.",
+    "Pergunte: “O que deixa o bichinho feliz?” e brinquem disso: abraço, comida, colo.",
+    "Terminem sempre com o bichinho feliz e um abraço."
+  ],
+  "facil": "Só feliz e triste, com caras bem exageradas. Vocês podem fazer as caras na frente do espelho.",
+  "dificil": "Inclua bravo e com medo, e pergunte o que ajuda: “O bichinho está bravo. O que ajuda ele a se acalmar?”",
+  "conversa": [
+    "Como você está hoje?",
+    "O que te deixa feliz?",
+    "O que você faz quando fica triste?"
+  ],
+  "seguranca": "Bichinho próprio para a idade, sem olhos, botões ou enfeites soltando. Espelho, só o que está preso na parede.",
+  "base": "Dar nome às emoções no dia a dia está no guia de funções executivas do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

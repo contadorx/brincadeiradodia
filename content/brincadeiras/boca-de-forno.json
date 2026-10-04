@@ -1,0 +1,42 @@
+{
+  "id": "boca-de-forno",
+  "nome": "Boca de forno",
+  "area": "autocontrole",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina guardar uma ordem na cabeça e cumprir do começo ao fim.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Você é o mestre. Diga: “Boca de forno!” A criança responde: “Forno!”",
+    "Sigam o diálogo: “Tirando bolo!” “Bolo!” “Fareis tudo que seu mestre mandar?” “Faremos todos!”",
+    "Dê uma ordem: “Traga uma almofada!” A criança busca e entrega.",
+    "Comemore cada entrega e dê a próxima ordem.",
+    "Depois de umas rodadas, troquem: a criança vira o mestre."
+  ],
+  "facil": "Uma ordem por vez, com coisas que ela vê da sala.",
+  "dificil": "Duas ou três ordens de uma vez, sem repetir: “Traga uma colher de pau, um chinelo e pule três vezes.” Ela faz tudo na ordem certa.",
+  "conversa": [
+    "Qual ordem foi a mais difícil de lembrar?",
+    "Como você fez para não esquecer?",
+    "Que ordem você vai dar quando for o mestre?"
+  ],
+  "seguranca": "Combine antes o que não vale buscar: nada de faca, tesoura, vidro, remédio, pilha ou produto de limpeza, e nada que precise subir em móvel. Sem correria perto de quinas e escada. Fora de casa, só em quintal ou praça cercada, com tudo à vista e longe da rua; no sol, boné e água.",
+  "base": "Brincadeira tradicional indicada para 4 a 5 anos no guia Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

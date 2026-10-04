@@ -31,5 +31,18 @@
     "Quantos pedaços de banana você usou?"
   ],
   "seguranca": "Uva e tomate-cereja sempre cortados em quatro, no sentido do comprimento. A faca fica com o adulto.",
-  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (cozinhar seguindo passos)"
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (cozinhar seguindo passos)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
 }

@@ -1,0 +1,50 @@
+{
+  "id": "separar-por-cor",
+  "nome": "Separar por cor",
+  "area": "raciocinio",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina perceber as cores e separar as coisas em grupos.",
+  "materiais": [
+    "Uns 10 objetos grandes de duas cores, como blocos, bolas de meia ou potes vermelhos e azuis",
+    "Dois potes ou caixas"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Coloque um objeto vermelho num pote e um azul no outro: “Este é o pote do vermelho.”",
+    "Dê um objeto para a criança e pergunte: “Em qual pote ele vai?”",
+    "Ajude se precisar, dizendo a cor.",
+    "Continuem até separar tudo.",
+    "No fim, confiram juntos: “Tudo vermelho aqui, tudo azul ali!”"
+  ],
+  "facil": "Cores bem diferentes e só 4 ou 5 objetos. Você aponta o pote certo.",
+  "dificil": "Três cores. Ou a brincadeira boba: você põe um no pote errado de propósito e ela descobre o erro.",
+  "conversa": [
+    "Que cor é essa?",
+    "O que mais é vermelho aqui na sala?",
+    "Qual pote ficou mais cheio?"
+  ],
+  "seguranca": "Só objetos grandes, que não passem por dentro de um rolo de papel higiênico. Nada de contas, botões ou tampinhas.",
+  "base": "Classificar objetos por cor, tamanho ou forma é objetivo da BNCC até 3 anos e 11 meses (EI02ET05), e separar por cor está no guia do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET05 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET05"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

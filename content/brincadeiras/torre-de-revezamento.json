@@ -1,0 +1,45 @@
+{
+  "id": "torre-de-revezamento",
+  "nome": "Torre de revezamento",
+  "area": "raciocinio",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina esperar a vez, equilibrar as peças e comparar alto e baixo.",
+  "materiais": [
+    "Blocos grandes, caixinhas vazias ou copos de plástico para empilhar"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem no chão, um de frente para o outro, com os blocos no meio.",
+    "Você põe o primeiro bloco: “Minha vez!”",
+    "A criança põe o próximo: “Sua vez!”",
+    "Revezem até a torre cair, contando os blocos.",
+    "Comemorem a queda e comecem de novo."
+  ],
+  "facil": "Torre de 3 ou 4 peças grandes, e você segura a base se precisar.",
+  "dificil": "Antes de começar, a criança dá um palpite: a torre vai ficar mais alta que o joelho dela? Ou façam duas torres e comparem qual ficou mais alta.",
+  "conversa": [
+    "De quem é a vez agora?",
+    "Por que a torre caiu?",
+    "Qual torre ficou mais alta?"
+  ],
+  "seguranca": "Blocos grandes, que não passem por dentro de um rolo de papel higiênico, e leves: nada de vidro ou objeto pesado que machuque ao cair. A torre fica no chão, longe de móveis que convidem a subir.",
+  "base": "Montar torres de blocos juntos, revezando a vez, é uma das dicas do CDC para a idade de 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

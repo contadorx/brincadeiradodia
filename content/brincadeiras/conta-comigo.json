@@ -1,0 +1,42 @@
+{
+  "id": "conta-comigo",
+  "nome": "Conta comigo",
+  "area": "raciocinio",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina dizer os números na ordem enquanto aponta as coisas.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolham algo para contar: os degraus, os sapatos, as bananas do cacho.",
+    "Contem devagar, tocando cada um: “Um, dois, três!”",
+    "No fim, repita o último número: “Três sapatos!”",
+    "Contem partes do corpo: um nariz, dois olhos, dois pés.",
+    "Comemore: “Você contou!”"
+  ],
+  "facil": "Contem até 2 ou 3, com você guiando a mão da criança para tocar cada coisa.",
+  "dificil": "Contem até 5. Depois, peça: “Me dá dois”, e ela entrega duas colheres.",
+  "conversa": [
+    "Quantos pés você tem?",
+    "Quantos degraus será que tem aqui?",
+    "O que mais a gente pode contar?"
+  ],
+  "seguranca": "Escada só de mãos dadas, um degrau de cada vez, com o adulto do lado. Na rua, de mãos dadas e longe do meio-fio.",
+  "base": "Contar oralmente objetos, pessoas e livros em situações do dia a dia é objetivo da BNCC até 3 anos e 11 meses (EI02ET07)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET07 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET07"
+    }
+  ],
+  "revisao": null
+}

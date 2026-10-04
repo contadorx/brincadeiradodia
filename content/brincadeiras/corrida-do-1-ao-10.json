@@ -1,0 +1,52 @@
+{
+  "id": "corrida-do-1-ao-10",
+  "nome": "Corrida do 1 ao 10",
+  "area": "raciocinio",
+  "ordem": 1,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir a ordem dos números e perceber qual número é maior.",
+  "materiais": [
+    "Uma folha com 10 quadrados em fila, numerados de 1 a 10",
+    "Dois papeizinhos dobrados num pote, um com o número 1 e outro com o número 2",
+    "Um carrinho ou boneco para cada jogador"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Cada um põe seu carrinho ou boneco antes do quadrado 1.",
+    "Na sua vez, a criança sorteia um papelzinho: anda 1 ou 2 casas.",
+    "Ela anda dizendo o número de cada casa em que pisa: “Três, quatro!”",
+    "Devolva o papelzinho ao pote e passe a vez.",
+    "Quem chegar ao 10 primeiro ganha. Joguem de novo."
+  ],
+  "facil": "Andem juntos, apontando e dizendo os números. Se ela errar a casa, contem de novo devagar.",
+  "dificil": "Antes de andar, pergunte: “Você está no 4 e tirou 2. Em que casa vai parar?” Depois, pergunte qual número é maior, o seu ou o dela.",
+  "conversa": [
+    "Quem está mais perto do 10?",
+    "Quantas casas faltam para você chegar?",
+    "Que número vem depois do 7?"
+  ],
+  "seguranca": "Peões grandes, que não passem por dentro de um rolo de papel higiênico. Nada de moedas ou tampinhas.",
+  "base": "Inspirada no tabuleiro numérico de 1 a 10 testado com pré-escolares (Siegler e Ramani, 2008). O mesmo jogo com cores no lugar dos números não teve efeito",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Playing linear numerical board games promotes low-income children's numerical development (Siegler e Ramani, 2008)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18801120/"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "arte-com-a-natureza",
+  "nome": "Arte com a natureza",
+  "area": "explorar",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina observar diferenças de forma, cor e tamanho e criar com o que encontrou.",
+  "materiais": [
+    "Uma cesta ou saquinho de pano para a coleta, nunca saco plástico",
+    "Uma folha grande de papel, ou o próprio chão"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Num passeio pela praça ou quintal, recolham folhas, gravetos, flores caídas e sementes grandes.",
+    "Em casa, espalhem tudo e separem por cor, tamanho ou formato.",
+    "Montem juntos uma figura no papel ou no chão: um bicho, uma casa, um rosto.",
+    "Peça para a criança contar o que é e dar um nome para a obra.",
+    "Tire uma foto da obra antes de guardar ou devolver tudo ao jardim."
+  ],
+  "facil": "Você começa a figura, como o corpo de um bicho, e a criança completa com olhos, pernas e rabo.",
+  "dificil": "Desafie a criança a fazer, em volta da figura, um padrão que se repete: folha, graveto, folha, graveto. Ou a montar a primeira letra do nome dela.",
+  "conversa": [
+    "Qual foi a folha mais diferente que você achou?",
+    "O que você montou? Qual é a história dessa obra?",
+    "Onde essa semente poderia virar planta?"
+  ],
+  "seguranca": "Só pegue o que o adulto aprovar: nada de cogumelo, frutinha, planta com espinho ou com seiva leitosa, nem sementes como mamona e olho-de-cabra, que são venenosas. Nada vai à boca, e lavem as mãos depois. Na rua, de mãos dadas e longe do meio-fio; no sol, boné e água.",
+  "base": "Brincadeira tradicional indicada para 4 a 5 anos no guia Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

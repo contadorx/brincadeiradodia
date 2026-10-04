@@ -1,0 +1,42 @@
+{
+  "id": "jogo-dos-opostos",
+  "nome": "Jogo dos opostos",
+  "area": "linguagem",
+  "ordem": 3,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina palavras que andam em pares, como grande e pequeno, rápido e devagar.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Abaixe bem e diga: “Pequeno, pequenininho!”",
+    "Fique na ponta dos pés, braços para cima: “Grande, grandão!”",
+    "Chame a criança para fazer junto e repitam algumas vezes.",
+    "Troque de par: rápido e devagar, andando; alto e baixinho, falando.",
+    "Deixe a criança escolher um par e você imita."
+  ],
+  "facil": "Fique só em grande e pequeno e faça junto com a criança, sempre dizendo a palavra.",
+  "dificil": "Diga só a palavra, sem mostrar, e a criança faz. Depois, o contrário: você diz “grande” e ela fica pequena. Novos pares: em cima e embaixo, aberto e fechado, cheio e vazio.",
+  "conversa": [
+    "O que é grande aqui perto? E o que é pequeno?",
+    "Que bicho anda bem devagar?",
+    "Perto de mim, quem é maior? E perto de uma formiga?"
+  ],
+  "seguranca": "Para andar rápido, abra espaço: tire do chão brinquedos e tapetes que escorregam. Na calçada, o rápido e devagar é de mãos dadas, longe do meio-fio e das saídas de garagem.",
+  "base": "Brincar de opostos, como pequeno e grande, rápido e devagar, baixo e alto, é uma das dicas do CDC para a idade de 3 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
+}

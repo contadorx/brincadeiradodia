@@ -65,7 +65,7 @@ export function CartaoApoio({
       </div>
       <p className="m-0">
         O Brincadeira do Dia é gratuito e sem anúncios. Se ele ajudou vocês, mandar para outra família já ajuda muito.
-        {pix ? " E quem puder contribuir com um PIX ajuda a manter o site no ar." : ""}
+        {pix ? " Quem puder contribuir com um PIX ajuda a pagar o domínio, os servidores, a pesquisa de novas brincadeiras e a evolução do aplicativo." : ""}
       </p>
       <button
         type="button"

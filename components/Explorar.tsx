@@ -157,7 +157,10 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
               className="flex items-center justify-between gap-3 rounded-2xl border border-linha px-3.5 py-3 text-tinta no-underline transition-colors hover:border-azul hover:bg-painel md:min-h-[88px] md:px-4"
             >
               <span className="flex min-w-0 flex-col">
-                <span className="font-display text-[17px] font-extrabold">{b.nome}</span>
+                <span className="font-display text-[17px] font-extrabold">
+                  {b.nome}
+                  {b.status === "rascunho" ? <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wider text-alerta">rascunho</span> : null}
+                </span>
                 <span className="text-sm text-suave">
                   {NOME_AREA[b.area]} · {b.minutos} min · {b.materiais.length ? b.materiais[0].toLowerCase() : "sem material"}
                 </span>

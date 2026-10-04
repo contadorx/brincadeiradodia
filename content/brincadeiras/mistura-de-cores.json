@@ -1,0 +1,47 @@
+{
+  "id": "mistura-de-cores",
+  "nome": "Mistura de cores",
+  "area": "explorar",
+  "ordem": 3,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina prever, testar e descrever o que acontece quando as cores se misturam.",
+  "materiais": [
+    "Tinta guache atóxica amarela, azul e vermelha",
+    "Papel, pincel, um prato para a tinta e um copo com água para lavar o pincel",
+    "Jornal ou pano para forrar a mesa"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Forre a mesa e ponha um pouco de cada tinta num prato.",
+    "Pergunte: “O que será que acontece se misturar amarelo com azul?”",
+    "A criança mistura no papel com o pincel e vocês olham juntos a cor nova.",
+    "Testem os outros pares: azul com vermelho, vermelho com amarelo.",
+    "Desenhem a “receita” de cada cor nova: bolinha amarela + bolinha azul = verde."
+  ],
+  "facil": "Misturem com os dedos, direto no papel, só amarelo e azul. Diga o nome de cada cor.",
+  "dificil": "Antes de cada mistura, a criança dá o palpite da cor. Depois, testem: mais azul ou mais amarelo deixa o verde diferente?",
+  "conversa": [
+    "Que cor apareceu? Era a que você esperava?",
+    "Onde você já viu essa cor nova?",
+    "Dá para desmisturar uma cor?"
+  ],
+  "seguranca": "Guache atóxica com selo do Inmetro. Pincel e dedos não vão à boca, e lavem as mãos no fim. O copo de água é de lavar pincel, não de beber.",
+  "base": "Observar e descrever mudanças em materiais, resultantes de ações sobre eles, é objetivo da BNCC para a pré-escola (EI03ET02)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET02"
+    }
+  ],
+  "revisao": null
+}

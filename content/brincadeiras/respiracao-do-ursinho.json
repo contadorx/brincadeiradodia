@@ -1,0 +1,45 @@
+{
+  "id": "respiracao-do-ursinho",
+  "nome": "Respiração do ursinho",
+  "area": "autocontrole",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina respirar devagar e prestar atenção no próprio corpo.",
+  "materiais": [
+    "Um bicho de pelúcia pequeno"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "A criança deita de barriga para cima, com o bichinho sobre a barriga.",
+    "Peça para ela puxar o ar pelo nariz, bem devagar, e ver o bichinho subir.",
+    "Depois, soltar o ar devagar pela boca, como quem sopra uma vela bem de leve, sem apagar, e ver o bichinho descer.",
+    "Contem juntos 5 respirações, embalando o bichinho para dormir.",
+    "Terminem sentando devagar e falando baixinho."
+  ],
+  "facil": "Deite do lado e respire junto, contando em voz alta: “Sobe... desce...”. Três respirações já valem.",
+  "dificil": "Contem até 4 para encher e até 4 para esvaziar. Depois, combinem quando usar a respiração do ursinho: antes de dormir ou quando der raiva.",
+  "conversa": [
+    "Como o seu corpo ficou depois de respirar devagar?",
+    "Quando seria bom fazer a respiração do ursinho?",
+    "O bichinho dormiu?"
+  ],
+  "seguranca": "Se a criança ficar tonta, pare e deixe respirar normalmente. Não precisa encher o peito com força: o ar entra e sai devagar.",
+  "base": "Posturas de ioga com respiração lenta estão no guia de funções executivas do Harvard Center para 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

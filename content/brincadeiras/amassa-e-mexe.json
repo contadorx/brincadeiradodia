@@ -1,0 +1,47 @@
+{
+  "id": "amassa-e-mexe",
+  "nome": "Amassa e mexe",
+  "area": "musica",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina usar o garfo e a colher e ajudar a preparar o lanche.",
+  "materiais": [
+    "Uma banana madura",
+    "Um prato fundo, um garfo de criança e uma colher para cada um",
+    "Iogurte natural ou aveia, se a criança já come"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Lavem as mãos juntos.",
+    "A criança descasca a banana; você ajuda a começar.",
+    "Ela amassa a banana com o garfo, no prato.",
+    "Junte o iogurte ou a aveia e ela mistura com a colher.",
+    "Comam juntos, cada um com a sua colher."
+  ],
+  "facil": "Você segura o prato e ela amassa com a colher ou com a mão.",
+  "dificil": "Contem as garfadas de amassar até 5, ou ela serve duas porções, uma para cada um.",
+  "conversa": [
+    "A banana está mole ou dura?",
+    "Que cor ficou depois de mexer?",
+    "Quem vai comer com a gente?"
+  ],
+  "seguranca": "Só alimentos que a criança já come, por causa de alergias. Garfo de criança, sem ponta afiada. Nada de fogão nem liquidificador. Na hora de comer, a criança fica sentada.",
+  "base": "Deixar a criança ajudar no preparo das refeições é uma das dicas do CDC para a idade de 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

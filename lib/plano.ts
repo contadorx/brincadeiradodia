@@ -4,8 +4,9 @@ import { difDias, meiaNoite } from "./datas";
 /**
  * Brincadeira do dia:
  * - cada dia da semana tem uma área (domingo = explorar, segunda = linguagem…);
- * - semanas ímpares usam a brincadeira de ordem 1 da área, semanas pares a de ordem 2;
- * - semanas 1 e 2 são de apresentação (nível normal); da 3ª em diante sugerimos o nível mais difícil.
+ * - as brincadeiras da área se revezam pela ordem (semana 1 = ordem 1, semana 2 = ordem 2…);
+ * - na primeira volta do rodízio cada brincadeira é nova (nível normal); quando ela volta,
+ *   sugerimos o nível mais difícil.
  * A contagem de semanas começa no dia em que a família abriu o site pela primeira vez.
  */
 export function semanaDeUso(inicio: Date, hoje: Date): number {
@@ -28,7 +29,7 @@ export function brincadeiraDoDia(
     .filter((b) => b.area === area)
     .sort((a, b) => a.ordem - b.ordem || a.id.localeCompare(b.id));
   const brincadeira = opcoes.length ? opcoes[(semana - 1) % opcoes.length] : null;
-  return { brincadeira, semana, nivelSugerido: semana >= 3 ? "dificil" : "normal" };
+  return { brincadeira, semana, nivelSugerido: brincadeira && semana > opcoes.length ? "dificil" : "normal" };
 }
 
 /** Duas sugestões sem material, que mudam a cada dia. */

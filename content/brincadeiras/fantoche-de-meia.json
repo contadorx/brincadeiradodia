@@ -1,0 +1,47 @@
+{
+  "id": "fantoche-de-meia",
+  "nome": "Fantoche de meia",
+  "area": "fazdeconta",
+  "ordem": 3,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina criar um personagem e dar voz ao que ele pensa e sente.",
+  "materiais": [
+    "Uma meia velha, sem furo",
+    "Canetinha atóxica",
+    "Pedaços de papel ou feltro e cola para olhos e boca"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "A criança decide quem vai ser o fantoche: um bicho, um monstro, uma pessoa.",
+    "Ela desenha como quer o personagem, e vocês fazem olhos e boca na meia, com caneta ou papel colado.",
+    "Esperem a cola secar e deem um nome ao fantoche.",
+    "Façam uma apresentação atrás do sofá: o fantoche se apresenta e conta do que gosta.",
+    "Use a sua mão como outro personagem e converse com o fantoche dela."
+  ],
+  "facil": "Você faz o rosto e a criança escolhe as cores. Na apresentação, você puxa a conversa.",
+  "dificil": "Façam dois fantoches e uma pequena peça com começo, meio e fim. A criança faz as vozes dos dois personagens.",
+  "conversa": [
+    "Como o seu fantoche se chama e do que ele gosta?",
+    "Como ele está se sentindo hoje?",
+    "O que ele faz quando fica com medo?"
+  ],
+  "seguranca": "Nada de botão, olho móvel, lantejoula ou miçanga: olhos desenhados ou de papel colado. Cola atóxica com selo do Inmetro. A meia fica na mão, nunca no pescoço.",
+  "base": "Inspirada nos bonecos de pano personalizados, indicados para 4 a 5 anos no guia do Ministério da Cidadania (2019), em que a criança desenha o próprio boneco",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

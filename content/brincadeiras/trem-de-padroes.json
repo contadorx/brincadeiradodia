@@ -1,0 +1,45 @@
+{
+  "id": "trem-de-padroes",
+  "nome": "Trem de padrões",
+  "area": "raciocinio",
+  "ordem": 4,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina perceber uma sequência que se repete e continuar do jeito certo.",
+  "materiais": [
+    "Uns 10 objetos de dois tipos ou duas cores, como blocos, carrinhos, tampas de pote ou colheres de plástico"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Monte um trem em fila: azul, vermelho, azul, vermelho.",
+    "Leia em voz alta, apontando: “Azul, vermelho, azul, vermelho...”",
+    "Pergunte: “Qual vem agora?” e deixe a criança pôr a próxima peça.",
+    "Continuem até acabar as peças, lendo o trem juntos.",
+    "Agora a criança inventa o trem e você continua."
+  ],
+  "facil": "Primeiro só copiem: você monta um trem de 4 peças e a criança faz um igual ao lado. Depois tentem continuar.",
+  "dificil": "Faça padrões de 3: azul, azul, vermelho. Ou repita o mesmo padrão com outras coisas: o trem de cores vira um trem de colher, colher, tampa.",
+  "conversa": [
+    "Como você descobriu qual vinha agora?",
+    "Que outro trem a gente pode inventar?",
+    "Tem alguma coisa que se repete na sua roupa ou no chão?"
+  ],
+  "seguranca": "Só objetos grandes, que não passem por dentro de um rolo de papel higiênico. Nada de contas, botões ou tampinhas de garrafa.",
+  "base": "Inspirada nas atividades de copiar e continuar padrões testadas em estudo com pré-escolares de 4 e 5 anos (Zippert e outros, 2021)",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Helping preschoolers learn math (Zippert, Douglas, Tian e Rittle-Johnson, 2021)",
+      "url": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/280/2023/07/19032150/Zippert_helpingpreschoolers.pdf"
+    }
+  ],
+  "revisao": null
+}

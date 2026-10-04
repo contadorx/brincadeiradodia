@@ -1,0 +1,50 @@
+{
+  "id": "faxina-de-brincadeira",
+  "nome": "Faxina de brincadeira",
+  "area": "fazdeconta",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina imitar as tarefas da casa e seguir um passo de cada vez.",
+  "materiais": [
+    "Dois panos secos",
+    "Uma vassourinha ou escova de mão"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Dê um pano seco para a criança e pegue outro para você.",
+    "Limpem juntos a mesinha ou a porta do armário, de um lado para o outro.",
+    "Depois, com a vassourinha, juntem num canto os brinquedos macios espalhados.",
+    "Façam de conta que os bichos de pelúcia vão chegar para uma visita.",
+    "Comemorem: “Tudo arrumado para a visita!”"
+  ],
+  "facil": "Só o pano: você limpa e ela imita, do mesmo jeito.",
+  "dificil": "Dois passos de cada vez: “Limpa a mesa e depois guarda o pano no cesto.” Ou ela faz a faxina sozinha e você é a visita que chega.",
+  "conversa": [
+    "O que a gente vai limpar agora?",
+    "Quem vem visitar?",
+    "Como você ajuda aqui em casa?"
+  ],
+  "seguranca": "Pano seco, sem produto de limpeza nem por perto. Vassourinha pequena, sem cabo comprido. Nada de balde com água. Limpem só o que a criança alcança do chão, sem subir em cadeira ou banquinho.",
+  "base": "Faz de conta de tarefas da casa, como varrer e cozinhar, está no guia do Harvard Center para 18 a 36 meses, e participar de tarefas simples é dica do CDC aos 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "rasga-e-cola",
+  "nome": "Rasga e cola",
+  "area": "corpo",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina a força dos dedos e o controle das mãos para rasgar e colar.",
+  "materiais": [
+    "Revistas, folhetos ou papel colorido",
+    "Uma folha grande de papel e cola em bastão atóxica"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Mostre como rasgar: as duas mãos seguram o papel e cada uma puxa para um lado.",
+    "A criança rasga tiras e pedaços do tamanho que conseguir.",
+    "Passe a cola na folha grande, numa área de cada vez.",
+    "Ela gruda os pedaços na cola, apertando com a mão.",
+    "Deem um nome para a obra e pendurem na parede."
+  ],
+  "facil": "Você começa o rasgo e ela termina de puxar. Tiras largas são mais fáceis que pedaços pequenos.",
+  "dificil": "Rasgar tiras finas, só com a pontinha dos dedos, ou separar os pedaços por cor antes de colar.",
+  "conversa": [
+    "Que barulho faz o papel rasgando?",
+    "Que cor você quer colar agora?",
+    "A sua obra parece o quê?"
+  ],
+  "seguranca": "Tire os grampos da revista antes. Papel e cola não vão à boca: pedaço de papel molhado pode engasgar. Cola em bastão atóxica, com selo do Inmetro, na mão do adulto. Recolha os pedacinhos no fim.",
+  "base": "Desenvolver o controle das mãos para desenhar, pintar, rasgar e folhear é objetivo da BNCC até 3 anos e 11 meses (EI02CG05)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02CG05 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02CG05"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "consultorio-dos-bichinhos",
+  "nome": "Consultório dos bichinhos",
+  "area": "fazdeconta",
+  "ordem": 4,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir as regras de um papel e esperar a vez.",
+  "materiais": [
+    "Bichos de pelúcia ou bonecos",
+    "Uma colher para ser o estetoscópio",
+    "Pedaços curtos de pano ou papel higiênico para os curativos"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Montem o consultório: uma cadeira para quem atende e uma fila de bichinhos esperando.",
+    "Combinem a regra: cada bichinho espera a vez e é atendido um de cada vez.",
+    "Leve o primeiro bicho e conte o que ele sente: “O urso está com dor na pata.”",
+    "A criança examina, escuta o coração com a colher e faz o curativo.",
+    "Chame o próximo da fila. No fim, troquem de papel."
+  ],
+  "facil": "Atenda junto com a criança e diga o que fazer: “Agora escuta o coração.”",
+  "dificil": "O atendimento segue uma ordem fixa: escuta, olha a garganta e só depois faz o curativo. Traga um bichinho impaciente que fura a fila, e a criança explica a regra para ele.",
+  "conversa": [
+    "O que o urso estava sentindo?",
+    "O que você fez para ele melhorar?",
+    "Lembra quando você foi ao médico? Como foi?"
+  ],
+  "seguranca": "Curativo só com pano curto ou papel, nunca em volta do pescoço. Nada de remédio, seringa ou termômetro de verdade na brincadeira.",
+  "base": "O faz de conta de consultório, com regras para cada papel, está no guia de funções executivas do Harvard Center. O CDC sugere faz de conta para preparar a criança para lugares novos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
+}

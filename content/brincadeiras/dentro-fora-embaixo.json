@@ -1,0 +1,50 @@
+{
+  "id": "dentro-fora-embaixo",
+  "nome": "Dentro, fora, embaixo",
+  "area": "corpo",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina mover o corpo no espaço e entender dentro, fora, embaixo e em volta.",
+  "materiais": [
+    "Uma caixa de papelão grande, aberta dos dois lados",
+    "Uma mesa firme para passar por baixo e uma cadeira para dar a volta"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Montem um caminho: entrar na caixa, sair, passar por baixo da mesa e dar a volta na cadeira.",
+    "Diga a palavra enquanto ela faz: “Dentro! Fora! Embaixo! Em volta!”",
+    "Façam o caminho juntos na primeira vez.",
+    "Depois, peça uma parte de cada vez: “Agora, por baixo da mesa!”",
+    "Troquem: a criança manda e você faz."
+  ],
+  "facil": "Só a caixa: entrar e sair, dizendo “dentro” e “fora”.",
+  "dificil": "Dois comandos seguidos: “Entra na caixa e depois passa embaixo da mesa.” Ou o caminho de trás para frente.",
+  "conversa": [
+    "Você está dentro ou fora da caixa?",
+    "O que tem embaixo da mesa?",
+    "Para onde a gente vai agora?"
+  ],
+  "seguranca": "Ninguém sobe na mesa, na cadeira ou na caixa. Tire grampos e fitas soltas da caixa, nada de saco plástico dentro dela, e cuidado com a cabeça nas quinas da mesa.",
+  "base": "Mover o corpo pelo espaço com noções como dentro, fora e embaixo é objetivo da BNCC (EI02CG02), e seguir dois comandos seguidos é marco do CDC aos 30 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02CG02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02CG02"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}

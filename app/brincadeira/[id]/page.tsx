@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Ficha } from "@/components/Ficha";
-import { brincadeiraPorId, todasAsBrincadeiras } from "@/lib/conteudo";
+import { brincadeiraPorId, brincadeirasNoSite, tamanhoDoRodizio } from "@/lib/conteudo";
 import { SITE } from "@/config/site";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return todasAsBrincadeiras().map((b) => ({ id: b.id }));
+  return brincadeirasNoSite().map((b) => ({ id: b.id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
@@ -16,5 +16,5 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function Pagina({ params }: { params: Promise<{ id: string }> }) {
   const b = brincadeiraPorId((await params).id);
-  return <Ficha b={b} url={SITE.url} />;
+  return <Ficha b={b} url={SITE.url} rodizio={tamanhoDoRodizio(b)} />;
 }

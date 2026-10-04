@@ -1,0 +1,49 @@
+{
+  "id": "agora-voce-conta",
+  "nome": "Agora você conta",
+  "area": "linguagem",
+  "ordem": 1,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina lembrar uma história na ordem e contar com as próprias palavras.",
+  "materiais": [
+    "Um livro com figuras que vocês já leram algumas vezes"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Leia o livro com calma, mostrando as figuras.",
+    "Na segunda vez, pare em cada página e pergunte: “O que está acontecendo aqui?”",
+    "Quando a criança responder, repita a frase dela com uma palavra nova.",
+    "No fim, entregue o livro: “Agora você conta para mim.” Ela conta virando as páginas.",
+    "Faça perguntas que fazem pensar: “Por que ele fez isso?” “E se fosse você?”"
+  ],
+  "facil": "Ela conta só olhando as figuras, e você ajuda com o começo da frase: “E aí o lobo...”",
+  "dificil": "Fechem o livro e peça para ela contar a história do começo ao fim, com primeiro, depois e no fim. Depois, inventem juntos um final diferente.",
+  "conversa": [
+    "Qual foi a parte mais engraçada?",
+    "Como o personagem estava se sentindo?",
+    "O que você faria no lugar dele?"
+  ],
+  "seguranca": null,
+  "base": "Inspirada na leitura dialogada, avaliada pelo What Works Clearinghouse em crianças de 3 a 6 anos com atraso de linguagem. Contar uma história com dois acontecimentos é marco do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Dialogic Reading, relatório do What Works Clearinghouse (2010)",
+      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dialogic_reading_042710.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

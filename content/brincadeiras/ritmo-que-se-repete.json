@@ -1,0 +1,42 @@
+{
+  "id": "ritmo-que-se-repete",
+  "nome": "Ritmo que se repete",
+  "area": "musica",
+  "ordem": 1,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina perceber um padrão de sons e continuar na ordem certa.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Faça um ritmo curto: palma, palma, pé. Repita algumas vezes.",
+    "A criança copia o ritmo.",
+    "Falem o padrão em voz alta: “Palma, palma, pé. Palma, palma, pé.”",
+    "Mude o padrão e peça para ela continuar sozinha quando você parar.",
+    "Troquem: ela inventa o ritmo e você copia."
+  ],
+  "facil": "Ritmos de dois sons: palma, pé, palma, pé. Façam juntos, de frente um para o outro.",
+  "dificil": "Mudem o material: o mesmo palma, palma, pé vira tapa na perna, tapa na perna, estalo de língua. Ou montem o ritmo com objetos na mesa (colher, colher, copo) e ela “toca” a fila.",
+  "conversa": [
+    "Como você descobriu o que vinha depois?",
+    "Que outros barulhos o corpo faz?",
+    "Esse ritmo parece com alguma música?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha e faz só sons de mão e de boca, sem chutar o banco da frente. Quem dirige entra só com a voz (“tum, tum, pá”), com as mãos no volante e os olhos na rua.",
+  "base": "Inspirada nas atividades de padrões testadas com pré-escolares de 4 e 5 anos (Zippert e outros, 2021), em que o mesmo padrão é feito com materiais diferentes",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Helping preschoolers learn math (Zippert, Douglas, Tian e Rittle-Johnson, 2021)",
+      "url": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/280/2023/07/19032150/Zippert_helpingpreschoolers.pdf"
+    }
+  ],
+  "revisao": null
+}

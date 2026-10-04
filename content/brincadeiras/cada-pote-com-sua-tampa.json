@@ -1,0 +1,53 @@
+{
+  "id": "cada-pote-com-sua-tampa",
+  "nome": "Cada pote com sua tampa",
+  "area": "raciocinio",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina testar, comparar tamanhos e usar as mãos para abrir e fechar.",
+  "materiais": [
+    "3 ou 4 potes de plástico de tamanhos diferentes, com as tampas, de rosca ou de encaixe"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Tire as tampas e misture tudo no chão.",
+    "Peça: “Ache a tampa deste pote.”",
+    "A criança testa até achar a certa. Se não servir, diga: “Ficou grande. Tenta outra.”",
+    "Mostre como girar a tampa de rosca para fechar e abrir.",
+    "Fechem todos e comecem de novo."
+  ],
+  "facil": "Dois potes bem diferentes, só com tampa de encaixe.",
+  "dificil": "Quatro potes de tamanhos parecidos, com tampa de rosca. Ou esconda um brinquedo grande dentro de um deles: ela abre até achar.",
+  "conversa": [
+    "Como você descobriu a tampa certa?",
+    "Essa tampa é grande ou pequena para o pote?",
+    "O que a gente pode guardar aí dentro?"
+  ],
+  "seguranca": "Potes de plástico, nunca de vidro, sem anel de borracha solto na tampa. Tampas grandes, que não passem por dentro de um rolo de papel higiênico. Nada de pote de remédio ou de produto de limpeza.",
+  "base": "Tirar a tampa de um pote é marco do CDC aos 2 anos, e girar tampas de rosca, aos 30 meses; separar por tamanho e forma está no guia do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

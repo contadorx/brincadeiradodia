@@ -1,0 +1,49 @@
+{
+  "id": "cade-no-livro",
+  "nome": "Cadê no livro?",
+  "area": "linguagem",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina reconhecer figuras, aprender palavras novas e responder perguntas simples.",
+  "materiais": [
+    "Um livro de figuras grandes, de papelão grosso ou de pano"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Sentem juntos, com o livro na frente dos dois. Deixe a criança virar as páginas.",
+    "Pergunte: “Cadê o cachorro?” e espere ela apontar.",
+    "Comemore e diga mais: “Isso, o cachorro! Ele faz au-au.”",
+    "Aponte uma figura e pergunte: “O que é isso?”",
+    "Parem quando ela perder o interesse e leiam de novo outro dia."
+  ],
+  "facil": "Você aponta e diz o nome; a criança olha e aponta junto. Vale ler a mesma página muitas vezes.",
+  "dificil": "Perguntas de quem, o que e onde: “Quem está dormindo?”, “Onde está a bola?” Ou ela conta o que o bicho está fazendo: “Correndo!”",
+  "conversa": [
+    "Qual bicho você quer ver de novo?",
+    "Que barulho ele faz?",
+    "O que ele está fazendo?"
+  ],
+  "seguranca": "Livro de papelão grosso ou de pano: página fina rasga e vai à boca.",
+  "base": "Apontar figuras no livro quando alguém pergunta é marco do CDC aos 2 anos, e fazer perguntas de quem, o que e onde é dica do CDC aos 30 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}

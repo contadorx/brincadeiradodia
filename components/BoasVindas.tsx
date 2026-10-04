@@ -1,11 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { lerPerfil, salvarPerfil, type Perfil } from "@/lib/armazenamento";
 import { FAIXAS, NOME_FAIXA, type Faixa } from "@/lib/esquema";
 import { chaveDia } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
+import { VERSAO_TERMOS } from "@/config/site";
 import { Cadeado } from "./Icones";
 import { Marca } from "./Marca";
 
@@ -14,7 +16,9 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
   const [existente, setExistente] = useState<Perfil | null>(null);
   const [faixa, setFaixa] = useState<Faixa>(faixasComConteudo[0] ?? "3-4");
   const [apelido, setApelido] = useState("");
+  const [aceito, setAceito] = useState(false);
   const [salvando, setSalvando] = useState(false);
+  const [erro, setErro] = useState("");
 
   useEffect(() => {
     lerPerfil().then((p) => {
@@ -22,16 +26,25 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
       setExistente(p);
       setFaixa(p.faixa);
       setApelido(p.apelido);
+      setAceito(p.aceite?.versao === VERSAO_TERMOS);
     });
   }, []);
 
+  const jaAceitou = existente?.aceite?.versao === VERSAO_TERMOS;
+  const termosNovos = !!existente && !jaAceitou;
+
   async function continuar(e: React.FormEvent) {
     e.preventDefault();
+    if (!aceito) {
+      setErro("Para continuar, marque que você vai acompanhar a criança e que concorda com os termos.");
+      return;
+    }
     setSalvando(true);
     await salvarPerfil({
       faixa,
       apelido: apelido.trim().slice(0, 30),
       inicio: existente?.inicio ?? chaveDia(new Date()),
+      aceite: jaAceitou && existente?.aceite ? existente.aceite : { versao: VERSAO_TERMOS, em: new Date().toISOString() },
     });
     if (!existente) evento("boas_vindas_concluida", { faixa });
     router.push("/");
@@ -55,13 +68,21 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
 
         <div className="flex flex-col gap-2">
           <h1 className="m-0 font-display text-[28px] font-extrabold leading-[1.12] tracking-tight md:text-[40px]">
-            {existente ? "Ajustar a criança e a idade" : "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa."}
+            {termosNovos
+              ? "Atualizamos os termos"
+              : existente
+                ? "Ajustar a criança e a idade"
+                : "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa."}
           </h1>
-          <p className="m-0 text-suave md:text-lg">Feito para pais e cuidadores. A criança brinca com você, longe da tela.</p>
+          <p className="m-0 text-suave md:text-lg">
+            {termosNovos
+              ? "Leia e aceite a nova versão dos Termos de Uso e da Política de Privacidade para continuar."
+              : "Feito para pais e cuidadores. A criança brinca com você, longe da tela."}
+          </p>
         </div>
       </div>
 
-      <form onSubmit={continuar} className="flex flex-1 flex-col gap-6 md:flex-none md:rounded-3xl md:border md:border-linha md:p-8 md:shadow-sm">
+      <form onSubmit={continuar} className="flex flex-1 flex-col gap-6 md:flex-none md:rounded-3xl md:border md:border-linha md:p-8 md:shadow-sm" noValidate>
         <fieldset className="m-0 flex flex-col border-0 p-0">
           <legend className="mb-2.5 p-0 text-[17px] font-bold">Qual a idade da criança?</legend>
           <div className="grid grid-cols-3 gap-2">
@@ -102,8 +123,12 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
             onChange={(e) => setApelido(e.target.value)}
             maxLength={30}
             autoComplete="off"
+            aria-describedby="apelido-dica"
             className="min-h-[52px] rounded-[14px] border-[1.5px] border-borda bg-white px-4 text-[17px] text-tinta"
           />
+          <p id="apelido-dica" className="m-0 text-sm text-suave">
+            Use um apelido, não o nome completo.
+          </p>
         </div>
 
         <p className="m-0 flex items-start gap-2 text-sm text-suave">
@@ -111,12 +136,46 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
           Sem cadastro. O apelido e a idade ficam só neste aparelho.
         </p>
 
+        {jaAceitou ? null : (
+          <div className="flex flex-col gap-2">
+            <label htmlFor="aceite" className="flex cursor-pointer items-start gap-3 rounded-[14px] bg-painel p-3.5 text-[15px]">
+              <input
+                id="aceite"
+                type="checkbox"
+                checked={aceito}
+                onChange={(e) => {
+                  setAceito(e.target.checked);
+                  if (e.target.checked) setErro("");
+                }}
+                aria-describedby={erro ? "aceite-erro" : undefined}
+                className="mt-0.5 size-[22px] shrink-0 accent-azul"
+              />
+              <span>
+                Sou maior de idade, sou responsável pela criança e vou acompanhar as brincadeiras do começo ao fim. Li e concordo com os{" "}
+                <Link href="/termos/" className="font-bold">
+                  Termos de Uso
+                </Link>{" "}
+                e a{" "}
+                <Link href="/privacidade/" className="font-bold">
+                  Política de Privacidade
+                </Link>
+                .
+              </span>
+            </label>
+            {erro ? (
+              <p id="aceite-erro" role="alert" className="m-0 text-sm font-bold text-alerta">
+                {erro}
+              </p>
+            ) : null}
+          </div>
+        )}
+
         <button
           type="submit"
           disabled={salvando}
           className="mt-auto flex min-h-[58px] items-center justify-center rounded-2xl bg-azul text-lg font-bold text-white transition-colors hover:bg-azul-escuro disabled:opacity-60 md:mt-0"
         >
-          {existente ? "Salvar" : "Ver a brincadeira de hoje"}
+          {existente ? (termosNovos ? "Aceitar e continuar" : "Salvar") : "Ver a brincadeira de hoje"}
         </button>
       </form>
     </main>

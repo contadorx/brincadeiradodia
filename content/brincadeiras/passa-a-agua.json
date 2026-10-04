@@ -1,0 +1,46 @@
+{
+  "id": "passa-a-agua",
+  "nome": "Passa a água",
+  "area": "explorar",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina encher, despejar e perceber a água: pouca, muita, cheio, vazio.",
+  "materiais": [
+    "Duas bacias sobre uma toalha no chão: uma com um pouco de água e outra vazia",
+    "Copos de plástico e uma esponja grande"
+  ],
+  "etiquetas": [
+    "agua"
+  ],
+  "passos": [
+    "Coloque as bacias lado a lado, sobre a toalha.",
+    "Mostre como passar a água de uma bacia para a outra com o copo.",
+    "Agora com a esponja: molhe numa bacia e esprema na outra.",
+    "Comparem: o que leva mais água, o copo ou a esponja?",
+    "No fim, esvaziem tudo juntos e sequem o chão."
+  ],
+  "facil": "Só a esponja: molhar e apertar, molhar e apertar. Diga junto: “Molhou! Apertou!”",
+  "dificil": "Encher um copo até a borda sem derramar, ou contar quantos copos cabem até encher a outra bacia.",
+  "conversa": [
+    "Para onde foi a água?",
+    "O copo está cheio ou vazio?",
+    "O que acontece quando você aperta a esponja?"
+  ],
+  "seguranca": "Pouca água e o adulto do lado o tempo todo: criança pequena pode se afogar em poucos centímetros de água. Esvazie as bacias assim que acabar e seque o chão.",
+  "base": "Oferecer brincadeiras com água e areia é uma das dicas do CDC para a idade de 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

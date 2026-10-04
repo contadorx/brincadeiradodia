@@ -1,0 +1,51 @@
+{
+  "id": "salada-de-frutas",
+  "nome": "Salada de frutas",
+  "area": "musica",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir uma receita em passos e usar as mãos com cuidado.",
+  "materiais": [
+    "Banana, mamão, laranja ou outras frutas macias que a criança já come",
+    "Uma faca de mesa, sem ponta e sem serra, e uma tábua",
+    "Uma tigela e uma colher grande"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Lavem as mãos e as frutas juntos.",
+    "Você descasca e fatia o mamão e corta as frutas duras; a criança corta a banana e as fatias de mamão com a faca de mesa.",
+    "Ela põe tudo na tigela, contando os pedaços.",
+    "Esprema meia laranja por cima e ela mistura com a colher.",
+    "Sirvam em potinhos e comam juntos."
+  ],
+  "facil": "A criança descasca a banana, parte em pedaços com as mãos e mistura. A faca fica para outro dia.",
+  "dificil": "Desenhem antes a receita, com os passos em ordem, e a criança confere cada um. Ela também serve porções iguais para cada pessoa da casa.",
+  "conversa": [
+    "Qual fruta é a mais macia? E a mais dura?",
+    "Quantos pedaços você cortou?",
+    "Que fruta a gente põe na próxima?"
+  ],
+  "seguranca": "Só frutas que a criança já come (alergias). A faca é de mesa, sem ponta e sem serra, e o adulto fica do lado; fruta dura quem corta é o adulto. Uva e tomate-cereja sempre cortados em quatro, no comprimento.",
+  "base": "O CDC sugere envolver a criança no preparo das refeições aos 5 anos, e cozinhar seguindo passos está no guia de funções executivas do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

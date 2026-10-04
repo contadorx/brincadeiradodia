@@ -1,0 +1,48 @@
+{
+  "id": "circuito-na-sala",
+  "nome": "Circuito na sala",
+  "area": "corpo",
+  "ordem": 1,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina equilíbrio, coordenação e lembrar a ordem de um percurso.",
+  "materiais": [
+    "Fita crepe para marcar uma linha no chão",
+    "Almofadas",
+    "Uma cadeira firme, sem rodinhas, para passar por baixo",
+    "Um lençol estendido no chão"
+  ],
+  "etiquetas": [
+    "fita"
+  ],
+  "passos": [
+    "Monte 4 estações: andar na linha de fita, pular por cima das almofadas, passar por baixo da cadeira, rolar de lado no lençol.",
+    "Mostre o percurso uma vez, devagar, dizendo o nome de cada estação.",
+    "A criança faz o circuito inteiro, na ordem.",
+    "Contem quantas voltas ela fez, ou cronometrem uma volta com palmas.",
+    "Troquem: a criança escolhe a ordem e você faz."
+  ],
+  "facil": "Três estações, e você vai junto dizendo qual é a próxima.",
+  "dificil": "O circuito de trás para frente, ou com regras extras: na linha, um pé na frente do outro; nas almofadas, pular com os dois pés juntos.",
+  "conversa": [
+    "Qual estação foi a mais difícil?",
+    "Em que ordem a gente fez?",
+    "Que estação nova você inventaria?"
+  ],
+  "seguranca": "Ninguém sobe em cadeira, sofá ou mesa: a cadeira é só para passar por baixo, e o adulto segura se ela balançar. Almofadas e lençol escorregam em piso liso: pule por cima, sem pisar, ou monte sobre tapete firme. Rolar é de lado, nunca cambalhota. Afaste quinas e brinquem descalços.",
+  "base": "Percursos com obstáculos estão no guia de funções executivas do Harvard Center para 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

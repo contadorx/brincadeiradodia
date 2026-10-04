@@ -1,0 +1,46 @@
+{
+  "id": "boneca-de-pano-de-no",
+  "nome": "Boneca de pano de nó",
+  "area": "fazdeconta",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina criar um brinquedo junto e cuidar dele na brincadeira.",
+  "materiais": [
+    "Retalhos de pano, ou uma camiseta velha cortada em tiras largas pelo adulto",
+    "Tesoura, só para o adulto"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Faça a boneca só com nós, sem cola e sem costura: um nó para a cabeça, outro para os braços.",
+    "A criança escolhe as cores dos panos e ajuda a puxar os nós.",
+    "Deem um nome para a boneca.",
+    "Brinquem de cuidar: dar colo, ninar, levar para passear pela casa.",
+    "Na hora de dormir, a boneca dorme também."
+  ],
+  "facil": "Monte a boneca antes, e a criança escolhe o pano da roupa e brinca.",
+  "dificil": "Façam duas bonecas e uma historinha: uma está triste e a outra ajuda. A criança faz a voz de uma delas.",
+  "conversa": [
+    "Como a sua boneca se chama?",
+    "Do que ela gosta de brincar?",
+    "Ela está com sono ou com fome?"
+  ],
+  "seguranca": "A tesoura fica só com o adulto. A boneca precisa ser bem maior que um rolo de papel higiênico, com nós apertados e pontas curtas, que não enrolem no pescoço. Sobras de pano e tiras compridas vão para longe do alcance. Nada de botão ou miçanga.",
+  "base": "As bonecas Abayomi, feitas só com nós de pano, são brincadeira de origem africana indicada para 2 a 3 anos no guia do Ministério da Cidadania (2019)",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "quica-e-pega",
+  "nome": "Quica e pega",
+  "area": "corpo",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina acompanhar a bola com os olhos e pegar com as duas mãos.",
+  "materiais": [
+    "Uma bola de borracha que quica, do tamanho de uma bola de vôlei ou um pouco menor"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Fiquem de frente, a três passos um do outro.",
+    "Quique a bola uma vez no chão, no meio do caminho, para a criança pegar.",
+    "Ela devolve do mesmo jeito: quica uma vez e você pega.",
+    "Contem quantas vezes seguidas a bola foi e voltou sem cair.",
+    "A cada 5 seguidas, deem um passo para trás."
+  ],
+  "facil": "Rolem a bola no chão em vez de quicar, sentados de pernas abertas.",
+  "dificil": "A criança quica a bola sozinha e pega, contando quantas vezes consegue sem deixar cair. Ou pega a bola jogada direto, sem quicar.",
+  "conversa": [
+    "Para onde você olha para conseguir pegar?",
+    "Qual foi o recorde de hoje?",
+    "Por que a bola sobe de novo quando bate no chão?"
+  ],
+  "seguranca": "Fora de casa, só em quintal ou praça cercada, longe da rua: se a bola escapar, quem vai buscar é o adulto. No sol, boné e água. Em casa, longe de janelas, TV e objetos que quebram.",
+  "base": "Pegar uma bola grande na maioria das vezes é marco do CDC aos 4 anos, e brincar de forma ativa todos os dias é dica do CDC para essa idade",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

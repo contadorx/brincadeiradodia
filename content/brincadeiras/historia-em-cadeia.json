@@ -1,0 +1,46 @@
+{
+  "id": "historia-em-cadeia",
+  "nome": "História em cadeia",
+  "area": "linguagem",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina inventar, ouvir o outro e continuar uma ideia que não é só sua.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Comece uma história com uma frase: “Era uma vez um cachorro que perdeu o chapéu.”",
+    "A criança continua com a frase seguinte.",
+    "Revezem, uma frase cada, sem desmanchar o que o outro disse.",
+    "Quando a história ficar comprida, combinem um final.",
+    "No fim, contem a história inteira juntos, desde o começo."
+  ],
+  "facil": "Faça perguntas para ajudar a continuar: “E aí, onde ele procurou o chapéu?”",
+  "dificil": "Cada um, na sua vez, precisa usar uma palavra sorteada, como “guarda-chuva” ou “foguete”. No fim, recontem a história em três partes: começo, meio e fim.",
+  "conversa": [
+    "Que parte você mais gostou de inventar?",
+    "Como você acha que o cachorro se sentiu?",
+    "Que título a gente dá para essa história?"
+  ],
+  "seguranca": "No carro, a criança fica sempre na cadeirinha, e quem dirige só brinca falando, sem tirar os olhos da rua.",
+  "base": "Contar histórias em grupo, cada um acrescentando uma parte, está no guia do Harvard Center; contar uma história com dois acontecimentos é marco do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

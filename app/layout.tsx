@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     images: [{ url: "/icons/icone-512.png", width: 512, height: 512 }],
   },
   formatDetection: { telephone: false },
+  // A prévia com rascunhos (NEXT_PUBLIC_RASCUNHOS=1) não deve aparecer no Google.
+  ...(process.env.NEXT_PUBLIC_RASCUNHOS === "1" ? { robots: { index: false, follow: false } } : {}),
 };
 
 export const viewport: Viewport = {

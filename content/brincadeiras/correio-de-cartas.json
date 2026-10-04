@@ -1,0 +1,51 @@
+{
+  "id": "correio-de-cartas",
+  "nome": "Correio de cartas",
+  "area": "fazdeconta",
+  "ordem": 1,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina escrever do próprio jeito e manter um personagem no faz de conta: quem entrega as cartas.",
+  "materiais": [
+    "Papel, lápis de cor e folhas dobradas para os envelopes",
+    "Uma caixa de sapato para ser a caixa de correio",
+    "Uma bolsa ou sacola de pano, de alça curta, para levar as cartas"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Montem a caixa de correio: o adulto abre uma fenda na tampa da caixa de sapato.",
+    "Cada um faz uma carta para alguém da casa ou para um bicho de pelúcia. A criança desenha e escreve do jeito dela.",
+    "Ajude a escrever o nome de quem vai receber, letra por letra, ou deixe a criança copiar.",
+    "A criança faz o papel de quem entrega: põe a bolsa no ombro e entrega carta por carta.",
+    "Quem recebe lê em voz alta e responde com outra carta."
+  ],
+  "facil": "A carta é só desenho, e você escreve o que a criança ditar. Ela só entrega.",
+  "dificil": "A criança escreve sozinha o próprio nome como remetente e tenta escrever uma palavra do jeito que acha que é. Não corrija: pergunte como ela pensou.",
+  "conversa": [
+    "Para quem você quer mandar uma carta?",
+    "O que você escreveu aqui?",
+    "Como uma carta chega de verdade na casa de outra pessoa?"
+  ],
+  "seguranca": "Quem corta a fenda da caixa é o adulto, longe da criança. Lápis e canetinhas atóxicos. Bolsa de pano e alça curta, guardada no fim; nada de saco plástico.",
+  "base": "Escrever do próprio jeito (escrita espontânea) é objetivo da BNCC para a pré-escola (EI03EF09), e o faz de conta com papéis e regras está no guia do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03EF09 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03EF09"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

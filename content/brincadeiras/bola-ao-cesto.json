@@ -1,0 +1,51 @@
+{
+  "id": "bola-ao-cesto",
+  "nome": "Bola ao cesto",
+  "area": "corpo",
+  "ordem": 3,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina mirar, arremessar e medir a força do braço.",
+  "materiais": [
+    "Um cesto de roupa, balde ou caixa de papelão",
+    "Uma bola macia, ou 3 pares de meias enrolados em bolinha"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Coloque o cesto no chão, a dois passos grandes da criança.",
+    "Mostre como jogar: olha para o cesto, leva o braço para trás e solta.",
+    "Revezem: uma vez você, uma vez a criança.",
+    "A cada acerto, quem jogou dá um passo para trás.",
+    "No fim, joguem a bola um para o outro, de perto, para pegar com as duas mãos."
+  ],
+  "facil": "Deixe o cesto bem perto e vale jogar com as duas mãos, de baixo para cima. Para pegar, use a bola maior e jogue de baixo, quase na mão.",
+  "dificil": "Afaste o cesto e contem os acertos em 5 bolas. Para pegar, fiquem mais longe um do outro e tentem não deixar a bola cair.",
+  "conversa": [
+    "Foi forte demais ou fraco demais?",
+    "O que você fez diferente quando acertou?",
+    "Onde a gente coloca o cesto agora?"
+  ],
+  "seguranca": "Em casa, só bola macia ou de meia, longe de janelas, TV e objetos que quebram. Fora de casa, só em quintal ou praça cercada, longe da rua: se a bola escapar, quem vai buscar é o adulto. No sol, boné e água.",
+  "base": "Indicada para 3 a 4 anos no guia de brincadeiras do Ministério da Cidadania (2019). Pegar uma bola grande na maioria das vezes é marco do CDC aos 4 anos",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "recorte-e-colagem",
+  "nome": "Recorte e colagem",
+  "area": "corpo",
+  "ordem": 3,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina a força e a precisão das mãos com tesoura e cola.",
+  "materiais": [
+    "Tesoura sem ponta, do tamanho da mão da criança",
+    "Revistas ou folhetos de mercado velhos",
+    "Cola atóxica e uma folha de papel"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Mostre como segurar a tesoura: polegar num buraco, os outros dedos no outro, e abrir e fechar.",
+    "Comecem com tiras de papel: a criança corta em pedacinhos, só abrindo e fechando.",
+    "Escolham um tema para o painel: “Coisas que a gente come”, “Coisas azuis”.",
+    "Ela recorta do folheto figuras grandes desse tema, sem precisar seguir a linha certinho.",
+    "Colem as figuras na folha e deem um título."
+  ],
+  "facil": "Você segura a tira bem esticada e a criança só corta. Rasgar com as mãos também vale.",
+  "dificil": "Recortar seguindo uma linha desenhada, reta e depois curva. Ou separar as figuras em grupos antes de colar: frutas de um lado, legumes do outro.",
+  "conversa": [
+    "Por que você escolheu essa figura?",
+    "Em que grupo ela fica?",
+    "Qual foi o recorte mais difícil?"
+  ],
+  "seguranca": "Tesoura só sem ponta e sempre com o adulto do lado; ninguém anda com ela na mão. Cola atóxica com selo do Inmetro. Cola e papel não vão à boca. Recolham os pedacinhos no fim.",
+  "base": "Usar as mãos com coordenação no dia a dia é objetivo da BNCC para a pré-escola (EI03CG05), e o CDC sugere tesoura, cola e papel aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03CG05 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03CG05"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "siga-o-mestre",
+  "nome": "Siga o mestre",
+  "area": "autocontrole",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina prestar atenção e copiar os movimentos de outra pessoa.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Você é o mestre: ande pela sala e a criança vem atrás, fazendo igual.",
+    "Mude o jeito de andar: devagar, na ponta dos pés, batendo palmas.",
+    "Faça gestos simples para ela copiar: mãos na cabeça, tchau, um pulinho.",
+    "Depois de umas rodadas, troquem: a criança é o mestre e você copia.",
+    "Terminem sentando no chão, bem devagar."
+  ],
+  "facil": "Um movimento de cada vez, dizendo o nome: “Agora, palmas!”",
+  "dificil": "Dois movimentos seguidos para ela lembrar e copiar: palmas e depois pé no chão. Ou andem como bichos: pato, cobra, elefante.",
+  "conversa": [
+    "Que bicho você quer imitar?",
+    "O que eu fiz agora?",
+    "Agora você manda: o que eu faço?"
+  ],
+  "seguranca": "Caminho livre, sem tapete que escorrega e longe de quinas e escada. Fora de casa, só em quintal ou praça cercada; no sol, boné, protetor e água.",
+  "base": "Brincadeiras de imitação, como seguir o mestre, estão no guia do Harvard Center para 18 a 36 meses, e o CDC sugere seguir o mestre aos 30 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}

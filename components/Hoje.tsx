@@ -2,14 +2,16 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
+import { FAIXAS, NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
 import { chaveDia, dataExtensa, deChave, meiaNoite, somaDias, DIAS, DIAS_CURTOS } from "@/lib/datas";
 import { brincadeiraDoDia, semMaterial } from "@/lib/plano";
 import { useDados } from "@/lib/useDados";
 import { Cabecalho, CONTEUDO } from "./Cabecalho";
 import { Carregando } from "./Carregando";
-import { Casa, Check, Fechar, Info, Play, Relogio } from "./Icones";
+import { Casa, Check, Fechar, Play, Relogio } from "./Icones";
+import { Rodape } from "./Rodape";
 import { Marca } from "./Marca";
+import { SeloRascunho } from "./PorQue";
 import { NavInferior } from "./NavInferior";
 
 const NOME_REACAO = { adorou: "Adorou", ok: "Foi ok", nao: "Não rolou" } as const;
@@ -35,7 +37,7 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
 
   const hoje = meiaNoite(new Date());
   const inicio = deChave(perfil.inicio);
-  const { brincadeira: b, semana } = brincadeiraDoDia(lista, perfil.faixa, inicio, hoje);
+  const { brincadeira: b, nivelSugerido } = brincadeiraDoDia(lista, perfil.faixa, inicio, hoje);
   const extras = semMaterial(lista, perfil.faixa, hoje, b?.id);
   const kHoje = chaveDia(hoje);
   const feita = b ? registros.find((r) => r.dia === kHoje && r.brincadeira === b.id) : undefined;
@@ -112,9 +114,10 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
                     <Casa tamanho={15} />
                     {b.lugares.includes("casa") ? "Em casa" : "Fora de casa"}
                   </span>
-                  {semana >= 3 ? (
+                  {nivelSugerido === "dificil" ? (
                     <span className="inline-flex min-h-[30px] items-center rounded-full bg-tinta px-3 text-[13px] font-bold text-white">Nível 2 esta semana</span>
                   ) : null}
+                  {b.status === "rascunho" ? <SeloRascunho /> : null}
                 </div>
                 <h2 className="m-0 font-display text-[34px] font-extrabold leading-[1.02] tracking-tight md:text-[48px]">{b.nome}</h2>
                 <p className="m-0 md:text-lg">{b.serve}</p>
@@ -147,7 +150,12 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
               <article className="rounded-3xl bg-painel p-5">
                 <h2 className="m-0 font-display text-2xl font-extrabold">Ainda estamos preparando</h2>
                 <p className="mb-0 mt-2">
-                  As brincadeiras para {NOME_FAIXA[perfil.faixa]} ainda não estão prontas. Por enquanto, o site tem brincadeiras para 3 a 4 anos.
+                  As brincadeiras para {NOME_FAIXA[perfil.faixa]} ainda não estão prontas. Por enquanto, o site tem brincadeiras para{" "}
+                  {FAIXAS.filter((f) => lista.some((x) => x.faixas.includes(f)))
+                    .map((f) => NOME_FAIXA[f])
+                    .join(", ")
+                    .replace(/, ([^,]*)$/, " e $1")}
+                  .
                 </p>
                 <Link href="/boas-vindas/" className="mt-3 inline-flex min-h-11 items-center font-bold">
                   Trocar a idade
@@ -243,12 +251,9 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
               </ol>
             </section>
 
-            <Link href="/sobre/" className="inline-flex min-h-11 items-center gap-2 self-center font-bold text-suave no-underline md:hidden">
-              <Info tamanho={18} />
-              Sobre o site e como apoiar
-            </Link>
           </aside>
         </div>
+        <Rodape />
       </main>
       <NavInferior atual="hoje" />
     </>

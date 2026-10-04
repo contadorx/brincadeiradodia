@@ -31,6 +31,20 @@
   color-scheme: light;
 }
 
+/* Links de texto em azul e sublinhados. Fica na camada base para que as classes
+   utilitárias (botões, navegação) continuem mandando. */
+@layer base {
+  a {
+    color: var(--color-azul);
+    text-underline-offset: 2px;
+  }
+  main p a,
+  main li a,
+  main dd a {
+    text-decoration: underline;
+  }
+}
+
 html,
 body {
   background: #ffffff;
@@ -47,6 +61,25 @@ body {
 :focus-visible {
   outline: 3px solid var(--color-azul);
   outline-offset: 2px;
+}
+
+.texto-legal p,
+.texto-legal li {
+  margin: 0;
+}
+.texto-legal ul,
+.texto-legal ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.texto-legal ul {
+  list-style: disc;
+}
+.texto-legal ol {
+  list-style: lower-alpha;
 }
 
 .marca-texto {

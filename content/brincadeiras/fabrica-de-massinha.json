@@ -31,5 +31,14 @@
     "Qual bolinha ficou maior?"
   ],
   "seguranca": "Massinha não é comida. A caseira tem muito sal, então fique de olho.",
-  "base": "Marcos do CDC aos 3 anos: materiais como massinha e giz para criar"
+  "base": "Marcos do CDC aos 3 anos: materiais como massinha e giz para criar",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
 }

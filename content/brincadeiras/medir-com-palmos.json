@@ -1,0 +1,45 @@
+{
+  "id": "medir-com-palmos",
+  "nome": "Medir com palmos",
+  "area": "raciocinio",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina comparar tamanhos, contar e anotar o que mediu.",
+  "materiais": [
+    "Papel e lápis para anotar"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Mostre o palmo: mão aberta, do polegar até o dedo mínimo.",
+    "Meçam juntos a largura da mesa, contando os palmos em voz alta.",
+    "Agora meça você e depois a criança. Deu o mesmo número?",
+    "Anotem: desenho da mesa e o número de palmos de cada um.",
+    "Meçam outras coisas na altura da criança: o assento da cadeira, a caixa de brinquedos, a largura da porta."
+  ],
+  "facil": "Meçam com passos, que são maiores e mais fáceis de contar, e só uma ou duas coisas.",
+  "dificil": "Antes de medir, a criança dá um palpite de quantos palmos vai dar, e vocês conferem. Depois, meçam a mesma coisa com um sapato e comparem os números.",
+  "conversa": [
+    "O que é mais comprido: a mesa ou a cama?",
+    "Por que com a minha mão deu menos palmos?",
+    "O que mais a gente pode medir?"
+  ],
+  "seguranca": "Meçam só o que está no chão ou na altura da criança, sem subir em cadeira ou móvel.",
+  "base": "Registrar observações e medidas, com desenho ou números, é objetivo da BNCC para a pré-escola (EI03ET04)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET04 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET04"
+    }
+  ],
+  "revisao": null
+}

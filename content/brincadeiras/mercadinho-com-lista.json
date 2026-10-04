@@ -1,0 +1,52 @@
+{
+  "id": "mercadinho-com-lista",
+  "nome": "Mercadinho com lista",
+  "area": "fazdeconta",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar antes de brincar, seguir a lista e contar.",
+  "materiais": [
+    "Caixas e potes vazios e limpos, e frutas da casa, para serem os produtos",
+    "Papel e lápis para a lista",
+    "Dinheiro de papel feito por vocês e uma cesta"
+  ],
+  "etiquetas": [
+    "papel",
+    "cozinha"
+  ],
+  "passos": [
+    "Montem o mercadinho numa mesa com os produtos.",
+    "Antes de comprar, a criança faz a lista com desenhos: 3 coisas.",
+    "Ela vai às compras com a lista, a cesta e o dinheiro; você é quem vende.",
+    "Cada produto custa 1 ou 2 notas. Contem juntos na hora de pagar.",
+    "Em “casa”, confiram a cesta com a lista: veio tudo?"
+  ],
+  "facil": "Lista com 2 coisas e tudo custa 1 nota. Você vai junto conferindo.",
+  "dificil": "Lista com 4 ou 5 coisas, que ela não olha depois de sair de “casa”. Ou cada produto custa de 1 a 3 notas: ela sai com 10 notas e, no fim, conta quantas sobraram.",
+  "conversa": [
+    "O que estava na sua lista?",
+    "Quanto você gastou?",
+    "O que você quase esqueceu? Como a lista ajudou?"
+  ],
+  "seguranca": "Dinheiro de papel, nunca moedas. Nada de produto de limpeza, remédio ou vidro como mercadoria. Embalagens já lavadas e sem tampinhas pequenas. Use cesta ou sacola de pano, nunca saco plástico.",
+  "base": "Fazer a lista antes de ir ao mercado é exemplo de planejamento que o Tools of the Mind sugere às famílias, e o Harvard Center indica o plano antes de brincar",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Tools of the Mind: dicas para as famílias",
+      "url": "https://archive.toolsofthemind.org/learn/tools-for-parents/"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

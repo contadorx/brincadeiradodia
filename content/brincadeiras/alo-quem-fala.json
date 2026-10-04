@@ -1,0 +1,46 @@
+{
+  "id": "alo-quem-fala",
+  "nome": "Alô, quem fala?",
+  "area": "fazdeconta",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina conversar, esperar a vez de falar e imaginar quem está do outro lado.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Faça de telefone a própria mão ou um bloco grande: “Trim, trim! Alô?”",
+    "Passe o telefone: “É para você! É o ursinho.”",
+    "Converse com perguntas simples e espere a resposta: “O que você está fazendo?”",
+    "Liguem para bichos e personagens: o cachorro late, o leão ruge.",
+    "No fim, digam tchau e desliguem juntos."
+  ],
+  "facil": "Você faz a voz dos personagens e a criança só responde “Alô!” e “Tchau!”.",
+  "dificil": "A criança liga para pedir alguma coisa, como uma pizza de mentira, e conta o que quer. Depois, ela atende e você faz o pedido.",
+  "conversa": [
+    "Para quem você quer ligar?",
+    "O que o leão falou?",
+    "O que você pediu na ligação?"
+  ],
+  "seguranca": "Telefone de mentira: nada de celular de verdade nem controle remoto, que tem pilha. No carro, a criança fica sempre na cadeirinha, e quem dirige só brinca falando.",
+  "base": "Usar objetos para fingir é marco do CDC aos 30 meses, e o faz de conta com situações da casa está no guia do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

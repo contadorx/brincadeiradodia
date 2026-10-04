@@ -1,5 +1,8 @@
 // Gera out/sw.js depois do `next build`.
-// O service worker guarda todo o site no aparelho (é pequeno), para funcionar sem internet.
+// O service worker guarda as páginas do site no aparelho, para funcionar sem internet.
+// Os arquivos .txt (dados de navegação interna do Next) ficam de fora da instalação, para ela
+// não crescer demais a cada faixa de idade nova: são guardados quando a pessoa os usa. Sem
+// internet, o Next recarrega a página inteira, que já está no cache.
 // A cada build o nome do cache muda, e a versão antiga é apagada na próxima visita.
 import fs from "node:fs";
 import path from "node:path";
@@ -23,7 +26,9 @@ const arquivos = listar(OUT)
   .map((p) => "/" + path.relative(OUT, p).split(path.sep).join("/"))
   .filter((u) => !IGNORAR.has(u.slice(1)) && !u.endsWith(".map"))
   // fontes: os navegadores atuais usam só .woff2; o subconjunto vietnamita não é usado
-  .filter((u) => !u.endsWith(".woff") && !u.includes("vietnamese"));
+  .filter((u) => !u.endsWith(".woff") && !u.includes("vietnamese"))
+  // dados de navegação interna (RSC): guardados sob demanda, não na instalação
+  .filter((u) => !u.endsWith(".txt"));
 
 // Páginas: "/explorar/index.html" também é guardada como "/explorar/".
 const urls = new Set();
@@ -67,7 +72,9 @@ self.addEventListener("fetch", (e) => {
     }
     if (resp) return resp;
     try {
-      return await fetch(req);
+      const rede = await fetch(req);
+      if (rede.ok && rede.type === "basic") cache.put(req, rede.clone()).catch(() => {});
+      return rede;
     } catch (err) {
       if (req.mode === "navigate") return (await cache.match("/")) || Response.error();
       throw err;

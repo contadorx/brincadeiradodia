@@ -1,0 +1,46 @@
+{
+  "id": "cabeca-ombro-joelho-e-pe",
+  "nome": "Cabeça, ombro, joelho e pé",
+  "area": "musica",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina conhecer as partes do corpo e acompanhar a música com gestos.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Cante a música tocando cada parte do corpo, bem devagar.",
+    "A criança copia os gestos.",
+    "Cantem de novo, um pouco mais rápido.",
+    "Pare no meio e pergunte: “Cadê o joelho?” Ela aponta.",
+    "Terminem bem devagarinho, quase cochichando."
+  ],
+  "facil": "Toque as partes do corpo da criança enquanto canta, sem pressa.",
+  "dificil": "Cantem pulando uma palavra: no lugar de “cabeça”, só toquem a cabeça, sem falar. Ou cantem cada vez mais rápido.",
+  "conversa": [
+    "Cadê o seu nariz?",
+    "Que outra parte do corpo a gente pode cantar?",
+    "Quer cantar rápido ou devagar?"
+  ],
+  "seguranca": "No carro, a criança fica sempre na cadeirinha e faz só os gestos de cabeça e ombro. Quem dirige só canta, com as mãos no volante.",
+  "base": "Músicas com gestos, como Cabeça, ombro, joelho e pé, estão no guia do Harvard Center para 18 a 36 meses, e cantar as partes do corpo é dica do CDC aos 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

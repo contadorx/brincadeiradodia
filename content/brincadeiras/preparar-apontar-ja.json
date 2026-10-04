@@ -1,0 +1,51 @@
+{
+  "id": "preparar-apontar-ja",
+  "nome": "Preparar, apontar, já!",
+  "area": "autocontrole",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina esperar o sinal antes de agir.",
+  "materiais": [
+    "Uma bola macia",
+    "Um cesto ou caixa"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "A criança fica com a bola na mão, perto do cesto.",
+    "Combinem: só pode jogar quando ouvir “Já!”",
+    "Diga devagar: “Preparar... apontar... já!” e ela joga a bola no cesto.",
+    "Repitam, mudando o tempo de espera entre o apontar e o já.",
+    "Depois, uma corrida: “Preparar, apontar, já!” e vocês andam rápido até a porta."
+  ],
+  "facil": "Espera curtinha e faça o gesto junto: mão para cima no preparar, mão descendo no já.",
+  "dificil": "Diga palavras parecidas para confundir: “Preparar, apontar... jacaré!” Ela só joga com o “já”. Errar e rir faz parte.",
+  "conversa": [
+    "Foi difícil esperar o já?",
+    "Para onde a gente corre agora?",
+    "Agora é você que fala o já?"
+  ],
+  "seguranca": "Bola macia e espaço livre, longe de janelas, TV e quinas. Na corrida, chão sem tapete que escorrega e caminho sem móveis. Fora de casa, só em quintal ou praça cercada; no sol, boné, protetor e água.",
+  "base": "Brincadeiras de “preparar, apontar, já” são dica do CDC aos 30 meses, e corridas com regras simples estão no guia do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

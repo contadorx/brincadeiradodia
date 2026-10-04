@@ -35,5 +35,14 @@
     "Esse estava mais sujo ou mais limpo que o outro?"
   ],
   "seguranca": "Um adulto sempre do lado, mesmo com pouca água. No fim, esvazie a bacia e seque o chão.",
-  "base": "Marcos do CDC aos 3 anos: seguir instruções de mais de um passo"
+  "base": "Marcos do CDC aos 3 anos: seguir instruções de mais de um passo",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
 }

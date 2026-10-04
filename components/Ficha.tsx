@@ -3,13 +3,15 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
-import { lerPerfil } from "@/lib/armazenamento";
+import { lerPerfil, lerRegistros } from "@/lib/armazenamento";
 import { deChave } from "@/lib/datas";
 import { semanaDeUso } from "@/lib/plano";
 import { evento } from "@/lib/metricas";
 import { compartilhar } from "@/lib/compartilhar";
 import { Alerta, Compartilhar, Play, Voltar } from "./Icones";
 import { Cabecalho, CONTEUDO } from "./Cabecalho";
+import { Rodape } from "./Rodape";
+import { PorQue, SeloRascunho } from "./PorQue";
 
 export type Nivel = "facil" | "normal" | "dificil";
 const NIVEIS: { id: Nivel; nome: string }[] = [
@@ -24,7 +26,7 @@ export function textoDoNivel(b: Brincadeira, n: Nivel) {
   return n === "facil" ? b.facil : n === "dificil" ? b.dificil : "Como nos passos acima.";
 }
 
-export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
+export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizio: Partial<Record<string, number>> }) {
   const [nivel, setNivel] = useState<Nivel>("normal");
   const [aviso, setAviso] = useState("");
 
@@ -40,10 +42,15 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
       setNivel(salvo);
       return;
     }
-    lerPerfil().then((p) => {
-      if (p && semanaDeUso(deChave(p.inicio), new Date()) >= 3) setNivel("dificil");
+    // Sugere o nível mais difícil quando a brincadeira já foi feita (e não foi um "não rolou")
+    // ou quando o rodízio da área já deu uma volta completa.
+    Promise.all([lerPerfil(), lerRegistros()]).then(([p, registros]) => {
+      const jaBrincou = registros.some((r) => r.brincadeira === b.id && r.reacao !== "nao");
+      const voltas = p ? (rodizio[p.faixa] ?? 0) : 0;
+      const voltou = !!p && voltas > 0 && semanaDeUso(deChave(p.inicio), new Date()) > voltas;
+      if (jaBrincou || voltou) setNivel("dificil");
     });
-  }, [b.id, b.area]);
+  }, [b.id, b.area, rodizio]);
 
   function escolherNivel(n: Nivel) {
     setNivel(n);
@@ -95,6 +102,7 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
                 {NOME_FAIXA[f]}
               </span>
             ))}
+            {b.status === "rascunho" ? <SeloRascunho /> : null}
           </div>
           <h1 className="m-0 font-display text-[34px] font-extrabold leading-[1.02] tracking-tight md:text-[48px]">{b.nome}</h1>
           <p className="m-0 text-suave md:text-lg">{b.serve}</p>
@@ -168,16 +176,17 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
           </ul>
         </section>
 
-        {b.seguranca ? (
-          <div className="flex items-start gap-3 rounded-2xl bg-alerta-claro p-3.5 text-alerta">
-            <Alerta tamanho={22} className="shrink-0" />
+        <div className="flex items-start gap-3 rounded-2xl bg-alerta-claro p-3.5 text-alerta" role="note" aria-label="Segurança">
+          <Alerta tamanho={22} className="shrink-0" />
+          <div className="flex flex-col gap-1">
             <p className="m-0">
-              <strong>Segurança.</strong> {b.seguranca}
+              <strong>Sempre com um adulto acompanhando.</strong> A criança não fica sozinha com os materiais em nenhum momento.
             </p>
+            {b.seguranca ? <p className="m-0">{b.seguranca}</p> : null}
           </div>
-        ) : null}
+        </div>
 
-        <p className="m-0 text-[13px] text-suave">Base: {b.base}.</p>
+        <PorQue b={b} />
 
         <Link
           href={`/brincadeira/${b.id}/brincando/`}
@@ -188,6 +197,7 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
         </Link>
         </aside>
         </div>
+        <Rodape />
       </main>
 
       <div className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}>

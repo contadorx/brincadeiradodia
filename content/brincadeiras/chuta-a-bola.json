@@ -1,0 +1,47 @@
+{
+  "id": "chuta-a-bola",
+  "nome": "Chuta a bola",
+  "area": "corpo",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina equilíbrio, mirar com o pé e correr atrás da bola.",
+  "materiais": [
+    "Uma bola macia e grande",
+    "Dois chinelos para marcar o gol"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Marque um gol no chão com os dois chinelos.",
+    "Mostre como chutar: um pé apoiado, o outro empurra a bola.",
+    "A criança chuta de perto, e vocês comemoram cada gol.",
+    "Revezem: um chuta e o outro defende.",
+    "No fim, chutem a bola de um para o outro."
+  ],
+  "facil": "Bola parada bem perto do gol. Segure a mão da criança se ela perder o equilíbrio.",
+  "dificil": "Chutar a bola andando, ou de mais longe. Ou chutar com o outro pé.",
+  "conversa": [
+    "Foi gol?",
+    "Com qual pé você chutou?",
+    "Onde a gente põe o gol agora?"
+  ],
+  "seguranca": "Em casa, só bola macia, longe de janelas, TV, quinas e escada. Tire tapetes que escorregam; descalço é melhor que de meia. Fora de casa, só em quintal ou praça cercada: se a bola escapar, quem vai buscar é o adulto. No sol, boné e água.",
+  "base": "Chutar uma bola é marco do CDC aos 2 anos, e oferecer bolas para chutar, rolar e jogar é dica do CDC para essa idade",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

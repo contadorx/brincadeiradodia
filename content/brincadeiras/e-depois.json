@@ -1,0 +1,43 @@
+{
+  "id": "e-depois",
+  "nome": "E depois?",
+  "area": "linguagem",
+  "ordem": 4,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro",
+    "rua"
+  ],
+  "serve": "Treina dizer o que vem antes e o que vem depois, com as palavras primeiro, depois e por fim.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolha algo que vocês fazem todo dia, como escovar os dentes ou se arrumar para sair.",
+    "Conte o primeiro passo: “Primeiro, a gente pega a escova.”",
+    "Pergunte: “E depois?” e espere a criança responder.",
+    "Continue até o fim e feche: “Por fim, a gente guarda a escova.”",
+    "Agora troquem: a criança conta e você pergunta “E depois?”"
+  ],
+  "facil": "Faça enquanto a coisa acontece de verdade, na hora de vestir ou de comer. Se ela não souber, mostre e diga a palavra junto.",
+  "dificil": "Conte errado de propósito (“Primeiro a gente põe o sapato, depois a meia”) e veja se ela percebe. Ou contem a ordem de uma história que vocês leem sempre.",
+  "conversa": [
+    "O que a gente fez primeiro hoje de manhã?",
+    "O que vem depois do banho?",
+    "Como se faz um bolo? O que vem primeiro?"
+  ],
+  "seguranca": null,
+  "base": "Usar palavras como primeiro, depois e por fim, e perguntar o que vem a seguir, é uma das dicas do CDC para a idade de 4 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

@@ -33,5 +33,14 @@
     "O que a gente pode mudar para ir mais rápido?"
   ],
   "seguranca": "Rampa baixa e firme. Ninguém sobe nela.",
-  "base": "Marcos do CDC aos 3 anos: resolver problemas com perguntas que guiam"
+  "base": "Marcos do CDC aos 3 anos: resolver problemas com perguntas que guiam",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
 }

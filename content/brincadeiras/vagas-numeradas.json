@@ -33,5 +33,14 @@
     "Se chegar mais um, quantos vão ficar?"
   ],
   "seguranca": "Use carrinhos ou tampas de pote. Tampinha de garrafa não serve, porque cabe na boca.",
-  "base": "Marcos do CDC aos 3 anos: brincadeiras de contar com objetos do dia a dia"
+  "base": "Marcos do CDC aos 3 anos: brincadeiras de contar com objetos do dia a dia",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
 }

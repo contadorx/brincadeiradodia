@@ -1,0 +1,47 @@
+{
+  "id": "caca-as-formas",
+  "nome": "Caça às formas",
+  "area": "raciocinio",
+  "ordem": 3,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina reconhecer círculos, quadrados, triângulos e retângulos nas coisas do dia a dia.",
+  "materiais": [
+    "Uma folha com 4 formas desenhadas: círculo, quadrado, triângulo e retângulo",
+    "Lápis para marcar"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Mostre a folha e diga o nome de cada forma, passando o dedo pela borda.",
+    "Escolham uma forma: “Vamos caçar círculos!”",
+    "Procurem pela casa ou pela rua: relógio, prato, placa, roda, janela.",
+    "A cada achado, a criança faz um risquinho embaixo da forma, na folha.",
+    "No fim, contem os risquinhos: de qual forma vocês acharam mais?"
+  ],
+  "facil": "Cacem só círculos e quadrados. Quando acharem, passem o dedo juntos pela borda do objeto.",
+  "dificil": "Cacem formas escondidas em coisas maiores, como os retângulos de uma porta ou o triângulo de um telhado. Depois, a criança desenha um bicho só com formas.",
+  "conversa": [
+    "Como você sabe que é um triângulo e não um quadrado?",
+    "Por que a roda é redonda e não quadrada?",
+    "Qual forma mais aparece aqui na sala?"
+  ],
+  "seguranca": "Olhem sem pegar: nada de tirar do lugar objetos de vidro, facas ou coisas no alto. Na rua, de mãos dadas, longe do meio-fio e de saída de garagem; no sol, boné e água.",
+  "base": "Ajudar a criança a aprender cores, formas e tamanhos no dia a dia é dica do CDC para os 4 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

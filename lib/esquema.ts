@@ -62,12 +62,50 @@ export const NOME_LUGAR: Record<(typeof LUGARES)[number], string> = {
 const textoCurto = z.string().trim().min(3).max(200);
 const textoMedio = z.string().trim().min(3).max(400);
 
+/**
+ * Nível de evidência (veja o Plano de Conteúdo):
+ * A = inspirada em jogo testado em estudo com crianças;
+ * B = recomendada por instituição de referência para a idade;
+ * C = brincadeira tradicional brasileira.
+ */
+export const EVIDENCIAS = ["A", "B", "C"] as const;
+export const NOME_EVIDENCIA: Record<(typeof EVIDENCIAS)[number], string> = {
+  A: "Inspirada em jogo testado em estudo com crianças",
+  B: "Recomendada por instituição de referência",
+  C: "Brincadeira tradicional brasileira",
+};
+
+/** rascunho = não aparece no site publicado; publicada = aparece. */
+export const STATUS = ["rascunho", "publicada"] as const;
+
+const esquemaFonte = z
+  .object({
+    titulo: z.string().trim().min(3).max(160),
+    url: z.string().url().startsWith("https://", "use um endereço https://"),
+  })
+  .strict();
+
+const esquemaRevisao = z
+  .object({
+    /** Ex.: "Terapeuta ocupacional". É o que aparece no site. */
+    profissao: z.string().trim().min(3).max(60),
+    nome: z.string().trim().min(3).max(80),
+    /** Ex.: "CREFITO-3 000000-F". Fica só no arquivo, não aparece no site. */
+    registro: z.string().trim().max(40),
+    /** Data da revisão, AAAA-MM-DD. */
+    em: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "use AAAA-MM-DD"),
+    /** Só mostre o nome no site com autorização por escrito da profissional. */
+    mostrarNome: z.boolean(),
+    observacoes: z.string().trim().max(600),
+  })
+  .strict();
+
 export const esquemaBrincadeira = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/, "use só letras minúsculas, números e hífen"),
     nome: z.string().trim().min(3).max(40),
     area: z.enum(AREAS),
-    /** 1 = semanas ímpares, 2 = semanas pares (rodízio da brincadeira do dia). */
+    /** Posição no rodízio semanal da área (1 a 4): semana 1 usa a de ordem 1, semana 2 a de ordem 2… */
     ordem: z.number().int().min(1).max(9),
     faixas: z.array(z.enum(FAIXAS)).min(1),
     minutos: z.number().int().min(3).max(20),
@@ -81,6 +119,11 @@ export const esquemaBrincadeira = z
     conversa: z.array(textoCurto).min(2).max(4),
     seguranca: textoMedio.nullable(),
     base: textoCurto,
+    status: z.enum(STATUS),
+    evidencia: z.enum(EVIDENCIAS),
+    fontes: z.array(esquemaFonte).min(1).max(4),
+    /** null = ainda sem revisão de profissional. */
+    revisao: esquemaRevisao.nullable(),
   })
   .strict();
 
@@ -89,3 +132,5 @@ export type Area = (typeof AREAS)[number];
 export type Faixa = (typeof FAIXAS)[number];
 export type Etiqueta = (typeof ETIQUETAS)[number];
 export type Lugar = (typeof LUGARES)[number];
+export type Evidencia = (typeof EVIDENCIAS)[number];
+export type Revisao = z.infer<typeof esquemaRevisao>;

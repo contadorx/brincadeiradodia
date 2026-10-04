@@ -1,0 +1,51 @@
+{
+  "id": "comidinha-para-o-boneco",
+  "nome": "Comidinha para o boneco",
+  "area": "fazdeconta",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina usar uma coisa no lugar de outra e cuidar de alguém de mentira.",
+  "materiais": [
+    "Um boneco ou bicho de pelúcia",
+    "Um prato, uma colher e um copo de plástico",
+    "Blocos grandes ou bolas de meia para serem a comida"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sente o boneco no chão ou numa mesinha baixa: “O ursinho está com fome!”",
+    "Ofereça um bloco como se fosse comida: “Olha a banana!”",
+    "A criança dá a comida com a colher. Faça o boneco agradecer.",
+    "Pergunte: “Ele quer água?” e ela dá de beber no copo vazio, de mentira.",
+    "Depois do almoço, limpem a boca do boneco e ponham para dormir."
+  ],
+  "facil": "Você faz e a criança imita: você dá a colher, ela dá a colher.",
+  "dificil": "Preparem a comida antes: mexer no pote com a colher, pôr no prato, soprar para esfriar. Inclua um segundo boneco que também quer comer.",
+  "conversa": [
+    "O que o ursinho vai comer hoje?",
+    "A comida está quente ou fria?",
+    "Ele já ficou de barriga cheia?"
+  ],
+  "seguranca": "Comida só de mentira, sem pecinhas pequenas de cozinha de brinquedo. Blocos grandes, que não passem por dentro de um rolo de papel higiênico.",
+  "base": "Usar objetos para fingir, como dar um bloco de comida para a boneca, é marco do CDC aos 30 meses; o faz de conta da casa está no guia do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

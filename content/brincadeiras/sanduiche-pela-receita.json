@@ -1,0 +1,52 @@
+{
+  "id": "sanduiche-pela-receita",
+  "nome": "Sanduíche pela receita",
+  "area": "musica",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir passos na ordem, olhando uma receita desenhada.",
+  "materiais": [
+    "Pão de forma e um recheio que a criança já come, como requeijão e queijo",
+    "Uma faca de mesa, sem ponta, para passar o recheio",
+    "Uma receita desenhada em 4 quadrinhos: pão, recheio, queijo, pão"
+  ],
+  "etiquetas": [
+    "cozinha",
+    "papel"
+  ],
+  "passos": [
+    "Desenhem juntos a receita em 4 quadrinhos, na ordem.",
+    "Ponha os ingredientes na mesa, com a receita ao lado.",
+    "A criança olha o quadrinho 1, faz o passo e marca com um X.",
+    "Sigam assim até o último quadrinho, sem você dizer o que vem depois.",
+    "Você corta ao meio, no formato que ela escolher: triângulo ou retângulo. Comam juntos."
+  ],
+  "facil": "Receita de 3 passos: pão, recheio, pão. Você aponta um quadrinho de cada vez.",
+  "dificil": "A criança faz um sanduíche para cada pessoa da casa, seguindo o pedido de cada uma. Ou desenha sozinha a receita de outro lanche.",
+  "conversa": [
+    "O que vem antes: o recheio ou o pão de cima?",
+    "Como seria a receita do seu lanche preferido?",
+    "O que acontece se pular um passo?"
+  ],
+  "seguranca": "Só alimentos que a criança já come (alergias). Faca de mesa, sem ponta, com o adulto do lado; cortar o sanduíche é tarefa do adulto. Nada de fogão.",
+  "base": "O CDC sugere envolver a criança no preparo das refeições aos 5 anos, e cozinhar seguindo uma receita está no guia de funções executivas do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

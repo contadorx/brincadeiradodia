@@ -1,0 +1,49 @@
+{
+  "id": "hora-de-guardar",
+  "nome": "Hora de guardar",
+  "area": "autocontrole",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir uma rotina e terminar uma tarefa, guardando os brinquedos.",
+  "materiais": [
+    "Os brinquedos espalhados e uma caixa ou cesto para cada tipo"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Avise antes: “Mais um pouquinho e é hora de guardar.”",
+    "Cante sempre a mesma musiquinha, inventada por vocês, na hora de guardar.",
+    "Dê uma tarefa de cada vez: “Os carrinhos vão nesta caixa.”",
+    "Guarde junto e comemore cada caixa cheia.",
+    "No fim, olhem juntos o chão arrumado: “Conseguimos!”"
+  ],
+  "facil": "Você guarda quase tudo e a criança põe as últimas peças, uma por uma.",
+  "dificil": "Ela separa sozinha por tipo: bichos numa caixa, blocos em outra. Ou guarda tudo antes de a música acabar.",
+  "conversa": [
+    "Onde mora este brinquedo?",
+    "O que falta guardar?",
+    "Que música a gente canta na hora de guardar?"
+  ],
+  "seguranca": "Caixas leves e sem tampa pesada, no chão: nada de guardar em prateleira alta, que convida a subir. Peças pequenas de brinquedos de crianças maiores ficam fora do alcance.",
+  "base": "Ajudar em tarefas simples da casa é dica do CDC aos 2 anos, e ajudar a guardar os brinquedos na hora de arrumar é marco do CDC aos 30 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}

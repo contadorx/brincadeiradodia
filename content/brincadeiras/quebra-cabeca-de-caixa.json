@@ -1,0 +1,51 @@
+{
+  "id": "quebra-cabeca-de-caixa",
+  "nome": "Quebra-cabeça de caixa",
+  "area": "raciocinio",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina olhar as partes, imaginar o todo e testar onde cada peça encaixa.",
+  "materiais": [
+    "A frente de uma caixa de cereal ou biscoito com desenho",
+    "Tesoura, usada pelo adulto",
+    "Um envelope para guardar as peças"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Mostre a figura inteira e recorte a frente da caixa em 4 peças retas.",
+    "Embaralhe e entregue as peças para a criança montar.",
+    "Se ela travar, aponte uma peça e pergunte: “O que tem aqui? Onde isso fica na figura?”",
+    "Montou? Desmanche e corte mais peças para a próxima rodada.",
+    "Guardem as peças no envelope para jogar outro dia."
+  ],
+  "facil": "Corte em 2 ou 3 peças e deixe uma figura igual de modelo, se tiver outra caixa.",
+  "dificil": "Corte em 6 a 8 peças, com cortes tortos, todas maiores que a palma da mão da criança, e montem sem olhar o modelo. A criança também pode desenhar uma figura para você cortar e virar o quebra-cabeça dela.",
+  "conversa": [
+    "Como você soube que essa peça ia aqui?",
+    "Qual peça foi a mais difícil?",
+    "Que figura a gente transforma em quebra-cabeça amanhã?"
+  ],
+  "seguranca": "A tesoura fica com o adulto. Peças grandes: nenhuma menor que a palma da mão da criança.",
+  "base": "Quebra-cabeças cada vez mais difíceis estão no guia de funções executivas do Harvard Center, e o CDC sugere quebra-cabeças e blocos aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

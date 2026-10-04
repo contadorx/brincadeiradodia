@@ -28,5 +28,18 @@
     "Qual é a sua cor preferida? Por quê?"
   ],
   "seguranca": "Na calçada, sempre de mãos dadas, longe do meio-fio e das saídas de garagem. Na janela, só se tiver tela de proteção, e nunca com a criança em cima de móvel.",
-  "base": "Marcos do CDC aos 3 e 4 anos: contar objetos e nomear cores do dia a dia"
+  "base": "Marcos do CDC aos 3 e 4 anos: contar objetos e nomear cores do dia a dia",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
 }

@@ -1,0 +1,45 @@
+{
+  "id": "o-maestro",
+  "nome": "O maestro",
+  "area": "musica",
+  "ordem": 3,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina tocar e parar seguindo um sinal, rápido ou devagar.",
+  "materiais": [
+    "Uma panela leve ou pote de plástico virado e uma colher de pau, ou um instrumento de brinquedo"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Você é o maestro e a criança é a orquestra, com a panela e a colher.",
+    "Combinem: braços mexendo, ela toca; braços parados, ela para.",
+    "Mexa os braços devagar: ela toca devagar. Rápido: ela toca rápido.",
+    "Pare de repente e veja se a orquestra para junto.",
+    "Troquem: a criança rege e você toca."
+  ],
+  "facil": "Diga junto com o gesto: “Toca!” e “Para!”. No começo, use só rápido e parado.",
+  "dificil": "Reja sem falar nada, só com os braços. Inclua tocar baixinho (mãos perto do chão) e forte (mãos no alto). Ou inverta: braços parados, toca; braços mexendo, para.",
+  "conversa": [
+    "Foi mais fácil tocar rápido ou devagar?",
+    "Como você sabia a hora de parar?",
+    "Que música a orquestra vai tocar agora?"
+  ],
+  "seguranca": "Use panela leve de alumínio ou pote de plástico, nunca de vidro ou de cerâmica. Barulho forte por muito tempo cansa o ouvido: alternem com o tocar baixinho.",
+  "base": "Inspirada no jogo de reger uma orquestra usado no estudo Red Light, Purple Light (Tominey e McClelland, 2011), com pré-escolares de 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Red Light, Purple Light! (Tominey e McClelland, 2011), na Plataforma de Evidências do BID",
+      "url": "https://plataformadeevidencias.iadb.org/en/casos-avaliados/red-light-purple-light-self-regulatory-intervention"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dedo-mindinho",
+  "nome": "Dedo mindinho",
+  "area": "musica",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina ouvir rimas, acompanhar com gestos e prestar atenção nas mãos.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Pegue a mão da criança e toque um dedo de cada vez, começando pelo menor.",
+    "Diga a parlenda: “Dedo mindinho, seu vizinho, pai de todos, fura-bolo, mata-piolho.”",
+    "No fim, faça cócegas de leve na palma da mão.",
+    "Repitam na outra mão e depois nos dedos do pé.",
+    "Agora a criança faz na sua mão."
+  ],
+  "facil": "Toque os dedos devagar e diga os nomes, sem pressa. Repetir muitas vezes faz parte.",
+  "dificil": "Pare antes do último dedo e deixe ela completar: “Mata...” “Piolho!” Ou ela diz os nomes sozinha, apontando.",
+  "conversa": [
+    "Qual é o dedo mindinho?",
+    "Quantos dedos tem a sua mão?",
+    "Qual é o seu dedo maior?"
+  ],
+  "seguranca": null,
+  "base": "Brincadeiras de dedos com rimas e cantigas estão no guia de funções executivas do Harvard Center para 18 a 36 meses. A parlenda é tradicional brasileira",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

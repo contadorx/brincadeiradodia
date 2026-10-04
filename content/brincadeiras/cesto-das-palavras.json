@@ -1,0 +1,45 @@
+{
+  "id": "cesto-das-palavras",
+  "nome": "Cesto das palavras",
+  "area": "linguagem",
+  "ordem": 3,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar nome às coisas da casa, entender para que servem e atender pedidos.",
+  "materiais": [
+    "Um cesto com 5 objetos que a criança conhece: colher, escova de dente, copo de plástico, meia, bola grande"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Tire um objeto de cada vez e pergunte: “O que é isso?”",
+    "Se ela não souber, diga o nome e mostre para que serve: “É a escova. A gente escova os dentes.”",
+    "Espalhe os objetos no chão e peça: “Me dá a colher.”",
+    "Comemore cada acerto e peça outro.",
+    "No fim, a criança guarda tudo no cesto."
+  ],
+  "facil": "Só 3 objetos, e aponte junto quando pedir.",
+  "dificil": "Pedidos de dois passos: “Pega a colher e põe no copo.” Ou pergunte para que serve: “Com o que a gente bebe água?”",
+  "conversa": [
+    "Para que serve a colher?",
+    "Onde a gente guarda a escova?",
+    "O que mais a gente põe no cesto?"
+  ],
+  "seguranca": "Só objetos grandes, limpos e sem ponta, que não passem por dentro de um rolo de papel higiênico. Escova e colher na boca, só com a criança parada: cair com elas na boca machuca. Nada de faca, vidro, remédio ou produto de limpeza no cesto.",
+  "base": "Seguir pedidos de dois passos é marco do CDC aos 30 meses, e dar nome às coisas e às figuras é dica do CDC para essa idade",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}

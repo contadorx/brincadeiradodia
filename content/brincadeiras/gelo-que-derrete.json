@@ -1,0 +1,47 @@
+{
+  "id": "gelo-que-derrete",
+  "nome": "Gelo que derrete",
+  "area": "explorar",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar um palpite, observar uma mudança e comparar o que aconteceu.",
+  "materiais": [
+    "4 cubos de gelo",
+    "2 pratos fundos",
+    "Uma pitada de sal de cozinha"
+  ],
+  "etiquetas": [
+    "agua"
+  ],
+  "passos": [
+    "Coloque 2 cubos de gelo em cada prato.",
+    "Pergunte: “Se um prato ficar no sol e o outro na sombra, qual gelo derrete primeiro?”",
+    "Levem os pratos para os dois lugares e confiram a cada poucos minutos.",
+    "Peça para a criança contar o que viu: o gelo ficou menor? Apareceu água?",
+    "No fim, você despeja a água na pia e a criança seca a mesa com um pano."
+  ],
+  "facil": "Um prato só, na mesa. A criança toca o gelo, sente o frio e vê a água aparecer. Vá dizendo as palavras: gelado, derrete, água.",
+  "dificil": "Ponha um cubo em cada prato, os dois na sombra, e jogue uma pitada de sal só num deles. Pergunte qual vai derreter mais rápido. A criança desenha o antes e o depois de cada prato.",
+  "conversa": [
+    "Para onde foi o gelo?",
+    "Dá para a água virar gelo de novo? Como?",
+    "Por que no sol derreteu mais rápido?"
+  ],
+  "seguranca": "Gelo não vai à boca: um cubo inteiro pode engasgar. No sol, quem fica é o prato; a criança espera na sombra, e janela só com tela de proteção. Fique junto enquanto houver água. No fim, você despeja a água, seca o chão e guarda o sal.",
+  "base": "Observar e descrever mudanças em materiais, em experimentos com fenômenos naturais, é objetivo da BNCC para a pré-escola (EI03ET02)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET02"
+    }
+  ],
+  "revisao": null
+}

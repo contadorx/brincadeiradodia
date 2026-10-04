@@ -1,0 +1,42 @@
+{
+  "id": "narrador-da-brincadeira",
+  "nome": "Narrador da brincadeira",
+  "area": "linguagem",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina ouvir palavras novas ligadas ao que a criança está fazendo naquele momento.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolha um momento do dia: uma brincadeira, o almoço, a hora de vestir.",
+    "Conte em voz alta, com frases curtas, o que a criança está fazendo: “Você pegou o carrinho azul.”",
+    "Quando ela falar uma palavra, repita e aumente: “Água!” “Isso, água fresquinha!”",
+    "Faça pausas e espere a resposta dela, mesmo que seja um som ou um gesto.",
+    "De vez em quando, pergunte: “E agora, o que você vai fazer?”"
+  ],
+  "facil": "Só narre e repita as palavras dela, sem fazer perguntas.",
+  "dificil": "No fim do dia, lembrem juntos o que aconteceu: “Hoje de manhã a gente foi ao parque e você...”, deixando ela completar.",
+  "conversa": [
+    "O que você está fazendo agora?",
+    "E depois, o que você vai fazer?",
+    "Do que você brincou hoje?"
+  ],
+  "seguranca": "Na rua, a conversa acontece de mãos dadas, longe do meio-fio e das saídas de garagem.",
+  "base": "Narrar o que a criança faz e perguntar o que ela vai fazer em seguida está no guia de funções executivas do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

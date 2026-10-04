@@ -1,0 +1,48 @@
+{
+  "id": "feijao-no-algodao",
+  "nome": "Feijão no algodão",
+  "area": "explorar",
+  "ordem": 1,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina observar com paciência e registrar o que muda de um dia para o outro.",
+  "materiais": [
+    "Um copo plástico transparente e algodão",
+    "3 grãos de feijão cru",
+    "Um pouco de água",
+    "Uma folha dividida em quadrinhos para o diário do feijão"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Forre o fundo do copo com algodão e molhe, sem encharcar.",
+    "Entregue um grão de cada vez para a criança pôr sobre o algodão, encostado na parede do copo.",
+    "Deixe o copo num lugar claro que a criança alcance sem subir em nada, e combinem quem molha o algodão a cada dia.",
+    "Todo dia, a criança desenha o feijão num quadrinho do diário.",
+    "Comparem os desenhos: o que mudou desde o primeiro dia?"
+  ],
+  "facil": "Um copo só. Você desenha e a criança aponta o que mudou: “Olha, saiu uma raiz!”",
+  "dificil": "Façam dois copos: um no claro e outro dentro de um armário. Antes, a criança dá um palpite: o que vai ser diferente? Os dois brotam, mas o do escuro costuma ficar comprido, fino e amarelado. Ela pode marcar a altura com tracinhos no copo.",
+  "conversa": [
+    "O que você acha que vai sair do feijão primeiro?",
+    "Do que a plantinha precisa para crescer?",
+    "O que mudou desde ontem?"
+  ],
+  "seguranca": "Grão de feijão é pequeno: entregue um de cada vez, contem juntos quantos foram para o copo e guarde o pacote. Nunca no nariz, no ouvido ou na boca, e nada de comer feijão cru.",
+  "base": "Registrar observações e medidas com desenho é objetivo da BNCC para a pré-escola, de 4 a 5 anos e 11 meses (EI03ET04)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET04 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET04"
+    }
+  ],
+  "revisao": null
+}

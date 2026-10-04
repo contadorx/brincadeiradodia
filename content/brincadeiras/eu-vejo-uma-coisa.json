@@ -1,0 +1,47 @@
+{
+  "id": "eu-vejo-uma-coisa",
+  "nome": "Eu vejo uma coisa",
+  "area": "linguagem",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua",
+    "carro"
+  ],
+  "serve": "Treina ouvir o primeiro som das palavras e prestar atenção nos detalhes.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolha algo que vocês dois estão vendo, sem dizer o que é.",
+    "Dê uma pista de cor: “Eu vejo uma coisa amarela.”",
+    "A criança tenta adivinhar até acertar.",
+    "Agora dê a pista pelo primeiro som, falando devagar: “Eu vejo uma coisa que começa com mmm.”",
+    "Troquem: a criança escolhe e dá a pista."
+  ],
+  "facil": "Use só pistas de cor e de formato. Se ela travar, aponte a região: “Está perto da janela.”",
+  "dificil": "Só pistas de som, inclusive o último: “Começa com mmm e termina com aaa” (mesa). Depois, procurem juntos tudo que começa com o mesmo som.",
+  "conversa": [
+    "Que outras coisas começam com o mesmo som de mesa?",
+    "Com que som começa o seu nome?",
+    "Qual foi a pista mais difícil?"
+  ],
+  "seguranca": "Na calçada, de mãos dadas, longe do meio-fio e das saídas de garagem: quem procura não olha onde pisa. No carro, a criança fica sempre na cadeirinha, e quem dirige só dá pistas de coisas à frente, como o céu, sem procurar nada com os olhos.",
+  "base": "O CDC sugere brincar de “eu vejo” aos 5 anos, e criar aliterações, palavras que começam com o mesmo som, é objetivo da BNCC para a pré-escola (EI03EF02)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03EF02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03EF02"
+    }
+  ],
+  "revisao": null
+}

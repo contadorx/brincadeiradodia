@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Brincadeira } from "@/lib/esquema";
-import { adicionarRegistro, lerApoio, type Reacao } from "@/lib/armazenamento";
+import { useRouter } from "next/navigation";
+import { adicionarRegistro, lerApoio, lerPerfil, type Reacao } from "@/lib/armazenamento";
+import { VERSAO_TERMOS } from "@/config/site";
 import { chaveDia, difDias } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
 import { CartaoApoio } from "./CartaoApoio";
 import { chaveNivel, textoDoNivel, type Nivel } from "./Ficha";
-import { Celular, Check, Fechar, Play } from "./Icones";
+import { Alerta, Celular, Check, Fechar, Play } from "./Icones";
 
 const REACOES: { id: Reacao; nome: string }[] = [
   { id: "adorou", nome: "Adorou" },
@@ -44,6 +46,14 @@ export function Brincando({
   const [nota, setNota] = useState("");
   const [mostrarApoio, setMostrarApoio] = useState(false);
   const trava = useRef<WakeLock | null>(null);
+  const router = useRouter();
+
+  // Para brincar e registrar é preciso ter aceitado os termos (quem chega por um link compartilhado passa pelas boas-vindas).
+  useEffect(() => {
+    lerPerfil().then((p) => {
+      if (!p || p.aceite?.versao !== VERSAO_TERMOS) router.replace("/boas-vindas/");
+    });
+  }, [router]);
 
   useEffect(() => {
     try {
@@ -283,6 +293,19 @@ export function Brincando({
         </div>
 
         <div className="flex flex-1 flex-col gap-5 md:flex-none">
+
+        {!comecou ? (
+          <div className="flex items-start gap-3 rounded-[18px] border-[1.5px] border-sol/60 bg-noite-2 p-4" role="note" aria-label="Antes de começar">
+            <Alerta tamanho={22} className="mt-0.5 shrink-0 text-sol" />
+            <div className="flex flex-col gap-1">
+              <p className="m-0 font-bold">Antes de começar</p>
+              <p className="m-0 text-[15px] text-noite-suave">
+                Um adulto acompanha a brincadeira do começo ao fim. Olhe o lugar e os materiais.
+                {b.seguranca ? ` ${b.seguranca}` : ""}
+              </p>
+            </div>
+          </div>
+        ) : null}
 
         <div className="flex flex-col gap-3 rounded-[22px] bg-noite-2 p-5" aria-live="polite">
           <span className="text-[13px] font-bold uppercase tracking-wider text-sol">

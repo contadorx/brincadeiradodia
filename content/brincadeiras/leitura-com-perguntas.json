@@ -31,5 +31,18 @@
     "Qual foi a parte de que você mais gostou?"
   ],
   "seguranca": null,
-  "base": "Leitura dialogada e marcos do CDC aos 3 anos: dizer o que acontece numa figura"
+  "base": "Leitura dialogada e marcos do CDC aos 3 anos: dizer o que acontece numa figura",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Dialogic Reading, relatório do What Works Clearinghouse (2010)",
+      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dialogic_reading_042710.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
 }

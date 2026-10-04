@@ -1,0 +1,42 @@
+{
+  "id": "fui-a-feira",
+  "nome": "Fui à feira e comprei",
+  "area": "musica",
+  "ordem": 3,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina a memória: guardar uma lista que cresce a cada rodada.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Comece: “Fui à feira e comprei banana.”",
+    "A criança repete e acrescenta uma coisa: “Fui à feira e comprei banana e alface.”",
+    "Você repete tudo e acrescenta mais uma.",
+    "Continuem até alguém esquecer. Aí riam e comecem de novo.",
+    "Ponham ritmo: uma batida na perna a cada coisa comprada."
+  ],
+  "facil": "Listas de até 3 coisas, com um gesto para cada uma: para banana, o gesto de descascar.",
+  "dificil": "Só valem coisas de uma cor, ou que começam com o mesmo som. No fim, contem quantas coisas a lista teve.",
+  "conversa": [
+    "O que te ajudou a lembrar?",
+    "Qual foi a coisa mais esquisita que entrou na lista?",
+    "O que a gente compra de verdade na feira?"
+  ],
+  "seguranca": "No carro, a criança fica sempre na cadeirinha. Quem dirige só brinca falando: sem gestos nem batidas, com as mãos no volante e os olhos na rua.",
+  "base": "Canções que acumulam palavras e gestos a cada rodada estão no guia de funções executivas do Harvard Center para 3 a 5 anos; esta é a versão falada",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

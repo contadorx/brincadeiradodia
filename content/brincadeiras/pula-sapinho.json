@@ -1,0 +1,50 @@
+{
+  "id": "pula-sapinho",
+  "nome": "Pula, sapinho!",
+  "area": "corpo",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina pular com os dois pés juntos e cair em equilíbrio.",
+  "materiais": [
+    "Fita crepe para fazer uma linha no chão, ou giz fora de casa"
+  ],
+  "etiquetas": [
+    "fita"
+  ],
+  "passos": [
+    "Agache como um sapo e pule com os dois pés juntos: “Pula, sapinho!”",
+    "A criança imita, segurando a sua mão se precisar.",
+    "Faça uma linha de fita no chão e pulem de um lado para o outro.",
+    "Contem os pulos juntos: “Um, dois, três!”",
+    "Terminem descansando: sapinhos dormindo no chão."
+  ],
+  "facil": "Segure as duas mãos da criança e pulem juntos no mesmo lugar.",
+  "dificil": "Pular duas linhas seguidas, ou para a frente, o mais longe que conseguir. Pular de lugar alto não vale.",
+  "conversa": [
+    "Como o sapo pula?",
+    "Quantos pulos você deu?",
+    "Que outro bicho pula?"
+  ],
+  "seguranca": "Só pulos no chão, nunca de cima de sofá, cama, degrau ou cadeira. Piso que não escorrega, descalços, longe de quinas. Fora de casa, só em quintal ou praça cercada.",
+  "base": "Pular do chão com os dois pés é marco do CDC aos 30 meses, e o guia do Harvard Center para 18 a 36 meses sugere pular com desafios variados",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -13,6 +13,8 @@ export type Perfil = {
   apelido: string;
   /** Primeiro dia de uso (AAAA-MM-DD): base da contagem de semanas. */
   inicio: string;
+  /** Aceite dos Termos de Uso e da Política de Privacidade, guardado só no aparelho. */
+  aceite?: { versao: string; em: string };
 };
 
 export type Reacao = "adorou" | "ok" | "nao";

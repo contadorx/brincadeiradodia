@@ -1,0 +1,42 @@
+{
+  "id": "ta-pronto-seu-lobo",
+  "nome": "Tá pronto, seu lobo?",
+  "area": "autocontrole",
+  "ordem": 4,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina esperar a resposta certa antes de correr.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Combinem um pique, um lugar onde o lobo não pega. Você é o lobo: finja que está se arrumando num canto.",
+    "A criança pergunta: “Tá pronto, seu lobo?”",
+    "Responda com uma roupa: “Não, estou pondo a meia!” Ela espera.",
+    "Depois de algumas perguntas, responda “Tô pronto!” e vá atrás dela devagar.",
+    "Quando pegar, troquem: agora ela é o lobo."
+  ],
+  "facil": "Diga poucas roupas antes do “Tô pronto!” e corra bem devagar, quase andando. O lobo pode ser engraçado e trapalhão.",
+  "dificil": "Demore mais e use respostas parecidas para confundir, como “Tô quase pronto!”. A criança só corre com o “Tô pronto!” de verdade.",
+  "conversa": [
+    "O que o lobo ainda precisa vestir?",
+    "Onde é o pique, o lugar onde o lobo não pega?",
+    "Que bicho você quer ser na sua vez?"
+  ],
+  "seguranca": "Correr em casa só em espaço livre, sem tapete que escorrega e longe de quinas, portas de vidro e escadas. Fora de casa, só em lugar fechado, como praça cercada ou quintal, com boné e água no sol. Se a criança ficar com medo, o lobo vira um bicho engraçado.",
+  "base": "Brincadeira tradicional indicada para 3 a 4 anos no guia Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

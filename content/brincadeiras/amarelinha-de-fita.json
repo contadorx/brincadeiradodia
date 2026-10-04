@@ -1,0 +1,47 @@
+{
+  "id": "amarelinha-de-fita",
+  "nome": "Amarelinha de fita",
+  "area": "corpo",
+  "ordem": 4,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina pular com equilíbrio e seguir os números na ordem.",
+  "materiais": [
+    "Fita crepe para marcar no chão, ou giz no quintal ou na área do prédio",
+    "Um chinelo ou uma meia enrolada para jogar nas casas"
+  ],
+  "etiquetas": [
+    "fita"
+  ],
+  "passos": [
+    "Marque no chão 6 quadrados em fila, do tamanho de um passo da criança, e escreva os números de 1 a 6.",
+    "Mostre o caminho: pular de casa em casa até o 6 e voltar.",
+    "A criança pula e vocês dizem juntos o número de cada casa.",
+    "Jogue o chinelo numa casa: ela passa por essa casa sem pisar, pulando ou dando a volta por fora.",
+    "Revezem, cada um na sua vez."
+  ],
+  "facil": "Pule com os dois pés juntos e segure a mão da criança. Deixe a parte do chinelo para outro dia.",
+  "dificil": "Faça a amarelinha tradicional, com casas duplas para abrir as pernas. Nas casas simples, a criança fica num pé só enquanto vocês contam até 3 e segue com os dois pés. Pular num pé só costuma vir perto dos 5 anos.",
+  "conversa": [
+    "Em que número o chinelo caiu?",
+    "Qual casa vem depois do 4?",
+    "Qual casa foi a mais difícil? Por quê?"
+  ],
+  "seguranca": "Marque em piso que não escorrega, longe de quinas e móveis, e pulem descalços, não de meia. Fora de casa, só em lugar fechado, nunca em calçada perto da rua, com boné e água no sol.",
+  "base": "Brincadeira tradicional (amarelinha, sapata ou macaca) indicada para 3 a 4 anos no guia do Ministério da Cidadania (2019)",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

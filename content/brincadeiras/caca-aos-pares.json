@@ -1,0 +1,45 @@
+{
+  "id": "caca-aos-pares",
+  "nome": "Caça aos pares",
+  "area": "raciocinio",
+  "ordem": 3,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina perceber o que é igual e o que é diferente.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Mostre um objeto que tem par, como um chinelo, e pergunte: “Cadê o outro igual?”",
+    "Procurem juntos pela casa até achar.",
+    "Juntem os pares no chão, lado a lado.",
+    "Repitam com outros: meias, sapatos, colheres de plástico, tampas de pote.",
+    "No fim, contem quantos pares acharam."
+  ],
+  "facil": "Deixe os pares à vista, na mesma sala, e use coisas bem diferentes entre si.",
+  "dificil": "Misture meias parecidas no chão e peça para a criança juntar os pares sozinha. Depois, troque a regra: “Agora separa por cor.” E depois: “Agora por tamanho.”",
+  "conversa": [
+    "Como você sabe que esses dois são iguais?",
+    "O que é diferente entre a sua meia e a minha?",
+    "Que outra coisa da casa tem par?"
+  ],
+  "seguranca": "Deixe de fora facas, vidro e tudo o que caiba num rolo de papel higiênico. Procurem só onde a criança alcança sem subir em móveis.",
+  "base": "Achar objetos iguais pela casa é dica do CDC para os 3 anos, e separar por regras que mudam está no guia de funções executivas do Harvard Center",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

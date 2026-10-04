@@ -1,0 +1,42 @@
+{
+  "id": "pula-saci",
+  "nome": "Pula, saci!",
+  "area": "corpo",
+  "ordem": 2,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina equilíbrio e força nas pernas, pulando num pé só.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Conte que o saci tem uma perna só e por isso anda pulando.",
+    "Mostre: um pé no chão, o outro dobrado para trás, e um pulinho.",
+    "A criança tenta um pulinho num pé só. Depois, troca de pé.",
+    "Brinquem de saci-mandou: “Saci pula três vezes!”, “Saci pula com o outro pé!”",
+    "Descansem sentados no chão entre as rodadas."
+  ],
+  "facil": "Segure a mão da criança enquanto ela pula. Vale também só se equilibrar num pé, contando até 3.",
+  "dificil": "Pular 5 vezes seguidas no mesmo pé, ou ir pulando até a porta e voltar com o outro pé. Pular num pé só costuma aparecer perto dos 5 anos: tudo bem se ainda balançar.",
+  "conversa": [
+    "Com qual pé foi mais fácil?",
+    "Como o saci faz para não cair?",
+    "Que outro bicho ou personagem pula assim?"
+  ],
+  "seguranca": "Piso que não escorrega, sem meia, longe de quinas, móveis e escada. Fora de casa, só em quintal ou praça cercada, de chão plano e sem buracos, nunca em calçada perto da rua.",
+  "base": "Pular num pé só é marco do CDC aos 5 anos, e o CDC sugere brincar de “o mestre mandou” nessa idade. O saci, do folclore brasileiro, dá o tema",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

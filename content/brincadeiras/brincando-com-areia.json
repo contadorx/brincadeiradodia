@@ -1,0 +1,48 @@
+{
+  "id": "brincando-com-areia",
+  "nome": "Brincando com areia",
+  "area": "explorar",
+  "ordem": 1,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina explorar com as mãos, encher, esvaziar e perceber a diferença entre areia seca e molhada.",
+  "materiais": [
+    "Areia do parquinho, ou uma bacia com areia limpa em casa",
+    "Baldinho, pazinha, forminhas ou potes e colheres de plástico",
+    "Um pouco de água num copo"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem juntos perto da areia. Deixe a criança mexer à vontade, com as mãos e a pazinha.",
+    "Mostre como encher o balde e virar: “Cheio! Agora vazio!”",
+    "Molhem um cantinho e comparem: a areia seca escorre, a molhada fica em pé.",
+    "Façam bolos com as forminhas e desenhem na areia com o dedo.",
+    "No fim, batam a areia das mãos e lavem bem."
+  ],
+  "facil": "Só encher e esvaziar o pote, você dizendo as palavras: cheio, vazio, mais, de novo.",
+  "dificil": "Façam uma fila de três bolos de areia: grande, médio e pequeno. Ou esconda um brinquedo grande na areia para ela cavar e achar.",
+  "conversa": [
+    "A areia está quente ou fria?",
+    "O que aconteceu quando a gente molhou?",
+    "O que você quer fazer com a areia agora?"
+  ],
+  "seguranca": "Antes, olhe a areia: nada de fezes de bicho, cacos de vidro ou objetos cortantes. Areia não vai à boca nem aos olhos, e ninguém joga areia para cima. Lavem as mãos no fim. A caminho do parquinho, de mãos dadas. No sol, boné, protetor e água.",
+  "base": "Brincadeira tradicional indicada para 2 a 3 anos no guia Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

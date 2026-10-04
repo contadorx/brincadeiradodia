@@ -1,0 +1,51 @@
+{
+  "id": "cabana-de-lencol",
+  "nome": "Cabana de lençol",
+  "area": "fazdeconta",
+  "ordem": 4,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar, construir junto um cenário e brincar dentro da história criada.",
+  "materiais": [
+    "Um lençol leve",
+    "Duas cadeiras firmes ou o sofá",
+    "Almofadas, uma lanterna e bichos de pelúcia"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Antes de montar, combinem: a cabana vai ser o quê? Barraca de acampamento, caverna, nave espacial?",
+    "Montem juntos: lençol por cima das cadeiras, pontas presas no chão com livros ou almofadas.",
+    "Levem para dentro o que a história pede: almofadas, lanterna, bichos de pelúcia.",
+    "Brinquem a história combinada: acampar, se esconder do urso, viajar até a lua.",
+    "No fim, a criança ajuda a desmontar e guardar."
+  ],
+  "facil": "Você monta e a criança escolhe o que a cabana vai ser. Entre junto e puxe a história.",
+  "dificil": "A criança desenha o plano da cabana antes de montar e confere no fim se ficou igual. Ou criem regras do lugar: senha para entrar, hora de dormir, turno de vigia.",
+  "conversa": [
+    "O que a nossa cabana é hoje?",
+    "O que tem do lado de fora?",
+    "Se a gente passasse a noite aqui, o que precisaria?"
+  ],
+  "seguranca": "Só lençol leve, nada de cobertor pesado, plástico ou cordas. Prenda as pontas no chão com livros ou almofadas, nunca com peso em cima das cadeiras: cai se o lençol for puxado. Ninguém sobe nas cadeiras. Lanterna de pilha comum, com a tampa bem fechada; nada de lanterninha com bateria redonda, de botão.",
+  "base": "Combinar o plano e construir os adereços do faz de conta está no guia de funções executivas do Harvard Center, e o CDC sugere entrar no faz de conta da criança aos 4 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

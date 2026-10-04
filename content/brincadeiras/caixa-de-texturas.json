@@ -1,0 +1,46 @@
+{
+  "id": "caixa-de-texturas",
+  "nome": "Caixa de texturas",
+  "area": "explorar",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina perceber e dar nome ao que sente com as mãos: macio, áspero, liso, duro.",
+  "materiais": [
+    "Uma caixa ou cesto",
+    "4 a 6 objetos grandes de texturas diferentes: toalhinha, luva de banho, colher de pau, escova sem bolinhas nas cerdas, tampa de panela de metal"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Coloque os objetos na caixa.",
+    "A criança tira um de cada vez e passa a mão.",
+    "Diga como ele é: “Macio!”, “Duro!”, “Liso e frio!”",
+    "Peça para ela encostar no braço ou na bochecha e comparar.",
+    "Separem em dois montes: os macios e os duros."
+  ],
+  "facil": "Só dois objetos bem diferentes, um macio e um duro, e repita as palavras.",
+  "dificil": "Cubra a caixa com um pano: a criança põe a mão sem olhar e diz se o que pegou é macio ou duro, antes de tirar.",
+  "conversa": [
+    "Qual é o mais macio?",
+    "Onde mais tem coisa macia aqui em casa?",
+    "Você gosta mais do liso ou do áspero?"
+  ],
+  "seguranca": "Só objetos grandes, que não passem por dentro de um rolo de papel higiênico, sem pontas e sem pedaços que soltem: nada de esponja que esfarela ou escova com bolinhas nas cerdas. Nada de vidro, faca ou produto de limpeza. Lave tudo antes: nessa idade, tudo vai à boca.",
+  "base": "Explorar semelhanças e diferenças entre as propriedades dos objetos, como textura, massa e tamanho, é objetivo da BNCC até 3 anos e 11 meses (EI02ET01)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET01 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET01"
+    }
+  ],
+  "revisao": null
+}

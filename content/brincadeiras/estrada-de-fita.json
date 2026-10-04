@@ -32,5 +32,14 @@
     "Na curva, o carro vai rápido ou devagar?"
   ],
   "seguranca": "Piso seco, sem quinas por perto, e a criança descalça. Ninguém pisa no livro.",
-  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (desafios de movimento e equilíbrio)"
+  "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (desafios de movimento e equilíbrio)",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
 }

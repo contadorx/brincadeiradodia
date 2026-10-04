@@ -1,0 +1,45 @@
+{
+  "id": "passeio-de-apontar",
+  "nome": "Passeio de apontar",
+  "area": "explorar",
+  "ordem": 4,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua"
+  ],
+  "serve": "Treina olhar, ouvir e dar nome às coisas do mundo lá fora.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Saiam para uma volta curta, de mãos dadas, no ritmo da criança.",
+    "Pare quando ela apontar alguma coisa e diga o nome: “Passarinho!”",
+    "Chamem atenção para os sons: “Ouviu? É um carro. E esse? Um cachorro latindo.”",
+    "Deixe a criança tocar o que for seguro: o tronco da árvore, uma folha, o muro.",
+    "Em casa, lembrem juntos o que viram no passeio."
+  ],
+  "facil": "Você aponta e diz o nome, devagar, e repete quando ela tentar falar.",
+  "dificil": "Combinem uma caça antes de sair: achar um cachorro, uma flor e uma coisa vermelha. Na volta, ela conta o que achou.",
+  "conversa": [
+    "O que você viu lá fora?",
+    "Que barulho foi esse?",
+    "Do que você mais gostou no passeio?"
+  ],
+  "seguranca": "Na calçada, sempre de mãos dadas, do lado de dentro, longe do meio-fio e das saídas de garagem. Bicho, só de longe: não toquem em cachorro ou gato que vocês não conhecem. Planta e frutinha não vão à boca; lavem as mãos na volta. No sol, boné, protetor e água.",
+  "base": "Passear e explorar o caminho é dica do CDC para os 2 anos, e narrar o que a criança vê está no guia do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}
