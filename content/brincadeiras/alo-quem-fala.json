@@ -15,7 +15,7 @@
   "materiais": [],
   "etiquetas": [],
   "passos": [
-    "Faça de telefone a própria mão ou um bloco grande: “Trim, trim! Alô?”",
+    "Faça de telefone a própria mão ou um bloco grande: “Trim, trim! Alô?” No carro, só a criança usa a mão; o motorista só fala.",
     "Passe o telefone: “É para você! É o ursinho.”",
     "Converse com perguntas simples e espere a resposta: “O que você está fazendo?”",
     "Liguem para bichos e personagens: o cachorro late, o leão ruge.",
@@ -28,8 +28,8 @@
     "O que o leão falou?",
     "O que você pediu na ligação?"
   ],
-  "seguranca": "Telefone de mentira: nada de celular de verdade nem controle remoto, que tem pilha. No carro, a criança fica sempre na cadeirinha, e quem dirige só brinca falando.",
-  "base": "Usar objetos para fingir é marco do CDC aos 30 meses, e o faz de conta com situações da casa está no guia do Harvard Center para 18 a 36 meses",
+  "seguranca": "Telefone de mentira: a mão ou um bloco grande, sem fio. Nada de celular de verdade nem controle remoto, que tem pilha. No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "O faz de conta com situações da casa está no guia do Harvard Center para 18 a 36 meses; usar objetos para fingir aparece nos marcos do CDC aos 30 meses, só como contexto",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [

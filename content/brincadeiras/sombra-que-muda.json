@@ -1,0 +1,47 @@
+{
+  "id": "sombra-que-muda",
+  "nome": "Sombra que muda",
+  "area": "explorar",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "preparo": "Duas visitas ao mesmo lugar no mesmo dia, com umas 2 horas entre elas, de uns 5 minutos cada",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina observar uma mudança da natureza ao longo do dia e registrar o que viu.",
+  "materiais": [
+    "Giz para o chão do quintal, ou uma folha grande de papel e caneta",
+    "Um brinquedo em pé, como um boneco ou um pote, que faça sombra"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Num dia de sol, escolham um lugar onde bata sol por umas horas: o quintal ou o chão perto de uma janela.",
+    "De manhã, ponham o brinquedo em pé e a criança contorna a sombra com o giz ou a caneta.",
+    "Marquem também onde o brinquedo ficou, para pôr no mesmo lugar depois.",
+    "Umas 2 horas depois, voltem, ponham o brinquedo na marca e contornem a sombra de novo.",
+    "Comparem os dois contornos: a sombra mudou de tamanho? E de lugar?"
+  ],
+  "facil": "Brinquem com a própria sombra: ela faz a sombra crescer, encolher e mexer os braços, e você diz o que está acontecendo.",
+  "dificil": "Antes de voltar, a criança desenha onde acha que a sombra vai estar, e depois vocês conferem. Ou marquem três vezes no dia e numerem os contornos.",
+  "conversa": [
+    "Por que será que a sombra mudou de lugar?",
+    "Onde estava o sol quando a sombra ficou comprida?",
+    "A sua sombra é do seu tamanho?"
+  ],
+  "seguranca": "Nunca olhem direto para o sol. No sol, boné, protetor e água, e evitem o horário mais quente. Laje sem mureta alta e varanda sem rede ou grade de proteção não valem. Perto da janela, a criança fica no chão, sem subir em nada, e só se a janela tiver proteção. Giz não vai à boca.",
+  "base": "Proposta nossa de observar o sol e a sombra, ligada ao objetivo EI03ET04 da BNCC (registrar observações e medidas com desenhos e outras linguagens)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET04 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET04"
+    }
+  ],
+  "revisao": null
+}

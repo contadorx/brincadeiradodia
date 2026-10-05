@@ -1,0 +1,47 @@
+{
+  "id": "gol-a-gol",
+  "nome": "Gol a gol",
+  "area": "corpo",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina chutar com direção, defender e revezar.",
+  "materiais": [
+    "Uma bola macia, do tamanho de uma bola de futebol ou menor",
+    "4 chinelos ou garrafas plásticas vazias para marcar os dois gols"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Marquem dois gols, um de frente para o outro, a uns 5 passos de distância.",
+    "Cada um fica no seu gol. Quem está com a bola chuta, do próprio gol, tentando acertar o gol do outro.",
+    "O outro defende com as mãos ou com os pés, sem sair do gol.",
+    "Revezem os chutes e contem os gols de cada um.",
+    "No fim, falem do chute mais bonito e da defesa mais difícil."
+  ],
+  "facil": "Gols mais largos e mais perto. Vale rolar a bola com a mão em vez de chutar.",
+  "dificil": "Gols mais estreitos, ou chutar com o pé que ela usa menos.",
+  "conversa": [
+    "Para onde você mira para fazer gol?",
+    "Como você defendeu aquela?",
+    "Quem começa o próximo jogo?"
+  ],
+  "seguranca": "Bola macia; o adulto chuta fraco e rasteiro, nada de chutar para o alto ou no rosto. Defendam em pé, sem se jogar no chão. Em casa, só com espaço livre, longe de quinas, janelas, TV, objetos que quebram e escada. Fora de casa, só em quintal ou praça cercada: se a bola escapar, quem busca é o adulto. No sol, boné, protetor e água.",
+  "base": "Jogos com bola estão entre as brincadeiras do Guia de Atividade Física do Ministério da Saúde, que recomenda brincar de forma ativa todos os dias",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

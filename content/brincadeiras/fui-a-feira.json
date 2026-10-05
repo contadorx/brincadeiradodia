@@ -18,17 +18,17 @@
     "Comece: “Fui à feira e comprei banana.”",
     "A criança repete e acrescenta uma coisa: “Fui à feira e comprei banana e alface.”",
     "Você repete tudo e acrescenta mais uma.",
-    "Continuem até alguém esquecer. Aí riam e comecem de novo.",
-    "Ponham ritmo: uma batida na perna a cada coisa comprada."
+    "Quando alguém esquecer, os outros ajudam a lembrar, e vocês começam uma lista nova.",
+    "Em casa, ponham ritmo: uma batida na perna a cada coisa comprada."
   ],
   "facil": "Listas de até 3 coisas, com um gesto para cada uma: para banana, o gesto de descascar.",
-  "dificil": "Só valem coisas de uma cor, ou que começam com o mesmo som. No fim, contem quantas coisas a lista teve.",
+  "dificil": "Só se estiver divertido: só valem coisas de uma cor. Vocês podem manter a lista curta e ajudar um ao outro; ninguém sai do jogo por esquecer.",
   "conversa": [
     "O que te ajudou a lembrar?",
     "Qual foi a coisa mais esquisita que entrou na lista?",
     "O que a gente compra de verdade na feira?"
   ],
-  "seguranca": "No carro, a criança fica sempre na cadeirinha. Quem dirige só brinca falando: sem gestos nem batidas, com as mãos no volante e os olhos na rua.",
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. No carro, nada de batidas: o ritmo fica para casa.",
   "base": "Canções que acumulam palavras e gestos a cada rodada estão no guia de funções executivas do Harvard Center para 3 a 5 anos; esta é a versão falada",
   "status": "publicada",
   "evidencia": "B",

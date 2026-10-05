@@ -33,17 +33,17 @@
     "Qual pote ficou mais cheio?"
   ],
   "seguranca": "Só objetos grandes, que não passem por dentro de um rolo de papel higiênico. Nada de contas, botões ou tampinhas.",
-  "base": "Classificar objetos por cor, tamanho ou forma é objetivo da BNCC até 3 anos e 11 meses (EI02ET05), e separar por cor está no guia do Harvard Center",
+  "base": "Separar objetos por cor, tamanho ou forma está entre as sugestões do guia do Harvard Center para 18 a 36 meses; classificar objetos também é objetivo da BNCC (EI02ET05)",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [
     {
-      "titulo": "BNCC, Educação Infantil, objetivo EI02ET05 (MEC), na Nova Escola",
-      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET05"
-    },
-    {
       "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
       "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    },
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET05 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET05"
     }
   ],
   "revisao": null

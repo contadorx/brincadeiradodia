@@ -26,24 +26,20 @@
     "Troquem: a criança manda e você faz."
   ],
   "facil": "Só a caixa: entrar e sair, dizendo “dentro” e “fora”.",
-  "dificil": "Dois comandos seguidos: “Entra na caixa e depois passa embaixo da mesa.” Ou o caminho de trás para frente.",
+  "dificil": "Dois comandos seguidos: “Entra na caixa e depois passa embaixo da mesa.” Ou refaçam o caminho na ordem inversa, sempre andando de frente. Dê um comando por vez se precisar.",
   "conversa": [
     "Você está dentro ou fora da caixa?",
     "O que tem embaixo da mesa?",
     "Para onde a gente vai agora?"
   ],
-  "seguranca": "Ninguém sobe na mesa, na cadeira ou na caixa. Tire grampos e fitas soltas da caixa, nada de saco plástico dentro dela, e cuidado com a cabeça nas quinas da mesa.",
-  "base": "Mover o corpo pelo espaço com noções como dentro, fora e embaixo é objetivo da BNCC (EI02CG02), e seguir dois comandos seguidos é marco do CDC aos 30 meses",
+  "seguranca": "Só móveis firmes, com passagem folgada: ninguém sobe na mesa, na cadeira ou na caixa, nem entra onde possa ficar preso. Tire grampos e fitas soltas da caixa, nada de saco plástico dentro dela, e cuidado com a cabeça nas quinas da mesa.",
+  "base": "Proposta nossa de noções de espaço, ligada ao objetivo EI02CG02 da BNCC (deslocar-se usando noções como dentro, fora, embaixo e em volta)",
   "status": "publicada",
-  "evidencia": "B",
+  "evidencia": "D",
   "fontes": [
     {
       "titulo": "BNCC, Educação Infantil, objetivo EI02CG02 (MEC), na Nova Escola",
       "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02CG02"
-    },
-    {
-      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
-      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
     }
   ],
   "revisao": null

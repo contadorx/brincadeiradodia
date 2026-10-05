@@ -10,7 +10,7 @@
   "lugares": [
     "casa"
   ],
-  "serve": "Amplia o vocabulário, o tamanho das frases e a compreensão de histórias.",
+  "serve": "Treina conversar sobre figuras e histórias, escutar e se expressar.",
   "materiais": [
     "Um livro com figuras"
   ],
@@ -19,8 +19,8 @@
   ],
   "passos": [
     "Sentem juntos e deixe a criança virar as páginas.",
-    "Em cada página, pergunte: “O que é isso?” ou “O que ele está fazendo?”",
-    "Quando a criança responder, aumente a frase. Se ela disser “carro”, diga “isso, um carro vermelho bem rápido”.",
+    "Siga o interesse da criança. Faça um comentário ou uma pergunta, como “O que ele está fazendo?”, e espere. Não precisa perguntar em toda página.",
+    "Aceite gesto ou resposta curta e aumente a frase: se ela disser “carro”, diga “isso, um carro vermelho bem rápido”.",
     "Ligue a história com a vida dela: “Você já andou de ônibus?”"
   ],
   "facil": "Só aponte e dê nome às coisas. Deixe a criança completar palavras que já conhece: “O cachorro faz…”",
@@ -31,17 +31,17 @@
     "Qual foi a parte de que você mais gostou?"
   ],
   "seguranca": null,
-  "base": "Leitura dialogada e marcos do CDC aos 3 anos: dizer o que acontece numa figura",
+  "base": "Inspirada na leitura compartilhada estudada em creches de Boa Vista (RR), com crianças de 2 a 4 anos e livros emprestados às famílias por 9 meses",
   "status": "publicada",
   "evidencia": "A",
   "fontes": [
     {
-      "titulo": "Dialogic Reading, relatório do What Works Clearinghouse (2010)",
-      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dialogic_reading_042710.pdf"
+      "titulo": "Reading aloud and child development: a cluster-randomized trial in Brazil (Weisleder e outros, 2018)",
+      "url": "https://doi.org/10.1542/peds.2017-0723"
     },
     {
-      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
-      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+      "titulo": "Dialogic Reading em crianças com deficiência ou atraso de linguagem, relatório do What Works Clearinghouse (2010)",
+      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dialogic_reading_042710.pdf"
     }
   ],
   "revisao": null

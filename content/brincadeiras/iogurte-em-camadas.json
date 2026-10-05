@@ -1,0 +1,52 @@
+{
+  "id": "iogurte-em-camadas",
+  "nome": "Iogurte em camadas",
+  "area": "musica",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina contar e comparar quantidades, seguir uma ordem e ajudar a preparar o lanche.",
+  "materiais": [
+    "Iogurte que a criança já come",
+    "Uma fruta macia, como banana ou mamão, em pedaços (o adulto corta)",
+    "Aveia em flocos, se a criança já come",
+    "Dois copos transparentes de plástico e uma colher"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Lavem as mãos. O adulto deixa tudo pronto na mesa.",
+    "Combinem a receita: 3 colheradas de iogurte, 2 de fruta, 1 de aveia.",
+    "A criança monta as camadas no copo, contando as colheradas em voz alta.",
+    "Ela monta o segundo copo igual, para você, conferindo a receita.",
+    "Comparem: os dois copos ficaram iguais? Sentem e comam juntos."
+  ],
+  "facil": "Receita de duas camadas, iogurte e fruta, com 2 colheradas de cada. Você conta junto.",
+  "dificil": "Ela desenha a receita antes, com bolinhas para as colheradas. Ou inventa uma receita nova e você segue as instruções dela.",
+  "conversa": [
+    "Quantas colheradas você usou ao todo?",
+    "Qual copo tem mais fruta?",
+    "Que receita a gente inventa na próxima?"
+  ],
+  "seguranca": "Só alimentos que a criança já come e tolera, respeitando alergias e restrições. O adulto corta antes, em pedaços macios que ela consegue mastigar; uva e tomate-cereja em quatro, no comprimento. A criança come sentada, com você junto, sem correr nem brincar com a boca cheia. Nada de castanhas inteiras.",
+  "base": "Deixar a criança ajudar a preparar comidas saudáveis é dica do CDC aos 5 anos, e contar na rotina, como na cozinha, está entre as recomendações da Education Endowment Foundation",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "Improving Mathematics in the Early Years and Key Stage 1 (Education Endowment Foundation, 2020)",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/early-maths"
+    }
+  ],
+  "revisao": null
+}

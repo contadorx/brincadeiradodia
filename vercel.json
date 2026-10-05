@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/brincadeira/chocalho-de-pote", "destination": "/brincadeira/tambor-de-pote/", "permanent": true },
+    { "source": "/brincadeira/chocalho-de-pote/brincando", "destination": "/brincadeira/tambor-de-pote/brincando/", "permanent": true }
+  ]
+}

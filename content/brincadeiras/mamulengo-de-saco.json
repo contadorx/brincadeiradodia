@@ -1,0 +1,47 @@
+{
+  "id": "mamulengo-de-saco",
+  "nome": "Mamulengo de saco de papel",
+  "area": "fazdeconta",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina criar um personagem, dar voz a ele e contar uma história com começo, meio e fim.",
+  "materiais": [
+    "Sacos de papel, de pão ou de presente, um para cada boneco",
+    "Canetinhas ou lápis de cor",
+    "O encosto do sofá ou uma caixa grande de papelão para ser o palco"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Conte que o mamulengo é o teatro de bonecos tradicional de Pernambuco, com personagens engraçados.",
+    "Cada um desenha o rosto do seu boneco no saco de papel, com olhos, nariz e boca bem grandes.",
+    "Ponham a mão dentro do saco e mexam o boneco enquanto ele fala. Se o saco tiver o fundo dobrado, desenhem a boca na dobra: abrindo a mão, ela mexe.",
+    "Atrás do palco, combinem a história: quem são os personagens e qual é o problema?",
+    "Apresentem para alguém da casa. Como no mamulengo, o boneco conversa com a plateia e pede ajuda: “Vocês viram para onde foi o gato?”"
+  ],
+  "facil": "Você faz um boneco e conduz a história; a criança faz o outro boneco responder.",
+  "dificil": "Cada um faz dois bonecos e muda a voz para cada personagem. A história precisa ter começo, meio e fim.",
+  "conversa": [
+    "Como o seu boneco se chama?",
+    "Qual foi o problema da história?",
+    "Como a plateia reagiu?"
+  ],
+  "seguranca": "Saco de papel, nunca de plástico. Nada de botão, olho móvel ou peça colada: o rosto é desenhado. O palco fica no chão; ninguém sobe em móvel.",
+  "base": "O mamulengo, teatro tradicional de bonecos, está entre as brincadeiras indicadas para 5 a 6 anos no guia do Ministério da Cidadania (2019). Os bonecos de saco são a nossa versão",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

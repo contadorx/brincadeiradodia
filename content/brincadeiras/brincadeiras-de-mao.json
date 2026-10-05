@@ -1,0 +1,42 @@
+{
+  "id": "brincadeiras-de-mao",
+  "nome": "Brincadeiras de mão",
+  "area": "musica",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina seguir um ritmo, combinar os movimentos das duas mãos e prestar atenção no outro.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Sentem de frente um para o outro.",
+    "Comecem com um ritmo de 3 tempos: bater nas pernas, bater palma, bater as mãos nas mãos do outro.",
+    "Repitam devagar até ficar fácil, dizendo junto: “perna, palma, mão”.",
+    "Ponham uma música que vocês conhecem, como Adoleta, ou inventem uma rima para acompanhar.",
+    "Acelerem um pouco só quando os dois estiverem acertando."
+  ],
+  "facil": "Só dois tempos: palma e mãos no outro. Sem música, só contando “um, dois”.",
+  "dificil": "Acrescentem movimentos: cruzar as mãos, bater só a direita com a direita. Ou a criança inventa uma sequência nova para você copiar.",
+  "conversa": [
+    "Qual movimento foi o mais difícil?",
+    "Que música combina com esse ritmo?",
+    "Vamos ensinar para alguém da casa?"
+  ],
+  "seguranca": "Batidas leves: se doer ou incomodar, parem e combinem mais devagar. Bater nas mãos do outro só se os dois quiserem. Na rua, brinquem parados num lugar seguro, longe do meio-fio.",
+  "base": "Brincadeiras de bater as mãos no ritmo estão entre as sugestões do guia de funções executivas do Harvard Center para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 5- to 7-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-5-to-7-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

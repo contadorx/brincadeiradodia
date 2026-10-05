@@ -13,30 +13,34 @@
   ],
   "serve": "Treina acompanhar a bola com os olhos e pegar com as duas mãos.",
   "materiais": [
-    "Uma bola de borracha que quica, do tamanho de uma bola de vôlei ou um pouco menor"
+    "Uma bola grande, leve e macia, que quica, própria para a idade"
   ],
   "etiquetas": [
     "brinquedos"
   ],
   "passos": [
     "Fiquem de frente, a três passos um do outro.",
-    "Quique a bola uma vez no chão, no meio do caminho, para a criança pegar.",
+    "Quique a bola de leve, uma vez, no meio do caminho, para ela pegar na altura do peito ou abaixo.",
     "Ela devolve do mesmo jeito: quica uma vez e você pega.",
     "Contem quantas vezes seguidas a bola foi e voltou sem cair.",
-    "A cada 5 seguidas, deem um passo para trás."
+    "Se ela quiser, deem um passo para trás a cada 5 seguidas."
   ],
   "facil": "Rolem a bola no chão em vez de quicar, sentados de pernas abertas.",
-  "dificil": "A criança quica a bola sozinha e pega, contando quantas vezes consegue sem deixar cair. Ou pega a bola jogada direto, sem quicar.",
+  "dificil": "A criança quica a bola sozinha e pega, contando quantas vezes consegue. Aumente a distância só se ela já pega com facilidade; nada de jogar no rosto nem de quique alto.",
   "conversa": [
     "Para onde você olha para conseguir pegar?",
     "Qual foi o recorde de hoje?",
     "Por que a bola sobe de novo quando bate no chão?"
   ],
   "seguranca": "Fora de casa, só em quintal ou praça cercada, longe da rua: se a bola escapar, quem vai buscar é o adulto. No sol, boné e água. Em casa, longe de janelas, TV e objetos que quebram.",
-  "base": "Pegar uma bola grande na maioria das vezes é marco do CDC aos 4 anos, e brincar de forma ativa todos os dias é dica do CDC para essa idade",
+  "base": "Brincar com bola está entre as sugestões do Guia de Atividade Física do Ministério da Saúde para crianças de 3 a 5 anos, e brincar ativo todo dia é dica do CDC aos 4",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    },
     {
       "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
       "url": "https://www.cdc.gov/act-early/milestones/4-years.html"

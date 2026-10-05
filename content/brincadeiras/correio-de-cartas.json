@@ -14,7 +14,7 @@
   "materiais": [
     "Papel, lápis de cor e folhas dobradas para os envelopes",
     "Uma caixa de sapato para ser a caixa de correio",
-    "Uma bolsa ou sacola de pano, de alça curta, para levar as cartas"
+    "Um cesto ou caixa sem alça para levar as cartas"
   ],
   "etiquetas": [
     "papel"
@@ -22,8 +22,8 @@
   "passos": [
     "Montem a caixa de correio: o adulto abre uma fenda na tampa da caixa de sapato.",
     "Cada um faz uma carta para alguém da casa ou para um bicho de pelúcia. A criança desenha e escreve do jeito dela.",
-    "Ajude a escrever o nome de quem vai receber, letra por letra, ou deixe a criança copiar.",
-    "A criança faz o papel de quem entrega: põe a bolsa no ombro e entrega carta por carta.",
+    "Se precisar, você escreve o nome de quem vai receber. Copiar é só uma opção, não precisa.",
+    "A criança faz o papel de quem entrega: leva as cartas no cesto e entrega uma por uma.",
     "Quem recebe lê em voz alta e responde com outra carta."
   ],
   "facil": "A carta é só desenho, e você escreve o que a criança ditar. Ela só entrega.",
@@ -33,18 +33,18 @@
     "O que você escreveu aqui?",
     "Como uma carta chega de verdade na casa de outra pessoa?"
   ],
-  "seguranca": "Quem corta a fenda da caixa é o adulto, longe da criança. Lápis e canetinhas atóxicos. Bolsa de pano e alça curta, guardada no fim; nada de saco plástico.",
-  "base": "Escrever do próprio jeito (escrita espontânea) é objetivo da BNCC para a pré-escola (EI03EF09), e o faz de conta com papéis e regras está no guia do Harvard Center",
+  "seguranca": "Quem corta a fenda da caixa é o adulto, longe da criança. Lápis e canetinhas com selo do Inmetro. Nada de bolsa no corpo, alça comprida ou saco plástico.",
+  "base": "O faz de conta com papéis e regras está no guia do Harvard Center para 3 a 5 anos; escrever do próprio jeito é objetivo da BNCC (EI03EF09)",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [
     {
-      "titulo": "BNCC, Educação Infantil, objetivo EI03EF09 (MEC), na Nova Escola",
-      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03EF09"
-    },
-    {
       "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
       "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03EF09 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03EF09"
     }
   ],
   "revisao": null

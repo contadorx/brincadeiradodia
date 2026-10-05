@@ -49,65 +49,128 @@ export default async function Pagina() {
 
         <Secao id="o-que-e" titulo="O que é">
           <p className="m-0">
-            Uma brincadeira por dia, de 10 a 15 minutos, para pais e cuidadores fazerem com a criança usando o que já têm em casa. O site é para os
-            adultos. A criança brinca com vocês, longe da tela.
+            Uma brincadeira por dia, de 5 a 15 minutos (uns 10, em geral), para pais e cuidadores fazerem com a criança usando o que já têm em casa.
+            O site é para os adultos. A criança brinca com vocês, longe da tela. O tempo é só uma estimativa: parem quando a criança quiser.
           </p>
           <p className="m-0">
             Cada dia da semana trabalha uma área: domingo é explorar, segunda é linguagem, terça é atenção e autocontrole, quarta é raciocínio e números,
             quinta é corpo e coordenação, sexta é faz de conta e sábado é música e cozinha. As brincadeiras de cada área se revezam de semana em
-            semana e, quando uma delas volta, sugerimos a versão mais difícil.
+            semana. Quando uma delas volta, vem igual: vocês escolhem a versão mais fácil, a original ou a mais difícil, conforme o interesse da
+            criança. Repetir do mesmo jeito também vale.
+          </p>
+          <p className="m-0">
+            A brincadeira do dia é só uma sugestão. Dá para repetir a favorita ou escolher outra em <Link href="/explorar/">Explorar</Link>.
           </p>
         </Secao>
 
         <Secao id="base" titulo="Como escolhemos as brincadeiras">
           <p className="m-0">
-            Cada brincadeira parte de uma fonte publicada e é escrita por nós, com texto próprio. Na página de cada uma, em &quot;Por que esta
-            brincadeira&quot;, mostramos a fonte e de que tipo ela é:
+            Cada brincadeira parte de uma fonte publicada e é escrita por nós, com texto próprio. Na página de cada uma, em &quot;De onde veio a
+            ideia&quot;, mostramos a fonte e o tipo de origem. A origem diz de onde a ideia veio; não é nota de eficácia:
           </p>
           <ul className="m-0 flex flex-col gap-1.5 pl-5">
             <li>
-              <strong>Inspirada em jogo testado em estudo com crianças:</strong> a ideia vem de um jogo usado em pesquisa com crianças em idade
-              pré-escolar.
+              <strong>Inspirada em atividade estudada com crianças:</strong> a ideia vem de um jogo ou método usado em pesquisa. A ficha diz quem
+              participou do estudo e o que muda na nossa versão. O estudo não testou a ficha do site.
             </li>
             <li>
-              <strong>Recomendada por instituição de referência:</strong> a atividade aparece em orientações para a idade, como as do CDC, do Harvard
-              Center on the Developing Child ou da BNCC.
+              <strong>Inspirada em sugestão de instituição de referência:</strong> a atividade aparece nas dicas para a idade de instituições como o
+              CDC, o Harvard Center on the Developing Child ou o Ministério da Saúde. Os marcos do desenvolvimento (o que a maioria das crianças faz
+              numa idade) servem só de contexto, nunca de exigência.
             </li>
             <li>
-              <strong>Brincadeira tradicional brasileira:</strong> está no guia de brincadeiras populares para a primeira infância do Ministério da
-              Cidadania.
+              <strong>Inspirada em brincadeira tradicional brasileira:</strong> a brincadeira está no guia de culturas populares para a primeira
+              infância do Ministério da Cidadania. Quando a ficha é uma variação, ela avisa.
+            </li>
+            <li>
+              <strong>Relacionada a objetivo da BNCC:</strong> a ideia é nossa e se liga a um objetivo do currículo da educação infantil. A BNCC
+              não recomenda nem avaliou a brincadeira.
             </li>
           </ul>
           <p className="m-0">
             Toda brincadeira passa por um checklist de segurança e só entra no site com a fonte indicada. Depois de publicada, ela pode ganhar a
-            revisão de uma profissional voluntária. As revisadas mostram quem revisou e quando.
+            revisão de uma profissional voluntária; as que envolvem água, comida, faca ou plantas são as primeiras da fila. As revisadas mostram quem
+            revisou e quando. As outras avisam que ainda não passaram por revisão profissional.
           </p>
-          <p className="m-0">Nenhuma das instituições citadas revisou ou endossa o site. As principais fontes:</p>
+          <p className="m-0">Nenhuma das instituições ou pesquisas citadas testou, revisou ou aprovou o site. As principais fontes:</p>
           <ul className="m-0 flex flex-col gap-1.5 pl-5">
             <li>
+              Harvard Center on the Developing Child: atividades de funções executivas para{" "}
+              <a href="https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf" target="_blank" rel="noopener">
+                18 a 36 meses
+              </a>
+              ,{" "}
               <a href="https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf" target="_blank" rel="noopener">
-                Harvard Center on the Developing Child: atividades de funções executivas para 3 a 5 anos
-              </a>
-            </li>
-            <li>
-              CDC: marcos do desenvolvimento aos{" "}
-              <a href="https://www.cdc.gov/act-early/milestones/3-years.html" target="_blank" rel="noopener">
-                3 anos
+                3 a 5 anos
               </a>{" "}
-              e aos{" "}
-              <a href="https://www.cdc.gov/act-early/milestones/4-years.html" target="_blank" rel="noopener">
-                4 anos
+              e{" "}
+              <a href="https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-5-to-7-year-olds.pdf" target="_blank" rel="noopener">
+                5 a 7 anos
               </a>
             </li>
             <li>
-              <a href="https://plataformadeevidencias.iadb.org/en/casos-avaliados/red-light-purple-light-self-regulatory-intervention" target="_blank" rel="noopener">
-                Red Light, Purple Light: jogos de autocontrole testados com pré-escolares
+              CDC: dicas de atividades nas páginas de marcos do desenvolvimento aos{" "}
+              <a href="https://www.cdc.gov/act-early/milestones/2-years.html" target="_blank" rel="noopener">
+                2
+              </a>
+              ,{" "}
+              <a href="https://www.cdc.gov/act-early/milestones/3-years.html" target="_blank" rel="noopener">
+                3
+              </a>
+              ,{" "}
+              <a href="https://www.cdc.gov/act-early/milestones/4-years.html" target="_blank" rel="noopener">
+                4
+              </a>{" "}
+              e{" "}
+              <a href="https://www.cdc.gov/act-early/milestones/5-years.html" target="_blank" rel="noopener">
+                5 anos
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blueprintsprograms.org/programs/1500999999/red-light-purple-light-a-self-regulation-intervention/" target="_blank" rel="noopener">
+                Red Light, Purple Light: jogos de autocontrole estudados em turmas de pré-escola de 3 a 5 anos
+              </a>
+            </li>
+            <li>
+              Leitura compartilhada:{" "}
+              <a href="https://doi.org/10.1542/peds.2017-0723" target="_blank" rel="noopener">
+                estudo em creches de Boa Vista (Weisleder e outros, 2018)
+              </a>{" "}
+              e{" "}
+              <a href="https://doi.org/10.1111/cdev.13225" target="_blank" rel="noopener">
+                revisão de 19 estudos (Dowdall e outros, 2020)
+              </a>
+            </li>
+            <li>
+              <a href="https://doi.org/10.1111/j.1467-8624.2007.01131.x" target="_blank" rel="noopener">
+                Jogos de tabuleiro com números para pré-escolares (Ramani e Siegler, 2008)
+              </a>
+            </li>
+            <li>
+              <a href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf" target="_blank" rel="noopener">
+                Ministério da Saúde: Guia de Atividade Física para a População Brasileira (2021)
+              </a>
+            </li>
+            <li>
+              <a href="https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen_.pdf" target="_blank" rel="noopener">
+                Sociedade Brasileira de Pediatria e Instituto Alana: benefícios da natureza no desenvolvimento (2019)
+              </a>
+            </li>
+            <li>
+              <a href="https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/early-maths" target="_blank" rel="noopener">
+                Education Endowment Foundation: matemática na educação infantil (2020)
               </a>
             </li>
             <li>
               <a href="https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf" target="_blank" rel="noopener">
                 Ministério da Cidadania: Jogos e brincadeiras das culturas populares na Primeira Infância
               </a>
+            </li>
+            <li>
+              <a href="https://basenacionalcomum.mec.gov.br/" target="_blank" rel="noopener">
+                BNCC: objetivos da educação infantil (MEC)
+              </a>
+              , citados em cada ficha pelo código
             </li>
             <li>
               <a href="https://idec.org.br/dicas-e-direitos/uso-de-telas-na-infancia-11-recomendacoes" target="_blank" rel="noopener">
@@ -134,7 +197,8 @@ export default async function Pagina() {
             {convite ? (
               <p className="m-0">
                 É profissional de psicologia, psicopedagogia, terapia ocupacional, fonoaudiologia ou pediatria? Doe uma revisão: você confere uma ou
-                mais brincadeiras e, se autorizar, seu nome aparece na ficha e nesta página. Escreva para{" "}
+                mais brincadeiras e, se autorizar, seu nome aparece na ficha e nesta página. Começamos pelas que envolvem água, comida, faca e
+                plantas. Escreva para{" "}
                 <span className="font-bold select-all">{SITE.contato}</span>.
               </p>
             ) : null}
@@ -147,9 +211,37 @@ export default async function Pagina() {
             materiais sugeridos, nem usar o site sozinha.
           </p>
           <p className="m-0">
-            Antes de começar, leia o aviso de segurança da brincadeira e olhe o lugar: peças pequenas, água, comida, objetos cortantes, quinas e piso
-            escorregadio. Adapte ou deixe para outro dia se a criança tiver alguma restrição de saúde, alergia ou não estiver bem.
+            Antes de começar, leia todos os passos e o aviso de segurança da brincadeira e olhe o lugar: peças pequenas, água, comida, objetos
+            cortantes, quinas e piso escorregadio. Adapte ou deixe para outro dia se a criança tiver alguma restrição de saúde, alergia ou não estiver
+            bem.
           </p>
+          <p className="m-0">Regras que valem para todas as fichas:</p>
+          <ul className="m-0 flex flex-col gap-1.5 pl-5">
+            <li>
+              <strong>Água:</strong> o adulto fica ao alcance dos braços o tempo todo, sem olhar o celular. Pouca água também afoga. Esvazie tudo
+              no fim.
+            </li>
+            <li>
+              <strong>Comida:</strong> só alimentos que a criança já come e tolera, numa textura que ela consegue mastigar, respeitando alergias e
+              restrições. Ela come sentada, com um adulto junto, sem correr nem brincar com a boca cheia. Uva e tomate-cereja vão cortados em
+              quatro, no comprimento.
+            </li>
+            <li>
+              <strong>Peças pequenas:</strong> usamos um teste caseiro, o do rolo de papel higiênico: o objeto inteiro não pode passar por dentro
+              dele. É uma triagem, não uma certificação. Evite também o que esfarela, solta pedaços ou pode ser apertado até caber na boca, e
+              confira se tudo continua inteiro no fim.
+            </li>
+            <li>
+              <strong>Carro:</strong> só brincadeiras de voz. A criança fica na cadeirinha, com o cinto, e o motorista participa só com a voz, sem
+              olhar para trás nem fazer gestos.
+            </li>
+            <li>
+              <strong>Toque e perseguição:</strong> abraço, cócegas e pega-pega só se a criança quiser. Parem quando ela disser não ou se afastar.
+            </li>
+            <li>
+              <strong>Som:</strong> volume confortável, longe dos ouvidos. Ninguém precisa gritar nem bater forte.
+            </li>
+          </ul>
           <p className="m-0">
             O site não substitui a orientação do pediatra. Se alguma coisa no desenvolvimento da criança preocupar vocês, converse com ele. A Caderneta da
             Criança traz os marcos esperados para cada idade.
@@ -176,9 +268,14 @@ export default async function Pagina() {
           </Secao>
         ) : null}
 
-        <Link href="/instalar/" className="font-bold">
-          Como instalar o app e criar um lembrete
-        </Link>
+        <div className="flex flex-col gap-1">
+          <Link href="/criancas/" className="font-bold">
+            Crianças: trocar, editar ou adicionar
+          </Link>
+          <Link href="/instalar/" className="font-bold">
+            Como instalar o app e criar um lembrete
+          </Link>
+        </div>
         </div>
 
         <div id="apoio" className="flex scroll-mt-4 flex-col gap-4 md:sticky md:top-6 md:col-span-5">

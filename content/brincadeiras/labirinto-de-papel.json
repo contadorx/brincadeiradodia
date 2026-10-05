@@ -1,0 +1,46 @@
+{
+  "id": "labirinto-de-papel",
+  "nome": "Labirinto de papel",
+  "area": "raciocinio",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar um caminho, testar e voltar quando dá errado.",
+  "materiais": [
+    "Papel, lápis e lápis de cor",
+    "Uma borracha"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Desenhe um caminho largo, com duas linhas, que se divide em dois ou três. Só um chega à saída; os outros terminam numa parede.",
+    "Na entrada, desenhem um bicho; na saída, o que ele quer encontrar: a casa, a comida.",
+    "Antes de riscar, a criança percorre o caminho com o dedo.",
+    "Achou o caminho? Agora ela traça com o lápis. Entrou num beco? Volta e tenta outro.",
+    "Troquem: ela desenha um labirinto para você resolver."
+  ],
+  "facil": "Labirinto com só dois caminhos, um certo e um sem saída. Vale ir só com o dedo, sem lápis.",
+  "dificil": "Labirintos maiores, com pontes e túneis, ou com uma regra: passar por um tesouro no meio antes de sair.",
+  "conversa": [
+    "Como você soube que era um beco sem saída?",
+    "O que você faz quando entra no caminho errado?",
+    "Que bicho vai morar no próximo labirinto?"
+  ],
+  "seguranca": null,
+  "base": "Labirintos e quebra-cabeças estão entre as sugestões do guia de funções executivas do Harvard Center para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 5- to 7-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-5-to-7-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

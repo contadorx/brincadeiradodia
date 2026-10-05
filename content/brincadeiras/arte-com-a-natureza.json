@@ -14,13 +14,14 @@
   "serve": "Treina observar diferenças de forma, cor e tamanho e criar com o que encontrou.",
   "materiais": [
     "Uma cesta ou saquinho de pano para a coleta, nunca saco plástico",
+    "Folhas grandes de plantas que o adulto sabe que não são tóxicas, e gravetos curtos, lisos e sem ponta",
     "Uma folha grande de papel, ou o próprio chão"
   ],
   "etiquetas": [
     "papel"
   ],
   "passos": [
-    "Num passeio pela praça ou quintal, recolham folhas, gravetos, flores caídas e sementes grandes.",
+    "Num passeio pela praça ou quintal, o adulto escolhe e recolhe folhas grandes de plantas que conhece e gravetos lisos. A criança ajuda a olhar e escolher.",
     "Em casa, espalhem tudo e separem por cor, tamanho ou formato.",
     "Montem juntos uma figura no papel ou no chão: um bicho, uma casa, um rosto.",
     "Peça para a criança contar o que é e dar um nome para a obra.",
@@ -31,10 +32,10 @@
   "conversa": [
     "Qual foi a folha mais diferente que você achou?",
     "O que você montou? Qual é a história dessa obra?",
-    "Onde essa semente poderia virar planta?"
+    "Que outra figura dá para montar com essas folhas?"
   ],
-  "seguranca": "Só pegue o que o adulto aprovar: nada de cogumelo, frutinha, planta com espinho ou com seiva leitosa, nem sementes como mamona e olho-de-cabra, que são venenosas. Nada vai à boca, e lavem as mãos depois. Na rua, de mãos dadas e longe do meio-fio; no sol, boné e água.",
-  "base": "Brincadeira tradicional indicada para 4 a 5 anos no guia Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+  "seguranca": "Só folhas de plantas que o adulto sabe que não são tóxicas. Nada de sementes, frutinhas, flores, cogumelos, espinhos ou seiva leitosa; se não conhece, desenhem a planta sem pegar. Nada vai à boca. Não peguem perto de lixo, fezes ou veneno. O adulto confere tudo antes e guarda depois; lavem as mãos. Na rua, de mãos dadas e longe do meio-fio; no sol, boné e água.",
+  "base": "Variação nossa de arte com elementos da natureza, inspirada no guia de culturas populares do Ministério da Cidadania (2019). O guia não garante a segurança de nenhuma planta",
   "status": "publicada",
   "evidencia": "C",
   "fontes": [

@@ -13,10 +13,10 @@
   ],
   "serve": "Treina seguir uma sequência e a coordenação das mãos.",
   "materiais": [
-    "Bacia com um pouco de água",
-    "Esponja e um pouco de sabão",
+    "Bacia com um pouco de água limpa",
+    "Esponja inteira, que não esfarele, e um pouco de sabão (se quiser, o adulto aplica)",
     "Pano para secar",
-    "Brinquedos de plástico"
+    "Brinquedos grandes de plástico, laváveis, sem pilha, furos ou partes que guardam água"
   ],
   "etiquetas": [
     "agua",
@@ -24,8 +24,8 @@
   ],
   "passos": [
     "Combinem a ordem do banho: molha, ensaboa, enxágua e seca.",
-    "Os brinquedos chegam sujos. Pode passar um pouco de terra ou de tinta guache.",
-    "A criança lava um por um, seguindo a ordem.",
+    "Os clientes chegam com os brinquedos para o banho. Não precisa sujar de verdade.",
+    "A criança lava um por um, seguindo a ordem. Se usar sabão, você passa e enxágua, longe dos olhos.",
     "No fim, ela entrega os brinquedos limpos para os “clientes”."
   ],
   "facil": "Você fala cada passo na hora: “Agora ensaboa!”",
@@ -34,8 +34,8 @@
     "Qual é o próximo passo?",
     "Esse estava mais sujo ou mais limpo que o outro?"
   ],
-  "seguranca": "Um adulto sempre do lado, mesmo com pouca água. No fim, esvazie a bacia e seque o chão.",
-  "base": "Marcos do CDC aos 3 anos: seguir instruções de mais de um passo",
+  "seguranca": "O adulto fica ao alcance dos braços o tempo todo, sem olhar o celular: pouca água também afoga. Ninguém bebe a água. No fim, esvazie a bacia e seque os brinquedos e o chão.",
+  "base": "Versão nossa, ligada às dicas do CDC aos 3 anos de dar tarefas simples à criança. Os passos vêm um de cada vez, sem precisar decorar",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [

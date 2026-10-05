@@ -12,12 +12,13 @@ import { Casa, Check, Fechar, Play, Relogio } from "./Icones";
 import { Rodape } from "./Rodape";
 import { Marca } from "./Marca";
 import { SeloRascunho } from "./PorQue";
+import { TrocaCrianca } from "./TrocaCrianca";
 import { NavInferior } from "./NavInferior";
 
 const NOME_REACAO = { adorou: "Adorou", ok: "Foi ok", nao: "Não rolou" } as const;
 
 export function Hoje({ lista }: { lista: Brincadeira[] }) {
-  const { perfil, registros, pronto } = useDados();
+  const { perfil, familia, registros, pronto, recarregar } = useDados();
   const [avisoInstalar, setAvisoInstalar] = useState(false);
 
   useEffect(() => {
@@ -37,7 +38,7 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
 
   const hoje = meiaNoite(new Date());
   const inicio = deChave(perfil.inicio);
-  const { brincadeira: b, nivelSugerido } = brincadeiraDoDia(lista, perfil.faixa, inicio, hoje);
+  const { brincadeira: b } = brincadeiraDoDia(lista, perfil.faixa, inicio, hoje);
   const extras = semMaterial(lista, perfil.faixa, hoje, b?.id);
   const kHoje = chaveDia(hoje);
   const feita = b ? registros.find((r) => r.dia === kHoje && r.brincadeira === b.id) : undefined;
@@ -61,8 +62,8 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
 
   const chipPerfil = (
     <Link
-      href="/boas-vindas/"
-      aria-label={`Trocar a criança ou a idade: ${perfil.apelido ? perfil.apelido + ", " : ""}${NOME_FAIXA[perfil.faixa]}`}
+      href="/criancas/"
+      aria-label={`Crianças: ${perfil.apelido ? perfil.apelido + ", " : ""}${NOME_FAIXA[perfil.faixa]}. Trocar, editar ou adicionar criança`}
       className="inline-flex min-h-10 max-w-[45%] items-center truncate whitespace-nowrap rounded-full bg-painel px-3.5 text-sm font-bold text-tinta no-underline hover:bg-linha md:max-w-none"
     >
       {perfil.apelido ? `${perfil.apelido} · ` : ""}
@@ -102,21 +103,20 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
               </h1>
             </div>
 
+            <TrocaCrianca familia={familia} rotulo="Para quem é a brincadeira:" aoTrocar={recarregar} />
+
             {b ? (
               <article className="flex flex-col gap-3.5 rounded-3xl bg-sol-claro p-5 md:gap-4 md:p-8">
                 <div className="flex flex-wrap gap-2">
                   <span className="inline-flex min-h-[30px] items-center rounded-full bg-white px-3 text-[13px] font-bold">{NOME_AREA[b.area]}</span>
                   <span className="inline-flex min-h-[30px] items-center gap-1.5 rounded-full bg-white px-3 text-[13px] font-bold">
                     <Relogio tamanho={15} />
-                    {b.minutos} min
+                    uns {b.minutos} min
                   </span>
                   <span className="inline-flex min-h-[30px] items-center gap-1.5 rounded-full bg-white px-3 text-[13px] font-bold">
                     <Casa tamanho={15} />
                     {b.lugares.includes("casa") ? "Em casa" : "Fora de casa"}
                   </span>
-                  {nivelSugerido === "dificil" ? (
-                    <span className="inline-flex min-h-[30px] items-center rounded-full bg-tinta px-3 text-[13px] font-bold text-white">Nível 2 esta semana</span>
-                  ) : null}
                   {b.status === "rascunho" ? <SeloRascunho /> : null}
                 </div>
                 <h2 className="m-0 font-display text-[34px] font-extrabold leading-[1.02] tracking-tight md:text-[48px]">{b.nome}</h2>
@@ -145,6 +145,9 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
                     Ver ficha
                   </Link>
                 </div>
+                <p className="m-0 text-[15px] text-suave">
+                  É só uma sugestão: vocês podem repetir a favorita ou <Link href="/explorar/">escolher outra</Link>.
+                </p>
               </article>
             ) : (
               <article className="rounded-3xl bg-painel p-5">
@@ -157,7 +160,7 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
                     .replace(/, ([^,]*)$/, " e $1")}
                   .
                 </p>
-                <Link href="/boas-vindas/" className="mt-3 inline-flex min-h-11 items-center font-bold">
+                <Link href="/criancas/" className="mt-3 inline-flex min-h-11 items-center font-bold">
                   Trocar a idade
                 </Link>
               </article>

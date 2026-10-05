@@ -24,16 +24,16 @@
     "Combinem: só pode jogar quando ouvir “Já!”",
     "Diga devagar: “Preparar... apontar... já!” e ela joga a bola no cesto.",
     "Repitam, mudando o tempo de espera entre o apontar e o já.",
-    "Depois, uma corrida: “Preparar, apontar, já!” e vocês andam rápido até a porta."
+    "Depois, escolham um alvo visível numa área livre, longe de portas, escadas e quinas: “Preparar, apontar, já!” e vocês vão andando até lá."
   ],
   "facil": "Espera curtinha e faça o gesto junto: mão para cima no preparar, mão descendo no já.",
-  "dificil": "Diga palavras parecidas para confundir: “Preparar, apontar... jacaré!” Ela só joga com o “já”. Errar e rir faz parte.",
+  "dificil": "Depois de combinar que só o “já” vale, diga uma palavra bem diferente, como “banana!”. Se ela jogar, repita a regra e mostre de novo: errar e rir faz parte.",
   "conversa": [
     "Foi difícil esperar o já?",
-    "Para onde a gente corre agora?",
+    "Para onde a gente vai agora?",
     "Agora é você que fala o já?"
   ],
-  "seguranca": "Bola macia e espaço livre, longe de janelas, TV e quinas. Na corrida, chão sem tapete que escorrega e caminho sem móveis. Fora de casa, só em quintal ou praça cercada; no sol, boné, protetor e água.",
+  "seguranca": "Bola macia e espaço livre, longe de janelas, TV, portas, escadas e quinas. Comecem andando, sem corrida, em chão sem tapete que escorrega. Fora de casa, só em quintal ou praça cercada; no sol, boné, protetor e água.",
   "base": "Brincadeiras de “preparar, apontar, já” são dica do CDC aos 30 meses, e corridas com regras simples estão no guia do Harvard Center para 18 a 36 meses",
   "status": "publicada",
   "evidencia": "B",

@@ -1,0 +1,45 @@
+{
+  "id": "tambor-de-pote",
+  "nome": "Tambor de pote",
+  "area": "musica",
+  "ordem": 2,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina ouvir e tocar rápido, devagar, mais alto e mais baixo, e parar junto com a música.",
+  "materiais": [
+    "Dois potes grandes de plástico, vazios, firmes e sem rachadura, virados de boca para baixo: um para cada um"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Virem os potes de boca para baixo, no chão ou na mesa, um para cada um.",
+    "Toquem com a palma da mão aberta: batidas leves, longe do rosto e dos ouvidos.",
+    "Cante uma música conhecida e toquem junto, no ritmo.",
+    "Brinquem de rápido e devagar, mais alto e mais baixo, sem bater com força.",
+    "Parem quando a música parar."
+  ],
+  "facil": "Imitem uma batida: você toca uma vez, ela toca uma vez. Depois, tocar livre enquanto você canta.",
+  "dificil": "Alternem duas batidas e uma pausa: tum, tum, silêncio. Ela copia; depois inventa um ritmo para você copiar.",
+  "conversa": [
+    "O som muda se a gente bate no meio ou na beirada do pote?",
+    "Que música a gente toca agora?",
+    "Quer tocar rápido ou devagar?"
+  ],
+  "seguranca": "Pote vazio, sem nada dentro e sem tampa solta. Volume confortável, longe dos ouvidos: ninguém precisa bater forte. Se preferir um chocalho, use um brinquedo próprio para a idade, inteiro e com selo do Inmetro.",
+  "base": "Proposta nossa de explorar sons, ligada ao objetivo EI02TS03 da BNCC (usar fontes sonoras do ambiente em canções e brincadeiras)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02TS03 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02TS03"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "caderno-de-campo",
+  "nome": "Caderno de campo",
+  "area": "explorar",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina observar com calma, notar detalhes e registrar o que viu com desenho.",
+  "materiais": [
+    "Uma folha dobrada ao meio, como caderno, e um lápis",
+    "Um livro de capa dura para apoiar a folha"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Escolham um lugar com natureza perto de casa: praça, quintal, canteiro da rua ou até a janela.",
+    "Antes de sair, combinem o que vão procurar: um passarinho, uma árvore, uma formiga, uma nuvem diferente.",
+    "Lá, fiquem um minuto em silêncio, só ouvindo e olhando. O que apareceu?",
+    "A criança escolhe uma coisa e desenha no caderno, com calma. Você anota o que ela disser sobre o desenho.",
+    "Em casa, mostrem o caderno para alguém e contem o que viram."
+  ],
+  "facil": "Só observem e conversem; você desenha o que ela apontar. Uma coisa só já vale.",
+  "dificil": "Voltem ao mesmo lugar outro dia e comparem: o que mudou? Ela pode contar quantos passarinhos, flores ou formigas viu e anotar com risquinhos.",
+  "conversa": [
+    "O que você ouviu quando a gente ficou em silêncio?",
+    "Onde será que esse bicho mora?",
+    "O que você quer procurar da próxima vez?"
+  ],
+  "seguranca": "Olhem sem pegar: nada de tocar bichos, cogumelos, frutinhas ou plantas que vocês não conhecem, e nada vai à boca. Na rua, de mãos dadas e longe do meio-fio. Na janela ou na varanda, só com rede ou grade de proteção bem instalada, e a criança no chão, sem subir em móvel. No sol, boné, protetor e água. Lavem as mãos ao voltar.",
+  "base": "Brincar e observar a natureza todo dia é orientação da Sociedade Brasileira de Pediatria, e procurar passarinhos e bichos na praça é dica do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Benefícios da natureza no desenvolvimento de crianças e adolescentes (SBP e Instituto Alana, 2019)",
+      "url": "https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen_.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

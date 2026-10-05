@@ -21,7 +21,10 @@ export type NomeEvento =
   | "apoio_pix_copiado"
   | "apoio_compartilhado"
   | "apoio_dispensado"
-  | "uso_semana";
+  | "uso_semana"
+  | "crianca_adicionada"
+  | "crianca_trocada"
+  | "crianca_removida";
 
 type Dados = Record<string, string | number | boolean>;
 

@@ -13,7 +13,7 @@
   "serve": "Treina planejar, lembrar pedidos e conversar dentro de uma história.",
   "materiais": [
     "Brinquedos",
-    "Ferramentas de faz de conta: colher de pau, prendedor de roupa, uma caixinha"
+    "Ferramentas de faz de conta: ferramentas grandes de brinquedo ou uma colher de pau lisa, e uma caixinha"
   ],
   "etiquetas": [
     "brinquedos"
@@ -22,7 +22,7 @@
     "Antes de começar, planejem o que a oficina vai consertar hoje. A criança pode desenhar o plano.",
     "A criança é quem conserta e você é o cliente: “Meu brinquedo está fazendo um barulho estranho!”",
     "Enquanto ela conserta, pergunte o que estava quebrado e como ela arrumou.",
-    "No fim, o cliente paga com dinheirinho de papel. Depois invertam os papéis."
+    "No fim, o cliente paga com dinheiro de mentira, feito de cartões grandes de papel. Depois invertam os papéis."
   ],
   "facil": "Você começa consertando, mostra como faz e depois passa a vez.",
   "dificil": "O cliente pede 2 ou 3 coisas de uma vez, como “trocar a roda e limpar o vidro”, e a criança precisa lembrar de todas antes de entregar.",
@@ -30,7 +30,7 @@
     "O que aconteceu com esse brinquedo?",
     "Quanto custa o conserto?"
   ],
-  "seguranca": null,
+  "seguranca": "Só conserto de mentira: não desmontem aparelhos, brinquedos quebrados, tomadas nem compartimento de pilha. Nada de parafusos, molas, ímãs ou peças pequenas.",
   "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (faz de conta com plano)",
   "status": "publicada",
   "evidencia": "B",

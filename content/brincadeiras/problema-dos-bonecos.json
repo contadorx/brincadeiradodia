@@ -1,0 +1,50 @@
+{
+  "id": "problema-dos-bonecos",
+  "nome": "O problema dos bonecos",
+  "area": "autocontrole",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina pensar em soluções para uma briga, ouvir os dois lados e escolher junto.",
+  "materiais": [
+    "Dois bonecos ou bichos de pelúcia",
+    "Um brinquedo para eles disputarem"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Encene um problema com os bonecos: os dois querem o mesmo brinquedo ao mesmo tempo.",
+    "Pare e pergunte: “O que está acontecendo? Como cada um está se sentindo?”",
+    "Peça ideias: “O que eles podem fazer?” Aceite todas e conte nos dedos.",
+    "Escolham juntos uma ideia para testar, como revezar, brincar juntos ou trocar por outro brinquedo.",
+    "Encenem a solução e vejam se os dois bonecos ficaram bem."
+  ],
+  "facil": "Você dá duas ideias e ela escolhe: “Eles podem revezar ou brincar juntos. Qual você acha melhor?”",
+  "dificil": "Inventem problemas novos: um boneco derrubou a torre do outro, ou não deixou o outro entrar na brincadeira. Ela pode fazer o boneco que pede desculpas e o que decide se aceita.",
+  "conversa": [
+    "Já aconteceu algo assim com você?",
+    "Qual solução foi a mais justa?",
+    "Como a gente sabe se o outro ficou bem?"
+  ],
+  "seguranca": null,
+  "base": "O CDC sugere aos 4 anos ajudar a criança a usar palavras para resolver conflitos e, aos 5, falar dos sentimentos dos personagens. Os bonecos são a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

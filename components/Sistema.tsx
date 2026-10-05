@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { lerPerfil, lerUltimaSemanaMedida, salvarUltimaSemanaMedida } from "@/lib/armazenamento";
+import { inicioDaFamilia, lerUltimaSemanaMedida, salvarUltimaSemanaMedida } from "@/lib/armazenamento";
 import { deChave } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
 import { semanaDeUso } from "@/lib/plano";
@@ -22,9 +22,9 @@ export function Sistema() {
     window.addEventListener("appinstalled", instalado);
 
     (async () => {
-      const perfil = await lerPerfil();
-      if (!perfil) return;
-      const semana = semanaDeUso(deChave(perfil.inicio), new Date());
+      const inicio = await inicioDaFamilia();
+      if (!inicio) return;
+      const semana = semanaDeUso(deChave(inicio), new Date());
       const ultima = await lerUltimaSemanaMedida();
       if (semana > ultima) {
         // espera o script de métricas carregar

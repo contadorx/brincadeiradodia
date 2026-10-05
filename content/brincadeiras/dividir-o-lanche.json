@@ -1,0 +1,46 @@
+{
+  "id": "dividir-o-lanche",
+  "nome": "Dividir o lanche",
+  "area": "raciocinio",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dividir em partes iguais, contar e comparar quantidades.",
+  "materiais": [
+    "Pedaços de fruta macia ou biscoitos que a criança já come, em número par: 6, 8 ou 10",
+    "Um prato para cada pessoa"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "O adulto prepara os pedaços antes. Todo mundo lava as mãos.",
+    "Pergunte: “Como a gente divide para cada um ganhar igual?”",
+    "A criança distribui um pedaço de cada vez: “Um para você, um para mim.”",
+    "Contem os pedaços de cada prato: ficou igual?",
+    "Sentem e comam juntos, conversando."
+  ],
+  "facil": "Só 4 pedaços para 2 pessoas. Você distribui junto, dizendo “um para cada”.",
+  "dificil": "Dividam para 3 pessoas, ou um número que não dá igual, como 7 para 2: o que fazer com o que sobra? Ou o adulto corta uma banana e vocês falam em metades.",
+  "conversa": [
+    "Como você sabe que ficou igual?",
+    "E se chegar mais uma pessoa?",
+    "O que a gente faz com o pedaço que sobrou?"
+  ],
+  "seguranca": "Só alimentos que a criança já come e tolera, respeitando alergias e restrições. O adulto corta antes, em pedaços macios que ela consegue mastigar; uva e tomate-cereja em quatro, no comprimento. A criança come sentada, com você junto, sem correr nem brincar com a boca cheia.",
+  "base": "Pôr a matemática na rotina, como ao dividir o lanche igualmente, está entre as recomendações da Education Endowment Foundation, do Reino Unido, para a educação infantil",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Improving Mathematics in the Early Years and Key Stage 1 (Education Endowment Foundation, 2020)",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/early-maths"
+    }
+  ],
+  "revisao": null
+}

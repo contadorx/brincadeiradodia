@@ -1,0 +1,43 @@
+{
+  "id": "adivinha-o-bicho",
+  "nome": "Adivinha o bicho",
+  "area": "linguagem",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua",
+    "carro"
+  ],
+  "serve": "Treina fazer perguntas, lembrar as pistas e juntar as informações para adivinhar.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Pense num bicho sem contar qual é.",
+    "A criança faz perguntas de sim ou não: “Ele voa?” “Ele tem pelo?” “Mora na água?”",
+    "Responda só “sim” ou “não”. Contem juntos as perguntas, até 20.",
+    "De vez em quando, relembrem as pistas: “Já sabemos que tem pelo e não voa.”",
+    "Quando ela adivinhar, troquem: ela pensa num bicho e você pergunta."
+  ],
+  "facil": "Escolha entre poucos bichos que ela conhece e dê pistas grandes: “É grande, cinza e tem tromba.” Ela pode fazer qualquer pergunta.",
+  "dificil": "Vale pensar em objetos da casa ou em personagens. Ou tentem adivinhar com menos de 10 perguntas.",
+  "conversa": [
+    "Qual pergunta ajudou mais?",
+    "Como você descobriu?",
+    "Que bicho seria difícil de adivinhar?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Na rua, de mãos dadas e longe do meio-fio; para atravessar, pausem a brincadeira.",
+  "base": "O jogo das vinte perguntas está entre as sugestões do guia de funções executivas do Harvard Center para 5 a 7 anos; aqui, com bichos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 5- to 7-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-5-to-7-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

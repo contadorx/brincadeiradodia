@@ -1,14 +1,17 @@
 # Brincadeira do Dia
 
-Site e PWA gratuito com uma brincadeira de 10 minutos por dia para pais e cuidadores
-fazerem com a criança, com o que têm em casa. Funciona no navegador do computador e no
+Site e PWA gratuito com uma brincadeira por dia, de 5 a 15 minutos (uns 10, em geral), para pais e
+cuidadores fazerem com a criança, com o que têm em casa. Funciona no navegador do computador e no
 celular. O site é para os adultos; a criança brinca longe da tela.
 
 - **Computador e tablet:** barra de navegação no topo, telas em duas colunas e atalhos de
   teclado no modo "Brincando" (setas mudam o passo, espaço começa ou pausa o tempo).
 - **Celular:** coluna única, barra de navegação embaixo e botões grandes para uma mão.
 
-- **Sem login e sem banco de dados.** Perfil, diário e preferências ficam no próprio celular (IndexedDB).
+- **Sem login e sem banco de dados.** Crianças, diário e preferências ficam no próprio celular (IndexedDB).
+- **Várias crianças:** cada uma tem idade, apelido, diário e sequência de brincadeiras próprios. A troca
+  fica no topo de Hoje, Explorar e Diário, e em `/criancas/` dá para adicionar, editar e remover. Quem já
+  usava o site com uma criança é migrado automaticamente na primeira visita, sem perder o diário.
 - **Funciona sem internet** depois da primeira visita: o service worker guarda todas as páginas na instalação; os dados de navegação interna são guardados conforme o uso.
 - **Instalável** como app no celular (Android e iPhone) e no computador (Chrome, Edge e Safari do Mac).
 - **Métricas anônimas** com Umami no seu VPS, sem cookies (veja `docs/metricas.md`).
@@ -77,15 +80,26 @@ afiliado ou venda exigem plano pago.
 2. Campos:
    - `area`: `explorar`, `linguagem`, `autocontrole`, `raciocinio`, `corpo`, `fazdeconta` ou `musica`. Cada área é um dia da semana.
    - `ordem`: posição no rodízio da área (1 a 4). Semana 1 usa a de ordem 1, semana 2 a de ordem 2, e assim por diante.
-     Quando o rodízio dá a volta, o site sugere o nível mais difícil. Não pode repetir ordem na mesma área e faixa.
+     Quando o rodízio dá a volta, a brincadeira volta igual: o nível nunca muda sozinho, a família escolhe
+     "Mais fácil", "Original" ou "Mais difícil". Não pode repetir ordem na mesma área e faixa.
+   - `minutos`: tempo estimado de brincadeira (a família para quando a criança quiser).
+   - `preparo` (opcional): preparo, limpeza ou observação em outros dias que não cabem nos minutos, até 160
+     letras. Ex.: `"10 minutos para montar; depois, uma olhada por dia"`. Aparece na ficha, em "Você vai precisar".
+   - `serve`: começa sempre com "Treina…" (o build confere). Nada de "melhora" ou "desenvolve".
    - `faixas`: idades atendidas, ex. `["3-4"]`. Uma faixa passa a ser oferecida nas boas-vindas assim que tiver conteúdo publicado.
    - `etiquetas`: materiais para o filtro do Explorar (`papel`, `brinquedos`, `fita`, `massinha`, `agua`, `livro`, `cozinha`). Vazio = sem material.
    - `seguranca`: obrigatório pensar nele. Use `null` só quando não houver risco.
-   - `base`: de onde veio a ideia, em uma frase. Cite a fonte como inspiração, nunca como aval.
-   - `evidencia`: `A` (inspirada em jogo testado em estudo), `B` (recomendada por instituição para a idade) ou `C` (tradicional brasileira).
-   - `fontes`: de 1 a 4 `{ "titulo", "url" }`, sempre `https://`. Aparecem em "Por que esta brincadeira".
+   - `base`: de onde veio a ideia, em até 200 letras. Cite a fonte como inspiração, nunca como aval, e diga o que
+     mudou na nossa versão. Para estudo, diga quem participou (idade, contexto) e que a ficha não foi testada.
+   - `evidencia` (origem da ideia, não nota de eficácia):
+     - `A`: inspirada em atividade estudada com crianças. Só use com o estudo e a tarefa localizados.
+     - `B`: inspirada em sugestão de atividade de uma instituição (a dica, não o marco do desenvolvimento).
+     - `C`: brincadeira tradicional brasileira ou variação dela (diga quando for variação).
+     - `D`: só há um objetivo da BNCC relacionado. O build exige uma fonte com "BNCC" no título.
+   - `fontes`: de 1 a 4 `{ "titulo", "url" }`, sempre `https://`. Aparecem em "De onde veio a ideia".
    - `status`: `rascunho` (fica fora do site) ou `publicada`.
-   - `revisao`: `null` enquanto ninguém revisou (a brincadeira fica no ar normalmente, sem selo). Quando uma
+   - `revisao`: `null` enquanto ninguém revisou (a ficha fica no ar e avisa "Ainda não revisada por
+     profissional"). Quando uma
      profissional doar a revisão:
      ```json
      "revisao": {
@@ -107,7 +121,18 @@ afiliado ou venda exigem plano pago.
 ### Publicação e revisão voluntária
 
 - Toda brincadeira vai ao ar com a fonte (`fontes`, `evidencia`, `base`) e o checklist de segurança do Plano
-  de Conteúdo. A revisão de profissional não trava a publicação: é um selo que chega depois.
+  de Conteúdo. A revisão de profissional não trava a publicação: é um selo que chega depois. As fichas com
+  água, comida, faca ou plantas são as primeiras da fila de revisão.
+- **Textos padrão de segurança** (use sempre o mesmo texto):
+  - Água: adulto ao alcance dos braços o tempo todo, sem celular; esvaziar tudo no fim.
+  - Comida: só o que a criança já come e tolera, com textura que consegue mastigar; alergias e restrições;
+    come sentada e acompanhada; uva e tomate-cereja em quatro, no comprimento.
+  - Carro: só brincadeiras de voz. A criança fica na cadeirinha, com o cinto, e o motorista participa só com a
+    voz, sem olhar para trás nem fazer gestos. Nada de procurar objetos, mudar de posição ou usar tela.
+  - Toque e perseguição: só se a criança quiser; parar quando ela disser não ou se afastar.
+  - Som: volume confortável, longe dos ouvidos; ninguém precisa gritar nem bater forte.
+  - Peças pequenas: o teste do rolo de papel higiênico é triagem caseira, não certificação. Evitar também o que
+    esfarela, solta pedaços ou pode ser apertado até caber na boca.
 - **Doação de revisão:** com `contato` preenchido e `revisao.convidar: true` em `config/site.ts`, a página
   Sobre convida profissionais a revisar. Quando alguém revisar:
   1. Aplique as mudanças que a profissional pediu no texto.
@@ -135,7 +160,7 @@ afiliado ou venda exigem plano pago.
 ### Estrutura
 
 ```
-app/                  páginas (hoje, boas-vindas, brincadeira/[id], brincando, explorar, diário, instalar, sobre)
+app/                  páginas (hoje, boas-vindas, crianças, brincadeira/[id], brincando, explorar, diário, instalar, sobre)
 components/           telas e partes reutilizáveis
 content/brincadeiras/ uma brincadeira por arquivo JSON
 config/site.ts        PIX, contato, métricas, apoio, revisão
@@ -144,7 +169,18 @@ public/               manifesto e ícones do PWA (npm run icones para gerar de n
 scripts/              gerar-sw.mjs (offline) e gerar-icones.py
 infra/umami/          docker-compose do painel de métricas
 docs/metricas.md      instalação do painel e o que olhar nele
+vercel.json           redirecionamentos de brincadeiras que mudaram de endereço
 ```
+
+### Mudou o id de uma brincadeira?
+
+Evite: o id é o endereço da página e fica guardado no diário das famílias. Se precisar:
+
+1. Renomeie o arquivo e o `id`.
+2. Em `lib/esquema.ts`, acrescente o par em `IDS_ANTIGOS` (`"id-antigo": "id-novo"`), para o diário
+   continuar mostrando o nome certo.
+3. Em `vercel.json`, acrescente o redirecionamento do endereço antigo para o novo (veja o exemplo do
+   `chocalho-de-pote`, que virou `tambor-de-pote`).
 
 ## Termos, privacidade e segurança
 
@@ -154,7 +190,9 @@ docs/metricas.md      instalação do painel e o que olhar nele
 - Mudou algo relevante nos textos? Troque `VERSAO_TERMOS` e `DATA_TERMOS` em `config/site.ts`:
   na próxima visita, todos aceitam de novo.
 - Toda ficha mostra "Sempre com um adulto acompanhando" e o aviso específico da brincadeira.
-  No modo "Brincando", o aviso aparece antes de começar o tempo, mesmo para quem pulou a ficha.
+  No modo "Brincando", o aviso específico aparece primeiro, antes de começar o tempo, junto com
+  "Leia todos os passos antes e deixe o celular de lado" e a lista completa dos passos.
+- O tempo é estimativa: o cronômetro é opcional e a família para quando a criança quiser.
 - Os textos foram escritos com cuidado, mas não substituem a revisão de um advogado.
 
 ## Privacidade

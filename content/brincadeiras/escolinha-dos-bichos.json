@@ -1,0 +1,49 @@
+{
+  "id": "escolinha-dos-bichos",
+  "nome": "Escolinha dos bichos",
+  "area": "fazdeconta",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina conversar no papel de outra pessoa, organizar uma rotina e ter paciência com quem está aprendendo.",
+  "materiais": [
+    "Bichos de pelúcia ou bonecos para serem os alunos",
+    "Papel e lápis",
+    "Um livro com figuras"
+  ],
+  "etiquetas": [
+    "brinquedos",
+    "papel",
+    "livro"
+  ],
+  "passos": [
+    "Arrumem a escolinha: os bichos sentados em fila ou em roda.",
+    "A criança é a professora. Combinem o que vai ter na aula: roda de conversa, história, desenho, recreio.",
+    "Você faz a voz de um aluno que tem uma dúvida ou que está com saudade de casa.",
+    "Ela resolve como professora: explica, acolhe, chama para brincar.",
+    "No fim da aula, todo mundo guarda o material e se despede."
+  ],
+  "facil": "Uma parte só da aula, como a roda de conversa. Você conduz junto e dá ideias.",
+  "dificil": "Invertam: você é a professora e ela é um aluno muito agitado, ou que não quer fazer a atividade. Depois, conversem sobre como foi.",
+  "conversa": [
+    "O que a professora fez quando o aluno ficou triste?",
+    "Qual parte da aula você mais gostou de dar?",
+    "Como você acha que é a escola de verdade?"
+  ],
+  "seguranca": null,
+  "base": "Brincar de escolinha e encenar situações novas, como a chegada à escola, são dicas do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

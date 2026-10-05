@@ -1,0 +1,50 @@
+{
+  "id": "escadas-e-escorregadores",
+  "nome": "Escadas e escorregadores",
+  "area": "raciocinio",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "preparo": "Uns 10 minutos para desenhar o tabuleiro na primeira vez; depois, é só guardar e jogar de novo",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina contar casas, ler números até 20 e comparar quem está mais perto do fim.",
+  "materiais": [
+    "Uma folha grande com 20 casas numeradas, de 1 a 20, em zigue-zague",
+    "Lápis para desenhar 2 escadas, que sobem, e 2 escorregadores, que descem",
+    "Um dado grande, ou cartões grandes com 1, 2 e 3",
+    "Um carrinho ou boneco para cada jogador andar no tabuleiro"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Desenhem o tabuleiro juntos. A criança escolhe onde ficam as escadas e os escorregadores.",
+    "Na sua vez, a pessoa joga o dado e anda, contando as casas em voz alta: “Sete, oito, nove!”",
+    "Parou no pé de uma escada? Sobe até o topo. Na boca de um escorregador? Desce.",
+    "Depois de cada jogada, digam o número da casa em que o peão parou.",
+    "Quem chegar ao 20 primeiro ganha. Comparem: quem estava mais perto?"
+  ],
+  "facil": "Tabuleiro só até 10, sem escorregadores, com cartões de 1 e 2.",
+  "dificil": "Antes de andar, a criança diz em que casa vai parar: “Estou no 8 e tirei 3...” Depois vocês conferem contando as casas.",
+  "conversa": [
+    "Quantas casas faltam para o 20?",
+    "Quem está mais perto do fim?",
+    "Onde a gente põe uma escada nova?"
+  ],
+  "seguranca": "Dado e bonecos ou carrinhos grandes, que não passem por dentro de um rolo de papel higiênico. Nada de moedas ou tampinhas. Guarde as peças longe de irmãos menores.",
+  "base": "Jogos de tabuleiro com números, como escadas e escorregadores, estão entre as recomendações da Education Endowment Foundation, do Reino Unido, para a matemática na educação infantil",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Improving Mathematics in the Early Years and Key Stage 1 (Education Endowment Foundation, 2020)",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/early-maths"
+    }
+  ],
+  "revisao": null
+}

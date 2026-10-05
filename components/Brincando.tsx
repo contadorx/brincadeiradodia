@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Brincadeira } from "@/lib/esquema";
 import { useRouter } from "next/navigation";
-import { adicionarRegistro, lerApoio, lerPerfil, type Reacao } from "@/lib/armazenamento";
+import { adicionarRegistro, lerApoio, lerFamilia, lerPerfil, nomeDaCrianca, type Reacao } from "@/lib/armazenamento";
 import { VERSAO_TERMOS } from "@/config/site";
 import { chaveDia, difDias } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
@@ -45,6 +45,7 @@ export function Brincando({
   const [reacao, setReacao] = useState<Reacao | null>(null);
   const [nota, setNota] = useState("");
   const [mostrarApoio, setMostrarApoio] = useState(false);
+  const [paraQuem, setParaQuem] = useState<string | null>(null);
   const trava = useRef<WakeLock | null>(null);
   const router = useRouter();
 
@@ -52,6 +53,12 @@ export function Brincando({
   useEffect(() => {
     lerPerfil().then((p) => {
       if (!p || p.aceite?.versao !== VERSAO_TERMOS) router.replace("/boas-vindas/");
+    });
+    // Com mais de uma criança, o registro diz em qual diário vai entrar.
+    lerFamilia().then((f) => {
+      if (!f || f.criancas.length < 2) return;
+      const ativa = f.criancas.find((c) => c.id === f.ativa) ?? f.criancas[0];
+      setParaQuem(nomeDaCrianca(ativa, f));
     });
   }, [router]);
 
@@ -117,11 +124,11 @@ export function Brincando({
 
   async function salvar() {
     if (!reacao) return;
-    const lista = await adicionarRegistro({ dia: chaveDia(new Date()), brincadeira: b.id, reacao, nota: nota.trim().slice(0, 300) });
+    const { total } = await adicionarRegistro({ dia: chaveDia(new Date()), brincadeira: b.id, reacao, nota: nota.trim().slice(0, 300) });
     evento("brincadeira_concluida", { id: b.id, area: b.area, reacao, nivel });
     const estado = await lerApoio();
     const longeDoUltimo = !estado.ultimoCartao || difDias(new Date(), new Date(estado.ultimoCartao)) >= apoio.intervaloDias;
-    setMostrarApoio(lista.length >= apoio.aPartirDeRegistros && longeDoUltimo);
+    setMostrarApoio(total >= apoio.aPartirDeRegistros && longeDoUltimo);
     setFase("feito");
   }
 
@@ -165,6 +172,11 @@ export function Brincando({
       <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-5 pb-7 pt-6 md:max-w-xl md:justify-center md:py-12">
         <p className="m-0 text-sm font-bold uppercase tracking-wider text-suave">{b.nome}</p>
         <h1 className="m-0 font-display text-[30px] font-extrabold leading-tight">Como foi?</h1>
+        {paraQuem ? (
+          <p className="m-0 -mt-3 text-[15px] text-suave">
+            Vai para o diário de <strong className="text-tinta">{paraQuem}</strong>.
+          </p>
+        ) : null}
         <div className="grid grid-cols-3 gap-2" role="group" aria-label="Reação da criança">
           {REACOES.map((r) => (
             <button
@@ -297,12 +309,21 @@ export function Brincando({
         {!comecou ? (
           <div className="flex items-start gap-3 rounded-[18px] border-[1.5px] border-sol/60 bg-noite-2 p-4" role="note" aria-label="Antes de começar">
             <Alerta tamanho={22} className="mt-0.5 shrink-0 text-sol" />
-            <div className="flex flex-col gap-1">
+            <div className="flex min-w-0 flex-col gap-1.5">
               <p className="m-0 font-bold">Antes de começar</p>
+              {b.seguranca ? <p className="m-0 text-[15px]">{b.seguranca}</p> : null}
               <p className="m-0 text-[15px] text-noite-suave">
-                Um adulto acompanha a brincadeira do começo ao fim. Olhe o lugar e os materiais.
-                {b.seguranca ? ` ${b.seguranca}` : ""}
+                Um adulto acompanha do começo ao fim. Leia todos os passos antes e deixe o celular de lado. O tempo é só uma estimativa: parem quando a
+                criança quiser.
               </p>
+              <details className="text-[15px]">
+                <summary className="min-h-11 cursor-pointer content-center font-bold text-sol">Ler todos os passos</summary>
+                <ol className="m-0 mt-1 flex flex-col gap-1.5 pl-5 text-noite-suave">
+                  {b.passos.map((p, i) => (
+                    <li key={i}>{p}</li>
+                  ))}
+                </ol>
+              </details>
             </div>
           </div>
         ) : null}

@@ -23,24 +23,24 @@
     "Vale inventar palavra que não existe, desde que rime."
   ],
   "facil": "Use pares bem claros e fale devagar, separando o começo do resto: “p... ão, m... ão”, “g... ato, p... ato”.",
-  "dificil": "A criança fala três palavras que rimam com uma que você escolher, como “bolo”. Ou inventem juntos dois versos que rimam: “O gato foi passear / e caiu dentro do mar”.",
+  "dificil": "Inventem uma rima, se quiserem: pode ser palavra inventada, e não precisa achar três. Ou criem juntos dois versos: “O gato foi passear / e caiu dentro do mar”.",
   "conversa": [
     "Que palavra rima com o seu nome?",
     "Qual foi a rima mais engraçada?",
     "Você conhece alguma música que tem rima?"
   ],
-  "seguranca": "Na calçada, de mãos dadas e longe do meio-fio: para bater palma, parem num lugar seguro. No carro, a criança fica sempre na cadeirinha, e quem dirige só brinca falando, sem tirar os olhos da rua.",
-  "base": "Inspirada no treino de rimas e sons avaliado pelo What Works Clearinghouse em crianças de 3 a 6 anos com dificuldades de aprendizagem. Reconhecer rimas simples é marco do CDC aos 5 anos",
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Na calçada, de mãos dadas e longe do meio-fio; para bater palma, parem num lugar seguro.",
+  "base": "Jogos de rima estão entre as dicas do CDC para os 5 anos; aqui, numa versão nossa para 4 a 5. Inventar rimas também é objetivo da BNCC (EI03EF02)",
   "status": "publicada",
-  "evidencia": "A",
+  "evidencia": "B",
   "fontes": [
-    {
-      "titulo": "Phonological Awareness Training, relatório do What Works Clearinghouse (2012)",
-      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_pat_060512.pdf"
-    },
     {
       "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
       "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03EF02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03EF02"
     }
   ],
   "revisao": null

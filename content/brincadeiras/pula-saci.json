@@ -11,25 +11,25 @@
     "casa",
     "rua"
   ],
-  "serve": "Treina equilíbrio e força nas pernas, pulando num pé só.",
+  "serve": "Treina equilíbrio e força nas pernas, no ritmo de cada criança.",
   "materiais": [],
   "etiquetas": [],
   "passos": [
     "Conte que o saci tem uma perna só e por isso anda pulando.",
     "Mostre: um pé no chão, o outro dobrado para trás, e um pulinho.",
-    "A criança tenta um pulinho num pé só. Depois, troca de pé.",
-    "Brinquem de saci-mandou: “Saci pula três vezes!”, “Saci pula com o outro pé!”",
+    "Se ela já se equilibra, tenta um pulinho curto num pé só, com você perto. Depois, troca de pé.",
+    "Brinquem de saci-mandou: “Saci pula uma vez!”, “Saci troca de pé!”",
     "Descansem sentados no chão entre as rodadas."
   ],
-  "facil": "Segure a mão da criança enquanto ela pula. Vale também só se equilibrar num pé, contando até 3.",
-  "dificil": "Pular 5 vezes seguidas no mesmo pé, ou ir pulando até a porta e voltar com o outro pé. Pular num pé só costuma aparecer perto dos 5 anos: tudo bem se ainda balançar.",
+  "facil": "Façam o gesto do saci sem pular, ou pulem com os dois pés. Vale também só se equilibrar num pé, contando até 3, com você perto.",
+  "dificil": "Mais um pulinho, só se estiver confortável; não precisa pular várias vezes. Pular num pé só costuma aparecer perto dos 5 anos: tudo bem se ainda balançar.",
   "conversa": [
     "Com qual pé foi mais fácil?",
     "Como o saci faz para não cair?",
     "Que outro bicho ou personagem pula assim?"
   ],
-  "seguranca": "Piso que não escorrega, sem meia, longe de quinas, móveis e escada. Fora de casa, só em quintal ou praça cercada, de chão plano e sem buracos, nunca em calçada perto da rua.",
-  "base": "Pular num pé só é marco do CDC aos 5 anos, e o CDC sugere brincar de “o mestre mandou” nessa idade. O saci, do folclore brasileiro, dá o tema",
+  "seguranca": "Piso que não escorrega, longe de quinas, móveis e escada; em piso liso de casa, descalço segura melhor que de meia. Fora de casa, de tênis, só em quintal ou praça cercada, de chão plano e sem buracos, nunca em calçada perto da rua.",
+  "base": "O CDC sugere brincar de “o mestre mandou” aos 5 anos; aqui, com o saci do folclore. Pular num pé só aparece nos marcos dessa idade como contexto, não como teste",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [

@@ -1,0 +1,51 @@
+{
+  "id": "plano-de-brincar",
+  "nome": "Plano de brincar",
+  "area": "autocontrole",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar antes de brincar, seguir o próprio plano e ajustar quando precisa.",
+  "materiais": [
+    "Papel e lápis",
+    "Os brinquedos que ela escolher"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Antes de brincar, pergunte: “Do que você vai brincar? Quem você vai ser? O que vai acontecer?”",
+    "A criança desenha o plano; você escreve embaixo o que ela disser.",
+    "Ela brinca seguindo o plano, e você entra como personagem, se ela quiser.",
+    "No meio, olhem o plano juntos: “O que já aconteceu? O que falta?”",
+    "No fim, conversem: o que saiu como no plano e o que mudou?"
+  ],
+  "facil": "O plano é uma frase só: “Vou ser médica e cuidar do urso.” Você desenha junto.",
+  "dificil": "Façam um plano com começo, meio e fim, ou um plano para brincarem os dois, com o papel de cada um. Mudar o plano no meio também vale: é só combinar.",
+  "conversa": [
+    "Qual parte do plano foi a mais divertida?",
+    "O que mudou do plano para a brincadeira?",
+    "Qual vai ser o plano de amanhã?"
+  ],
+  "seguranca": null,
+  "base": "Planejar a brincadeira antes é sugestão do Tools of the Mind às famílias, e o faz de conta com plano está no guia do Harvard Center para 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Tools of the Mind: dicas para as famílias",
+      "url": "https://archive.toolsofthemind.org/learn/tools-for-parents/"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

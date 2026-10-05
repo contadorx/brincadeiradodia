@@ -1,0 +1,51 @@
+{
+  "id": "cidade-de-caixas",
+  "nome": "Cidade de caixas",
+  "area": "fazdeconta",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "preparo": "Uns 10 minutos para juntar as caixas e tirar os grampos; a cidade pode ficar montada para brincar de novo",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar e construir junto, resolver problemas de espaço e inventar uma história.",
+  "materiais": [
+    "Caixas de papelão vazias, de tamanhos variados, sem grampos",
+    "Canetinhas e fita crepe",
+    "Carrinhos e bonecos para morar na cidade",
+    "Tesoura ou estilete, só para o adulto"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos",
+    "fita"
+  ],
+  "passos": [
+    "Combinem o que a cidade vai ter: casas, escola, mercado, hospital, rua.",
+    "A criança escolhe as caixas e decide o que cada uma vai ser.",
+    "Desenhem portas e janelas com canetinha. Se precisar abrir uma porta, você corta.",
+    "Façam as ruas com fita crepe no chão, ligando os prédios.",
+    "Brinquem na cidade com os carrinhos e os bonecos. O que acontece lá hoje?"
+  ],
+  "facil": "Comecem com 3 caixas: uma casa, uma escola e uma rua. Você monta e ela decora.",
+  "dificil": "Ela desenha o mapa da cidade antes de montar e confere no fim. Ou resolvam um problema: como fazer uma ponte entre dois prédios que não caia?",
+  "conversa": [
+    "Quem mora nessa casa?",
+    "Como o carro chega até a escola?",
+    "O que falta na nossa cidade?"
+  ],
+  "seguranca": "Tire grampos e fitas soltas das caixas. Estilete e tesoura de ponta só com o adulto, longe da criança. Nada de saco plástico. Ninguém entra em caixa fechada nem sobe nas caixas.",
+  "base": "Brincar de montar e encaixar coisas e incentivar o faz de conta são dicas do CDC aos 5 anos. A cidade de caixas é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "corda-cobrinha",
+  "nome": "Corda cobrinha",
+  "area": "corpo",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina pular na hora certa, coordenar o corpo e esperar a vez.",
+  "materiais": [
+    "Uma corda de pular, ou uma corda macia de uns 2 metros, sem laço nem nó"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Estique a corda no chão. A criança pula de um lado para o outro, sem pisar nela.",
+    "Agora a corda vira cobrinha: você balança devagar, rente ao chão, e ela pula por cima.",
+    "Contem os pulos juntos. Encostou na cobrinha? Riam e tentem de novo.",
+    "Troquem: ela balança a cobrinha e você pula.",
+    "No fim, enrolem a corda juntos e guardem."
+  ],
+  "facil": "Corda parada no chão: pular de um lado para o outro, ou andar em cima dela, como numa ponte.",
+  "dificil": "Ondas um pouco mais altas, só até a altura do tornozelo. Ou balance a corda de um lado para o outro, como um relógio, rente ao chão.",
+  "conversa": [
+    "Como você sabe a hora de pular?",
+    "Quantos pulos você deu?",
+    "Que bicho essa corda parece?"
+  ],
+  "seguranca": "A corda fica no chão ou rente a ele: nada de passar pelo pescoço, amarrar no corpo ou fazer laço. Piso que não escorrega, longe de quinas, móveis e escada. Fora de casa, só em quintal ou praça cercada; no sol, boné, protetor e água. No fim, guarde a corda longe de crianças menores.",
+  "base": "Pular corda está entre as brincadeiras do Guia de Atividade Física do Ministério da Saúde. A cobrinha, com a corda rente ao chão, é um jeito tradicional de começar",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -9,28 +9,27 @@
   "minutos": 5,
   "lugares": [
     "casa",
-    "rua",
-    "carro"
+    "rua"
   ],
-  "serve": "Treina ouvir o primeiro som das palavras e prestar atenção nos detalhes.",
+  "serve": "Treina prestar atenção nos detalhes, descrever o que vê e brincar com os sons das palavras.",
   "materiais": [],
   "etiquetas": [],
   "passos": [
     "Escolha algo que vocês dois estão vendo, sem dizer o que é.",
     "Dê uma pista de cor: “Eu vejo uma coisa amarela.”",
     "A criança tenta adivinhar até acertar.",
-    "Agora dê a pista pelo primeiro som, falando devagar: “Eu vejo uma coisa que começa com mmm.”",
+    "Agora dê pistas de formato ou de uso: “Eu vejo uma coisa redonda” ou “uma coisa que serve para sentar”. A criança pode apontar.",
     "Troquem: a criança escolhe e dá a pista."
   ],
   "facil": "Use só pistas de cor e de formato. Se ela travar, aponte a região: “Está perto da janela.”",
-  "dificil": "Só pistas de som, inclusive o último: “Começa com mmm e termina com aaa” (mesa). Depois, procurem juntos tudo que começa com o mesmo som.",
+  "dificil": "Se ela gostar de sons, dê a pista pela sílaba do começo, bem falada: “Começa com me...” (mesa). O som do fim é opcional, sem exigir resposta.",
   "conversa": [
-    "Que outras coisas começam com o mesmo som de mesa?",
+    "Que outra coisa redonda tem aqui perto?",
     "Com que som começa o seu nome?",
     "Qual foi a pista mais difícil?"
   ],
-  "seguranca": "Na calçada, de mãos dadas, longe do meio-fio e das saídas de garagem: quem procura não olha onde pisa. No carro, a criança fica sempre na cadeirinha, e quem dirige só dá pistas de coisas à frente, como o céu, sem procurar nada com os olhos.",
-  "base": "O CDC sugere brincar de “eu vejo” aos 5 anos, e criar aliterações, palavras que começam com o mesmo som, é objetivo da BNCC para a pré-escola (EI03EF02)",
+  "seguranca": "Na calçada, de mãos dadas, longe do meio-fio e das saídas de garagem: parem num lugar seguro para procurar, porque quem procura não olha onde pisa.",
+  "base": "Versão nossa do jogo de adivinhar: o CDC sugere brincar de “eu vejo” aos 5 anos, e brincar com sons se liga ao objetivo EI03EF02 da BNCC. Aos 4, vá no ritmo da criança",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [

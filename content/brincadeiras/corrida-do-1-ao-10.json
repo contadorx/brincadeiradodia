@@ -13,7 +13,7 @@
   "serve": "Treina seguir a ordem dos números e perceber qual número é maior.",
   "materiais": [
     "Uma folha com 10 quadrados em fila, numerados de 1 a 10",
-    "Dois papeizinhos dobrados num pote, um com o número 1 e outro com o número 2",
+    "Dois cartões grandes, um com o número 1 e outro com o 2, virados para baixo",
     "Um carrinho ou boneco para cada jogador"
   ],
   "etiquetas": [
@@ -22,30 +22,30 @@
   ],
   "passos": [
     "Cada um põe seu carrinho ou boneco antes do quadrado 1.",
-    "Na sua vez, a criança sorteia um papelzinho: anda 1 ou 2 casas.",
+    "Na sua vez, a criança escolhe um cartão sem olhar: anda 1 ou 2 casas.",
     "Ela anda dizendo o número de cada casa em que pisa: “Três, quatro!”",
-    "Devolva o papelzinho ao pote e passe a vez.",
+    "Embaralhe os cartões de novo e passe a vez.",
     "Quem chegar ao 10 primeiro ganha. Joguem de novo."
   ],
   "facil": "Andem juntos, apontando e dizendo os números. Se ela errar a casa, contem de novo devagar.",
-  "dificil": "Antes de andar, pergunte: “Você está no 4 e tirou 2. Em que casa vai parar?” Depois, pergunte qual número é maior, o seu ou o dela.",
+  "dificil": "Antes de andar, pergunte: “Você está no 4 e tirou 2. Em que casa vai parar?” Contem apontando as casas; não precisa fazer conta. Depois, comparem quem está mais perto do 10.",
   "conversa": [
     "Quem está mais perto do 10?",
     "Quantas casas faltam para você chegar?",
     "Que número vem depois do 7?"
   ],
-  "seguranca": "Peões grandes, que não passem por dentro de um rolo de papel higiênico. Nada de moedas ou tampinhas.",
-  "base": "Inspirada no tabuleiro numérico de 1 a 10 testado com pré-escolares (Siegler e Ramani, 2008). O mesmo jogo com cores no lugar dos números não teve efeito",
+  "seguranca": "Peões grandes, que não passem por dentro de um rolo de papel higiênico, e cartões grandes, sem papeizinhos. Nada de moedas ou tampinhas.",
+  "base": "Inspirada no tabuleiro de 1 a 10 estudado com pré-escolares de baixa renda (Ramani e Siegler, 2008). A versão com cores, sem números, não trouxe os mesmos ganhos",
   "status": "publicada",
   "evidencia": "A",
   "fontes": [
     {
-      "titulo": "Playing linear numerical board games promotes low-income children's numerical development (Siegler e Ramani, 2008)",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18801120/"
+      "titulo": "Promoting broad and stable improvements in low-income children's numerical knowledge through playing number board games (Ramani e Siegler, 2008)",
+      "url": "https://doi.org/10.1111/j.1467-8624.2007.01131.x"
     },
     {
-      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
-      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+      "titulo": "Playing linear numerical board games promotes low-income children's numerical development (Siegler e Ramani, 2008)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18801120/"
     }
   ],
   "revisao": null

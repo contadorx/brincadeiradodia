@@ -12,17 +12,16 @@
   ],
   "serve": "Treina criar um personagem e dar voz ao que ele pensa e sente.",
   "materiais": [
-    "Uma meia velha, sem furo",
-    "Canetinha atóxica",
-    "Pedaços de papel ou feltro e cola para olhos e boca"
+    "Uma meia limpa, sem furo, sem elástico solto ou enfeite",
+    "Canetinha com selo do Inmetro, para desenhar o rosto direto na meia"
   ],
   "etiquetas": [
     "papel"
   ],
   "passos": [
     "A criança decide quem vai ser o fantoche: um bicho, um monstro, uma pessoa.",
-    "Ela desenha como quer o personagem, e vocês fazem olhos e boca na meia, com caneta ou papel colado.",
-    "Esperem a cola secar e deem um nome ao fantoche.",
+    "Ela desenha como quer o personagem, e vocês desenham olhos e boca direto na meia, com a canetinha.",
+    "Deem um nome ao fantoche.",
     "Façam uma apresentação atrás do sofá: o fantoche se apresenta e conta do que gosta.",
     "Use a sua mão como outro personagem e converse com o fantoche dela."
   ],
@@ -33,8 +32,8 @@
     "Como ele está se sentindo hoje?",
     "O que ele faz quando fica com medo?"
   ],
-  "seguranca": "Nada de botão, olho móvel, lantejoula ou miçanga: olhos desenhados ou de papel colado. Cola atóxica com selo do Inmetro. A meia fica na mão, nunca no pescoço.",
-  "base": "Inspirada nos bonecos de pano personalizados, indicados para 4 a 5 anos no guia do Ministério da Cidadania (2019), em que a criança desenha o próprio boneco",
+  "seguranca": "Nada de botão, olho móvel, lantejoula, miçanga ou peça colada: o rosto é desenhado. A meia fica na mão, nunca no pescoço.",
+  "base": "Fantoche de meia: versão nossa, inspirada nos bonecos personalizados do guia de culturas populares do Ministério da Cidadania (2019), que não traz este roteiro",
   "status": "publicada",
   "evidencia": "C",
   "fontes": [

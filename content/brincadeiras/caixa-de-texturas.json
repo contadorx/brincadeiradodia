@@ -13,7 +13,7 @@
   "serve": "Treina perceber e dar nome ao que sente com as mãos: macio, áspero, liso, duro.",
   "materiais": [
     "Uma caixa ou cesto",
-    "4 a 6 objetos grandes de texturas diferentes: toalhinha, luva de banho, colher de pau, escova sem bolinhas nas cerdas, tampa de panela de metal"
+    "4 a 6 objetos grandes, leves e inteiros, de texturas diferentes: toalhinha, luva de banho, colher de pau lisa, tampa grande de plástico, escova sem bolinhas"
   ],
   "etiquetas": [
     "brinquedos"
@@ -21,8 +21,8 @@
   "passos": [
     "Coloque os objetos na caixa.",
     "A criança tira um de cada vez e passa a mão.",
-    "Diga como ele é: “Macio!”, “Duro!”, “Liso e frio!”",
-    "Peça para ela encostar no braço ou na bochecha e comparar.",
+    "Diga como ele é: “Macio!”, “Duro!”, “Liso!”, “Áspero!”",
+    "Explorem com as mãos. Se ela quiser, encoste só um pano macio no braço; não precisa encostar no rosto.",
     "Separem em dois montes: os macios e os duros."
   ],
   "facil": "Só dois objetos bem diferentes, um macio e um duro, e repita as palavras.",
@@ -32,10 +32,10 @@
     "Onde mais tem coisa macia aqui em casa?",
     "Você gosta mais do liso ou do áspero?"
   ],
-  "seguranca": "Só objetos grandes, que não passem por dentro de um rolo de papel higiênico, sem pontas e sem pedaços que soltem: nada de esponja que esfarela ou escova com bolinhas nas cerdas. Nada de vidro, faca ou produto de limpeza. Lave tudo antes: nessa idade, tudo vai à boca.",
-  "base": "Explorar semelhanças e diferenças entre as propriedades dos objetos, como textura, massa e tamanho, é objetivo da BNCC até 3 anos e 11 meses (EI02ET01)",
+  "seguranca": "Só objetos grandes, leves e inteiros, que não passem por dentro de um rolo de papel higiênico, sem pontas e sem pedaços que soltem: nada de esponja que esfarela. Nada de vidro, faca, objeto pesado ou produto de limpeza. Lave tudo antes: nessa idade, tudo vai à boca.",
+  "base": "Proposta nossa de comparar texturas, ligada ao objetivo EI02ET01 da BNCC (comparar propriedades dos objetos, como textura, massa e tamanho)",
   "status": "publicada",
-  "evidencia": "B",
+  "evidencia": "D",
   "fontes": [
     {
       "titulo": "BNCC, Educação Infantil, objetivo EI02ET01 (MEC), na Nova Escola",

@@ -6,7 +6,7 @@ export const SITE = {
   nome: "Brincadeira do Dia",
   url: "https://brincadeiradodia.com.br",
   descricao:
-    "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa. Para pais e cuidadores, sem tela para a criança.",
+    "Uma brincadeira por dia, de uns 10 minutos, com o que você tem em casa. Para pais e cuidadores, sem tela para a criança.",
 
   /**
    * Responsável pelo site (controlador dos dados, pela LGPD).

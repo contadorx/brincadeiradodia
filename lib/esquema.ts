@@ -63,16 +63,27 @@ const textoCurto = z.string().trim().min(3).max(200);
 const textoMedio = z.string().trim().min(3).max(400);
 
 /**
- * Nível de evidência (veja o Plano de Conteúdo):
- * A = inspirada em jogo testado em estudo com crianças;
- * B = recomendada por instituição de referência para a idade;
- * C = brincadeira tradicional brasileira.
+ * Origem da ideia (veja o Plano de Conteúdo). Não é nota de eficácia: diz de onde a
+ * ideia veio. A ficha é sempre uma versão nossa, e a `base` explica a diferença.
+ * A = inspirada em atividade estudada com crianças (diga população, contexto e o que mudou);
+ * B = inspirada em sugestão de atividade de uma instituição (dica, não marco do desenvolvimento);
+ * C = brincadeira tradicional brasileira ou variação dela;
+ * D = só há um objetivo da BNCC relacionado (currículo, não recomendação da atividade).
  */
-export const EVIDENCIAS = ["A", "B", "C"] as const;
+export const EVIDENCIAS = ["A", "B", "C", "D"] as const;
 export const NOME_EVIDENCIA: Record<(typeof EVIDENCIAS)[number], string> = {
-  A: "Inspirada em jogo testado em estudo com crianças",
-  B: "Recomendada por instituição de referência",
-  C: "Brincadeira tradicional brasileira",
+  A: "Inspirada em atividade estudada com crianças",
+  B: "Inspirada em sugestão de instituição de referência",
+  C: "Inspirada em brincadeira tradicional brasileira",
+  D: "Relacionada a objetivo da BNCC, o currículo da educação infantil",
+};
+
+/**
+ * Brincadeiras que mudaram de id. O diário guarda o id antigo; aqui ele aponta para o novo.
+ * Os endereços antigos são redirecionados em vercel.json.
+ */
+export const IDS_ANTIGOS: Record<string, string> = {
+  "chocalho-de-pote": "tambor-de-pote",
 };
 
 /** rascunho = não aparece no site publicado; publicada = aparece. */
@@ -108,7 +119,10 @@ export const esquemaBrincadeira = z
     /** Posição no rodízio semanal da área (1 a 4): semana 1 usa a de ordem 1, semana 2 a de ordem 2… */
     ordem: z.number().int().min(1).max(9),
     faixas: z.array(z.enum(FAIXAS)).min(1),
+    /** Tempo estimado de brincadeira. É estimativa: a família para quando a criança quiser. */
     minutos: z.number().int().min(3).max(20),
+    /** Preparo, limpeza ou observação em outros dias, quando não cabe nos minutos. Ex.: "10 minutos para montar; depois, uma olhada por dia". */
+    preparo: z.string().trim().min(3).max(160).optional(),
     lugares: z.array(z.enum(LUGARES)).min(1),
     serve: textoCurto,
     materiais: z.array(textoCurto).max(6),

@@ -8,8 +8,7 @@
   ],
   "minutos": 5,
   "lugares": [
-    "casa",
-    "carro"
+    "casa"
   ],
   "serve": "Treina conhecer as partes do corpo e acompanhar a música com gestos.",
   "materiais": [],
@@ -21,14 +20,14 @@
     "Pare no meio e pergunte: “Cadê o joelho?” Ela aponta.",
     "Terminem bem devagarinho, quase cochichando."
   ],
-  "facil": "Toque as partes do corpo da criança enquanto canta, sem pressa.",
-  "dificil": "Cantem pulando uma palavra: no lugar de “cabeça”, só toquem a cabeça, sem falar. Ou cantem cada vez mais rápido.",
+  "facil": "Toque as partes do corpo da criança enquanto canta, se ela quiser, sem pressa. Ou cada um toca o próprio corpo.",
+  "dificil": "Cantem pulando uma palavra: no lugar de “cabeça”, só toquem a cabeça, sem falar. Acelerem um pouco só enquanto estiver confortável; vale continuar devagar.",
   "conversa": [
     "Cadê o seu nariz?",
     "Que outra parte do corpo a gente pode cantar?",
     "Quer cantar rápido ou devagar?"
   ],
-  "seguranca": "No carro, a criança fica sempre na cadeirinha e faz só os gestos de cabeça e ombro. Quem dirige só canta, com as mãos no volante.",
+  "seguranca": "Espaço livre em volta, longe de quinas, para ninguém bater a mão nos móveis. Para tocar o corpo da criança, pergunte antes e pare se ela não quiser.",
   "base": "Músicas com gestos, como Cabeça, ombro, joelho e pé, estão no guia do Harvard Center para 18 a 36 meses, e cantar as partes do corpo é dica do CDC aos 2 anos",
   "status": "publicada",
   "evidencia": "B",

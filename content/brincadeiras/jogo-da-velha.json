@@ -1,0 +1,49 @@
+{
+  "id": "jogo-da-velha",
+  "nome": "Jogo da velha",
+  "area": "raciocinio",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir regras, esperar a vez e pensar antes de jogar.",
+  "materiais": [
+    "Papel e lápis, ou giz no chão do quintal"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Desenhe a grade do jogo da velha: duas linhas em pé e duas deitadas.",
+    "Combinem quem é X e quem é bolinha, e quem começa.",
+    "Na sua vez, cada um marca um quadrado. Ganha quem fizer 3 iguais em linha: em pé, deitada ou na diagonal.",
+    "Antes de jogar, pergunte: “Onde você vai marcar? Por quê?”",
+    "Deu velha e ninguém ganhou? Joguem de novo, trocando quem começa."
+  ],
+  "facil": "Joguem com objetos grandes em cima da grade, como tampas de pote, e você mostra as linhas possíveis com o dedo.",
+  "dificil": "Antes de cada jogada, a criança olha se você está quase fazendo 3 em linha e decide se bloqueia. Depois, ela explica a jogada.",
+  "conversa": [
+    "Por que você escolheu esse quadrado?",
+    "Como você percebeu que eu ia ganhar?",
+    "Quem começa ganha mais vezes?"
+  ],
+  "seguranca": "Peças grandes, que não passem por dentro de um rolo de papel higiênico: nada de tampinhas de garrafa, moedas, botões ou grãos. Guarde longe de irmãos menores.",
+  "base": "O CDC sugere jogar jogo da velha aos 4 e aos 5 anos, entre os jogos que exercitam memória, atenção e regras",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

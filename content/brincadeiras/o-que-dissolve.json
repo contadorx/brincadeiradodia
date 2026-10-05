@@ -1,0 +1,48 @@
+{
+  "id": "o-que-dissolve",
+  "nome": "O que dissolve na água?",
+  "area": "explorar",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar um palpite, testar, observar e contar o que aconteceu.",
+  "materiais": [
+    "4 copos de plástico transparentes com água da torneira até a metade",
+    "Uma colher de chá de cada: açúcar, sal, farinha e arroz cru",
+    "Uma colher para mexer e um pano para forrar a mesa"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Ponha os copos de água sobre o pano e os ingredientes ao lado.",
+    "Antes de cada um, pergunte: “Você acha que o açúcar vai sumir na água?”",
+    "A criança põe uma colher do ingrediente no copo e mexe devagar, contando até 10.",
+    "Olhem juntos: sumiu, deixou a água branca como leite ou ficou no fundo?",
+    "Separem os copos em três grupos, do jeito que ficaram: sumiu, ficou branca, ficou no fundo.",
+    "No fim, o adulto joga tudo na pia e vocês lavam os copos juntos."
+  ],
+  "facil": "Só dois ingredientes bem diferentes, açúcar e arroz. Você mexe junto e diz: “Sumiu!” ou “Ficou no fundo!”",
+  "dificil": "Testem o açúcar em dois copos: num vocês mexem, no outro não. Em qual some mais rápido? A criança desenha o antes e o depois de cada copo.",
+  "conversa": [
+    "Para onde foi o açúcar?",
+    "Por que você acha que o arroz não sumiu?",
+    "O que mais a gente podia testar?"
+  ],
+  "seguranca": "Ninguém bebe nem prova as misturas. Só água da torneira, sem esquentar. Copos de plástico. Arroz cru é pequeno: guarde longe de irmãos menores e jogue tudo fora no fim.",
+  "base": "Proposta nossa de experimentar com a água, ligada ao objetivo EI03ET02 da BNCC (observar e descrever mudanças em materiais resultantes de ações sobre eles)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET02"
+    }
+  ],
+  "revisao": null
+}

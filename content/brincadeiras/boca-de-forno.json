@@ -11,25 +11,25 @@
     "casa",
     "rua"
   ],
-  "serve": "Treina guardar uma ordem na cabeça e cumprir do começo ao fim.",
+  "serve": "Treina guardar um pedido na cabeça e lembrar a sequência.",
   "materiais": [],
   "etiquetas": [],
   "passos": [
+    "Antes, combinem: o mestre só pede coisas seguras e combinadas, e quem não quiser fazer pode dizer não.",
     "Você é o mestre. Diga: “Boca de forno!” A criança responde: “Forno!”",
     "Sigam o diálogo: “Tirando bolo!” “Bolo!” “Fareis tudo que seu mestre mandar?” “Faremos todos!”",
-    "Dê uma ordem: “Traga uma almofada!” A criança busca e entrega.",
-    "Comemore cada entrega e dê a próxima ordem.",
+    "Faça um pedido: “Traga uma almofada!” A criança busca e entrega. Comemore e faça o próximo.",
     "Depois de umas rodadas, troquem: a criança vira o mestre."
   ],
-  "facil": "Uma ordem por vez, com coisas que ela vê da sala.",
-  "dificil": "Duas ou três ordens de uma vez, sem repetir: “Traga uma colher de pau, um chinelo e pule três vezes.” Ela faz tudo na ordem certa.",
+  "facil": "Um pedido por vez, com coisas que ela vê da sala.",
+  "dificil": "Dois ou três pedidos de uma vez, sem repetir: “Traga uma colher de pau e um chinelo, e pule três vezes.” Ela faz na ordem; se esquecer, você ajuda a lembrar.",
   "conversa": [
-    "Qual ordem foi a mais difícil de lembrar?",
+    "Qual pedido foi o mais difícil de lembrar?",
     "Como você fez para não esquecer?",
-    "Que ordem você vai dar quando for o mestre?"
+    "O que você vai pedir quando for o mestre?"
   ],
-  "seguranca": "Combine antes o que não vale buscar: nada de faca, tesoura, vidro, remédio, pilha ou produto de limpeza, e nada que precise subir em móvel. Sem correria perto de quinas e escada. Fora de casa, só em quintal ou praça cercada, com tudo à vista e longe da rua; no sol, boné e água.",
-  "base": "Brincadeira tradicional indicada para 4 a 5 anos no guia Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+  "seguranca": "Combine antes o que não vale buscar: faca, tesoura, vidro, remédio, pilha, produto de limpeza e nada que precise subir em móvel. Nada de segredos nem pedidos de tocar o corpo. Sem correria perto de quinas e escada. Fora de casa, só em quintal ou praça cercada, com tudo à vista; no sol, boné e água.",
+  "base": "Brincadeira tradicional do guia de culturas populares do Ministério da Cidadania (2019), para 4 a 5 anos. Na nossa versão, a criança pode dizer não",
   "status": "publicada",
   "evidencia": "C",
   "fontes": [

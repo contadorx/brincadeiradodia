@@ -18,21 +18,21 @@
     "brinquedos"
   ],
   "passos": [
-    "Monte um trem em fila: azul, vermelho, azul, vermelho.",
+    "Monte um trem curto em fila: azul, vermelho, azul, vermelho.",
     "Leia em voz alta, apontando: “Azul, vermelho, azul, vermelho...”",
-    "Pergunte: “Qual vem agora?” e deixe a criança pôr a próxima peça.",
-    "Continuem até acabar as peças, lendo o trem juntos.",
+    "Primeiro, a criança monta um trem igual ao lado do seu.",
+    "Depois, pergunte: “Qual vem agora?” Se ela não souber, completem juntos.",
     "Agora a criança inventa o trem e você continua."
   ],
-  "facil": "Primeiro só copiem: você monta um trem de 4 peças e a criança faz um igual ao lado. Depois tentem continuar.",
-  "dificil": "Faça padrões de 3: azul, azul, vermelho. Ou repita o mesmo padrão com outras coisas: o trem de cores vira um trem de colher, colher, tampa.",
+  "facil": "Só copiem: você monta um trem de 4 peças e a criança faz um igual ao lado.",
+  "dificil": "Só se a sequência curta estiver fácil: dois iguais e um diferente, como azul, azul, vermelho. Ou o mesmo padrão com outras coisas: colher, colher, tampa.",
   "conversa": [
     "Como você descobriu qual vinha agora?",
     "Que outro trem a gente pode inventar?",
     "Tem alguma coisa que se repete na sua roupa ou no chão?"
   ],
   "seguranca": "Só objetos grandes, que não passem por dentro de um rolo de papel higiênico. Nada de contas, botões ou tampinhas de garrafa.",
-  "base": "Inspirada nas atividades de copiar e continuar padrões testadas em estudo com pré-escolares de 4 e 5 anos (Zippert e outros, 2021)",
+  "base": "Inspirada em tarefas de padrões estudadas com crianças de 4 e 5 anos, em sessões com pesquisadores (Zippert e outros, 2021): melhoraram nos padrões, não na matemática em geral",
   "status": "publicada",
   "evidencia": "A",
   "fontes": [

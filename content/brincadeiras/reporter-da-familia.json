@@ -1,0 +1,43 @@
+{
+  "id": "reporter-da-familia",
+  "nome": "Repórter da família",
+  "area": "linguagem",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina fazer perguntas, escutar a resposta até o fim e continuar a conversa.",
+  "materiais": [
+    "Um microfone de mentira: uma colher de pau, um rolo de papel-toalha ou a própria mão"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "A criança é a repórter e entrevista alguém da casa, ou um bicho de pelúcia.",
+    "Antes, combinem 2 ou 3 perguntas: “Do que você mais gosta de comer?” “Como foi o seu dia?”",
+    "Na entrevista, ela pergunta e espera a pessoa responder até o fim.",
+    "Depois de cada resposta, ela faz mais uma pergunta: “Por quê?” ou “Como foi?”",
+    "Troquem: agora você entrevista a criança sobre o dia dela ou sobre a brincadeira preferida."
+  ],
+  "facil": "Você sopra a pergunta no ouvido dela, e ela repete no microfone. Uma pergunta já vale.",
+  "dificil": "No fim, ela conta para outra pessoa o que descobriu. Ou vocês fazem um jornal de uma página, com a notícia desenhada.",
+  "conversa": [
+    "Qual resposta te surpreendeu?",
+    "Quem você quer entrevistar da próxima vez?",
+    "Que pergunta você gostaria que te fizessem?"
+  ],
+  "seguranca": "Entrevista ao vivo, só com pessoas da casa ou da família: nada de gravar ou mandar vídeo para fora. Ninguém precisa responder o que não quiser.",
+  "base": "Ajudar a criança a ampliar as respostas perguntando por quê e como é dica do CDC aos 5 anos. Aqui, ela é quem pergunta, numa versão nossa",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

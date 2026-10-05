@@ -35,6 +35,12 @@ export function todasAsBrincadeiras(): Brincadeira[] {
     if (`${r.data.id}.json` !== arquivo) {
       erros.push(`${arquivo} → id: o id "${r.data.id}" precisa ser igual ao nome do arquivo`);
     }
+    if (r.data.evidencia === "D" && !r.data.fontes.some((f) => f.titulo.includes("BNCC"))) {
+      erros.push(`${arquivo} → fontes: origem D precisa citar o objetivo da BNCC nas fontes`);
+    }
+    if (!r.data.serve.startsWith("Treina")) {
+      erros.push(`${arquivo} → serve: comece com "Treina…" (sem promessa de resultado)`);
+    }
     lista.push(r.data);
   }
   const ids = new Set<string>();
@@ -97,12 +103,6 @@ export function brincadeiraPorId(id: string): Brincadeira {
   const b = brincadeirasNoSite().find((x) => x.id === id);
   if (!b) throw new Error(`Brincadeira não encontrada: ${id}`);
   return b;
-}
-
-/** Quantas brincadeiras de cada faixa existem na mesma área (tamanho do rodízio). */
-export function tamanhoDoRodizio(b: Brincadeira): Partial<Record<string, number>> {
-  const lista = brincadeirasNoSite().filter((x) => x.area === b.area);
-  return Object.fromEntries(b.faixas.map((f) => [f, lista.filter((x) => x.faixas.includes(f)).length]));
 }
 
 /** Profissionais que doaram revisão e autorizaram o nome no site (créditos da página Sobre). */

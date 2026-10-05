@@ -13,7 +13,7 @@
   "serve": "Treina seguir passos na ordem, olhando uma receita desenhada.",
   "materiais": [
     "Pão de forma e um recheio que a criança já come, como requeijão e queijo",
-    "Uma faca de mesa, sem ponta, para passar o recheio",
+    "Uma colher para passar o recheio, ou faca de mesa sem ponta e sem serra",
     "Uma receita desenhada em 4 quadrinhos: pão, recheio, queijo, pão"
   ],
   "etiquetas": [
@@ -24,7 +24,7 @@
     "Desenhem juntos a receita em 4 quadrinhos, na ordem.",
     "Ponha os ingredientes na mesa, com a receita ao lado.",
     "A criança olha o quadrinho 1, faz o passo e marca com um X.",
-    "Sigam assim até o último quadrinho, sem você dizer o que vem depois.",
+    "Sigam assim até o último quadrinho. Você lê ou mostra os desenhos; ela pode pedir ajuda e olhar a receita sempre.",
     "Você corta ao meio, no formato que ela escolher: triângulo ou retângulo. Comam juntos."
   ],
   "facil": "Receita de 3 passos: pão, recheio, pão. Você aponta um quadrinho de cada vez.",
@@ -34,7 +34,7 @@
     "Como seria a receita do seu lanche preferido?",
     "O que acontece se pular um passo?"
   ],
-  "seguranca": "Só alimentos que a criança já come (alergias). Faca de mesa, sem ponta, com o adulto do lado; cortar o sanduíche é tarefa do adulto. Nada de fogão.",
+  "seguranca": "Só alimentos que a criança já come e tolera, respeitando alergias e restrições, em pedaços e textura que ela consegue mastigar. Faca, se houver, de mesa, sem ponta e sem serra, com o adulto do lado; cortar o sanduíche é tarefa do adulto. Nada de fogão. Para comer, a criança fica sentada, com você junto.",
   "base": "O CDC sugere envolver a criança no preparo das refeições aos 5 anos, e cozinhar seguindo uma receita está no guia de funções executivas do Harvard Center",
   "status": "publicada",
   "evidencia": "B",

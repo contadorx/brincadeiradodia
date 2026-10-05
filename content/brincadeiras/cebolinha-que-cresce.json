@@ -1,0 +1,49 @@
+{
+  "id": "cebolinha-que-cresce",
+  "nome": "Cebolinha que volta a crescer",
+  "area": "explorar",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "preparo": "5 minutos para montar; depois, trocar a água e olhar a cada 2 dias, por uma semana",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina cuidar de uma planta, esperar e observar como ela muda de um dia para o outro.",
+  "materiais": [
+    "O pé de um maço de cebolinha, com as raízes e uns 3 dedos de talo branco (o adulto corta)",
+    "Um copo de plástico transparente com um pouco de água",
+    "Papel e lápis para o diário da planta"
+  ],
+  "etiquetas": [
+    "cozinha",
+    "papel"
+  ],
+  "passos": [
+    "Na hora de usar a cebolinha na comida, o adulto corta e guarda o pé com as raízes.",
+    "A criança põe o pé no copo, com água só até cobrir as raízes, sem afogar o talo.",
+    "Deixem o copo num lugar claro, que a criança alcance do chão, sem subir em nada, e combinem os dias de olhar.",
+    "A cada 2 dias, troquem a água juntos e comparem: a parte verde cresceu? Quanto?",
+    "Cada vez que olharem, a criança marca a altura da parte verde com um tracinho num papel encostado no copo."
+  ],
+  "facil": "Só observem e conversem: você mostra a parte verde nova e a criança diz se está maior que da outra vez.",
+  "dificil": "No fim da semana, ela conta os tracinhos e diz em que dia a cebolinha cresceu mais. Depois, desenha como a planta estava no primeiro e no último dia.",
+  "conversa": [
+    "Do que a planta precisa para crescer?",
+    "Por que você acha que ela cresce de novo?",
+    "O que a gente pode plantar depois?"
+  ],
+  "seguranca": "Copo de plástico, nunca de vidro. A faca fica só com o adulto. Perto da janela, a criança fica no chão, sem subir em nada, e só com rede ou grade de proteção. Troque a água a cada 2 dias e jogue tudo fora se cheirar mal ou aparecer mofo.",
+  "base": "Cultivar plantas e acompanhar como crescem está entre as orientações da Sociedade Brasileira de Pediatria sobre natureza na infância. Replantar a cebolinha é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Benefícios da natureza no desenvolvimento de crianças e adolescentes (SBP e Instituto Alana, 2019)",
+      "url": "https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen_.pdf"
+    }
+  ],
+  "revisao": null
+}

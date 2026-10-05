@@ -17,22 +17,22 @@
     "Coloque uma música animada no celular, com a tela virada para baixo.",
     "Com a música tocando, todo mundo dança.",
     "Quando a música parar, todo mundo vira estátua. Se alguém se mexer, riam e comecem de novo.",
-    "Revezem: depois a criança grita “Estátua!” e você congela."
+    "Revezem: depois a criança diz “Estátua!” em voz confortável e você congela."
   ],
   "facil": "Você também vira estátua, de um jeito engraçado, e a criança imita você.",
-  "dificil": "Antes de parar a música, mostre um desenho de bonequinho numa pose, como braços para cima ou numa perna só. A criança congela naquela pose.",
+  "dificil": "Antes de parar a música, mostre uma pose com os dois pés no chão, como braços para cima. A criança congela naquela pose. Num pé só, só se ela já se equilibra, com você perto.",
   "conversa": [
     "Que bicho você é nessa dança?",
     "Foi difícil ficar parado?"
   ],
-  "seguranca": "Tire do caminho tapetes que escorregam e brinquedos espalhados. Descalço é melhor que de meia.",
-  "base": "Inspirada no jogo da estátua usado no estudo Red Light, Purple Light, com pré-escolares, e na dança da estátua do guia de funções executivas do Harvard Center",
+  "seguranca": "Tire do caminho tapetes que escorregam e brinquedos espalhados. Em piso liso de casa, descalço segura melhor que de meia.",
+  "base": "Inspirada no jogo de congelar do programa Red Light, Purple Light, estudado em turmas de pré-escola de 3 a 5 anos, em grupo, não em casa, e na dança da estátua do guia do Harvard Center",
   "status": "publicada",
   "evidencia": "A",
   "fontes": [
     {
-      "titulo": "Red Light, Purple Light! (Tominey e McClelland, 2011), na Plataforma de Evidências do BID",
-      "url": "https://plataformadeevidencias.iadb.org/en/casos-avaliados/red-light-purple-light-self-regulatory-intervention"
+      "titulo": "Red Light, Purple Light: jogos de autocontrole estudados em turmas de pré-escola (Blueprints for Healthy Youth Development)",
+      "url": "https://www.blueprintsprograms.org/programs/1500999999/red-light-purple-light-a-self-regulation-intervention/"
     },
     {
       "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",

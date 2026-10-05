@@ -13,26 +13,26 @@
   ],
   "serve": "Treina contar uma história, lembrar a ordem dos fatos e imaginar.",
   "materiais": [
-    "Um brinquedo qualquer",
-    "Papel e caneta para o adulto"
+    "Um brinquedo grande e inteiro, sem peças que soltem. No carro, só a imaginação ou um brinquedo que já está com a criança",
+    "Papel e caneta para o adulto (em casa)"
   ],
   "etiquetas": [
     "brinquedos",
     "papel"
   ],
   "passos": [
-    "Comece com o brinquedo na mão: “Era uma vez um ursinho que precisava…”",
+    "Comece a história: “Era uma vez um ursinho que precisava…” Em casa, com o brinquedo na mão; no carro, só falando.",
     "Pare e deixe a criança completar: “…precisava do quê?”",
-    "Revezem: cada um acrescenta um pedaço e encena com o brinquedo.",
-    "No fim, escreva a história em 3 ou 4 frases e leia para a criança."
+    "Revezem: cada um acrescenta um pedaço. Em casa, encenem com o brinquedo; no carro, a história é só falada.",
+    "Em casa, escreva a história em 3 ou 4 frases e leia para a criança no fim."
   ],
-  "facil": "Você conta e a criança escolhe entre duas opções: “Ele foi para a praia ou para a fazenda?”",
-  "dificil": "A criança escolhe 2 coisas que precisam aparecer na história, como um gato e uma ponte. Desenhe as duas para conferir no fim. Ficou fácil? Passe para 3.",
+  "facil": "Você conta e a criança escolhe entre duas opções: “Ele foi para a praia ou para a fazenda?” Uma palavra, um som ou um gesto já viram história; você continua.",
+  "dificil": "A criança escolhe 2 coisas que precisam aparecer na história, como um gato e uma ponte. Em casa, desenhe as duas para conferir no fim. Ficou fácil? Passe para 3.",
   "conversa": [
     "E depois, o que aconteceu?",
     "Ele ficou feliz ou bravo? Por quê?"
   ],
-  "seguranca": null,
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
   "base": "Inspirada no guia de funções executivas para 3 a 5 anos do Harvard Center on the Developing Child (contar histórias)",
   "status": "publicada",
   "evidencia": "B",

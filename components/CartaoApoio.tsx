@@ -35,7 +35,7 @@ export function CartaoApoio({
   async function aoCompartilhar() {
     const r = await compartilhar({
       title: "Brincadeira do Dia",
-      text: "Uma brincadeira de 10 minutos por dia para fazer com a criança, com o que tem em casa. É de graça e sem tela para ela:",
+      text: "Uma brincadeira por dia, de uns 10 minutos, para fazer com a criança com o que tem em casa. É de graça e sem tela para ela:",
       url,
     });
     if (r === "share" || r === "copia") evento("apoio_compartilhado", { via: r, origem: modo });

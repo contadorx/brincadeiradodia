@@ -26,25 +26,25 @@
     "Ela recorta do folheto figuras grandes desse tema, sem precisar seguir a linha certinho.",
     "Colem as figuras na folha e deem um título."
   ],
-  "facil": "Você segura a tira bem esticada e a criança só corta. Rasgar com as mãos também vale.",
+  "facil": "Papel firme e largo. Você orienta, com os dedos longe do caminho da tesoura. Se ela ainda não abre e fecha a tesoura, rasguem o papel.",
   "dificil": "Recortar seguindo uma linha desenhada, reta e depois curva. Ou separar as figuras em grupos antes de colar: frutas de um lado, legumes do outro.",
   "conversa": [
     "Por que você escolheu essa figura?",
     "Em que grupo ela fica?",
     "Qual foi o recorte mais difícil?"
   ],
-  "seguranca": "Tesoura só sem ponta e sempre com o adulto do lado; ninguém anda com ela na mão. Cola atóxica com selo do Inmetro. Cola e papel não vão à boca. Recolham os pedacinhos no fim.",
-  "base": "Usar as mãos com coordenação no dia a dia é objetivo da BNCC para a pré-escola (EI03CG05), e o CDC sugere tesoura, cola e papel aos 5 anos",
+  "seguranca": "Tesoura infantil sem ponta, do tamanho da mão da criança, com o adulto do lado; ninguém anda com ela na mão. Cola com selo do Inmetro, própria para a idade. Cola e papel não vão à boca. Recolham os pedacinhos no fim.",
+  "base": "Ter tesoura infantil, cola e papel para criar é dica do CDC aos 5 anos; aos 4, vá no ritmo de cada criança. Ligada também ao objetivo EI03CG05 da BNCC",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [
     {
-      "titulo": "BNCC, Educação Infantil, objetivo EI03CG05 (MEC), na Nova Escola",
-      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03CG05"
-    },
-    {
       "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
       "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03CG05 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03CG05"
     }
   ],
   "revisao": null

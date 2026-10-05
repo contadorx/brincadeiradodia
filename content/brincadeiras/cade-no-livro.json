@@ -32,13 +32,13 @@
     "O que ele está fazendo?"
   ],
   "seguranca": "Livro de papelão grosso ou de pano: página fina rasga e vai à boca.",
-  "base": "Apontar figuras no livro quando alguém pergunta é marco do CDC aos 2 anos, e fazer perguntas de quem, o que e onde é dica do CDC aos 30 meses",
+  "base": "Inspirada na leitura compartilhada estudada em creches de Boa Vista (RR), com crianças de 2 a 4 anos. Perguntas de quem, o que e onde são dica do CDC aos 30 meses",
   "status": "publicada",
-  "evidencia": "B",
+  "evidencia": "A",
   "fontes": [
     {
-      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
-      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+      "titulo": "Reading aloud and child development: a cluster-randomized trial in Brazil (Weisleder e outros, 2018)",
+      "url": "https://doi.org/10.1542/peds.2017-0723"
     },
     {
       "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",

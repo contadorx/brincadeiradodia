@@ -16,7 +16,7 @@
   "etiquetas": [],
   "passos": [
     "Comece uma história com uma frase: “Era uma vez um cachorro que perdeu o chapéu.”",
-    "A criança continua com a frase seguinte.",
+    "A criança continua com a frase seguinte. Vale um gesto ou uma frase curta; você ajuda a continuar.",
     "Revezem, uma frase cada, sem desmanchar o que o outro disse.",
     "Quando a história ficar comprida, combinem um final.",
     "No fim, contem a história inteira juntos, desde o começo."
@@ -28,18 +28,14 @@
     "Como você acha que o cachorro se sentiu?",
     "Que título a gente dá para essa história?"
   ],
-  "seguranca": "No carro, a criança fica sempre na cadeirinha, e quem dirige só brinca falando, sem tirar os olhos da rua.",
-  "base": "Contar histórias em grupo, cada um acrescentando uma parte, está no guia do Harvard Center; contar uma história com dois acontecimentos é marco do CDC aos 5 anos",
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Nada de telas, desenhos ou procurar objetos durante o trajeto.",
+  "base": "Contar histórias em grupo, cada um acrescentando uma parte, é sugestão do guia de funções executivas do Harvard Center para 3 a 5 anos",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [
     {
       "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
       "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
-    },
-    {
-      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
-      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
     }
   ],
   "revisao": null

@@ -14,10 +14,10 @@
   "materiais": [],
   "etiquetas": [],
   "passos": [
-    "Pegue a mão da criança e toque um dedo de cada vez, começando pelo menor.",
+    "Pergunte: “Quer brincar com a sua mão ou com a minha?” Só segure a mão dela se ela aceitar.",
     "Diga a parlenda: “Dedo mindinho, seu vizinho, pai de todos, fura-bolo, mata-piolho.”",
-    "No fim, faça cócegas de leve na palma da mão.",
-    "Repitam na outra mão e depois nos dedos do pé.",
+    "No fim, ofereça cócegas de leve na palma da mão, ou faça o gesto na sua própria mão. Pare na hora se ela se afastar ou disser não.",
+    "Repitam na outra mão e, se ela quiser, nos dedos do pé.",
     "Agora a criança faz na sua mão."
   ],
   "facil": "Toque os dedos devagar e diga os nomes, sem pressa. Repetir muitas vezes faz parte.",
@@ -27,7 +27,7 @@
     "Quantos dedos tem a sua mão?",
     "Qual é o seu dedo maior?"
   ],
-  "seguranca": null,
+  "seguranca": "Toque só se a criança quiser. Pare na hora se ela disser não, se afastar, ficar tensa ou mudar a expressão. Não precisa tocar para brincar: dá para fazer tudo na sua própria mão.",
   "base": "Brincadeiras de dedos com rimas e cantigas estão no guia de funções executivas do Harvard Center para 18 a 36 meses. A parlenda é tradicional brasileira",
   "status": "publicada",
   "evidencia": "B",

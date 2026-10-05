@@ -1,0 +1,46 @@
+{
+  "id": "esconde-esconde",
+  "nome": "Esconde-esconde",
+  "area": "corpo",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina esperar, contar, procurar com atenção e se mexer bastante.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Antes, combinem os lugares que valem e os que não valem para se esconder.",
+    "Quem procura fecha os olhos e conta até 20 em voz alta, devagar.",
+    "Quem se esconde fica num lugar combinado, de onde dá para sair sozinho.",
+    "Ao achar, digam juntos: “Achei!” E troquem os papéis.",
+    "Se alguém ficar com medo ou quiser parar, a brincadeira para na hora."
+  ],
+  "facil": "Esconda-se meio à vista e faça um barulhinho para ajudar. Ou escondam um brinquedo em vez de uma pessoa.",
+  "dificil": "Quem procura conta até 30, ou de 10 até 1. Para achar um brinquedo escondido, vale dar pistas de quente e frio.",
+  "conversa": [
+    "Onde foi o melhor esconderijo?",
+    "Como você me achou?",
+    "Foi difícil ficar quietinho?"
+  ],
+  "seguranca": "Não valem: armário que tranca, guarda-roupa, baú, cama box com baú, mala, caixa com tampa, máquina de lavar, geladeira, carro, varanda, lugar alto e perto de cordão de cortina ou persiana. Ninguém tranca porta. Brinquedo, só escondido onde a criança alcança do chão. Fora de casa, só em quintal ou praça cercada: o adulto conta espiando por entre os dedos.",
+  "base": "Esconde-esconde está entre as brincadeiras do Guia de Atividade Física do Ministério da Saúde, e o CDC sugere aos 4 anos brincadeiras ao ar livre como esconde-esconde",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

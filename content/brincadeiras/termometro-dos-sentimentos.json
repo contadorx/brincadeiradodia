@@ -1,0 +1,46 @@
+{
+  "id": "termometro-dos-sentimentos",
+  "nome": "Termômetro dos sentimentos",
+  "area": "autocontrole",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar nome aos sentimentos, perceber quando eles crescem e escolher o que ajuda.",
+  "materiais": [
+    "Uma folha com um termômetro desenhado, em 3 partes: tranquilo, incomodado e muito bravo ou muito triste",
+    "Lápis de cor"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Desenhem juntos o termômetro e pintem as partes: verde embaixo, amarelo no meio, vermelho em cima.",
+    "Conte uma situação sua: “Quando o ônibus atrasou, fiquei no amarelo.” E aponte no termômetro.",
+    "Pergunte de um momento do dia dela: “Onde você ficou quando acabou a brincadeira?” Aceite a resposta, sem corrigir.",
+    "Juntos, escolham o que ajuda a descer do vermelho: respirar devagar, um abraço, beber água, um cantinho calmo.",
+    "Desenhem essas ideias do lado do termômetro e deixem a folha num lugar à vista."
+  ],
+  "facil": "Só duas partes: tranquilo e bravo. Use caras desenhadas em vez de cores e palavras.",
+  "dificil": "Leiam um livro e marquem no termômetro como o personagem se sentiu em cada parte da história, e o que poderia ajudar ele.",
+  "conversa": [
+    "O que faz você subir para o vermelho?",
+    "O que te ajuda a se acalmar?",
+    "Como você pode me avisar quando estiver no amarelo?"
+  ],
+  "seguranca": null,
+  "base": "Falar dos sentimentos da criança e dos seus, e ter um cantinho para ela se acalmar com você por perto, são dicas do CDC aos 5 anos. O termômetro é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

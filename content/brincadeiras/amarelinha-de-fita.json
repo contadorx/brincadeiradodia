@@ -22,18 +22,18 @@
   "passos": [
     "Marque no chão 6 quadrados em fila, do tamanho de um passo da criança, e escreva os números de 1 a 6.",
     "Mostre o caminho: pular de casa em casa até o 6 e voltar.",
-    "A criança pula e vocês dizem juntos o número de cada casa.",
+    "A criança vai de casa em casa com os dois pés juntos, se já consegue, ou andando, e vocês dizem juntos o número de cada casa.",
     "Jogue o chinelo numa casa: ela passa por essa casa sem pisar, pulando ou dando a volta por fora.",
     "Revezem, cada um na sua vez."
   ],
-  "facil": "Pule com os dois pés juntos e segure a mão da criança. Deixe a parte do chinelo para outro dia.",
-  "dificil": "Faça a amarelinha tradicional, com casas duplas para abrir as pernas. Nas casas simples, a criança fica num pé só enquanto vocês contam até 3 e segue com os dois pés. Pular num pé só costuma vir perto dos 5 anos.",
+  "facil": "Percorram as casas andando, de mãos dadas se ela quiser. Deixe a parte do chinelo para outro dia.",
+  "dificil": "Casas duplas para abrir as pernas, como na amarelinha tradicional. Num pé só, só se ela já se equilibra e quiser, com você ao lado; pode continuar andando ou com os dois pés.",
   "conversa": [
     "Em que número o chinelo caiu?",
     "Qual casa vem depois do 4?",
     "Qual casa foi a mais difícil? Por quê?"
   ],
-  "seguranca": "Marque em piso que não escorrega, longe de quinas e móveis, e pulem descalços, não de meia. Fora de casa, só em lugar fechado, nunca em calçada perto da rua, com boné e água no sol.",
+  "seguranca": "Marque em piso que não escorrega, com a fita bem colada e sem pontas levantadas, longe de quinas e móveis. Em casa, descalço segura melhor que de meia. Fora de casa, só em lugar fechado, nunca em calçada perto da rua, com boné e água no sol.",
   "base": "Brincadeira tradicional (amarelinha, sapata ou macaca) indicada para 3 a 4 anos no guia do Ministério da Cidadania (2019)",
   "status": "publicada",
   "evidencia": "C",

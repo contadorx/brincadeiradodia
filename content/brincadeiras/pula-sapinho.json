@@ -11,7 +11,7 @@
     "casa",
     "rua"
   ],
-  "serve": "Treina pular com os dois pés juntos e cair em equilíbrio.",
+  "serve": "Treina agachar, pular e cair em equilíbrio, do jeito que a criança consegue hoje.",
   "materiais": [
     "Fita crepe para fazer uma linha no chão, ou giz fora de casa"
   ],
@@ -19,21 +19,21 @@
     "fita"
   ],
   "passos": [
-    "Agache como um sapo e pule com os dois pés juntos: “Pula, sapinho!”",
-    "A criança imita, segurando a sua mão se precisar.",
+    "Agache como um sapo e mostre um pulinho com os dois pés juntos: “Pula, sapinho!”",
+    "A criança imita do jeito que conseguir: agachar e levantar, ou dar um pulinho pequeno.",
     "Faça uma linha de fita no chão e pulem de um lado para o outro.",
     "Contem os pulos juntos: “Um, dois, três!”",
     "Terminem descansando: sapinhos dormindo no chão."
   ],
-  "facil": "Segure as duas mãos da criança e pulem juntos no mesmo lugar.",
-  "dificil": "Pular duas linhas seguidas, ou para a frente, o mais longe que conseguir. Pular de lugar alto não vale.",
+  "facil": "Agachem e levantem como sapos, ou passem andando por cima da linha. O adulto mostra; não levanta nem puxa a criança pelas mãos.",
+  "dificil": "Dois pulinhos curtos entre marcas próximas, sem buscar a maior distância. Pular de lugar alto não vale.",
   "conversa": [
     "Como o sapo pula?",
     "Quantos pulos você deu?",
     "Que outro bicho pula?"
   ],
-  "seguranca": "Só pulos no chão, nunca de cima de sofá, cama, degrau ou cadeira. Piso que não escorrega, descalços, longe de quinas. Fora de casa, só em quintal ou praça cercada.",
-  "base": "Pular do chão com os dois pés é marco do CDC aos 30 meses, e o guia do Harvard Center para 18 a 36 meses sugere pular com desafios variados",
+  "seguranca": "Só pulos no chão, nunca de cima de sofá, cama, degrau ou cadeira. Piso que não escorrega, longe de quinas; em casa, descalço segura melhor que de meia. Fora de casa, só em quintal ou praça cercada.",
+  "base": "O guia do Harvard Center para 18 a 36 meses sugere brincar de pular com desafios variados. O marco do CDC aos 30 meses é só contexto, não exigência",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [

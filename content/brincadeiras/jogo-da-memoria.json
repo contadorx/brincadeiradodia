@@ -1,0 +1,51 @@
+{
+  "id": "jogo-da-memoria",
+  "nome": "Jogo da memória",
+  "area": "autocontrole",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "preparo": "Uns 10 minutos para fazer os cartões na primeira vez; depois, é só guardar e jogar de novo",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina lembrar onde as coisas estão, esperar a vez e lidar com ganhar e perder.",
+  "materiais": [
+    "12 cartões do tamanho da palma da mão, que o adulto recorta de caixa de cereal ou papelão fino",
+    "Lápis de cor para desenhar 6 pares de figuras iguais"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Façam os cartões juntos: cada um desenha 3 pares, a mesma figura em dois cartões.",
+    "Embaralhem e espalhem os cartões virados para baixo, em fileiras.",
+    "Na sua vez, a pessoa vira dois cartões. Se forem iguais, fica com eles e joga de novo.",
+    "Se forem diferentes, todo mundo olha bem, e eles voltam a ficar virados para baixo.",
+    "Quando acabarem os pares, contem quem ficou com mais. Joguem de novo, se quiserem."
+  ],
+  "facil": "Comecem com 3 ou 4 pares, ou com os cartões virados para cima, só achando os iguais.",
+  "dificil": "Usem 8 pares, ou pares que combinam em vez de iguais: o cachorro e o osso, a chuva e o guarda-chuva.",
+  "conversa": [
+    "Como você lembrou onde estava aquele?",
+    "Como você se sente quando erra o par?",
+    "Que figuras a gente desenha no próximo jogo?"
+  ],
+  "seguranca": null,
+  "base": "Jogos de cartas como o da memória estão no guia do Harvard Center para 5 a 7 anos, e o CDC sugere aos 5 anos jogos de cartas que exercitam memória e atenção",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 5- to 7-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-5-to-7-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

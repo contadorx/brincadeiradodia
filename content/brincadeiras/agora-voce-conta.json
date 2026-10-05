@@ -19,30 +19,30 @@
   ],
   "passos": [
     "Leia o livro com calma, mostrando as figuras.",
-    "Na segunda vez, pare em cada página e pergunte: “O que está acontecendo aqui?”",
+    "Na segunda vez, pare em algumas páginas e pergunte: “O que está acontecendo aqui?” Não precisa ser em toda página.",
     "Quando a criança responder, repita a frase dela com uma palavra nova.",
-    "No fim, entregue o livro: “Agora você conta para mim.” Ela conta virando as páginas.",
-    "Faça perguntas que fazem pensar: “Por que ele fez isso?” “E se fosse você?”"
+    "No fim, entregue o livro: “Agora você conta para mim.” Ela conta um trecho olhando as figuras, e você ajuda a completar. Vale gesto e frase curta.",
+    "Faça perguntas que fazem pensar, sem virar prova: “Por que ele fez isso?” “E se fosse você?”"
   ],
   "facil": "Ela conta só olhando as figuras, e você ajuda com o começo da frase: “E aí o lobo...”",
-  "dificil": "Fechem o livro e peça para ela contar a história do começo ao fim, com primeiro, depois e no fim. Depois, inventem juntos um final diferente.",
+  "dificil": "Se ela quiser, conta dois acontecimentos, com primeiro e depois, olhando o livro sempre que precisar. Depois, inventem juntos um final diferente.",
   "conversa": [
     "Qual foi a parte mais engraçada?",
     "Como o personagem estava se sentindo?",
     "O que você faria no lugar dele?"
   ],
   "seguranca": null,
-  "base": "Inspirada na leitura dialogada, avaliada pelo What Works Clearinghouse em crianças de 3 a 6 anos com atraso de linguagem. Contar uma história com dois acontecimentos é marco do CDC aos 5 anos",
+  "base": "Inspirada na leitura compartilhada com perguntas: uma revisão de 19 estudos, com crianças de 1 a 6 anos, viu ganhos pequenos de linguagem quando os pais aprenderam a técnica",
   "status": "publicada",
   "evidencia": "A",
   "fontes": [
     {
-      "titulo": "Dialogic Reading, relatório do What Works Clearinghouse (2010)",
-      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dialogic_reading_042710.pdf"
+      "titulo": "Shared picture book reading interventions for child language development: revisão de 19 estudos (Dowdall e outros, 2020)",
+      "url": "https://doi.org/10.1111/cdev.13225"
     },
     {
-      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
-      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+      "titulo": "Dialogic Reading em crianças com deficiência ou atraso de linguagem, relatório do What Works Clearinghouse (2010)",
+      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dialogic_reading_042710.pdf"
     }
   ],
   "revisao": null

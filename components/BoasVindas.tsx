@@ -4,17 +4,20 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { lerPerfil, salvarPerfil, type Perfil } from "@/lib/armazenamento";
-import { FAIXAS, NOME_FAIXA, type Faixa } from "@/lib/esquema";
+import type { Faixa } from "@/lib/esquema";
 import { chaveDia } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
 import { VERSAO_TERMOS } from "@/config/site";
 import { Cadeado } from "./Icones";
 import { Marca } from "./Marca";
+import { EscolhaFaixa } from "./EscolhaFaixa";
 
 export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }) {
   const router = useRouter();
   const [existente, setExistente] = useState<Perfil | null>(null);
-  const [faixa, setFaixa] = useState<Faixa>(faixasComConteudo[0] ?? "3-4");
+  // Começa sem idade marcada: a família escolhe de propósito, sem um padrão que passe despercebido.
+  const [faixa, setFaixa] = useState<Faixa | null>(null);
+  const [erroFaixa, setErroFaixa] = useState("");
   const [apelido, setApelido] = useState("");
   const [aceito, setAceito] = useState(false);
   const [salvando, setSalvando] = useState(false);
@@ -35,10 +38,9 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
 
   async function continuar(e: React.FormEvent) {
     e.preventDefault();
-    if (!aceito) {
-      setErro("Para continuar, marque que você vai acompanhar a criança e que concorda com os termos.");
-      return;
-    }
+    if (!faixa) setErroFaixa("Escolha a idade da criança.");
+    if (!aceito) setErro("Para continuar, marque que você vai acompanhar a criança e que concorda com os termos.");
+    if (!faixa || !aceito) return;
     setSalvando(true);
     await salvarPerfil({
       faixa,
@@ -57,8 +59,8 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
 
         <div className="flex items-center gap-4" aria-hidden="true">
           <div className="flex size-28 shrink-0 flex-col items-center justify-center rounded-full bg-sol leading-none md:size-40">
-            <span className="font-display text-[50px] font-extrabold tracking-tighter md:text-[72px]">10</span>
-            <span className="mt-0.5 text-[15px] font-bold md:text-lg">minutos</span>
+            <span className="font-display text-[50px] font-extrabold tracking-tighter md:text-[72px]">1</span>
+            <span className="mt-0.5 text-[15px] font-bold md:text-lg">por dia</span>
           </div>
           <div className="flex flex-col gap-2">
             <span className="block size-14 -rotate-[8deg] rounded-[14px] bg-azul md:size-20" />
@@ -72,7 +74,7 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
               ? "Atualizamos os termos"
               : existente
                 ? "Ajustar a criança e a idade"
-                : "Uma brincadeira por dia, de 10 minutos, com o que você tem em casa."}
+                : "Uma brincadeira por dia, de uns 10 minutos, com o que você tem em casa."}
           </h1>
           <p className="m-0 text-suave md:text-lg">
             {termosNovos
@@ -83,34 +85,22 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
       </div>
 
       <form onSubmit={continuar} className="flex flex-1 flex-col gap-6 md:flex-none md:rounded-3xl md:border md:border-linha md:p-8 md:shadow-sm" noValidate>
-        <fieldset className="m-0 flex flex-col border-0 p-0">
-          <legend className="mb-2.5 p-0 text-[17px] font-bold">Qual a idade da criança?</legend>
-          <div className="grid grid-cols-3 gap-2">
-            {FAIXAS.map((f) => {
-              const disponivel = faixasComConteudo.includes(f);
-              const ativa = f === faixa;
-              return (
-                <button
-                  key={f}
-                  type="button"
-                  aria-pressed={ativa}
-                  disabled={!disponivel}
-                  onClick={() => setFaixa(f)}
-                  className={`flex min-h-[52px] flex-col items-center justify-center rounded-[14px] border-[1.5px] px-1 text-[15px] font-bold leading-tight transition-colors ${
-                    ativa
-                      ? "border-azul bg-azul text-white"
-                      : disponivel
-                        ? "border-borda bg-white text-tinta hover:border-azul"
-                        : "border-linha bg-painel text-suave"
-                  }`}
-                >
-                  {NOME_FAIXA[f]}
-                  {!disponivel ? <span className="text-xs font-normal">em breve</span> : null}
-                </button>
-              );
-            })}
-          </div>
-        </fieldset>
+        <div className="flex flex-col gap-2">
+          <EscolhaFaixa
+            legenda="Qual a idade da criança?"
+            faixa={faixa}
+            aoEscolher={(f) => {
+              setFaixa(f);
+              setErroFaixa("");
+            }}
+            disponiveis={faixasComConteudo}
+          />
+          {erroFaixa ? (
+            <p role="alert" className="m-0 text-sm font-bold text-alerta">
+              {erroFaixa}
+            </p>
+          ) : null}
+        </div>
 
         <div className="flex flex-col gap-1.5">
           <label htmlFor="apelido" className="text-[17px] font-bold">

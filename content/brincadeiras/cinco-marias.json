@@ -1,0 +1,46 @@
+{
+  "id": "cinco-marias",
+  "nome": "Cinco Marias",
+  "area": "corpo",
+  "ordem": 3,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina jogar e pegar com uma mão só, prestar atenção e esperar a vez.",
+  "materiais": [
+    "5 saquinhos de pano bem costurados e recheados com retalhos, ou 5 meias de criança enroladas em bolinha"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Espalhem as 5 Marias no chão. Escolham uma para ser a que vai para o alto.",
+    "Jogue essa para cima, pegue uma do chão com a mesma mão e pegue a do alto antes de ela cair.",
+    "A criança tenta. Deixou cair? Tudo bem: tenta de novo ou passa a vez.",
+    "Quando ficar fácil, peguem duas de cada vez, depois três. Se não couber na mão, fiquem no número que dá.",
+    "Revezem, contando quantas cada um conseguiu pegar."
+  ],
+  "facil": "Joguem a do alto bem baixinho, ou deixem ela cair no chão antes de pegar. Vale usar as duas mãos.",
+  "dificil": "Inventem desafios: bater palma antes de pegar, ou empurrar a do chão por baixo de uma ponte feita com a outra mão.",
+  "conversa": [
+    "O que é mais difícil: jogar ou pegar?",
+    "Como você faz para não deixar cair?",
+    "Que desafio novo a gente inventa?"
+  ],
+  "seguranca": "Saquinhos recheados só com retalhos, nunca com grãos, areia ou bolinhas, bem costurados e grandes demais para passar por dentro de um rolo de papel higiênico; confira as costuras antes e depois. Nada de pedrinhas ou tampinhas. Fora de casa, longe da rua; no sol, boné e água. Guarde longe de irmãos menores.",
+  "base": "Brincadeira tradicional indicada para 5 a 6 anos no guia de culturas populares do Ministério da Cidadania (2019). Os saquinhos de retalho ou as meias são a nossa versão",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

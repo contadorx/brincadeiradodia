@@ -1,0 +1,46 @@
+{
+  "id": "bau-de-fantasias",
+  "nome": "Baú de fantasias",
+  "area": "fazdeconta",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina inventar personagens, criar a história na hora e ficar no personagem até o fim.",
+  "materiais": [
+    "Roupas e acessórios velhos da casa: chapéu, camisa grande de botão, colete, saia de elástico, bolsa sem alça comprida, óculos sem lente",
+    "Uma caixa de papelão ou um cesto, sem tampa, para ser o baú"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Juntem as roupas e os acessórios no baú.",
+    "A criança escolhe uma fantasia e diz quem vai ser: médica, pirata, cozinheiro, rainha.",
+    "Não precisa combinar antes: a fantasia puxa a história. Ela decide onde vocês estão e o que acontece.",
+    "Brinquem a história. Você também se fantasia e entra como outro personagem.",
+    "No fim, cada um tira a fantasia e guarda no baú."
+  ],
+  "facil": "Uma peça só, como um chapéu, já transforma. Você puxa a história com perguntas: “Pirata, para onde vamos?”",
+  "dificil": "Ela inventa dois personagens e troca de fantasia no meio da história, mudando a voz e o jeito de andar.",
+  "conversa": [
+    "Quem você é hoje?",
+    "O que esse personagem mais gosta de fazer?",
+    "Como a história termina?"
+  ],
+  "seguranca": "Nada de cordão, alça, faixa ou lenço no pescoço, nem saco plástico ou capacete fechado na cabeça. O baú é sem tampa: nada de baú com tampa pesada nem cama box com baú. Roupa comprida ou sapato de adulto só em chão plano, longe de escada. Bijuteria pequena fica fora do baú.",
+  "base": "Incentivar o faz de conta com roupas e objetos para fantasias é dica do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

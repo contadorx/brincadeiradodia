@@ -60,8 +60,8 @@ Além de visitas e páginas mais vistas, o app envia estes eventos anônimos:
 | `brincadeira_aberta` | Abre a ficha de uma brincadeira | id, área |
 | `brincadeira_iniciada` | Toca em "Começar o tempo" | id, área, nível |
 | `brincadeira_concluida` | Salva no diário | id, área, reação, nível |
-| `nivel_trocado` | Troca para mais fácil ou mais difícil | id, nível |
-| `filtro_usado` | Usa um filtro no Explorar | tipo, valor |
+| `nivel_trocado` | Troca entre mais fácil, original e mais difícil (o nível nunca muda sozinho) | id, nível |
+| `filtro_usado` | Usa um filtro no Explorar (idade, material, lugar ou tempo) | tipo, valor |
 | `app_instalado` | Instala na tela inicial (Android/Chrome) | nenhum |
 | `lembrete_baixado` | Baixa o lembrete de agenda | horário |
 | `diario_exportado` / `diario_importado` | Faz ou restaura a cópia do diário | quantidade |
@@ -69,7 +69,10 @@ Além de visitas e páginas mais vistas, o app envia estes eventos anônimos:
 | `apoio_compartilhado` | Compartilha o site | via (share/cópia), origem |
 | `apoio_pix_copiado` | Copia o código PIX | origem |
 | `apoio_dispensado` | Toca em "Agora não" | nenhum |
-| `uso_semana` | Primeira abertura em cada semana de uso | número da semana |
+| `uso_semana` | Primeira abertura em cada semana de uso da família | número da semana |
+| `crianca_adicionada` | Adiciona outra criança | faixa de idade, total de crianças |
+| `crianca_trocada` | Troca a criança ativa | faixa de idade |
+| `crianca_removida` | Remove uma criança do aparelho | total de crianças |
 
 Nunca são enviados: apelido, anotações do diário, nome ou qualquer dado da criança.
 
@@ -80,7 +83,7 @@ Crie estes relatórios no Umami (Reports):
 1. **As famílias chegam a brincar?** Funil: `boas_vindas_concluida` → `brincadeira_iniciada` → `brincadeira_concluida`.
 2. **Elas voltam?** Eventos `uso_semana` filtrados por semana (1, 2, 4, 8). Se muitas chegam à semana 1 e poucas à 4, o problema é hábito: reforce o lembrete.
 3. **Quais brincadeiras funcionam?** `brincadeira_concluida` por `id` e por `reacao`. As com muito "não rolou" pedem revisão do texto ou do nível.
-4. **O nível 2 está certo?** `nivel_trocado` com nível "facil" alto a partir da semana 3 indica que o desafio está pesado.
+4. **Os níveis estão bem calibrados?** Muito `nivel_trocado` para "facil" numa brincadeira indica que a versão original está pesada; muito para "dificil", que está fácil demais.
 5. **O apoio funciona sem incomodar?** Compare `apoio_cartao_mostrado` com `apoio_compartilhado`, `apoio_pix_copiado` e `apoio_dispensado`. Se "dispensado" dominar, espaçe o cartão em `config/site.ts`.
 
 Limitação: sem cookies, o Umami não sabe se duas visitas em semanas diferentes são da

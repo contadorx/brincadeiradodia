@@ -18,7 +18,7 @@
   "passos": [
     "Escolha algo que vocês fazem todo dia, como escovar os dentes ou se arrumar para sair.",
     "Conte o primeiro passo: “Primeiro, a gente pega a escova.”",
-    "Pergunte: “E depois?” e espere a criança responder.",
+    "Pergunte: “E depois?” e espere. Se ela responder com um gesto ou uma palavra, você ajuda a completar, sem cobrar a sequência inteira.",
     "Continue até o fim e feche: “Por fim, a gente guarda a escova.”",
     "Agora troquem: a criança conta e você pergunta “E depois?”"
   ],
@@ -29,7 +29,7 @@
     "O que vem depois do banho?",
     "Como se faz um bolo? O que vem primeiro?"
   ],
-  "seguranca": null,
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Na rua, conversem de mãos dadas e parem num lugar seguro antes de olhar algo.",
   "base": "Usar palavras como primeiro, depois e por fim, e perguntar o que vem a seguir, é uma das dicas do CDC para a idade de 4 anos",
   "status": "publicada",
   "evidencia": "B",

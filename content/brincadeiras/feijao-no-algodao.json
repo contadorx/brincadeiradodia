@@ -7,13 +7,14 @@
     "4-5"
   ],
   "minutos": 10,
+  "preparo": "10 minutos para montar; depois, uma olhada rápida por dia, por uns 7 dias",
   "lugares": [
     "casa"
   ],
   "serve": "Treina observar com paciência e registrar o que muda de um dia para o outro.",
   "materiais": [
     "Um copo plástico transparente e algodão",
-    "3 grãos de feijão cru",
+    "3 grãos de feijão cru (o adulto guarda o pacote)",
     "Um pouco de água",
     "Uma folha dividida em quadrinhos para o diário do feijão"
   ],
@@ -22,22 +23,22 @@
   ],
   "passos": [
     "Forre o fundo do copo com algodão e molhe, sem encharcar.",
-    "Entregue um grão de cada vez para a criança pôr sobre o algodão, encostado na parede do copo.",
-    "Deixe o copo num lugar claro que a criança alcance sem subir em nada, e combinem quem molha o algodão a cada dia.",
-    "Todo dia, a criança desenha o feijão num quadrinho do diário.",
+    "Você coloca um grão de cada vez sobre o algodão, encostado na parede do copo, e a criança conta junto.",
+    "Você guarda o copo num lugar claro, fora do alcance das crianças, molha o algodão se secar e traz o copo para olharem juntos uma vez por dia. Ninguém sobe em móveis.",
+    "Cada dia, a criança desenha o feijão num quadrinho do diário.",
     "Comparem os desenhos: o que mudou desde o primeiro dia?"
   ],
   "facil": "Um copo só. Você desenha e a criança aponta o que mudou: “Olha, saiu uma raiz!”",
-  "dificil": "Façam dois copos: um no claro e outro dentro de um armário. Antes, a criança dá um palpite: o que vai ser diferente? Os dois brotam, mas o do escuro costuma ficar comprido, fino e amarelado. Ela pode marcar a altura com tracinhos no copo.",
+  "dificil": "Façam dois copos, os dois fora do alcance: um no claro e outro dentro de um armário. Antes, a criança dá um palpite: o que vai ser diferente? Os dois brotam, mas o do escuro costuma ficar comprido, fino e amarelado.",
   "conversa": [
     "O que você acha que vai sair do feijão primeiro?",
     "Do que a plantinha precisa para crescer?",
     "O que mudou desde ontem?"
   ],
-  "seguranca": "Grão de feijão é pequeno: entregue um de cada vez, contem juntos quantos foram para o copo e guarde o pacote. Nunca no nariz, no ouvido ou na boca, e nada de comer feijão cru.",
-  "base": "Registrar observações e medidas com desenho é objetivo da BNCC para a pré-escola, de 4 a 5 anos e 11 meses (EI03ET04)",
+  "seguranca": "O adulto coloca e recolhe os grãos e guarda o pacote. Ninguém come feijão cru, broto ou algodão. Se a criança ainda leva coisas à boca, observem uma planta sem grãos soltos. O copo fica longe de irmãos menores; se aparecer mofo, o adulto joga tudo fora e lava as mãos.",
+  "base": "Proposta nossa de observar e registrar mudanças, ligada ao objetivo EI03ET04 da BNCC (registrar observações e medidas com desenhos e outras linguagens)",
   "status": "publicada",
-  "evidencia": "B",
+  "evidencia": "D",
   "fontes": [
     {
       "titulo": "BNCC, Educação Infantil, objetivo EI03ET04 (MEC), na Nova Escola",

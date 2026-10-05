@@ -1,0 +1,43 @@
+{
+  "id": "trava-lingua",
+  "nome": "Trava-língua",
+  "area": "linguagem",
+  "ordem": 2,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua",
+    "carro"
+  ],
+  "serve": "Treina ouvir e falar sons parecidos com atenção, e rir dos próprios erros.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Diga devagar um trava-língua inventado: “Pipoca pula na panela, panela pula na pipoca.”",
+    "A criança repete devagar, palavra por palavra.",
+    "Agora falem juntos, um pouco mais rápido. Enrolou? Riam e tentem de novo.",
+    "Inventem um trava-língua com o nome de alguém da casa, com palavras que começam com o mesmo som: “Bia bebe bem a bebida boa.”",
+    "Terminem falando bem devagarinho, como uma tartaruga."
+  ],
+  "facil": "Só duas palavras parecidas, repetidas devagar: “pipoca, panela; pipoca, panela”. Vale bater palma em cada pedacinho da palavra.",
+  "dificil": "Repitam três vezes sem parar, ou falem cochichando. Depois, a criança inventa um trava-língua para você tentar.",
+  "conversa": [
+    "Qual palavra enrolou a sua língua?",
+    "Que som se repete nesse trava-língua?",
+    "Com que som começa o seu nome?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Na rua, de mãos dadas e longe do meio-fio; para atravessar, pausem a brincadeira.",
+  "base": "Proposta nossa de brincar com sons, ligada ao objetivo EI03EF02 da BNCC (inventar brincadeiras cantadas, rimas, aliterações e ritmos)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03EF02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03EF02"
+    }
+  ],
+  "revisao": null
+}

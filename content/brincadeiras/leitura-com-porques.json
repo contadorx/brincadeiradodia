@@ -1,0 +1,50 @@
+{
+  "id": "leitura-com-porques",
+  "nome": "Leitura com porquês",
+  "area": "linguagem",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina conversar sobre a história, pensar no que os personagens sentem e imaginar o que vem depois.",
+  "materiais": [
+    "Um livro com figuras de que a criança goste, de casa ou da biblioteca"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Sentem juntos e deixem a criança escolher o livro e virar as páginas.",
+    "Leia com calma. De vez em quando, pare numa figura: “O que está acontecendo aqui?”",
+    "Antes de virar a página, pergunte: “O que você acha que vai acontecer agora?”",
+    "Pergunte por quê e como: “Por que ele ficou bravo?” “Como ela resolveu?” E espere a resposta.",
+    "Aceite qualquer resposta e aumente a frase dela com uma palavra nova.",
+    "Não precisa perguntar em toda página: se ela quiser só ouvir, leia."
+  ],
+  "facil": "Pergunte só sobre a figura: “Quem está aqui?” “O que ele está fazendo?” Você pode dar duas opções para ela escolher.",
+  "dificil": "No fim, ela conta a história olhando as figuras, ou inventa outro final. Pergunte: “E se fosse você, o que faria?”",
+  "conversa": [
+    "Como você acha que ele se sentiu?",
+    "Qual foi a parte mais surpreendente?",
+    "Que outro final essa história podia ter?"
+  ],
+  "seguranca": null,
+  "base": "Inspirada na leitura compartilhada: uma revisão de 19 estudos, com crianças de 1 a 6 anos, viu ganhos pequenos de linguagem com pais treinados e muitas leituras",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Shared picture book reading interventions for child language development: revisão de 19 estudos (Dowdall e outros, 2020)",
+      "url": "https://doi.org/10.1111/cdev.13225"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

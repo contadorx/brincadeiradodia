@@ -1,0 +1,43 @@
+{
+  "id": "cancao-dos-dias",
+  "nome": "Canção dos dias da semana",
+  "area": "musica",
+  "ordem": 1,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua",
+    "carro"
+  ],
+  "serve": "Treina a ordem dos dias, as palavras de tempo, como ontem e amanhã, e o ritmo.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Cantem os dias, de domingo a sábado, numa melodia que vocês já sabem ou do jeito que sair. Não precisa cantar bonito.",
+    "Cantem batendo uma palma em cada dia. No carro, quem dirige só canta; na rua, andando de mãos dadas, troquem a palma por um passo.",
+    "Parem no dia de hoje e digam juntos o nome dele.",
+    "Perguntem: “E ontem, que dia foi? E amanhã?”",
+    "Cantem de novo, cada vez de um jeito: devagar, rápido, cochichando."
+  ],
+  "facil": "Cantem só até o dia de hoje e contem o que vocês fizeram ontem.",
+  "dificil": "Cantem pulando um dia, e a criança descobre qual faltou. Ou cantem de trás para frente, do sábado ao domingo.",
+  "conversa": [
+    "O que a gente vai fazer amanhã?",
+    "Qual é o seu dia preferido? Por quê?",
+    "Quantos dias faltam para sábado?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Na rua, de mãos dadas e longe do meio-fio; para atravessar, pausem a brincadeira.",
+  "base": "Cantar músicas sobre os dias da semana e usar palavras de tempo, como hoje, ontem e amanhã, é dica do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

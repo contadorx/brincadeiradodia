@@ -3,9 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
-import { lerPerfil, lerRegistros } from "@/lib/armazenamento";
-import { deChave } from "@/lib/datas";
-import { semanaDeUso } from "@/lib/plano";
+import { lerRegistros } from "@/lib/armazenamento";
 import { evento } from "@/lib/metricas";
 import { compartilhar } from "@/lib/compartilhar";
 import { Alerta, Compartilhar, Play, Voltar } from "./Icones";
@@ -16,7 +14,7 @@ import { PorQue, SeloRascunho } from "./PorQue";
 export type Nivel = "facil" | "normal" | "dificil";
 const NIVEIS: { id: Nivel; nome: string }[] = [
   { id: "facil", nome: "Mais fácil" },
-  { id: "normal", nome: "Normal" },
+  { id: "normal", nome: "Original" },
   { id: "dificil", nome: "Mais difícil" },
 ];
 
@@ -26,31 +24,25 @@ export function textoDoNivel(b: Brincadeira, n: Nivel) {
   return n === "facil" ? b.facil : n === "dificil" ? b.dificil : "Como nos passos acima.";
 }
 
-export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizio: Partial<Record<string, number>> }) {
+export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
   const [nivel, setNivel] = useState<Nivel>("normal");
+  const [jaBrincou, setJaBrincou] = useState(false);
   const [aviso, setAviso] = useState("");
 
   useEffect(() => {
     evento("brincadeira_aberta", { id: b.id, area: b.area });
-    let salvo: string | null = null;
     try {
-      salvo = sessionStorage.getItem(chaveNivel(b.id));
+      const salvo = sessionStorage.getItem(chaveNivel(b.id));
+      if (salvo === "facil" || salvo === "normal" || salvo === "dificil") setNivel(salvo);
     } catch {
       /* ignora */
     }
-    if (salvo === "facil" || salvo === "normal" || salvo === "dificil") {
-      setNivel(salvo);
-      return;
-    }
-    // Sugere o nível mais difícil quando a brincadeira já foi feita (e não foi um "não rolou")
-    // ou quando o rodízio da área já deu uma volta completa.
-    Promise.all([lerPerfil(), lerRegistros()]).then(([p, registros]) => {
-      const jaBrincou = registros.some((r) => r.brincadeira === b.id && r.reacao !== "nao");
-      const voltas = p ? (rodizio[p.faixa] ?? 0) : 0;
-      const voltou = !!p && voltas > 0 && semanaDeUso(deChave(p.inicio), new Date()) > voltas;
-      if (jaBrincou || voltou) setNivel("dificil");
-    });
-  }, [b.id, b.area, rodizio]);
+    // O nível nunca muda sozinho: a família escolhe. Só avisamos que já brincaram desta
+    // (com a criança ativa) e que pode experimentar o mais difícil, se quiser.
+    lerRegistros()
+      .then((registros) => setJaBrincou(registros.some((r) => r.brincadeira === b.id && r.reacao !== "nao")))
+      .catch(() => {});
+  }, [b.id, b.area]);
 
   function escolherNivel(n: Nivel) {
     setNivel(n);
@@ -65,7 +57,7 @@ export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizi
   async function compartilharFicha() {
     const r = await compartilhar({
       title: b.nome,
-      text: `${b.nome}: uma brincadeira de ${b.minutos} minutos para fazer com a criança, sem tela.`,
+      text: `${b.nome}: uma brincadeira de uns ${b.minutos} minutos para fazer com a criança, sem tela.`,
       url: `${url}/brincadeira/${b.id}/`,
     });
     if (r === "copia") setAviso("Link copiado.");
@@ -96,7 +88,7 @@ export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizi
         <div className="flex flex-col gap-2.5">
           <div className="flex flex-wrap gap-2">
             <span className="inline-flex min-h-[30px] items-center rounded-full bg-sol-claro px-3 text-[13px] font-bold">{NOME_AREA[b.area]}</span>
-            <span className="inline-flex min-h-[30px] items-center rounded-full bg-painel px-3 text-[13px] font-bold">{b.minutos} min</span>
+            <span className="inline-flex min-h-[30px] items-center rounded-full bg-painel px-3 text-[13px] font-bold">uns {b.minutos} min</span>
             {b.faixas.map((f) => (
               <span key={f} className="inline-flex min-h-[30px] items-center rounded-full bg-painel px-3 text-[13px] font-bold">
                 {NOME_FAIXA[f]}
@@ -122,6 +114,11 @@ export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizi
           ) : (
             <p className="m-0 rounded-[14px] bg-painel px-3.5 py-3">Nada além de vocês dois.</p>
           )}
+          {b.preparo ? (
+            <p className="m-0 text-[15px]">
+              <strong>Tempo de preparo:</strong> {b.preparo}.
+            </p>
+          ) : null}
         </section>
 
         <section aria-labelledby="como" className="flex flex-col gap-2.5">
@@ -147,7 +144,13 @@ export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizi
           <h2 id="nivel" className="m-0 font-display text-[19px] font-extrabold">
             Ajuste para a criança
           </h2>
-          <div role="group" aria-labelledby="nivel" className="grid grid-cols-3 gap-1 rounded-[14px] bg-painel p-1">
+          <p id="nivel-dica" className="m-0 text-[15px] text-suave">
+            Comece como achar melhor; pode repetir do mesmo jeito. Só aumente o desafio se estiver divertido. A criança pode parar quando quiser.
+          </p>
+          {jaBrincou ? (
+            <p className="m-0 rounded-xl bg-azul-claro px-3.5 py-2.5 text-[15px]">Já brincaram desta. Se ficou fácil, experimente o mais difícil.</p>
+          ) : null}
+          <div role="group" aria-labelledby="nivel" aria-describedby="nivel-dica" className="grid grid-cols-3 gap-1 rounded-[14px] bg-painel p-1">
             {NIVEIS.map((n) => (
               <button
                 key={n.id}
@@ -193,7 +196,7 @@ export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizi
           className="hidden min-h-[58px] items-center justify-center gap-2.5 rounded-2xl bg-azul text-lg font-bold text-white no-underline transition-colors hover:bg-azul-escuro md:flex"
         >
           <Play tamanho={20} />
-          Começar os {b.minutos} minutos
+          Começar a brincadeira
         </Link>
         </aside>
         </div>
@@ -207,7 +210,7 @@ export function Ficha({ b, url, rodizio }: { b: Brincadeira; url: string; rodizi
             className="flex min-h-[58px] items-center justify-center gap-2.5 rounded-2xl bg-azul text-lg font-bold text-white no-underline"
           >
             <Play tamanho={20} />
-            Começar os {b.minutos} minutos
+            Começar a brincadeira
           </Link>
         </div>
       </div>

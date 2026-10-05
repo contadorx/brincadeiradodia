@@ -28,14 +28,14 @@
     "Em “casa”, confiram a cesta com a lista: veio tudo?"
   ],
   "facil": "Lista com 2 coisas e tudo custa 1 nota. Você vai junto conferindo.",
-  "dificil": "Lista com 4 ou 5 coisas, que ela não olha depois de sair de “casa”. Ou cada produto custa de 1 a 3 notas: ela sai com 10 notas e, no fim, conta quantas sobraram.",
+  "dificil": "Acrescente um item à lista, ou um produto em falta para combinar uma troca, com a lista sempre à vista. Com o dinheiro de mentira, você ajuda: não precisa fazer conta.",
   "conversa": [
     "O que estava na sua lista?",
     "Quanto você gastou?",
     "O que você quase esqueceu? Como a lista ajudou?"
   ],
   "seguranca": "Dinheiro de papel, nunca moedas. Nada de produto de limpeza, remédio ou vidro como mercadoria. Embalagens já lavadas e sem tampinhas pequenas. Use cesta ou sacola de pano, nunca saco plástico.",
-  "base": "Fazer a lista antes de ir ao mercado é exemplo de planejamento que o Tools of the Mind sugere às famílias, e o Harvard Center indica o plano antes de brincar",
+  "base": "Lista desenhada: versão nossa, inspirada nas dicas de planejar passeios do Tools of the Mind e no plano antes de brincar do Harvard Center",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [

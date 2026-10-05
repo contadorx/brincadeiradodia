@@ -14,7 +14,7 @@
   "serve": "Treina dar um palpite, testar e comparar o que aconteceu.",
   "materiais": [
     "Uma bacia com um pouco de água e uma toalha embaixo",
-    "Uns 6 objetos que podem molhar e não cabem num rolo de papel higiênico: esponja, colher de pau, colher de metal grande, tampa e pote de plástico, laranja"
+    "Uns 6 objetos grandes, leves e limpos, que não cabem num rolo de papel higiênico: pote e tampa de plástico, colher de pau lisa, colher de metal grande, esponja inteira"
   ],
   "etiquetas": [
     "agua"
@@ -27,16 +27,16 @@
     "No fim, esvaziem a bacia juntos e sequem o chão."
   ],
   "facil": "Use só 3 objetos bem diferentes, como esponja, colher de metal grande e tampa. Não precisa acertar o palpite: o divertido é ver.",
-  "dificil": "Antes de testar, a criança separa os montes pelo palpite e depois confere quais acertou. Desafio extra: a laranja com casca afunda ou boia? Depois você descasca e vocês testam de novo.",
+  "dificil": "Antes de testar, a criança separa os montes pelo palpite e depois confere. Desafio extra: dá para fazer o pote afundar? Testem pondo um pouco de água dentro dele.",
   "conversa": [
     "Por que você acha que a esponja boiou?",
     "O que as coisas que afundaram têm de parecido?",
     "Como dá para fazer o pote afundar?"
   ],
-  "seguranca": "Mesmo com pouca água, fique do lado o tempo todo: criança pequena pode se afogar em poucos centímetros de água. Esvazie a bacia assim que acabar.",
-  "base": "Explorar e descrever semelhanças e diferenças nas propriedades dos objetos, como massa e tamanho, é objetivo da BNCC para crianças de até 3 anos e 11 meses (EI02ET01)",
+  "seguranca": "Mesmo com pouca água, o adulto fica ao alcance dos braços o tempo todo, sem olhar o celular: criança pequena pode se afogar em poucos centímetros de água. Ninguém bebe a água. Esvazie a bacia assim que acabar.",
+  "base": "Proposta nossa de dar palpite e testar, ligada ao objetivo EI02ET01 da BNCC (comparar propriedades dos objetos, como massa e tamanho)",
   "status": "publicada",
-  "evidencia": "B",
+  "evidencia": "D",
   "fontes": [
     {
       "titulo": "BNCC, Educação Infantil, objetivo EI02ET01 (MEC), na Nova Escola",

@@ -1,0 +1,42 @@
+{
+  "id": "uma-voz-atras-da-outra",
+  "nome": "Uma voz atrás da outra",
+  "area": "musica",
+  "ordem": 4,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina manter a própria parte da música enquanto o outro canta outra, com atenção e controle.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolham uma música curta que os dois sabem bem, como Irmão Jacó.",
+    "Cantem juntos, do começo ao fim, duas vezes.",
+    "Agora, cada um começa numa hora: você canta; quando terminar a primeira frase, a criança começa do início.",
+    "Cada um segue a sua parte até o fim, sem parar para esperar o outro.",
+    "Troquem: ela começa e você entra depois."
+  ],
+  "facil": "Cantem em eco: você canta uma frase e ela repete logo depois, até o fim da música. Em casa, também vale fazer só as palmas, uma atrás da outra, sem cantar.",
+  "dificil": "Chamem mais alguém da casa para entrar numa terceira vez. Ou cantem cochichando, sem se perder.",
+  "conversa": [
+    "Foi difícil não se perder?",
+    "O que ajudou você a continuar?",
+    "Que outra música dá para cantar assim?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "Cantar em cânone, com vozes que entram em momentos diferentes, está entre as sugestões do guia de funções executivas do Harvard Center para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 5- to 7-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-5-to-7-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

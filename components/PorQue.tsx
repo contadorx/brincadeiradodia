@@ -1,6 +1,6 @@
 import { SITE } from "@/config/site";
 import { NOME_EVIDENCIA, type Brincadeira } from "@/lib/esquema";
-import { Check, Livro } from "./Icones";
+import { Alerta, Check, Livro } from "./Icones";
 
 const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
 
@@ -17,20 +17,20 @@ export function SeloRascunho() {
   );
 }
 
-/** De onde veio a brincadeira, quem revisou e como relatar um problema. */
+/** De onde veio a ideia, se já houve revisão profissional e como relatar um problema. */
 export function PorQue({ b }: { b: Brincadeira }) {
   const assunto = encodeURIComponent(`Problema na brincadeira: ${b.nome} (${b.id})`);
   const r = b.revisao;
   return (
     <section aria-labelledby="porque" className="flex flex-col gap-2 rounded-2xl border border-linha p-3.5 text-[15px] md:p-4">
       <h2 id="porque" className="m-0 font-display text-[17px] font-extrabold">
-        Por que esta brincadeira
+        De onde veio a ideia
       </h2>
       <p className="m-0 flex items-start gap-2 font-bold">
         <Livro tamanho={19} className="mt-0.5 shrink-0 text-azul" />
         {NOME_EVIDENCIA[b.evidencia]}
       </p>
-      <p className="m-0 text-suave">{b.base}.</p>
+      <p className="m-0 text-suave">{/[.!?]$/.test(b.base) ? b.base : `${b.base}.`}</p>
       <ul className="m-0 flex list-none flex-col gap-1 p-0 text-sm">
         {b.fontes.map((f) => (
           <li key={f.url}>
@@ -40,6 +40,9 @@ export function PorQue({ b }: { b: Brincadeira }) {
           </li>
         ))}
       </ul>
+      <p className="m-0 text-[13px] text-suave">
+        A brincadeira e o texto são nossos. As fontes inspiraram a ideia; elas não testaram esta versão nem revisaram ou aprovaram o site.
+      </p>
       {r ? (
         <p className="m-0 flex items-start gap-2 font-bold text-folha-escuro">
           <Check tamanho={19} className="mt-0.5 shrink-0" />
@@ -47,8 +50,12 @@ export function PorQue({ b }: { b: Brincadeira }) {
             ? `Revisada por ${r.nome}, ${r.profissao.toLowerCase()}, em ${mesAno(r.em)}`
             : `Revisada por ${r.profissao.toLowerCase()} em ${mesAno(r.em)}`}
         </p>
-      ) : null}
-      <p className="m-0 text-[13px] text-suave">A brincadeira e o texto são nossos. As fontes inspiraram a ideia e não revisaram o site.</p>
+      ) : (
+        <p className="m-0 flex items-start gap-2 font-bold">
+          <Alerta tamanho={19} className="mt-0.5 shrink-0 text-alerta" />
+          Ainda não revisada por profissional. Leia os cuidados antes de começar.
+        </p>
+      )}
       {SITE.contato ? (
         <p className="m-0 text-sm">
           <a href={`mailto:${SITE.contato}?subject=${assunto}`}>Relatar um problema nesta brincadeira</a>

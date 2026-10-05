@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
-import type { Brincadeira } from "@/lib/esquema";
-import { apagarRegistro, gerarCopia, importarCopia, lerRegistros } from "@/lib/armazenamento";
+import { IDS_ANTIGOS, type Brincadeira } from "@/lib/esquema";
+import { apagarRegistro, gerarCopia, importarCopia, lerRegistros, nomeDaCrianca } from "@/lib/armazenamento";
 import { chaveDia, dataCurta, deChave, meiaNoite, somaDias, DIAS_CURTOS } from "@/lib/datas";
 import { baixarArquivo } from "@/lib/compartilhar";
 import { evento } from "@/lib/metricas";
@@ -11,6 +11,7 @@ import { useDados } from "@/lib/useDados";
 import { Carregando } from "./Carregando";
 import { Baixar } from "./Icones";
 import { NavInferior } from "./NavInferior";
+import { TrocaCrianca } from "./TrocaCrianca";
 import { Cabecalho, CONTEUDO } from "./Cabecalho";
 
 const REACAO = {
@@ -20,14 +21,20 @@ const REACAO = {
 } as const;
 
 export function Diario({ lista }: { lista: Brincadeira[] }) {
-  const { perfil, registros, setRegistros, pronto } = useDados();
+  const { perfil, familia, registros, setRegistros, pronto, recarregar } = useDados();
   const [apagando, setApagando] = useState<string | null>(null);
   const [aviso, setAviso] = useState("");
   const arquivo = useRef<HTMLInputElement>(null);
 
   if (!pronto || !perfil) return <Carregando />;
 
+  const ativa = familia?.criancas.find((c) => c.id === familia.ativa);
+  const titulo = familia && ativa && (perfil.apelido || familia.criancas.length > 1) ? `Diário de ${nomeDaCrianca(ativa, familia)}` : "Diário";
   const porId = new Map(lista.map((b) => [b.id, b]));
+  for (const [antigo, novo] of Object.entries(IDS_ANTIGOS)) {
+    const b = porId.get(novo);
+    if (b) porId.set(antigo, b);
+  }
   const hoje = meiaNoite(new Date());
   const kHoje = chaveDia(hoje);
   const dias = Array.from({ length: 7 }, (_, i) => somaDias(hoje, i - 6));
@@ -55,6 +62,7 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
     try {
       const n = await importarCopia(await f.text());
       setRegistros(await lerRegistros());
+      recarregar();
       evento("diario_importado", { registros: n });
       setAviso(n ? `${n} ${n === 1 ? "registro importado" : "registros importados"}.` : "Nada novo para importar.");
     } catch {
@@ -78,9 +86,10 @@ export function Diario({ lista }: { lista: Brincadeira[] }) {
       <Cabecalho atual="diario" />
       <main className={`pb-nav flex flex-col gap-4 pt-5 md:gap-6 md:pt-8 ${CONTEUDO}`}>
         <div>
-          <h1 className="m-0 font-display text-[30px] font-extrabold tracking-tight md:text-[40px]">{perfil.apelido ? `Diário de ${perfil.apelido}` : "Diário"}</h1>
+          <h1 className="m-0 font-display text-[30px] font-extrabold tracking-tight md:text-[40px]">{titulo}</h1>
           <p className="m-0 mt-0.5 text-[15px] text-suave">Fica só neste aparelho.</p>
         </div>
+        <TrocaCrianca familia={familia} rotulo="Ver o diário de:" aoTrocar={recarregar} />
 
         <div className="flex flex-col gap-4 md:grid md:grid-cols-12 md:items-start md:gap-10">
         <div className="flex flex-col gap-4 md:col-span-5">

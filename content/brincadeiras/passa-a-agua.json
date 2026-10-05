@@ -13,7 +13,7 @@
   "serve": "Treina encher, despejar e perceber a água: pouca, muita, cheio, vazio.",
   "materiais": [
     "Duas bacias sobre uma toalha no chão: uma com um pouco de água e outra vazia",
-    "Copos de plástico e uma esponja grande"
+    "Copos grandes de plástico e uma esponja inteira, que não solte pedaços"
   ],
   "etiquetas": [
     "agua"
@@ -26,14 +26,14 @@
     "No fim, esvaziem tudo juntos e sequem o chão."
   ],
   "facil": "Só a esponja: molhar e apertar, molhar e apertar. Diga junto: “Molhou! Apertou!”",
-  "dificil": "Encher um copo até a borda sem derramar, ou contar quantos copos cabem até encher a outra bacia.",
+  "dificil": "Passe a água até uma marca baixa no outro recipiente, sem precisar encher até a borda. Ou contem quantos copos foram.",
   "conversa": [
     "Para onde foi a água?",
     "O copo está cheio ou vazio?",
     "O que acontece quando você aperta a esponja?"
   ],
-  "seguranca": "Pouca água e o adulto do lado o tempo todo: criança pequena pode se afogar em poucos centímetros de água. Esvazie as bacias assim que acabar e seque o chão.",
-  "base": "Oferecer brincadeiras com água e areia é uma das dicas do CDC para a idade de 2 anos",
+  "seguranca": "Pouca água e o adulto ao alcance dos braços o tempo todo, sem olhar o celular: criança pequena pode se afogar em poucos centímetros de água. Ninguém bebe a água. Esvazie as bacias assim que acabar e seque o chão.",
+  "base": "Brincar na banheira ou na caixa de areia com potes, colheres e funil é dica do CDC aos 2 anos. Passar água de uma bacia para a outra é a nossa versão dessa dica",
   "status": "publicada",
   "evidencia": "B",
   "fontes": [
