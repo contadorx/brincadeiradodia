@@ -9,7 +9,7 @@ import { chaveDia } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
 import { VERSAO_TERMOS } from "@/config/site";
 import { Cadeado } from "./Icones";
-import { Marca } from "./Marca";
+import { Marca, Selo } from "./Marca";
 import { EscolhaFaixa } from "./EscolhaFaixa";
 
 export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }) {
@@ -58,13 +58,10 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
         <Marca />
 
         <div className="flex items-center gap-4" aria-hidden="true">
-          <div className="flex size-28 shrink-0 flex-col items-center justify-center rounded-full bg-sol leading-none md:size-40">
-            <span className="font-display text-[50px] font-extrabold tracking-tighter md:text-[72px]">1</span>
-            <span className="mt-0.5 text-[15px] font-bold md:text-lg">por dia</span>
-          </div>
+          <Selo girando={8} className="size-[128px] shrink-0 md:size-[176px]" />
           <div className="flex flex-col gap-2">
             <span className="block size-14 -rotate-[8deg] rounded-[14px] bg-azul md:size-20" />
-            <span className="ml-8 block size-9 rounded-full bg-folha md:ml-12 md:size-12" />
+            <span className="ml-8 block size-9 rounded-full bg-sol md:ml-12 md:size-12" />
           </div>
         </div>
 

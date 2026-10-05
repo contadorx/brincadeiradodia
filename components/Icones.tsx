@@ -136,3 +136,59 @@ export const Celular = (p: P) => (
     <path d="M11 18h2" />
   </Base>
 );
+
+/* Ícones genéricos dos canais de compartilhar. Não reproduzem logotipos de marcas:
+   o nome do aplicativo vai sempre escrito ao lado. */
+export const Mensagem = (p: P) => (
+  <Base {...p}>
+    <path d="M5 4h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-5 4v-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+    <path d="M8 9h8M8 12.5h5" />
+  </Base>
+);
+export const Imagem = (p: P) => (
+  <Base {...p}>
+    <rect x="5" y="2.5" width="14" height="19" rx="2.5" />
+    <circle cx="10" cy="8.5" r="1.8" />
+    <path d="M5 17l4.5-4 3 2.5 2.5-2 4 3.5" />
+  </Base>
+);
+export const Pessoas = (p: P) => (
+  <Base {...p}>
+    <circle cx="9" cy="8" r="3.5" />
+    <path d="M2.5 20a6.5 6.5 0 0 1 13 0" />
+    <path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M21.5 20a6.5 6.5 0 0 0-4-6" />
+  </Base>
+);
+export const Aviao = (p: P) => (
+  <Base {...p}>
+    <path d="M21 3L3 10.5l7 3 3 7z" />
+    <path d="M21 3L10 13.5" />
+  </Base>
+);
+export const Envelope = (p: P) => (
+  <Base {...p}>
+    <rect x="3" y="5" width="18" height="14" rx="2" />
+    <path d="M3.5 6.5l8.5 6.5 8.5-6.5" />
+  </Base>
+);
+export const Elo = (p: P) => (
+  <Base {...p}>
+    <path d="M10 14a4.2 4.2 0 0 0 6 0l3-3a4.2 4.2 0 0 0-6-6l-1 1" />
+    <path d="M14 10a4.2 4.2 0 0 0-6 0l-3 3a4.2 4.2 0 0 0 6 6l1-1" />
+  </Base>
+);
+export const Qr = (p: P) => (
+  <Base {...p}>
+    <rect x="3" y="3" width="7" height="7" rx="1.5" />
+    <rect x="14" y="3" width="7" height="7" rx="1.5" />
+    <rect x="3" y="14" width="7" height="7" rx="1.5" />
+    <path d="M14 14h3v3h-3zM20.5 14v.5M14 20.5h.5M17.5 20.5H21v-3.5" />
+  </Base>
+);
+export const Pontos = (p: P) => (
+  <Base {...p} fill="currentColor" strokeWidth={0}>
+    <circle cx="5" cy="12" r="2" />
+    <circle cx="12" cy="12" r="2" />
+    <circle cx="19" cy="12" r="2" />
+  </Base>
+);

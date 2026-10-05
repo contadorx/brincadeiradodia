@@ -1,0 +1,48 @@
+{
+  "id": "chapeu-copo-e-livro",
+  "nome": "Chapéu, copo e livro",
+  "area": "fazdeconta",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina descobrir para que servem as coisas e imitar o adulto.",
+  "materiais": [
+    "Um chapéu ou boné",
+    "Um copo de plástico vazio",
+    "Um livro de papelão",
+    "Um bicho de pelúcia ou boneca"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Ponha as três coisas no chão, na frente dos dois.",
+    "Mostre para que serve cada uma: ponha o chapéu, finja beber, abra o livro.",
+    "Entregue e espere ela imitar.",
+    "Brinquem de pôr o chapéu no urso e de dar o copo para você beber.",
+    "Guardem tudo dizendo os nomes: “Chapéu, copo, livro.”"
+  ],
+  "facil": "Uma coisa de cada vez: ela só olha você usando e pega.",
+  "dificil": "Inclua uma meia ou um paninho; ou ela mostra para que serve e você imita.",
+  "conversa": [
+    "Para que serve isso?",
+    "Cadê o chapéu?",
+    "Quem vai beber agora?"
+  ],
+  "seguranca": "Copo de plástico, vazio; chapéu sem cordão ou elástico no queixo; livro de papelão. Nada de vidro ou objeto pesado.",
+  "base": "Mostrar como usar objetos, como chapéu, livro e copo, e incentivar a criança a imitar é dica do CDC aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

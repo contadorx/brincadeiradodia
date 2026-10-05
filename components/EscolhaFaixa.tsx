@@ -40,7 +40,8 @@ export function EscolhaFaixa({
         })}
       </div>
       <p className="m-0 mt-2 text-sm text-suave">
-        Escolha pela idade que a criança tem hoje: 3 a 4 anos é de 3 anos até antes de fazer 4.
+        Escolha pela idade que a criança tem hoje: 3 a 4 anos é de 3 anos até antes de fazer 4. Para bebês com menos de 1 ano,
+        ainda não temos brincadeiras.
       </p>
       {semCincoASeis ? (
         <p className="m-0 mt-2 text-sm text-suave">

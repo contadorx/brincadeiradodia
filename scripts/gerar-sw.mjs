@@ -28,7 +28,9 @@ const arquivos = listar(OUT)
   // fontes: os navegadores atuais usam só .woff2; o subconjunto vietnamita não é usado
   .filter((u) => !u.endsWith(".woff") && !u.includes("vietnamese"))
   // dados de navegação interna (RSC): guardados sob demanda, não na instalação
-  .filter((u) => !u.endsWith(".txt"));
+  .filter((u) => !u.endsWith(".txt"))
+  // imagem da prévia de links: só quem busca é o WhatsApp, o Facebook etc., nunca o aparelho
+  .filter((u) => u !== "/og.png");
 
 // Páginas: "/explorar/index.html" também é guardada como "/explorar/".
 const urls = new Set();

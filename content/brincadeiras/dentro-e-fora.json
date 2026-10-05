@@ -1,0 +1,50 @@
+{
+  "id": "dentro-e-fora",
+  "nome": "Dentro e fora",
+  "area": "raciocinio",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina pôr e tirar coisas de um recipiente e entender dentro e fora.",
+  "materiais": [
+    "Uma caixa sem grampos ou um pote grande de plástico",
+    "4 a 6 objetos grandes: bolas de meia, blocos grandes, colher de pau lisa, copo de plástico"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Ponha um objeto dentro da caixa: “Dentro!”",
+    "Tire: “Fora!”",
+    "Ela põe e tira do jeito dela; diga as palavras junto.",
+    "Virem a caixa e despejem tudo: “Tudo fora!”",
+    "Ponham de volta, contando: um, dois, três."
+  ],
+  "facil": "Você segura a caixa pertinho e ela só solta um objeto lá dentro. Se ela ainda não senta firme, apoie as costas dela em você.",
+  "dificil": "Uma tampa de papelão com um buraco grande, recortado por você, por onde passam as bolas de meia. Ou ela passa os objetos de uma caixa para outra.",
+  "conversa": [
+    "Cadê a bola? Dentro!",
+    "Mais uma?",
+    "Acabou? Tudo fora!"
+  ],
+  "seguranca": "Só objetos maiores que um rolo de papel higiênico, inteiros e limpos: nessa idade, tudo vai à boca. Nada de tampinha, botão, pilha ou vidro. O buraco da tampa é recortado pelo adulto, longe da criança, sem pontas de papelão soltas.",
+  "base": "Encher e esvaziar recipientes é sugestão do Care for Child Development (OMS e UNICEF) para 1 a 2 anos; pôr algo num pote aparece nos marcos do CDC a 1 ano, como contexto",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    }
+  ],
+  "revisao": null
+}

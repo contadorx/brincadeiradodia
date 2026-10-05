@@ -1,0 +1,46 @@
+{
+  "id": "musicas-com-gestos",
+  "nome": "Músicas com gestos",
+  "area": "musica",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina acompanhar a música com gestos, copiar e esperar o momento certo.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolham uma música com gestos que vocês conhecem, como Palminha de guiné ou A dona aranha.",
+    "Cante devagar, fazendo os gestos. No carro, quem dirige só canta e faz as pausas, sem gestos e sem olhar para trás; os gestos são da criança.",
+    "Ela faz os gestos se quiser, ou só olha e escuta.",
+    "Pare antes de um gesto e espere ela fazer.",
+    "Cantem de novo a preferida dela."
+  ],
+  "facil": "Só bata palmas no ritmo ou, em casa, balance o corpo devagar com ela no colo. No carro, só cante; ela escuta e mexe as mãos na cadeirinha.",
+  "dificil": "Duas músicas seguidas, ou cantar mais devagar e depois mais rápido.",
+  "conversa": [
+    "Qual música agora?",
+    "Cadê a aranha?",
+    "Mais uma vez?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Em casa, se ela estiver no colo, segure firme e nada de balançar com força.",
+  "base": "Cantar músicas com gestos e palmas é orientação da Caderneta da Criança para 12 a 18 meses, e o CDC sugere aos 15 meses cantar e incentivar a criança a copiar os gestos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Caderneta da Criança, 7ª edição revisada (Ministério da Saúde, 2025)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7edrev.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

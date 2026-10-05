@@ -65,7 +65,7 @@ export function Instalar({ url }: { url: string }) {
       <div className="flex items-center gap-4">
         <div className="flex flex-col items-center gap-1.5" aria-hidden="true">
           <div className="grid size-[72px] place-items-center rounded-[18px] bg-azul">
-            <Selo tamanho={44} />
+            <Selo tamanho={58} />
           </div>
           <span className="text-xs text-suave">Brincadeira</span>
         </div>

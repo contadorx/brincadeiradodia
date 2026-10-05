@@ -1,0 +1,46 @@
+{
+  "id": "bolhas-para-pegar",
+  "nome": "Bolhas para pegar",
+  "area": "explorar",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina acompanhar com os olhos, esticar as mãos e perceber que a bolha estoura quando toca em alguma coisa.",
+  "materiais": [
+    "Um frasco de bolhas de sabão comprado, que fica só com o adulto"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem num lugar com espaço, sobre um tapete ou na grama.",
+    "Sopre algumas bolhas, longe do rosto da criança.",
+    "Deixe ela olhar e tentar pegar: “Pou! Estourou!”",
+    "Mostre as bolhas subindo e descendo: “Para cima! Caiu!”",
+    "Quando ela perder o interesse, feche o frasco e guarde."
+  ],
+  "facil": "Sopre devagar, poucas bolhas de cada vez, perto das mãos dela. Se ela ainda não anda, ela fica sentada e você leva as bolhas até ela.",
+  "dificil": "Ela tenta estourar só com um dedo, ou com o pé, sentada; ou você diz “mais?” e espera um gesto ou um som antes de soprar de novo.",
+  "conversa": [
+    "Cadê a bolha?",
+    "Estourou! Quer mais?",
+    "A bolha foi para cima ou para baixo?"
+  ],
+  "seguranca": "O frasco e o aro ficam só com o adulto: o líquido não vai à boca nem aos olhos. Se cair no olho, lave com água. Onde as bolhas caem, o chão fica liso: brinquem sobre tapete ou grama, sem correr. Fora de casa, só em lugar cercado, com o chão conferido, sombra, boné e água. Lave as mãos dela no fim.",
+  "base": "Brincar com bolhas de sabão e dizer o som de quando estouram é dica do CDC aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

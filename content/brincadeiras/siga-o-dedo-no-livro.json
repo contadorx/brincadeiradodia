@@ -1,0 +1,49 @@
+{
+  "id": "siga-o-dedo-no-livro",
+  "nome": "Siga o dedo no livro",
+  "area": "linguagem",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina olhar junto, apontar e ouvir o nome das figuras.",
+  "materiais": [
+    "Um livro de figuras de papelão grosso ou de pano"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Sentem juntos, com o livro na frente dos dois. Deixe a criança escolher a página e virar do jeito dela.",
+    "Olhe para onde ela olha ou aponta e diga o nome: “Cachorro!”",
+    "Espere um pouco: ela pode apontar de novo, fazer um som ou um gesto. Responda a isso.",
+    "Faça o som do bicho, “Au-au!”, e espere ela imitar, sem cobrar.",
+    "Parem quando ela perder o interesse. Amanhã tem mais."
+  ],
+  "facil": "Só diga o nome do que ela olha, sem perguntar nada. Se ela mastigar o livro, segure você e ela aponta.",
+  "dificil": "Pergunte “Cadê o gato?” e espere ela apontar; ou, quando ela mostrar uma figura, conte uma frase curta: “O gato está dormindo.”",
+  "conversa": [
+    "O que é isso?",
+    "Que barulho ele faz?",
+    "Cadê o cachorro?"
+  ],
+  "seguranca": "Livro de papelão grosso ou de pano, sem peças, botões ou plástico soltos: página fina rasga e vai à boca.",
+  "base": "Inspirada na leitura compartilhada estudada na África do Sul com bebês de 14 a 16 meses e cuidadores treinados por 8 semanas; uma revisão de 19 estudos (1 a 6 anos) viu ganhos pequenos de linguagem",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "The impact of dialogic book-sharing training on infant language and attention: ensaio randomizado na África do Sul (Vally e outros, 2015)",
+      "url": "https://doi.org/10.1111/jcpp.12352"
+    },
+    {
+      "titulo": "Shared picture book reading interventions for child language development: revisão de 19 estudos (Dowdall e outros, 2020)",
+      "url": "https://doi.org/10.1111/cdev.13225"
+    }
+  ],
+  "revisao": null
+}

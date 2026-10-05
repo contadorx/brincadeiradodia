@@ -1,0 +1,42 @@
+{
+  "id": "copia-o-gesto",
+  "nome": "Copia o meu gesto",
+  "area": "autocontrole",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina prestar atenção, copiar um movimento e revezar.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Sentem de frente um para o outro.",
+    "Faça um gesto simples e diga o nome: bater palmas, dar tchau, mãos na cabeça.",
+    "Espere ela copiar. Comemore qualquer tentativa.",
+    "Agora copie você o gesto que ela fizer, como um espelho.",
+    "Revezem: um gesto seu, um dela."
+  ],
+  "facil": "Um gesto só, repetido devagar. Ou você copia o que ela já faz, como bater na mesa ou balançar o corpo.",
+  "dificil": "Dois gestos seguidos, como palma e tchau, ou um gesto com som: palma e “pá!”.",
+  "conversa": [
+    "Faz igual?",
+    "Agora é a sua vez!",
+    "Que gesto você vai fazer?"
+  ],
+  "seguranca": "Fora de casa, brinquem num lugar cercado e tranquilo, ou com ela no colo ou no carrinho com o cinto, longe da rua. No sol, sombra, boné e água.",
+  "base": "Brincar de copiar gestos, revezando, é sugestão do guia de funções executivas do Harvard Center para 6 a 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

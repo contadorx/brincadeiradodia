@@ -1,0 +1,45 @@
+{
+  "id": "potes-dentro-de-potes",
+  "nome": "Potes dentro de potes",
+  "area": "raciocinio",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina comparar tamanhos e testar o que cabe dentro do quê.",
+  "materiais": [
+    "3 ou 4 potes de plástico de tamanhos bem diferentes, sem tampa"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre um pote grande e um pequeno: “Grande. Pequeno.”",
+    "Ponha o pequeno dentro do grande.",
+    "Ela tenta. Se não couber: “Não coube! Tenta o outro.”",
+    "Tirem e encaixem de novo, do jeito que ela quiser.",
+    "Virem os potes de boca para baixo e façam uma torre."
+  ],
+  "facil": "Só dois potes bem diferentes. Você mostra e ela tenta encaixar.",
+  "dificil": "Os 4 potes, um dentro do outro, em ordem; ou esconda uma bola de meia no menor e ela abre um por um até achar.",
+  "conversa": [
+    "Qual é o maior?",
+    "Coube?",
+    "Cadê o pequenininho?"
+  ],
+  "seguranca": "Potes de plástico firme, nunca de vidro ou descartáveis, e o menor também maior que um rolo de papel higiênico. Sem tampas pequenas soltas. Nada de pote de remédio ou de produto de limpeza, nem lavado.",
+  "base": "Encaixar e empilhar objetos estão entre as sugestões do Care for Child Development (OMS e UNICEF) para 1 a 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    }
+  ],
+  "revisao": null
+}

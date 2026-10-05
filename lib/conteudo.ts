@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { esquemaBrincadeira, type Brincadeira } from "./esquema";
+import { esquemaBrincadeira, IDS_ANTIGOS, type Brincadeira } from "./esquema";
 
 const PASTA = path.join(process.cwd(), "content", "brincadeiras");
 
@@ -23,7 +23,15 @@ export function todasAsBrincadeiras(): Brincadeira[] {
   const arquivos = fs.readdirSync(PASTA).filter((f) => f.endsWith(".json")).sort();
   const lista: Brincadeira[] = [];
   const erros: string[] = [];
+  const antigos: string[] = [];
   for (const arquivo of arquivos) {
+    // Arquivo de uma brincadeira que mudou de id (veja IDS_ANTIGOS) e que ficou para trás porque
+    // o zip novo foi copiado por cima do repositório: o build pula e avisa, em vez de parar.
+    const novo = IDS_ANTIGOS[arquivo.replace(/\.json$/, "")];
+    if (novo && arquivos.includes(`${novo}.json`)) {
+      antigos.push(`${arquivo} (virou ${novo})`);
+      continue;
+    }
     const bruto = JSON.parse(fs.readFileSync(path.join(PASTA, arquivo), "utf8"));
     const r = esquemaBrincadeira.safeParse(bruto);
     if (!r.success) {
@@ -60,6 +68,9 @@ export function todasAsBrincadeiras(): Brincadeira[] {
   }
   if (!avisou) {
     avisou = true;
+    if (antigos.length) {
+      console.warn(`[conteúdo] Arquivo(s) antigo(s) ignorado(s): ${antigos.join(", ")}. Pode apagar do repositório.`);
+    }
     const publicadas = lista.filter((b) => b.status === "publicada");
     const revisadas = publicadas.filter((b) => b.revisao).length;
     const rascunhos = lista.filter((b) => b.status === "rascunho").map((b) => b.id);

@@ -1,0 +1,45 @@
+{
+  "id": "dancar-juntos",
+  "nome": "Dançar juntos",
+  "area": "musica",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina mexer o corpo no ritmo e copiar os passos do outro.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Ponha uma música animada, com o celular virado para baixo, ou cante.",
+    "Dancem juntos: balancem, batam palmas, girem devagar.",
+    "Ela dança do jeito dela; imite os passos dela.",
+    "Mudem o ritmo: devagar, rápido.",
+    "Terminem com um abraço, se ela quiser."
+  ],
+  "facil": "Dancem com ela no colo, segurando firme, ou ela sentada balançando os braços.",
+  "dificil": "Quando a música parar, vocês param também: “Parou!” Depois volta. Ela vai precisar de ajuda para lembrar a regra, e tudo bem.",
+  "conversa": [
+    "Vamos dançar?",
+    "Rápido ou devagar?",
+    "Que música você quer?"
+  ],
+  "seguranca": "Espaço livre, sem tapete solto, longe de quinas e escada. Ela dança descalça ou de meia antiderrapante. Volume confortável, longe dos ouvidos. No colo, nada de girar rápido ou balançar com força. O celular fica com o adulto, de tela para baixo.",
+  "base": "Cantar e dançar juntos é dica do CDC aos 15 meses; a dança de parar e continuar está no guia do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

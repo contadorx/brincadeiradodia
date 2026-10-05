@@ -1,0 +1,44 @@
+{
+  "id": "trilha-de-almofadas",
+  "nome": "Trilha de almofadas",
+  "area": "corpo",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina engatinhar, subir e descer devagar e se equilibrar.",
+  "materiais": [
+    "4 ou 5 almofadas firmes ou um colchonete",
+    "Um tapete que não escorrega, por baixo"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Arrume as almofadas em fila no chão, sobre o tapete.",
+    "Mostre como passar por cima engatinhando.",
+    "Ela vai do jeito dela; fique do lado, com as mãos prontas.",
+    "No fim da trilha, uma festa: “Chegou!”",
+    "Troquem a ordem das almofadas e repitam."
+  ],
+  "facil": "Uma almofada só: ela sobe e desce engatinhando, e você fica do lado, com a mão pronta para apoiar a barriga dela, se precisar.",
+  "dificil": "Passar andando por cima das almofadas firmes, com você segurando pela cintura, nunca puxando pelo braço; ou rolar devagar de lado no tapete.",
+  "conversa": [
+    "Subiu! Desceu!",
+    "Mais uma vez?",
+    "Onde termina a trilha?"
+  ],
+  "seguranca": "Almofadas firmes no chão, uma de altura, nunca empilhadas, longe de móveis, quinas e escada. Ninguém sobe em sofá ou cama. Nada de almofada mole em que o rosto afunde.",
+  "base": "Rastejar, escalar, equilibrar e andar estão entre os movimentos que o Guia de Atividade Física do Ministério da Saúde sugere para 1 a 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

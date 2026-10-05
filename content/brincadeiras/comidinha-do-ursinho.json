@@ -1,0 +1,47 @@
+{
+  "id": "comidinha-do-ursinho",
+  "nome": "Comidinha do ursinho",
+  "area": "fazdeconta",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina fingir com objetos de verdade e cuidar de alguém na brincadeira.",
+  "materiais": [
+    "Um bicho de pelúcia ou boneca",
+    "Uma tigela e uma colher de plástico, vazias",
+    "Um paninho para limpar a boca do urso"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem com o ursinho: “O urso está com fome!”",
+    "Mostre: finja pegar comida na tigela e dar ao urso: “Nham!”",
+    "Entregue a colher para ela dar a comida.",
+    "Pergunte: “Acabou? Quer mais?” E deixe ela decidir.",
+    "Limpem a boca do urso com um paninho."
+  ],
+  "facil": "Você dá a comida ao urso e ela olha; ou ela só leva a colher até a boca dele.",
+  "dificil": "Dois bichos, um para cada colherada, ou depois da comida dar água no copo vazio e pôr o urso para arrotar.",
+  "conversa": [
+    "O urso está com fome?",
+    "Ele gostou?",
+    "E agora, o que ele vai fazer?"
+  ],
+  "seguranca": "Colher de plástico firme, de criança, sem ponta: a descartável quebra na boca e corta. Bicho de pelúcia próprio para a idade, sem olhos, botões ou enfeites que soltem. A comida é de mentira: nada de grãos, massinha ou tampinhas.",
+  "base": "Incentivar o faz de conta dando uma colher para a criança fingir que alimenta o bicho de pelúcia é dica do CDC aos 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    }
+  ],
+  "revisao": null
+}

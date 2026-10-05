@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build && node scripts/gerar-sw.mjs",
     "preview": "npx --yes serve@14 out -l 4173",
-    "icones": "python3 scripts/gerar-icones.py",
+    "icones": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/gerar-icones.mjs",
+    "og": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/gerar-og.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

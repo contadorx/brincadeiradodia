@@ -66,7 +66,8 @@ Além de visitas e páginas mais vistas, o app envia estes eventos anônimos:
 | `lembrete_baixado` | Baixa o lembrete de agenda | horário |
 | `diario_exportado` / `diario_importado` | Faz ou restaura a cópia do diário | quantidade |
 | `apoio_cartao_mostrado` | Cartão de apoio aparece | nenhum |
-| `apoio_compartilhado` | Compartilha o site | via (share/cópia), origem |
+| `compartilhar_aberto` | Abre a janela de compartilhar | origem (ficha, apoio-cartao, apoio-secao) |
+| `compartilhado` | Escolhe um canal na janela (conta o toque, não se a mensagem foi enviada) | canal (whatsapp, instagram, imagem, facebook, telegram, email, copiar, qrcode, qr_baixado, mais), origem |
 | `apoio_pix_copiado` | Copia o código PIX | origem |
 | `apoio_dispensado` | Toca em "Agora não" | nenhum |
 | `uso_semana` | Primeira abertura em cada semana de uso da família | número da semana |
@@ -84,7 +85,8 @@ Crie estes relatórios no Umami (Reports):
 2. **Elas voltam?** Eventos `uso_semana` filtrados por semana (1, 2, 4, 8). Se muitas chegam à semana 1 e poucas à 4, o problema é hábito: reforce o lembrete.
 3. **Quais brincadeiras funcionam?** `brincadeira_concluida` por `id` e por `reacao`. As com muito "não rolou" pedem revisão do texto ou do nível.
 4. **Os níveis estão bem calibrados?** Muito `nivel_trocado` para "facil" numa brincadeira indica que a versão original está pesada; muito para "dificil", que está fácil demais.
-5. **O apoio funciona sem incomodar?** Compare `apoio_cartao_mostrado` com `apoio_compartilhado`, `apoio_pix_copiado` e `apoio_dispensado`. Se "dispensado" dominar, espaçe o cartão em `config/site.ts`.
+5. **O apoio funciona sem incomodar?** Compare `apoio_cartao_mostrado` com `compartilhado` (origem `apoio-cartao`), `apoio_pix_copiado` e `apoio_dispensado`. Se "dispensado" dominar, espaçe o cartão em `config/site.ts`.
+   Para saber por onde as famílias espalham o site, veja `compartilhado` por `canal`: se quase tudo for WhatsApp, é ali que vale caprichar na mensagem.
 
 Limitação: sem cookies, o Umami não sabe se duas visitas em semanas diferentes são da
 mesma família. Por isso o próprio app conta a semana de uso no aparelho e só envia o

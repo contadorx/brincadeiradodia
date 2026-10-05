@@ -1,0 +1,46 @@
+{
+  "id": "brinquedos-no-banho",
+  "nome": "Brinquedos no banho",
+  "area": "explorar",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "banho"
+  ],
+  "serve": "Treina encher, despejar e perceber a água: cheio, vazio, molhado.",
+  "materiais": [
+    "2 ou 3 copos ou potes de plástico, grandes",
+    "A água morna do banho de sempre"
+  ],
+  "etiquetas": [
+    "agua"
+  ],
+  "passos": [
+    "Na hora do banho, deixe tudo à mão antes de pôr a criança na água.",
+    "Ponha os potes na água e mostre como encher e despejar: “Cheio! Vazio!”",
+    "Despeje um pouco de água nas mãos dela ou na barriga, se ela gostar.",
+    "Deixe ela encher e despejar do jeito dela, falando junto.",
+    "Ao terminar, tire a criança e esvazie a banheira ou a bacia na hora."
+  ],
+  "facil": "Você enche e despeja, e ela olha e põe a mão na água que cai.",
+  "dificil": "Dois potes: ela passa a água de um para o outro, ou enche até uma marca que você mostra no pote.",
+  "conversa": [
+    "Encheu?",
+    "Para onde foi a água?",
+    "Mais água ou acabou?"
+  ],
+  "seguranca": "Na água, o adulto fica com a mão ao alcance da criança o tempo todo, sem celular e sem sair, nem por um segundo: pouca água afoga em silêncio. Confira a água com o cotovelo e nunca ponha água quente com ela dentro. Ela brinca sentada. Assento de banho não substitui o adulto. Ninguém bebe a água. Esvazie tudo assim que acabar.",
+  "base": "Encher e esvaziar recipientes é sugestão do Care for Child Development (OMS e UNICEF) para 1 a 2 anos. Aqui, na hora do banho que já ia acontecer",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    }
+  ],
+  "revisao": null
+}

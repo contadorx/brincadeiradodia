@@ -1,0 +1,51 @@
+{
+  "id": "ursinho-vai-dormir",
+  "nome": "O ursinho vai dormir",
+  "area": "fazdeconta",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina inventar uma cena simples e cuidar do bicho na brincadeira.",
+  "materiais": [
+    "Um bicho de pelúcia",
+    "Um paninho leve, como uma fralda de pano",
+    "Uma caixa sem grampos ou uma almofada para ser a cama"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "“O urso está com sono!” Bocejem juntos.",
+    "Deitem o urso na caixa ou na almofada e cubram com o paninho.",
+    "Cante baixinho uma canção de ninar que vocês conhecem.",
+    "Façam “shhh” com o dedo na boca e fiquem quietinhos um pouco.",
+    "“Acordou!” Tirem o pano e deem bom-dia ao urso."
+  ],
+  "facil": "Você faz tudo e conta o que está fazendo; ela olha e ajuda a cobrir.",
+  "dificil": "Ela escolhe quem vai dormir e onde, e você pergunta: “Ele precisa de quê?”",
+  "conversa": [
+    "O urso está com sono?",
+    "Do que ele precisa para dormir?",
+    "Ele acordou feliz?"
+  ],
+  "seguranca": "Pano leve, sem cordão ou fita, só no urso, nunca no rosto ou no pescoço da criança. Caixa sem grampos; ninguém entra nela fechada.",
+  "base": "Conversar de faz de conta com bichos de pelúcia é dica do CDC aos 15 meses, e mostrar brincadeiras de imaginar com brinquedos está no guia do Harvard Center para 6 a 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

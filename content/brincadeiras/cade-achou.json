@@ -1,0 +1,46 @@
+{
+  "id": "cade-achou",
+  "nome": "Cadê? Achou!",
+  "area": "autocontrole",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina lembrar onde algo ficou escondido e esperar o momento de achar.",
+  "materiais": [
+    "Um pano leve, como uma fralda de pano",
+    "Um brinquedo grande de que ela goste"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Cubra o seu rosto com o pano: “Cadê?” Espere um segundo e tire: “Achou!”",
+    "Repita, mudando um pouco o tempo de espera.",
+    "Agora esconda o brinquedo debaixo do pano, com ela olhando.",
+    "Pergunte “Cadê?” e deixe ela puxar o pano.",
+    "Comemore: “Achou!” E escondam de novo."
+  ],
+  "facil": "Deixe um pedaço do brinquedo aparecendo debaixo do pano.",
+  "dificil": "Use dois panos: esconda debaixo de um e, com ela olhando, passe para o outro. Ou ela cobre os olhos com as mãos, ou se esconde atrás das suas costas, e você procura em voz alta.",
+  "conversa": [
+    "Cadê o urso?",
+    "Achou! Onde ele estava?",
+    "De novo?"
+  ],
+  "seguranca": "O pano é leve, cobre só por um instante e nunca fica no rosto ou no pescoço da criança. Nada de saco plástico ou cobertor pesado. Ninguém se esconde atrás de cortina: ali tem cordão, janela e vidro.",
+  "base": "Brincar de esconder o rosto e esconder brinquedos debaixo de um pano é sugestão do guia de funções executivas do Harvard Center para 6 a 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

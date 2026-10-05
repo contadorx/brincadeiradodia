@@ -1,0 +1,45 @@
+{
+  "id": "cade-o-nariz",
+  "nome": "Cadê o nariz?",
+  "area": "linguagem",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina conhecer o nome das partes do corpo e apontar quando ouve a pergunta.",
+  "materiais": [
+    "Um bicho de pelúcia ou boneca"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Fiquem de frente, com você na altura dos olhos dela.",
+    "Toque o seu nariz e diga: “Nariz!”",
+    "Pergunte: “Cadê o nariz do urso?” e espere ela apontar.",
+    "Depois: “Cadê o seu nariz?” Se ela não apontar, toque de leve o nariz dela, se ela deixar: “Aqui!”",
+    "Repitam com olho, boca, mão e pé."
+  ],
+  "facil": "Só mostre no seu rosto e no do urso, dizendo o nome devagar; ela olha.",
+  "dificil": "Inclua barriga, orelha e joelho, ou deixe ela perguntar e você apontar.",
+  "conversa": [
+    "Cadê a sua mão?",
+    "E o pé do urso?",
+    "Um olho, dois olhos!"
+  ],
+  "seguranca": "Toque o corpo da criança só se ela quiser, e nada de dedo nos olhos. Bicho de pelúcia sem olhos, botões ou enfeites que soltem.",
+  "base": "Ensinar o nome das partes do corpo apontando para elas é dica do CDC aos 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    }
+  ],
+  "revisao": null
+}

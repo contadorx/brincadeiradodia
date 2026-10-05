@@ -1,0 +1,49 @@
+{
+  "id": "torre-e-derruba",
+  "nome": "Torre e derruba",
+  "area": "raciocinio",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina empilhar, perceber o que cai e o que fica, e esperar a torre ficar pronta.",
+  "materiais": [
+    "4 a 6 blocos grandes e leves, ou potes de plástico que empilham"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Empilhe 2 ou 3 blocos devagar: “Um, dois, três!”",
+    "Deixe ela derrubar: “Caiu!”",
+    "Comecem de novo e ofereça um bloco para ela pôr em cima.",
+    "Contem juntos os blocos da torre.",
+    "No fim, guardem os blocos na caixa."
+  ],
+  "facil": "Você monta e ela só derruba. Derrubar já é a brincadeira.",
+  "dificil": "Ela tenta fazer uma torre de 3 ou 4 blocos sozinha, ou uma fila no chão, um bloco ao lado do outro.",
+  "conversa": [
+    "Caiu! Monta de novo?",
+    "Quantos blocos?",
+    "Torre alta ou baixa?"
+  ],
+  "seguranca": "Blocos grandes e leves, maiores que um rolo de papel higiênico. Nada de espuma ou EVA, que ela morde e arranca pedaço, nem madeira pesada com quinas ou lata. A torre fica no chão, baixinha.",
+  "base": "Brincar de empilhar e derrubar blocos é dica do CDC aos 15 meses, e empilhar está nas sugestões do Care for Child Development (OMS e UNICEF) para 1 a 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    },
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -16,6 +16,9 @@ celular. O site é para os adultos; a criança brinca longe da tela.
 - **Instalável** como app no celular (Android e iPhone) e no computador (Chrome, Edge e Safari do Mac).
 - **Métricas anônimas** com Umami no seu VPS, sem cookies (veja `docs/metricas.md`).
 - **Apoio voluntário**: compartilhar e PIX, num cartão discreto depois da 10ª brincadeira e na página Sobre.
+- **Compartilhar**: em cada ficha e no cartão de apoio, uma janela com WhatsApp, Instagram (imagem para story
+  e link copiado), Facebook, Telegram, e-mail, copiar link, QR code e as outras opções do celular. Só vai o
+  link público da página, nunca dados do diário.
 
 ## Stack
 
@@ -27,6 +30,8 @@ celular. O site é para os adultos; a criança brinca longe da tela.
 | Dados no aparelho | `idb-keyval` (IndexedDB) |
 | Offline | `scripts/gerar-sw.mjs` gera `out/sw.js` depois do build |
 | PIX | BR Code estático gerado em `lib/pix.ts`, QR code com `qrcode` no build |
+| Marca e ícones | Desenho único em `lib/marca.ts`; `npm run icones` e `npm run og` geram os arquivos de `public/` |
+| Compartilhar | `components/JanelaCompartilhar.tsx`; imagem para story desenhada no aparelho (`lib/imagemStory.ts`) |
 | Métricas | Umami (Docker) em `infra/umami/` |
 
 ## Rodar no computador
@@ -133,6 +138,12 @@ afiliado ou venda exigem plano pago.
   - Som: volume confortável, longe dos ouvidos; ninguém precisa gritar nem bater forte.
   - Peças pequenas: o teste do rolo de papel higiênico é triagem caseira, não certificação. Evitar também o que
     esfarela, solta pedaços ou pode ser apertado até caber na boca.
+- **Faixa 1 a 2 anos (checklist mais rígido):** tudo vai à boca. Fora desta faixa: papel para rasgar, grãos,
+  areia, pedrinhas, folhas, massinha, tinta, giz, cordão, fita, elástico, saco plástico, balão, vidro, pilha,
+  ímã, espuma ou EVA (ela morde e arranca pedaço). Água só no banho que já ia acontecer, com o adulto com a
+  mão ao alcance; comida só no lanche, sentada, em pedacinhos de até 1 cm; tudo no chão, sem subir em nada.
+  A versão mais fácil serve a quem ainda não anda ou não fala, sem exigir idade. Toda ficha da faixa mostra
+  sozinha o aviso `AVISO_1_2` (em `lib/esquema.ts`), na ficha e antes de começar.
 - **Doação de revisão:** com `contato` preenchido e `revisao.convidar: true` em `config/site.ts`, a página
   Sobre convida profissionais a revisar. Quando alguém revisar:
   1. Aplique as mudanças que a profissional pediu no texto.
@@ -165,8 +176,8 @@ components/           telas e partes reutilizáveis
 content/brincadeiras/ uma brincadeira por arquivo JSON
 config/site.ts        PIX, contato, métricas, apoio, revisão
 lib/                  esquema do conteúdo, plano do dia, armazenamento local, PIX, lembrete, métricas
-public/               manifesto e ícones do PWA (npm run icones para gerar de novo)
-scripts/              gerar-sw.mjs (offline) e gerar-icones.py
+public/               manifesto, ícones do PWA e og.png (imagem das prévias de link)
+scripts/              gerar-sw.mjs (offline), gerar-icones.mjs e gerar-og.mjs
 infra/umami/          docker-compose do painel de métricas
 docs/metricas.md      instalação do painel e o que olhar nele
 vercel.json           redirecionamentos de brincadeiras que mudaram de endereço
@@ -181,6 +192,40 @@ Evite: o id é o endereço da página e fica guardado no diário das famílias. 
    continuar mostrando o nome certo.
 3. Em `vercel.json`, acrescente o redirecionamento do endereço antigo para o novo (veja o exemplo do
    `chocalho-de-pote`, que virou `tambor-de-pote`).
+4. Apague o arquivo antigo do repositório (`git rm content/brincadeiras/<id-antigo>.json`). Quem publica
+   copiando o zip por cima do repositório fica com o arquivo antigo, porque o zip não apaga nada; o build
+   pula esse arquivo e avisa no log, mas o certo é apagá-lo.
+
+## Marca, ícones e compartilhamento
+
+**A marca é um catavento**, brinquedo de criança de sempre; o "do dia" fica com o nome ao lado. O
+desenho fica só em `lib/marca.ts` (caminhos numa grade de 64 x 64, com as pás separadas do cabo) e dele
+saem o selo do site, os ícones e a imagem para story. Nas boas-vindas e enquanto o site abre, as pás
+giram devagar (não giram para quem pediu menos movimento no aparelho). Mudou o desenho? Gere os
+arquivos de novo (precisa do Node 22.18 ou mais novo):
+
+```bash
+npm i --no-save sharp && npm run icones      # public/icons/* e public/favicon.ico
+npm i --no-save playwright && npx playwright install chromium && npm run og   # public/og.png
+```
+
+Nenhum dos dois entra no `package.json`: só servem para gerar imagens, não para o build.
+
+**Prévia dos links.** Cada ficha tem título, descrição e endereço próprios nas tags Open Graph, com a
+imagem `public/og.png` (1200 x 630, conteúdo no meio, porque o WhatsApp às vezes recorta em quadrado).
+O endereço base vem de `VERCEL_PROJECT_PRODUCTION_URL`, que a Vercel preenche sozinha: é o .vercel.app
+enquanto o .com.br não estiver ligado e passa a ser o .com.br depois do próximo deploy. Fora da Vercel,
+vale `SITE.url`. WhatsApp e Facebook guardam a prévia por um tempo; para forçar a atualização, cole o
+endereço no Sharing Debugger do Facebook (developers.facebook.com/tools/debug) e clique em "Scrape Again".
+
+**Os canais.** Os links compartilhados usam o domínio aberto no navegador, então funcionam também no
+.vercel.app. WhatsApp, Telegram, Facebook e e-mail abrem com a mensagem pronta (no WhatsApp, o nome da
+brincadeira vai em negrito). O Instagram não aceita link vindo de site: a janela gera uma imagem
+vertical (1080 x 1920) com a brincadeira, copia o link e explica o caminho: compartilhar a imagem no
+story e colar o link na figurinha "Link". A mesma imagem serve para o status do WhatsApp. O QR code serve
+para mostrar no celular ou imprimir. Os ícones dos canais são genéricos, com o nome escrito ao lado:
+logotipos de WhatsApp, Instagram e outros são marcas registradas e só podem ser usados seguindo as regras
+de cada empresa.
 
 ## Termos, privacidade e segurança
 

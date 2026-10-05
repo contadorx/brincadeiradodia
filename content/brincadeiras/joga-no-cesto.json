@@ -1,0 +1,46 @@
+{
+  "id": "joga-no-cesto",
+  "nome": "Joga no cesto",
+  "area": "corpo",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina segurar, soltar e lançar, mirando um alvo.",
+  "materiais": [
+    "Um cesto de roupa ou uma caixa grande sem grampos",
+    "2 ou 3 bolas de meia ou bolas de pano"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Ponha o cesto no chão, pertinho da criança.",
+    "Mostre como jogar a bola lá dentro: “Dentro!”",
+    "Ela joga do jeito dela; comemore cada tentativa.",
+    "Busquem as bolas juntos e repitam.",
+    "No fim, guardem as bolas no cesto."
+  ],
+  "facil": "Sentada no chão, ela joga a bola para a frente do jeito que conseguir, sem alvo, e vocês olham juntos onde caiu.",
+  "dificil": "Um passo para trás de cada vez, ou jogar com as duas mãos, por cima da cabeça.",
+  "conversa": [
+    "Caiu dentro?",
+    "Cadê a bola?",
+    "Mais longe ou mais perto?"
+  ],
+  "seguranca": "Bolas maiores que um rolo de papel higiênico. Nada de bola de espuma, que ela morde e arranca pedaço; se a bola for parar debaixo de um móvel, quem pega é você. Ninguém joga bola nas pessoas. Longe de janelas, TV, escada e objetos que quebram.",
+  "base": "Arremessar e lançar estão entre os movimentos que o Guia de Atividade Física do Ministério da Saúde sugere para 1 a 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "paninho-de-limpar",
+  "nome": "Paninho de limpar",
+  "area": "fazdeconta",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina imitar tarefas da casa e participar junto, do começo ao fim.",
+  "materiais": [
+    "Dois paninhos secos, um para cada um"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Dê um paninho para ela e pegue outro para você.",
+    "Tirem o pó dos brinquedos dela, um de cada vez: o carrinho, a bola, o urso.",
+    "Diga o que estão fazendo: “Limpa, limpa! Brilhou!”",
+    "Revezem: você limpa um brinquedo, ela limpa outro.",
+    "No fim, guardem os panos no cesto."
+  ],
+  "facil": "Ela só passa o pano onde você mostrar, com você junto.",
+  "dificil": "Depois de limpar, ela devolve cada brinquedo ao cesto, ou ajuda a pôr as meias no cesto de roupa.",
+  "conversa": [
+    "O que a gente está limpando?",
+    "Ficou limpo?",
+    "Onde vamos limpar agora?"
+  ],
+  "seguranca": "Pano seco, porque molhado deixa o chão liso; nada de produto de limpeza perto da criança, nem balde. Nada de porta de armário: prende o dedo e ensina a abrir onde ficam os produtos. Só o que está na altura dela: nada de subir em móvel.",
+  "base": "Brincar de imitar tarefas da casa, como tirar o pó, é sugestão do guia do Harvard Center para 6 a 18 meses; pôr as meias no cesto é dica do CDC aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "album-da-familia",
+  "nome": "Álbum da família",
+  "area": "linguagem",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "preparo": "Uns 15 minutos na primeira vez, para separar as fotos e montar o álbum",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina reconhecer pessoas e bichos da família e dizer ou apontar quem é quem.",
+  "materiais": [
+    "Fotos impressas de pessoas da família e dos bichos de casa, num álbum ou coladas pelo adulto em folhas de papelão grosso"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Sentem juntos e olhem uma foto de cada vez.",
+    "Diga quem é: “É a vovó!” e espere ela apontar ou fazer um som.",
+    "Pergunte por alguém da foto, como “Cadê o vovô?”, e espere ela achar.",
+    "Conte uma frase curta sobre a foto: “A vovó fez bolo.”",
+    "Deixe ela voltar para a foto preferida quantas vezes quiser."
+  ],
+  "facil": "Só nomeie quem está na foto, apontando; ela olha. Duas ou três fotos já bastam.",
+  "dificil": "Ela aponta e você pergunta “Quem é?”, esperando ela tentar dizer o nome; ou procurem a mesma pessoa em duas fotos.",
+  "conversa": [
+    "Quem é esse?",
+    "Cadê a vovó?",
+    "O que o cachorro está fazendo?"
+  ],
+  "seguranca": "O álbum fica na sua mão o tempo todo e ela só aponta: papel molhado engasga. Nada de capa plástica solta. As fotos são de papel: o celular não entra na brincadeira.",
+  "base": "Fazer um livro de fotos com pessoas e bichos conhecidos e dizer o nome de cada um é dica do CDC aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

@@ -241,6 +241,11 @@ export default async function Pagina() {
             <li>
               <strong>Som:</strong> volume confortável, longe dos ouvidos. Ninguém precisa gritar nem bater forte.
             </li>
+            <li>
+              <strong>De 1 a 2 anos:</strong> tudo vai à boca. Só objetos grandes, inteiros e limpos; nada de papel para rasgar, grãos, areia,
+              massinha, tinta, giz, cordão ou fita. Água só no banho, com o adulto com a mão ao alcance da criança. Brincadeira no chão,
+              sem subir em nada.
+            </li>
           </ul>
           <p className="m-0">
             O site não substitui a orientação do pediatra. Se alguma coisa no desenvolvimento da criança preocupar vocês, converse com ele. A Caderneta da
@@ -279,7 +284,7 @@ export default async function Pagina() {
         </div>
 
         <div id="apoio" className="flex scroll-mt-4 flex-col gap-4 md:sticky md:top-6 md:col-span-5">
-          <CartaoApoio pix={pix} url={SITE.url} modo="secao" />
+          <CartaoApoio pix={pix} modo="secao" />
           {qr ? (
             <div className="flex flex-col items-center gap-2 rounded-3xl border border-linha p-5">
               <div className="w-56 max-w-full" dangerouslySetInnerHTML={{ __html: qr }} role="img" aria-label="QR code do PIX para apoiar o site" />

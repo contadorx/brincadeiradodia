@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
+import { AVISO_1_2, NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
 import { lerRegistros } from "@/lib/armazenamento";
 import { evento } from "@/lib/metricas";
-import { compartilhar } from "@/lib/compartilhar";
+import { conteudoDaBrincadeira } from "@/lib/compartilhar";
 import { Alerta, Compartilhar, Play, Voltar } from "./Icones";
+import { BotaoCompartilhar } from "./JanelaCompartilhar";
 import { Cabecalho, CONTEUDO } from "./Cabecalho";
 import { Rodape } from "./Rodape";
 import { PorQue, SeloRascunho } from "./PorQue";
@@ -24,10 +25,9 @@ export function textoDoNivel(b: Brincadeira, n: Nivel) {
   return n === "facil" ? b.facil : n === "dificil" ? b.dificil : "Como nos passos acima.";
 }
 
-export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
+export function Ficha({ b }: { b: Brincadeira }) {
   const [nivel, setNivel] = useState<Nivel>("normal");
   const [jaBrincou, setJaBrincou] = useState(false);
-  const [aviso, setAviso] = useState("");
 
   useEffect(() => {
     evento("brincadeira_aberta", { id: b.id, area: b.area });
@@ -54,16 +54,6 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
     evento("nivel_trocado", { id: b.id, nivel: n });
   }
 
-  async function compartilharFicha() {
-    const r = await compartilhar({
-      title: b.nome,
-      text: `${b.nome}: uma brincadeira de uns ${b.minutos} minutos para fazer com a criança, sem tela.`,
-      url: `${url}/brincadeira/${b.id}/`,
-    });
-    if (r === "copia") setAviso("Link copiado.");
-    if (r === "falhou") setAviso("Não deu para compartilhar. Copie o endereço da página.");
-  }
-
   return (
     <>
       <Cabecalho />
@@ -73,15 +63,15 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
             <Voltar tamanho={22} />
             Hoje
           </Link>
-          <button type="button" onClick={compartilharFicha} aria-label="Compartilhar a brincadeira" className="grid size-11 place-items-center rounded-full bg-painel text-tinta transition-colors hover:bg-linha">
+          <BotaoCompartilhar
+            conteudo={conteudoDaBrincadeira(b)}
+            origem="ficha"
+            className="inline-flex min-h-11 items-center gap-2 rounded-full bg-painel px-4 font-bold text-tinta transition-colors hover:bg-linha"
+          >
             <Compartilhar tamanho={20} />
-          </button>
+            Compartilhar
+          </BotaoCompartilhar>
         </div>
-        {aviso ? (
-          <p role="status" className="m-0 -mt-3 text-right text-sm text-suave">
-            {aviso}
-          </p>
-        ) : null}
 
         <div className="flex flex-col gap-5 md:grid md:grid-cols-12 md:items-start md:gap-10">
         <div className="flex flex-col gap-5 md:col-span-7">
@@ -185,6 +175,7 @@ export function Ficha({ b, url }: { b: Brincadeira; url: string }) {
             <p className="m-0">
               <strong>Sempre com um adulto acompanhando.</strong> A criança não fica sozinha com os materiais em nenhum momento.
             </p>
+            {b.faixas.includes("1-2") ? <p className="m-0 font-bold">{AVISO_1_2}</p> : null}
             {b.seguranca ? <p className="m-0">{b.seguranca}</p> : null}
           </div>
         </div>

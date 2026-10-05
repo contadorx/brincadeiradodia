@@ -31,6 +31,13 @@ export const NOME_FAIXA: Record<(typeof FAIXAS)[number], string> = {
   "5-6": "5 a 6 anos",
 };
 
+/**
+ * Cuidado extra que aparece sozinho em toda ficha da faixa 1 a 2 anos, além do aviso da brincadeira.
+ * Nesta idade tudo vai à boca, o equilíbrio ainda falha e a criança não avisa o perigo.
+ */
+export const AVISO_1_2 =
+  "De 1 a 2 anos, tudo vai à boca: só objetos maiores que um rolo de papel higiênico, inteiros e limpos, conferidos antes e depois. Brincadeira no chão, sem subir em nada.";
+
 /** Materiais que aparecem no filtro "O que você tem em casa?". */
 export const ETIQUETAS = [
   "papel",

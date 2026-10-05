@@ -1,0 +1,50 @@
+{
+  "id": "fruta-amassada",
+  "nome": "Fruta amassada",
+  "area": "musica",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina provar gostos e texturas diferentes e comer com as próprias mãos ou a colher.",
+  "materiais": [
+    "Duas frutas macias que a criança já come, como banana e mamão",
+    "Um prato de plástico e uma colher de criança"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Na hora do lanche, a criança sentada na cadeirinha ou à mesa, com você junto.",
+    "Amasse as frutas ou corte em pedacinhos bem moles.",
+    "Diga a cor e o gosto: “Amarelo! Doce!”",
+    "Deixe ela pegar com a mão ou tentar com a colher. Sujar faz parte.",
+    "Ela come quanto quiser; parem quando ela mostrar que acabou."
+  ],
+  "facil": "Você oferece na colher e ela segura junto.",
+  "dificil": "Ela escolhe qual fruta primeiro, e você diz o nome: “Mamão!” Ou ela tenta beber água num copo sem tampa, com você segurando junto.",
+  "conversa": [
+    "É doce?",
+    "Qual você quer agora?",
+    "Acabou ou quer mais?"
+  ],
+  "seguranca": "Só frutas que a criança já come e tolera, respeitando alergias. Macias, amassadas ou em pedacinhos de até 1 cm, do tamanho da unha do seu dedo mindinho. Nada de uva inteira, maçã crua em pedaços, castanha, pipoca ou bala. Ela come sentada, com você junto, nunca andando, deitada, no carro ou no carrinho.",
+  "base": "Oferecer alimentos de gostos e texturas diferentes é dica do CDC a 1 ano, e treinar comer sozinha com colher e copo, aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

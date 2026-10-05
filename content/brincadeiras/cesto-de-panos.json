@@ -1,0 +1,44 @@
+{
+  "id": "cesto-de-panos",
+  "nome": "Cesto de panos",
+  "area": "explorar",
+  "ordem": 1,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina explorar com as mãos e conhecer palavras como macio, áspero, liso e quentinho.",
+  "materiais": [
+    "Um cesto ou uma caixa sem grampos",
+    "5 ou 6 panos limpos, do tamanho de uma fralda de pano: toalhinha, fralda, pano de prato, malha macia, um retalho de veludo"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Ponha os panos no cesto, ao alcance da criança sentada.",
+    "Ela tira um de cada vez, do jeito dela.",
+    "Diga como é cada um: “Macio!”, “Áspero!”, “Liso!”",
+    "Se ela gostar, passe o pano de leve na mão ou no braço dela.",
+    "No fim, guardem os panos no cesto juntos: “Dentro!”"
+  ],
+  "facil": "Dois panos bem diferentes, um macio e um áspero. Você mostra um de cada vez e ela toca.",
+  "dificil": "Pergunte “Cadê o macio?” e espere ela mostrar; ou escondam um brinquedo grande dentro de um pano dobrado para ela achar.",
+  "conversa": [
+    "Esse é macio ou áspero?",
+    "Qual você mais gostou?",
+    "Onde está o pano azul?"
+  ],
+  "seguranca": "Panos sem franja, fita, cordão, botão ou bordado solto, e nada de plástico. Nenhum pano em volta do pescoço; no rosto, só por um instante, com a criança tirando sozinha. Guarde o cesto fora do alcance no fim.",
+  "base": "Variação nossa do quadro sensorial, indicado para 1 a 2 anos no guia de culturas populares do Ministério da Cidadania (2019): os panos ficam soltos, sem nada colado que possa soltar",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

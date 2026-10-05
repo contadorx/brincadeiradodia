@@ -1,0 +1,42 @@
+{
+  "id": "cada-chao-de-um-jeito",
+  "nome": "Cada chão de um jeito",
+  "area": "corpo",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina andar ou engatinhar em chãos diferentes e ajustar o equilíbrio.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolham dois ou três chãos diferentes: em casa, piso frio, tapete e toalha felpuda; num quintal ou praça cercada, grama e cimento liso.",
+    "Olhe o chão antes: nada de cacos, fezes, formigueiro ou plantas com espinho.",
+    "A criança anda ou engatinha em cada um, de mãos dadas se precisar.",
+    "Diga como é cada chão: “Fofinho!”, “Duro!”, “Fresquinho!”",
+    "Voltem para o chão preferido dela e brinquem um pouco ali."
+  ],
+  "facil": "Se ela ainda não anda, ela engatinha ou fica sentada sentindo a grama com as mãos, e você descreve.",
+  "dificil": "Ela anda sozinha um trecho curto, vai e volta, ou anda devagar e depois mais rápido.",
+  "conversa": [
+    "Esse chão é fofo ou duro?",
+    "Qual você gostou mais?",
+    "Está fresquinho?"
+  ],
+  "seguranca": "Confira o chão com as mãos: nada de cacos, pedrinhas, folhas soltas, fezes, formigueiro, espinhos ou chão quente de sol. Longe de plantas como comigo-ninguém-pode. Descalço só em casa ou na grama conferida. Nada de areia nem poças. Se ela levar algo à boca, tire na hora; lavem mãos e pés no fim. No sol, sombra, boné e água.",
+  "base": "Andar em chãos diferentes é brincadeira indicada para 1 a 2 anos no guia de culturas populares do Ministério da Cidadania (2019). Na nossa versão, sem areia e sem poças de água",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

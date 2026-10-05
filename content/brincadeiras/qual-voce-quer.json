@@ -1,0 +1,45 @@
+{
+  "id": "qual-voce-quer",
+  "nome": "Qual você quer?",
+  "area": "autocontrole",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina escolher, mostrar o que quer e esperar o adulto entender.",
+  "materiais": [
+    "Pares de coisas seguras de que ela goste: dois brinquedos, dois livros de papelão, duas camisetas"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre duas coisas, uma em cada mão: “Bola ou livro?”",
+    "Espere: ela pode olhar, apontar ou pegar.",
+    "Diga o nome do que ela escolheu: “Você escolheu o livro!” E brinquem com ele.",
+    "Depois de um tempo, ofereça outro par.",
+    "Usem a escolha na rotina também: qual camiseta, qual copo."
+  ],
+  "facil": "Uma coisa de cada vez: “Quer a bola?” Aceite o sim ou o não do jeito que ela mostrar.",
+  "dificil": "Três opções, ou escolhas maiores da rotina: brincar de bola ou de livro agora?",
+  "conversa": [
+    "Qual você quer?",
+    "Você escolheu o azul!",
+    "E agora, qual?"
+  ],
+  "seguranca": "Só objetos maiores que um rolo de papel higiênico, inteiros e limpos: nessa idade, tudo vai à boca. Nada quebrável ou pesado.",
+  "base": "Dar escolhas simples, deixando a criança escolher entre duas coisas, é dica do CDC aos 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    }
+  ],
+  "revisao": null
+}

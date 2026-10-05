@@ -1,0 +1,44 @@
+{
+  "id": "batuque-de-panela",
+  "nome": "Batuque de panela",
+  "area": "musica",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina perceber o som que ela mesma faz: alto, baixinho, rápido e devagar.",
+  "materiais": [
+    "Uma panela leve ou um pote de plástico, virado de boca para baixo",
+    "Uma colher de pau lisa"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Vire a panela de boca para baixo, no chão.",
+    "Mostre como bater com a colher: “Tum, tum!”",
+    "Ela bate do jeito dela; batam juntos.",
+    "Brinquem de mais alto e mais baixinho, rápido e devagar, sem bater com força.",
+    "Parem juntos: “Parou!”"
+  ],
+  "facil": "Ela bate com a mão aberta, sem colher, e você acompanha.",
+  "dificil": "Você toca um ritmo curto, tum, tum, pausa, e ela copia; ou vocês tocam enquanto cantam.",
+  "conversa": [
+    "Alto ou baixinho?",
+    "Que barulho!",
+    "Vamos parar juntos?"
+  ],
+  "seguranca": "Panela leve e fria, ou pote de plástico, longe do fogão e de quem cozinha; colher de pau lisa, sem farpas. Nada de vidro, louça ou panela pesada. Volume confortável, longe dos ouvidos. Ela bate sentada; se levantar, a colher fica com você.",
+  "base": "Dar panelas e instrumentos simples para a criança fazer barulho é dica do CDC a 1 ano",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "passeio-de-olhar-e-ouvir",
+  "nome": "Passeio de olhar e ouvir",
+  "area": "explorar",
+  "ordem": 3,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua"
+  ],
+  "serve": "Treina prestar atenção no que está em volta, apontar e ouvir o nome das coisas.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Num passeio, com ela no colo ou no carrinho, parem em lugares tranquilos.",
+    "Mostre algo interessante: “Olha o passarinho!”",
+    "Quando ela apontar alguma coisa, diga o nome: “É um cachorro! Au-au.”",
+    "Escutem juntos: carro, passarinho, vento. Diga o nome de cada som.",
+    "Na volta, procurem o que vocês viram na ida."
+  ],
+  "facil": "No colo ou no carrinho, só mostre e diga o nome; ela olha e escuta.",
+  "dificil": "Quando passarem de novo, pergunte “Cadê o cachorro?” e espere ela apontar; ou ela mostra e você conta uma frase curta sobre o que ela viu.",
+  "conversa": [
+    "O que é isso?",
+    "Que barulho foi esse?",
+    "Cadê o passarinho?"
+  ],
+  "seguranca": "Na calçada, a criança vai no colo ou no carrinho com o cinto, longe do meio-fio e das saídas de garagem; andar de mãos dadas, só em praça ou quintal cercado. Nada de pegar bichos, plantas ou coisas do chão: tudo vai à boca. No sol, sombra, boné e água.",
+  "base": "Mostrar coisas interessantes e responder com palavras quando a criança aponta são dicas do CDC a 1 ano; brincar na natureza todo dia é orientação da SBP e do Instituto Alana",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    },
+    {
+      "titulo": "Benefícios da natureza no desenvolvimento de crianças e adolescentes (SBP e Instituto Alana, 2019)",
+      "url": "https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen_.pdf"
+    }
+  ],
+  "revisao": null
+}

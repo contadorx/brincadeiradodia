@@ -1,0 +1,46 @@
+{
+  "id": "cada-um-na-sua-caixa",
+  "nome": "Cada um na sua caixa",
+  "area": "raciocinio",
+  "ordem": 4,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina perceber o que é igual e o que é diferente, e separar em grupos.",
+  "materiais": [
+    "Duas caixas sem grampos ou dois cestos sem pontas soltas",
+    "Uns 6 objetos grandes de dois tipos: bolas de meia e blocos, ou colheres de pau e copos de plástico"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Ponha uma bola numa caixa e um bloco na outra: “Bola aqui, bloco ali.”",
+    "Entregue um objeto e pergunte: “Onde vai?”",
+    "Ajude apontando a caixa certa.",
+    "Foi na outra? Tudo bem: mostre de novo, sem cobrar.",
+    "No fim, olhem juntos as duas caixas: “Todas as bolas aqui!”"
+  ],
+  "facil": "Só um tipo de objeto e uma caixa: ela põe tudo dentro, e você diz o nome de cada um.",
+  "dificil": "Separem por cor, como tudo azul aqui e tudo vermelho ali, ou usem três caixas.",
+  "conversa": [
+    "Onde vai a bola?",
+    "É igual a esse?",
+    "Qual caixa ficou mais cheia?"
+  ],
+  "seguranca": "Só objetos maiores que um rolo de papel higiênico, inteiros e limpos: nessa idade, tudo vai à boca. Nada de tampinha, botão ou vidro.",
+  "base": "Separar objetos de cores e formas diferentes está nas sugestões do Care for Child Development (OMS e UNICEF) para 1 a 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    }
+  ],
+  "revisao": null
+}

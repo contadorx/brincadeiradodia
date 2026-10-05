@@ -17,5 +17,5 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function Pagina({ params }: { params: Promise<{ id: string }> }) {
   const b = brincadeiraPorId((await params).id);
-  return <Brincando b={b} pix={codigoPix()} url={SITE.url} apoio={SITE.apoio} />;
+  return <Brincando b={b} pix={codigoPix()} apoio={SITE.apoio} />;
 }

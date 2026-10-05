@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { Brincadeira } from "@/lib/esquema";
+import { AVISO_1_2, type Brincadeira } from "@/lib/esquema";
 import { useRouter } from "next/navigation";
 import { adicionarRegistro, lerApoio, lerFamilia, lerPerfil, nomeDaCrianca, type Reacao } from "@/lib/armazenamento";
 import { VERSAO_TERMOS } from "@/config/site";
@@ -27,12 +27,10 @@ const mmss = (s: number) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${St
 export function Brincando({
   b,
   pix,
-  url,
   apoio,
 }: {
   b: Brincadeira;
   pix: string | null;
-  url: string;
   apoio: { aPartirDeRegistros: number; intervaloDias: number };
 }) {
   const total = b.minutos * 60;
@@ -227,7 +225,7 @@ export function Brincando({
         </div>
         <h1 className="m-0 font-display text-[30px] font-extrabold leading-tight">Pronto! Está no diário.</h1>
         <p className="m-0 text-suave">Amanhã tem outra. Se ela pedir para repetir esta, ótimo: repetir também ensina.</p>
-        {mostrarApoio ? <CartaoApoio pix={pix} url={url} modo="cartao" aoFechar={() => setMostrarApoio(false)} /> : null}
+        {mostrarApoio ? <CartaoApoio pix={pix} modo="cartao" aoFechar={() => setMostrarApoio(false)} /> : null}
         <div className="mt-auto flex flex-col gap-2.5 md:mt-2 md:flex-row">
           <Link href="/diario/" className="flex min-h-[54px] items-center justify-center rounded-2xl bg-azul text-[17px] font-bold text-white no-underline transition-colors hover:bg-azul-escuro md:flex-1">
             Ver o diário
@@ -311,6 +309,7 @@ export function Brincando({
             <Alerta tamanho={22} className="mt-0.5 shrink-0 text-sol" />
             <div className="flex min-w-0 flex-col gap-1.5">
               <p className="m-0 font-bold">Antes de começar</p>
+              {b.faixas.includes("1-2") ? <p className="m-0 text-[15px] font-bold">{AVISO_1_2}</p> : null}
               {b.seguranca ? <p className="m-0 text-[15px]">{b.seguranca}</p> : null}
               <p className="m-0 text-[15px] text-noite-suave">
                 Um adulto acompanha do começo ao fim. Leia todos os passos antes e deixe o celular de lado. O tempo é só uma estimativa: parem quando a

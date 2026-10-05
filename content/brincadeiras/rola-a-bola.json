@@ -1,0 +1,45 @@
+{
+  "id": "rola-a-bola",
+  "nome": "Rola a bola, espera a vez",
+  "area": "autocontrole",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina esperar a vez e prestar atenção no outro.",
+  "materiais": [
+    "Uma bola de borracha macia ou de pano, do tamanho de uma bola de futebol ou menor"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem no chão, de frente, de pernas abertas, pertinho.",
+    "Diga “Minha vez!” e role a bola devagar até ela.",
+    "“Sua vez!” Ela empurra a bola de volta do jeito que conseguir.",
+    "Repitam, sempre dizendo de quem é a vez.",
+    "Quando ela quiser parar, parem."
+  ],
+  "facil": "Role bem de perto e ajude a empurrar de volta, com a sua mão sobre a dela, se ela quiser.",
+  "dificil": "Afastem-se um pouco, ou chamem mais alguém da casa: ela espera a bola passar pela outra pessoa antes da vez dela.",
+  "conversa": [
+    "De quem é a vez?",
+    "Pegou!",
+    "Mais uma?"
+  ],
+  "seguranca": "Bola maior que um rolo de papel higiênico. Nada de bola de espuma, que ela morde e arranca pedaço; se a bola for parar debaixo de um móvel, quem pega é você. Longe de escada, quinas e objetos que quebram.",
+  "base": "Rolar a bola de um para o outro e brincar de jogos em que cada um tem a sua parte são dicas do CDC aos 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    }
+  ],
+  "revisao": null
+}

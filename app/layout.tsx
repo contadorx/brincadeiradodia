@@ -5,24 +5,26 @@ import "@fontsource/atkinson-hyperlegible/700.css";
 import "@fontsource-variable/bricolage-grotesque";
 import "./globals.css";
 import { SITE } from "@/config/site";
+import { URL_PUBLICA, previa } from "@/lib/metadados";
 import { Sistema } from "@/components/Sistema";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE.url),
+  metadataBase: new URL(URL_PUBLICA),
   title: { default: SITE.nome, template: `%s · ${SITE.nome}` },
   description: SITE.descricao,
   manifest: "/manifest.webmanifest",
-  icons: { icon: "/icons/favicon-48.png", apple: "/icons/apple-touch-icon.png" },
-  appleWebApp: { capable: true, title: "Brincadeira", statusBarStyle: "default" },
-  openGraph: {
-    title: SITE.nome,
-    description: SITE.descricao,
-    url: SITE.url,
-    siteName: SITE.nome,
-    locale: "pt_BR",
-    type: "website",
-    images: [{ url: "/icons/icone-512.png", width: 512, height: 512 }],
+  icons: {
+    icon: [
+      { url: "/icons/favicon.svg", type: "image/svg+xml" },
+      { url: "/icons/favicon-48.png", sizes: "48x48", type: "image/png" },
+    ],
+    apple: "/icons/apple-touch-icon.png",
   },
+  appleWebApp: { capable: true, title: "Brincadeira", statusBarStyle: "default" },
+  // Prévia dos links (WhatsApp, Facebook, Telegram...). As fichas das brincadeiras trocam título,
+  // descrição e endereço; a imagem é a mesma (veja lib/metadados.ts).
+  openGraph: previa({ titulo: SITE.nome, descricao: SITE.descricao }),
+  twitter: { card: "summary_large_image" },
   formatDetection: { telephone: false },
   // A prévia com rascunhos (NEXT_PUBLIC_RASCUNHOS=1) não deve aparecer no Google.
   ...(process.env.NEXT_PUBLIC_RASCUNHOS === "1" ? { robots: { index: false, follow: false } } : {}),

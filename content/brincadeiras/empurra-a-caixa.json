@@ -1,0 +1,50 @@
+{
+  "id": "empurra-a-caixa",
+  "nome": "Empurra a caixa",
+  "area": "corpo",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina andar empurrando com força e controle, e levar algo até um lugar.",
+  "materiais": [
+    "Uma caixa de papelão firme, sem grampos",
+    "2 ou 3 bichos de pelúcia"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Ponha os bichos dentro da caixa: “Vamos levar os bichos para passear?”",
+    "Mostre como empurrar a caixa pelo chão.",
+    "Ela empurra do jeito que conseguir; você vai ao lado.",
+    "Parem no destino, como o sofá, e tirem os bichos.",
+    "Façam o caminho de volta."
+  ],
+  "facil": "Sentados no chão, vocês empurram a caixa um para o outro com as mãos.",
+  "dificil": "Levem os bichos até alguém da casa, do outro lado da sala, ou desviem de uma almofada no caminho.",
+  "conversa": [
+    "Para onde vamos?",
+    "Chegou! Quem desce primeiro?",
+    "Pesado ou leve?"
+  ],
+  "seguranca": "Ninguém senta nem sobe na caixa. Piso sem tapete solto, longe de escada, quinas e portas. Em pé, só quem já anda sozinha; quem ainda se apoia para andar empurra sentada, como no “Mais fácil”: a caixa desliza e ela cai de frente.",
+  "base": "Incentivar brincadeiras seguras de empurrar é dica do CDC a 1 ano, e dar brinquedos que a criança possa empurrar com segurança, aos 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    }
+  ],
+  "revisao": null
+}

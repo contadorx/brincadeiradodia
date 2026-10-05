@@ -1,0 +1,45 @@
+{
+  "id": "aponta-e-espera",
+  "nome": "Aponta e espera",
+  "area": "linguagem",
+  "ordem": 2,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina apontar para pedir, ouvir o nome das coisas e tentar os primeiros sons das palavras.",
+  "materiais": [
+    "2 ou 3 coisas de que ela goste, como uma bola, um bichinho e um copo de plástico"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Segure as coisas no colo ou na mão, à vista dela, mas fora do alcance.",
+    "Quando ela apontar, diga o nome: “A bola?”",
+    "Espere uns segundos: ela pode fazer um som, um gesto ou tentar a palavra.",
+    "Repita e complete o que ela disse: “Bo! Isso, a bola azul.” E entregue.",
+    "Faça o mesmo no dia a dia: no banho, na comida, no passeio."
+  ],
+  "facil": "Se ela ainda não aponta, vale olhar ou esticar a mão: diga o nome e entregue logo. O importante é ela ouvir a palavra.",
+  "dificil": "Espere um pouquinho mais e diga a palavra devagar. Qualquer tentativa vale: comemore o som, mesmo que não saia a palavra inteira.",
+  "conversa": [
+    "O que você quer?",
+    "É a bola?",
+    "Cadê o copo?"
+  ],
+  "seguranca": "Brinquedo de que ela gosta não fica em prateleira ou móvel: convida a puxar e subir, e o móvel pode tombar. Copo de plástico, nunca de vidro.",
+  "base": "Dizer o nome do que a criança aponta e esperar alguns segundos por um som antes de entregar é dica do CDC aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}
