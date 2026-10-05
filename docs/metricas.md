@@ -3,26 +3,32 @@
 O site usa o **Umami**, instalado no seu VPS. Ele não usa cookies, não guarda IP
 e não identifica pessoas. Os dados ficam no seu servidor.
 
-## 1. Subir o Umami no VPS
+## 1. Subir o Umami no VPS (Contabo, o mesmo do Postal)
+
+Precisa de acesso SSH ao VPS e do Docker, que o Postal já usa. O Umami e o banco dele ocupam uns 500 MB
+de memória.
 
 ```bash
 # no VPS
+docker ps                      # confira: o Caddy do Postal aparece como "postal-caddy"
+ss -ltn | grep ':3000 '        # não deve mostrar nada; se mostrar, troque a porta 3000 no arquivo
 mkdir -p ~/umami && cd ~/umami
-# copie infra/umami/docker-compose.yml e infra/umami/.env.example para cá
-cp .env.example .env
-nano .env                      # troque a senha e o segredo (openssl rand -hex 32)
+nano docker-compose.yml        # cole o conteúdo de infra/umami/docker-compose.yml
+nano .env                      # cole infra/umami/.env.example e troque os três valores
+openssl rand -hex 32           # rode três vezes: um valor para cada linha do .env
 docker compose up -d
-docker compose logs -f umami   # espere aparecer "Ready"
+docker compose logs -f umami   # espere aparecer "Ready" e saia com Ctrl+C
 ```
 
-O Umami fica em `127.0.0.1:3000`, sem acesso direto pela internet.
+O Umami fica em `127.0.0.1:3000`: só o próprio servidor enxerga. Quem publica na internet é o Caddy.
 
-## 2. Publicar em um subdomínio
+## 2. Publicar em `metricas.brincadeiradodia.com.br`
 
-1. No Registro.br, crie um registro **A** `metricas.brincadeiradodia.com.br` apontando para o IP do VPS.
-2. No proxy reverso que já atende o servidor (o mesmo usado pelo Postal), crie um site para
-   `metricas.brincadeiradodia.com.br` repassando para `http://127.0.0.1:3000`, com HTTPS.
-   Exemplo para Caddy:
+1. **DNS:** crie um registro **A** com o nome `metricas` apontando para o IP do VPS, no mesmo lugar onde
+   você criou os registros que ligaram o domínio à Vercel (no Registro.br, em "Editar zona"; se o domínio
+   usa os servidores DNS da Vercel, em Domains → DNS Records). Leva de minutos a algumas horas para valer.
+2. **Caddy do Postal:** na instalação padrão do Postal, o arquivo fica em `/opt/postal/config/Caddyfile`.
+   Acrescente no fim dele, sem mexer no bloco do Postal:
 
    ```
    metricas.brincadeiradodia.com.br {
@@ -30,25 +36,41 @@ O Umami fica em `127.0.0.1:3000`, sem acesso direto pela internet.
    }
    ```
 
-3. Abra `https://metricas.brincadeiradodia.com.br`. O login inicial do Umami é
-   `admin` / `umami`: **troque a senha na hora** (Settings → Profile).
+   e recarregue: `docker exec -w /etc/caddy postal-caddy caddy reload`. Se der erro, confira o arquivo;
+   `docker restart postal-caddy` também funciona (a página do Postal fica fora por segundos, os e-mails não
+   param). O Caddy pede o certificado HTTPS sozinho assim que o DNS estiver valendo.
+3. Abra `https://metricas.brincadeiradodia.com.br`. O login inicial é `admin` / `umami`: **troque a senha na
+   hora**, no perfil do usuário (Profile), e ligue ali a verificação em duas etapas (2FA).
 
 ## 3. Ligar o site ao painel
 
-1. No Umami: Settings → Websites → Add website → nome "Brincadeira do Dia",
+1. No Umami, em Websites (ou Settings → Websites), clique em **Add website**: nome "Brincadeira do Dia",
    domínio `brincadeiradodia.com.br`.
-2. Copie o **Website ID**.
-3. Em `config/site.ts`, preencha:
+2. Abra o site criado e copie o **Website ID** (um código como `a1b2c3d4-...`).
+3. Em `config/site.ts`, preencha (dá para editar direto no GitHub, pelo lápis do arquivo):
 
    ```ts
    umami: {
      scriptUrl: "https://metricas.brincadeiradodia.com.br/script.js",
      websiteId: "COLE-O-ID-AQUI",
-     dominio: "brincadeiradodia.com.br",
+     dominio: "brincadeiradodia.com.br,www.brincadeiradodia.com.br",
    },
    ```
 
-4. Publique o site de novo. Visitas em `localhost` não são contadas.
+4. Publique o site de novo. Visitas em `localhost` não são contadas. Para conferir, abra o site no celular
+   e veja a visita aparecer em Realtime no painel.
+
+Quem usa bloqueador de anúncios pode não ser contado: o painel mostra um pouco menos do que o real. O Umami
+permite trocar o nome do script (`TRACKER_SCRIPT_NAME`) para escapar dos bloqueadores; preferimos deixar o
+padrão.
+
+### Manutenção do painel
+
+- **Atualizar:** `cd ~/umami && docker compose pull && docker compose up -d`. Antes de uma versão grande
+  (de 3 para 4, por exemplo), faça a cópia abaixo.
+- **Cópia do banco (uma vez por mês):**
+  `docker compose exec -T db pg_dump -U umami umami | gzip > ~/umami-$(date +%F).sql.gz`
+  e guarde o arquivo fora do VPS.
 
 ## 4. O que o painel mostra
 

@@ -1,5 +1,5 @@
-# Painel de métricas (Umami) para rodar no VPS.
-# Sobe em 127.0.0.1:3000; o proxy reverso do servidor publica em
+# Painel de métricas (Umami 3) para rodar no VPS.
+# Sobe em 127.0.0.1:3000 (só o próprio servidor enxerga); o Caddy do Postal publica em
 # https://metricas.brincadeiradodia.com.br (veja docs/metricas.md).
 services:
   umami:
@@ -7,6 +7,10 @@ services:
     environment:
       DATABASE_URL: postgresql://umami:${UMAMI_DB_SENHA}@db:5432/umami
       APP_SECRET: ${UMAMI_APP_SECRET}
+      # Necessária para ligar a verificação em duas etapas (2FA) no login do painel.
+      TWO_FACTOR_ENCRYPTION_KEY: ${UMAMI_2FA_CHAVE}
+      # Não manda dados de uso do próprio Umami para os desenvolvedores dele.
+      DISABLE_TELEMETRY: 1
     ports:
       - "127.0.0.1:3000:3000"
     depends_on:

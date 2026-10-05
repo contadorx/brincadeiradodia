@@ -145,7 +145,8 @@ afiliado ou venda exigem plano pago.
   A versão mais fácil serve a quem ainda não anda ou não fala, sem exigir idade. Toda ficha da faixa mostra
   sozinha o aviso `AVISO_1_2` (em `lib/esquema.ts`), na ficha e antes de começar.
 - **Doação de revisão:** com `contato` preenchido e `revisao.convidar: true` em `config/site.ts`, a página
-  Sobre convida profissionais a revisar. Quando alguém revisar:
+  Sobre convida profissionais a revisar. Os lotes prontos e os e-mails de convite estão em `docs/revisoes.md`.
+  Quando alguém revisar:
   1. Aplique as mudanças que a profissional pediu no texto.
   2. Preencha o campo `revisao` da brincadeira (modelo acima) e publique.
   3. Mudou de novo os passos, os materiais ou o aviso de segurança depois? A revisão valia para o texto
@@ -180,6 +181,7 @@ public/               manifesto, ícones do PWA e og.png (imagem das prévias de
 scripts/              gerar-sw.mjs (offline), gerar-icones.mjs e gerar-og.mjs
 infra/umami/          docker-compose do painel de métricas
 docs/metricas.md      instalação do painel e o que olhar nele
+docs/revisoes.md      lotes de revisão voluntária e os e-mails de convite
 vercel.json           redirecionamentos de brincadeiras que mudaram de endereço
 ```
 

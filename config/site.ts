@@ -12,13 +12,13 @@ export const SITE = {
    * Responsável pelo site (controlador dos dados, pela LGPD).
    * Aparece nos Termos de Uso e na Política de Privacidade. OBRIGATÓRIO antes de publicar.
    */
-  responsavel: "",
+  responsavel: "Leandro Batista de Oliveira",
 
   /**
    * E-mail de contato: é o canal para dúvidas, sugestões e pedidos sobre dados pessoais.
    * OBRIGATÓRIO antes de publicar (a LGPD exige um canal de atendimento).
    */
-  contato: "",
+  contato: "leandropucsp@gmail.com",
 
   /**
    * PIX para apoio voluntário.
@@ -26,9 +26,9 @@ export const SITE = {
    * Enquanto `chave` estiver vazia, o bloco do PIX não aparece (o de compartilhar continua).
    */
   pix: {
-    chave: "",
-    /** Nome do recebedor como está no banco, sem acento (até 25 letras). */
-    nomeRecebedor: "",
+    chave: "5f0cafc2-92c6-42dc-ad6a-6897f56e6af5",
+    /** Nome do recebedor como está no banco, sem acento (até 25 letras; o nome completo não cabe). */
+    nomeRecebedor: "LEANDRO B DE OLIVEIRA",
     /** Cidade do recebedor, sem acento (até 15 letras). */
     cidade: "MAUA",
   },
@@ -61,7 +61,7 @@ export const SITE = {
    */
   provedores: {
     hospedagem: "Vercel (Estados Unidos)",
-    metricas: "servidor próprio contratado na Contabo [informe o país do datacenter]",
+    metricas: "servidor próprio contratado na Contabo (Alemanha)",
   },
 
   /**
@@ -71,7 +71,8 @@ export const SITE = {
   umami: {
     scriptUrl: "",
     websiteId: "",
-    dominio: "brincadeiradodia.com.br",
+    /** Endereços contados, separados por vírgula (o Umami compara o endereço exato: com e sem www). */
+    dominio: "brincadeiradodia.com.br,www.brincadeiradodia.com.br",
   },
 } as const;
 
