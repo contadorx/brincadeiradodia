@@ -4,13 +4,18 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { lerPerfil, salvarPerfil, type Perfil } from "@/lib/armazenamento";
-import type { Faixa } from "@/lib/esquema";
+import type { Faixa } from "@/lib/dominio";
 import { chaveDia } from "@/lib/datas";
 import { evento } from "@/lib/metricas";
 import { VERSAO_TERMOS } from "@/config/site";
 import { Cadeado } from "./Icones";
 import { Marca, Selo } from "./Marca";
 import { EscolhaFaixa } from "./EscolhaFaixa";
+
+/** Só caminhos de brincadeira deste site: evita mandar a pessoa para um endereço qualquer. */
+function destinoSeguro(v: string | null): string | null {
+  return v && /^\/brincadeira\/[a-z0-9-]+\/(brincando\/)?$/.test(v) ? v : null;
+}
 
 export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }) {
   const router = useRouter();
@@ -22,6 +27,12 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
   const [aceito, setAceito] = useState(false);
   const [salvando, setSalvando] = useState(false);
   const [erro, setErro] = useState("");
+  // Quem chegou por um link de brincadeira volta para ela depois das boas-vindas.
+  const [volta, setVolta] = useState<string | null>(null);
+
+  useEffect(() => {
+    setVolta(destinoSeguro(new URLSearchParams(window.location.search).get("volta")));
+  }, []);
 
   useEffect(() => {
     lerPerfil().then((p) => {
@@ -49,7 +60,7 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
       aceite: jaAceitou && existente?.aceite ? existente.aceite : { versao: VERSAO_TERMOS, em: new Date().toISOString() },
     });
     if (!existente) evento("boas_vindas_concluida", { faixa });
-    router.push("/");
+    router.push(volta ?? "/");
   }
 
   return (
@@ -78,6 +89,9 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
               ? "Leia e aceite a nova versão dos Termos de Uso e da Política de Privacidade para continuar."
               : "Feito para pais e cuidadores. A criança brinca com você, longe da tela."}
           </p>
+          {volta && !termosNovos ? (
+            <p className="m-0 font-bold text-azul md:text-lg">Responda as duas perguntas abaixo e a brincadeira que você recebeu abre em seguida.</p>
+          ) : null}
         </div>
       </div>
 
@@ -162,7 +176,7 @@ export function BoasVindas({ faixasComConteudo }: { faixasComConteudo: Faixa[] }
           disabled={salvando}
           className="mt-auto flex min-h-[58px] items-center justify-center rounded-2xl bg-azul text-lg font-bold text-white transition-colors hover:bg-azul-escuro disabled:opacity-60 md:mt-0"
         >
-          {existente ? (termosNovos ? "Aceitar e continuar" : "Salvar") : "Ver a brincadeira de hoje"}
+          {existente ? (termosNovos ? "Aceitar e continuar" : "Salvar") : volta ? "Ir para a brincadeira" : "Ver a brincadeira de hoje"}
         </button>
       </form>
     </main>

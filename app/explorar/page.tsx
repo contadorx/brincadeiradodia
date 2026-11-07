@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Explorar } from "@/components/Explorar";
-import { brincadeirasNoSite } from "@/lib/conteudo";
+import { resumosNoSite } from "@/lib/conteudo";
 
 export const metadata: Metadata = { title: "Explorar" };
 
 export default function Pagina() {
-  return <Explorar lista={brincadeirasNoSite()} />;
+  return <Explorar lista={resumosNoSite()} />;
 }

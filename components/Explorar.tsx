@@ -10,11 +10,11 @@ import {
   NOME_ETIQUETA,
   NOME_FAIXA,
   NOME_LUGAR,
-  type Brincadeira,
   type Etiqueta,
   type Faixa,
   type Lugar,
-} from "@/lib/esquema";
+  type Resumo,
+} from "@/lib/dominio";
 import { evento } from "@/lib/metricas";
 import { useDados } from "@/lib/useDados";
 import { TrocaCrianca } from "./TrocaCrianca";
@@ -44,7 +44,7 @@ function Chip({ ativo, onClick, children }: { ativo: boolean; onClick: () => voi
   );
 }
 
-export function Explorar({ lista }: { lista: Brincadeira[] }) {
+export function Explorar({ lista }: { lista: Resumo[] }) {
   const { perfil, familia, recarregar } = useDados(false);
   const [busca, setBusca] = useState("");
   const [materiais, setMateriais] = useState<Set<Material>>(new Set());

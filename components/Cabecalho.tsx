@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { Marca } from "./Marca";
 
-type Aba = "hoje" | "explorar" | "diario" | "sobre";
+type Aba = "hoje" | "explorar" | "diario" | "sobre" | "apoiar";
 
 const ABAS: { id: Aba; href: string; nome: string }[] = [
   { id: "hoje", href: "/", nome: "Hoje" },
   { id: "explorar", href: "/explorar/", nome: "Explorar" },
   { id: "diario", href: "/diario/", nome: "Diário" },
-  { id: "sobre", href: "/sobre/", nome: "Sobre e apoio" },
+  { id: "sobre", href: "/sobre/", nome: "Sobre" },
+  { id: "apoiar", href: "/apoiar/", nome: "Apoiar" },
 ];
 
 /** Barra superior do computador e tablet. No celular quem navega é a barra inferior. */

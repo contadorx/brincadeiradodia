@@ -1,6 +1,6 @@
 import { Hoje } from "@/components/Hoje";
-import { brincadeirasNoSite } from "@/lib/conteudo";
+import { resumosNoSite } from "@/lib/conteudo";
 
 export default function Pagina() {
-  return <Hoje lista={brincadeirasNoSite()} />;
+  return <Hoje lista={resumosNoSite()} />;
 }

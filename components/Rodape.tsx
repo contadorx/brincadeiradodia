@@ -3,9 +3,12 @@ import Link from "next/link";
 export function Rodape() {
   return (
     <footer className="nao-imprimir mt-4 flex flex-col items-center gap-2 border-t border-linha pt-5 text-center text-sm text-suave">
-      <nav aria-label="Informações legais" className="flex flex-wrap justify-center gap-x-5 gap-y-1">
+      <nav aria-label="Sobre o site" className="flex flex-wrap justify-center gap-x-5 gap-y-1">
         <Link href="/sobre/" className="text-suave hover:text-tinta">
-          Sobre e apoio
+          Sobre
+        </Link>
+        <Link href="/apoiar/" className="text-suave hover:text-tinta">
+          Apoiar
         </Link>
         <Link href="/termos/" className="text-suave hover:text-tinta">
           Termos de Uso

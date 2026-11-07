@@ -29,8 +29,8 @@ const arquivos = listar(OUT)
   .filter((u) => !u.endsWith(".woff") && !u.includes("vietnamese"))
   // dados de navegação interna (RSC): guardados sob demanda, não na instalação
   .filter((u) => !u.endsWith(".txt"))
-  // imagem da prévia de links: só quem busca é o WhatsApp, o Facebook etc., nunca o aparelho
-  .filter((u) => u !== "/og.png");
+  // imagem da prévia de links e sitemap: só quem busca é o WhatsApp, o Google etc., nunca o aparelho
+  .filter((u) => u !== "/og.png" && u !== "/sitemap.xml");
 
 // Páginas: "/explorar/index.html" também é guardada como "/explorar/".
 const urls = new Set();
