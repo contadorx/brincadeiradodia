@@ -10,6 +10,7 @@ import { Cabecalho, CONTEUDO } from "./Cabecalho";
 import { Carregando } from "./Carregando";
 import { Casa, Check, Fechar, Play, Relogio } from "./Icones";
 import { Rodape } from "./Rodape";
+import { CartaoIrmao } from "./CartaoIrmao";
 import { Marca } from "./Marca";
 import { SeloRascunho } from "./PorQue";
 import { TrocaCrianca } from "./TrocaCrianca";
@@ -256,6 +257,7 @@ export function Hoje({ lista }: { lista: Brincadeira[] }) {
 
           </aside>
         </div>
+        <CartaoIrmao compacto />
         <Rodape />
       </main>
       <NavInferior atual="hoje" />

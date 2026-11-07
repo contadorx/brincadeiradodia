@@ -9,6 +9,7 @@ import { ApagarDados } from "@/components/ApagarDados";
 import { NavInferior } from "@/components/NavInferior";
 import { Check, Voltar } from "@/components/Icones";
 import { Rodape } from "@/components/Rodape";
+import { CartaoIrmao } from "@/components/CartaoIrmao";
 import { Cabecalho, CONTEUDO } from "@/components/Cabecalho";
 
 export const metadata: Metadata = {
@@ -272,6 +273,8 @@ export default async function Pagina() {
             </p>
           </Secao>
         ) : null}
+
+        <CartaoIrmao />
 
         <div className="flex flex-col gap-1">
           <Link href="/criancas/" className="font-bold">

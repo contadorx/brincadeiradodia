@@ -19,6 +19,7 @@ import { evento } from "@/lib/metricas";
 import { useDados } from "@/lib/useDados";
 import { TrocaCrianca } from "./TrocaCrianca";
 import { Avancar, Lupa } from "./Icones";
+import { CartaoIrmao } from "./CartaoIrmao";
 import { NavInferior } from "./NavInferior";
 import { Cabecalho, CONTEUDO } from "./Cabecalho";
 
@@ -230,6 +231,7 @@ export function Explorar({ lista }: { lista: Brincadeira[] }) {
           ) : null}
         </section>
         </div>
+        <CartaoIrmao />
       </main>
       <NavInferior atual="explorar" />
     </>
