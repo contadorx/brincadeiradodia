@@ -38,8 +38,7 @@ export default function Pagina() {
       <Clausula n="2" titulo="O que fica só no seu aparelho">
         <p>
           Para funcionar sem cadastro, o site guarda no armazenamento do seu navegador (IndexedDB), no próprio aparelho: a faixa de idade, o apelido
-          (se você informar), as brincadeiras registradas no diário com a reação e as anotações, e preferências como o nível escolhido e se você
-          marcou que já apoiou o site (para ele parar de pedir).
+          (se você informar), as brincadeiras registradas no diário com a reação e as anotações, e preferências como o nível escolhido.
         </p>
         <p>
           Essas informações não são enviadas para nenhum servidor e nós não temos acesso a elas. Elas saem do aparelho somente se você usar a opção
@@ -55,7 +54,7 @@ export default function Pagina() {
       <Clausula n="3" titulo="Dados que nós tratamos">
         <p>
           <strong>Métricas de uso anônimas.</strong> Usamos uma ferramenta de estatística instalada em servidor próprio (Umami), sem cookies. Ela
-          registra páginas visitadas, ações como &quot;brincadeira começada&quot;, &quot;terminada&quot; ou &quot;5ª brincadeira salva&quot;, tipo de aparelho e navegador e região
+          registra páginas visitadas, ações como &quot;brincadeira começada&quot; ou &quot;terminada&quot;, tipo de aparelho e navegador e região
           aproximada. Pela configuração da ferramenta, o endereço IP é usado apenas no momento da visita, para estimar a região e gerar uma identificação
           temporária da sessão, e não é guardado. Nunca enviamos apelido, anotações ou qualquer dado da criança. Finalidade: entender se o site ajuda e
           melhorar as brincadeiras. Base legal: legítimo interesse (art. 7º, IX, da LGPD). Guardamos as estatísticas, de forma agregada, por até 24
@@ -68,8 +67,7 @@ export default function Pagina() {
         <p>
           <strong>Apoio por PIX.</strong> Quando você faz um PIX, os bancos envolvidos tratam seus dados. No extrato, recebemos o nome de quem enviou e
           parte do CPF, como em qualquer PIX. Usamos essas informações apenas para controle financeiro e para cumprir obrigações legais e fiscais, pelo
-          prazo que a lei exigir. Não usamos para contato nem para divulgação. O código PIX do site leva um identificador da parte do site em que
-          foi copiado (por exemplo, BRINCADEIRACARTAO), para sabermos qual pedido funciona; ele não identifica você. Base legal: cumprimento de obrigação legal e exercício regular de
+          prazo que a lei exigir. Não usamos para contato nem para divulgação. Base legal: cumprimento de obrigação legal e exercício regular de
           direitos (art. 7º, II e VI).
         </p>
         <p>

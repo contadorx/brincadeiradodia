@@ -14,19 +14,8 @@ celular. O site é para os adultos; a criança brinca longe da tela.
   usava o site com uma criança é migrado automaticamente na primeira visita, sem perder o diário.
 - **Funciona sem internet** depois da primeira visita: o service worker guarda todas as páginas na instalação; os dados de navegação interna são guardados conforme o uso.
 - **Instalável** como app no celular (Android e iPhone) e no computador (Chrome, Edge e Safari do Mac).
-- **Métricas anônimas** com Umami no seu VPS, sem cookies (veja `docs/metricas.md`): quantas famílias chegam
-  à 1ª, à 5ª e à 10ª brincadeira salva, o caminho do apoio e o roteiro do fechamento do mês com o extrato.
-- **Apoio voluntário**: aba e página Apoiar (`/apoiar/`) com compartilhar e PIX com atalhos de R$ 5, R$ 10 e
-  R$ 20 (cada valor tem o próprio código) ou outro valor. Um cartão discreto aparece depois da 5ª brincadeira
-  salva, só quando a criança adorou, no máximo uma vez a cada 30 dias. "Já contribuí" faz o site parar de
-  pedir por 6 meses naquele aparelho.
-- **Revisão voluntária**: toda ficha ainda sem revisão convida profissionais ("É profissional de saúde ou
-  educação infantil? Revise esta brincadeira"). A página `/revisar/` mostra o placar, os lotes e abre um
-  e-mail já com o modelo de resposta.
-- **Lembrete diário**: oferecido depois da primeira brincadeira salva e na página Instalar. É um evento de
-  agenda que se repete todo dia; o site não guarda o horário nem manda notificações.
-- **Link de uma brincadeira**: quem recebe o link e ainda não usou o site passa pelas boas-vindas e volta
-  direto para a brincadeira que recebeu.
+- **Métricas anônimas** com Umami no seu VPS, sem cookies (veja `docs/metricas.md`).
+- **Apoio voluntário**: compartilhar e PIX, num cartão discreto depois da 10ª brincadeira e na página Sobre.
 - **Compartilhar**: em cada ficha e no cartão de apoio, uma janela com WhatsApp, Instagram (imagem para story
   e link copiado), Facebook, Telegram, e-mail, copiar link, QR code e as outras opções do celular. Só vai o
   link público da página, nunca dados do diário.
@@ -37,10 +26,10 @@ celular. O site é para os adultos; a criança brinca longe da tela.
 |---|---|
 | Site | Next.js 16 com export estático (`out/`), React 19, TypeScript |
 | Estilo | Tailwind CSS 4, fontes Atkinson Hyperlegible e Bricolage Grotesque (servidas pelo próprio site) |
-| Conteúdo | Um JSON por brincadeira em `content/brincadeiras/`, validado com Zod só no build (o zod não vai para o celular) |
+| Conteúdo | Um JSON por brincadeira em `content/brincadeiras/`, validado com Zod no build |
 | Dados no aparelho | `idb-keyval` (IndexedDB) |
 | Offline | `scripts/gerar-sw.mjs` gera `out/sw.js` depois do build |
-| PIX | BR Code estático gerado em `lib/pix.ts` (com ou sem valor); QR code com `qrcode`, desenhado no aparelho só em telas largas |
+| PIX | BR Code estático gerado em `lib/pix.ts`, QR code com `qrcode` no build |
 | Marca e ícones | Desenho único em `lib/marca.ts`; `npm run icones` e `npm run og` geram os arquivos de `public/` |
 | Compartilhar | `components/JanelaCompartilhar.tsx`; imagem para story desenhada no aparelho (`lib/imagemStory.ts`) |
 | Métricas | Umami (Docker) em `infra/umami/` |
@@ -68,17 +57,21 @@ Requer Node 20.9 ou mais novo.
 - **`pix`**: use uma **chave aleatória** da sua conta, não o número do CPF. A chave fica
   pública no site e no QR code. Preencha também o nome como está no banco (sem acento)
   e a cidade. Enquanto a chave estiver vazia, o bloco do PIX não aparece; o de
-  compartilhar continua. `valoresSugeridos` (`[5, 10, 20]`) são os atalhos de valor: cada um
-  vira um código com o valor já preenchido, e "Outro valor" usa o código sem valor.
-  `identificador` (`"BRINCADEIRA"`) vai dentro de cada código, com o lugar de onde veio o pedido
-  (`BRINCADEIRACARTAO`, `BRINCADEIRAAPOIAR`, `BRINCADEIRASOBRE`): no comprovante ou no extrato do seu
-  banco, cada PIX diz de qual parte do site veio. Deixe vazio para não usar.
-- **`apoioCobre`**: a lista, sem valores, do que o apoio ajuda a pagar (páginas Apoiar e Sobre).
+  compartilhar continua.
+- **`apoioCobre`**: a lista, sem valores, do que o apoio ajuda a pagar (página Sobre).
 - **`umami`**: endereço do script e ID do site, depois de seguir `docs/metricas.md`.
-- **`apoio`**: quando o cartão de apoio aparece. `aPartirDeRegistros` (5): a partir de quantas
-  brincadeiras salvas; `soDepoisDeAdorou` (`true`): só quando a reação foi "Adorou"; `intervaloDias`
-  (30): no máximo uma vez nesse intervalo; `silencioAposApoiarDias` (180): quanto tempo o site fica sem
-  pedir depois de "Já contribuí".
+- **`apoio`**: a partir de quantas brincadeiras e de quantos em quantos dias o cartão de apoio aparece.
+- **`irmao`**: o site irmão, Jogo do Dia (jogos para crianças de 7 a 12 anos, em outro repositório),
+  em `jogos.brincadeiradodia.com.br`. Com `url` preenchida, o link aparece no rodapé de todas as páginas;
+  vazia, o link some. Publique o site irmão antes deste, para o link não ficar quebrado. O PIX do
+  Brincadeira do Dia ajuda a manter os dois sites.
+
+## Busca no Google
+
+`app/sitemap.ts` gera o `sitemap.xml` com todas as fichas publicadas e `app/robots.ts` gera o `robots.txt`
+apontando para ele. A página inicial monta a brincadeira do dia no aparelho (depende do que está guardado
+lá), então quem leva as fichas para a busca é o sitemap. Depois de publicar, envie
+`https://www.brincadeiradodia.com.br/sitemap.xml` no Google Search Console.
 
 ## Publicar na Vercel
 
@@ -90,13 +83,6 @@ Requer Node 20.9 ou mais novo.
    - Output Directory: `out`
 4. Deploy. Depois, em Settings → Domains, adicione `brincadeiradodia.com.br` e
    `www.brincadeiradodia.com.br` e copie os registros de DNS para o Registro.br.
-5. Ainda em Settings → Domains, deixe o `www` **redirecionando** para `brincadeiradodia.com.br` (Edit →
-   Redirect to). Os dados das famílias ficam guardados por endereço: sem o redirecionamento, quem abre
-   pelo `www` num dia e sem ele no outro vê o diário "sumir".
-6. Busca: o build gera `robots.txt` e `sitemap.xml` com o domínio de produção. Cadastre o site no
-   [Google Search Console](https://search.google.com/search-console) e envie
-   `https://brincadeiradodia.com.br/sitemap.xml`. O sitemap traz as páginas públicas e as fichas; diário,
-   crianças, boas-vindas e o modo "Brincando" ficam de fora.
 
 O preset "Other" garante que a Vercel publique exatamente a pasta `out/`, com o `sw.js`
 gerado depois do build. O plano gratuito (Hobby) permite pedir doações; links de
@@ -169,11 +155,8 @@ afiliado ou venda exigem plano pago.
   mão ao alcance; comida só no lanche, sentada, em pedacinhos de até 1 cm; tudo no chão, sem subir em nada.
   A versão mais fácil serve a quem ainda não anda ou não fala, sem exigir idade. Toda ficha da faixa mostra
   sozinha o aviso `AVISO_1_2` (em `lib/esquema.ts`), na ficha e antes de começar.
-- **Doação de revisão:** com `contato` preenchido e `revisao.convidar: true` em `config/site.ts`, cada ficha
-  sem revisão convida profissionais e leva a `/revisar/?b=<id>`, que destaca a ficha de onde a pessoa veio,
-  mostra o placar (quantas das 140 já foram revisadas) e os lotes, e abre um e-mail para o `contato` já com
-  o modelo de resposta. Os lotes estão em `lib/revisao.ts` e em `docs/revisoes.md`, com os e-mails de
-  convite: se mudar um, mude o outro. Com `convidar: false`, o convite e a página somem.
+- **Doação de revisão:** com `contato` preenchido e `revisao.convidar: true` em `config/site.ts`, a página
+  Sobre convida profissionais a revisar. Os lotes prontos e os e-mails de convite estão em `docs/revisoes.md`.
   Quando alguém revisar:
   1. Aplique as mudanças que a profissional pediu no texto.
   2. Preencha o campo `revisao` da brincadeira (modelo acima) e publique.
@@ -191,9 +174,7 @@ afiliado ou venda exigem plano pago.
 
 ### Rotina mensal (30 minutos)
 
-- Ler o painel com as seis perguntas de `docs/metricas.md` e fazer o fechamento do apoio com o extrato
-  (seção 6). Mexer no cartão só pelas regras da seção 7.
-- Fechar a leva de convites de revisão que passou de 20 dias (`docs/revisoes.md`, "Levas de 5 e aceite").
+- Ler o painel com as cinco perguntas de `docs/metricas.md`.
 - Revisar as brincadeiras com mais "não rolou" e as mais trocadas para "mais fácil".
 - Conferir se os links da página Sobre e das fontes das brincadeiras continuam funcionando.
 - A cada 3 meses: `npm outdated`, atualizar dependências, `npm run build` e testar o fluxo
@@ -202,13 +183,11 @@ afiliado ou venda exigem plano pago.
 ### Estrutura
 
 ```
-app/                  páginas (hoje, boas-vindas, crianças, brincadeira/[id], brincando, explorar, diário, instalar,
-                      sobre, apoiar, revisar, termos, privacidade), robots.ts e sitemap.ts
+app/                  páginas (hoje, boas-vindas, crianças, brincadeira/[id], brincando, explorar, diário, instalar, sobre)
 components/           telas e partes reutilizáveis
 content/brincadeiras/ uma brincadeira por arquivo JSON
 config/site.ts        PIX, contato, métricas, apoio, revisão
-lib/                  dominio (constantes usadas no navegador), esquema (validação com zod, só no build),
-                      conteúdo, plano do dia, armazenamento local, PIX, lembrete, métricas
+lib/                  esquema do conteúdo, plano do dia, armazenamento local, PIX, lembrete, métricas
 public/               manifesto, ícones do PWA e og.png (imagem das prévias de link)
 scripts/              gerar-sw.mjs (offline), gerar-icones.mjs e gerar-og.mjs
 infra/umami/          docker-compose do painel de métricas
@@ -216,15 +195,6 @@ docs/metricas.md      instalação do painel e o que olhar nele
 docs/revisoes.md      lotes de revisão voluntária e os e-mails de convite
 vercel.json           redirecionamentos de brincadeiras que mudaram de endereço
 ```
-
-### Leveza no celular
-
-- Telas que rodam no navegador importam constantes de `lib/dominio.ts`, nunca de `lib/esquema.ts`
-  (de lá, só `import type`). O esquema traz o zod, que pesa uns 90 KB comprimidos e só serve no build.
-- Hoje e Explorar recebem o resumo de cada brincadeira (`resumosNoSite()` em `lib/conteudo.ts`), sem
-  passos, conversa nem fontes; o Diário recebe só os nomes (`nomesNoSite()`). A ficha continua completa.
-- Precisou de um campo novo em Hoje ou Explorar? Acrescente no tipo `Resumo` (`lib/dominio.ts`) e em
-  `resumosNoSite()`.
 
 ### Mudou o id de uma brincadeira?
 

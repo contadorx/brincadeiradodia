@@ -1,16 +1,17 @@
 import type { MetadataRoute } from "next";
-import { SITE } from "@/config/site";
 import { brincadeirasNoSite } from "@/lib/conteudo";
 import { URL_PUBLICA } from "@/lib/metadados";
 
+/**
+ * Lista de páginas para o Google (sitemap.xml). A página inicial depende do que está guardado no
+ * aparelho, então quem traz as fichas para a busca é este arquivo. Gerado no build.
+ */
 export const dynamic = "force-static";
 
-/** sitemap.xml: as páginas públicas e todas as fichas (o modo "brincando" fica de fora: não é para busca). */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paginas = ["/", "/explorar/", "/sobre/", "/apoiar/", "/instalar/", "/termos/", "/privacidade/"];
-  if (SITE.revisao.convidar && SITE.contato) paginas.push("/revisar/");
-  return [
-    ...paginas.map((p) => ({ url: `${URL_PUBLICA}${p}` })),
-    ...brincadeirasNoSite().map((b) => ({ url: `${URL_PUBLICA}/brincadeira/${b.id}/` })),
-  ];
+  const fixas = ["/", "/explorar/", "/sobre/", "/termos/", "/privacidade/"].map((caminho) => ({
+    url: `${URL_PUBLICA}${caminho}`,
+  }));
+  const fichas = brincadeirasNoSite().map((b) => ({ url: `${URL_PUBLICA}/brincadeira/${b.id}/` }));
+  return [...fixas, ...fichas];
 }

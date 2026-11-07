@@ -31,23 +31,13 @@ export const SITE = {
     nomeRecebedor: "LEANDRO B DE OLIVEIRA",
     /** Cidade do recebedor, sem acento (até 15 letras). */
     cidade: "MAUA",
-    /** Valores que aparecem como atalho (cada um gera um código com o valor). Sempre há também "outro valor". */
-    valoresSugeridos: [5, 10, 20],
-    /**
-     * Identificador que vai dentro do código PIX. O banco de quem paga o repassa ao seu banco, e ele
-     * aparece no comprovante ou no extrato (o lugar muda de banco para banco). O site acrescenta de
-     * onde veio o pedido: BRINCADEIRACARTAO (cartão depois de uma brincadeira), BRINCADEIRAAPOIAR
-     * (página Apoiar) e BRINCADEIRASOBRE (página Sobre). Só letras e números, até 19. Vazio = sem identificador.
-     */
-    identificador: "BRINCADEIRA",
   },
 
   /**
-   * Cartão de apoio (compartilhar + PIX) depois de uma brincadeira registrada: a partir do 5º registro,
-   * só quando a reação foi "Adorou" e, no máximo, uma vez a cada 30 dias. Quem toca em "Já contribuí"
-   * não vê o cartão por 180 dias.
+   * Cartão de apoio (compartilhar + PIX) depois de uma brincadeira registrada:
+   * só aparece a partir do 10º registro e, no máximo, uma vez a cada 30 dias.
    */
-  apoio: { aPartirDeRegistros: 5, intervaloDias: 30, soDepoisDeAdorou: true, silencioAposApoiarDias: 180 },
+  apoio: { aPartirDeRegistros: 10, intervaloDias: 30 },
 
   /**
    * Revisão voluntária. As brincadeiras vão ao ar com as fontes; a revisão de uma profissional
@@ -64,6 +54,16 @@ export const SITE = {
     "Pesquisa e revisão de novas brincadeiras",
     "Evolução do aplicativo",
   ],
+
+  /**
+   * Site irmão, com jogos para crianças de 7 a 12 anos. Com `url` preenchida, o link aparece no
+   * rodapé de todas as páginas. Vazio = o link não aparece: deixe vazio até o site irmão estar no ar.
+   */
+  irmao: {
+    nome: "Jogo do Dia",
+    url: "https://jogos.brincadeiradodia.com.br",
+    chamada: "jogos clássicos para jogar junto com crianças de 7 a 12 anos",
+  },
 
   /**
    * Onde ficam os servidores (para a Política de Privacidade).

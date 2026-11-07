@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { IDS_ANTIGOS } from "@/lib/dominio";
+import { IDS_ANTIGOS, type Brincadeira } from "@/lib/esquema";
 import { apagarRegistro, gerarCopia, importarCopia, lerRegistros, nomeDaCrianca } from "@/lib/armazenamento";
 import { chaveDia, dataCurta, deChave, meiaNoite, somaDias, DIAS_CURTOS } from "@/lib/datas";
 import { baixarArquivo } from "@/lib/compartilhar";
@@ -20,10 +20,7 @@ const REACAO = {
   nao: { nome: "Não rolou", classe: "bg-alerta-claro text-alerta" },
 } as const;
 
-type Item = { id: string; nome: string };
-
-/** O Diário recebe só o nome de cada brincadeira pelo id: é o que ele mostra. */
-export function Diario({ nomes }: { nomes: Record<string, string> }) {
+export function Diario({ lista }: { lista: Brincadeira[] }) {
   const { perfil, familia, registros, setRegistros, pronto, recarregar } = useDados();
   const [apagando, setApagando] = useState<string | null>(null);
   const [aviso, setAviso] = useState("");
@@ -33,7 +30,7 @@ export function Diario({ nomes }: { nomes: Record<string, string> }) {
 
   const ativa = familia?.criancas.find((c) => c.id === familia.ativa);
   const titulo = familia && ativa && (perfil.apelido || familia.criancas.length > 1) ? `Diário de ${nomeDaCrianca(ativa, familia)}` : "Diário";
-  const porId = new Map<string, Item>(Object.entries(nomes).map(([id, nome]) => [id, { id, nome }]));
+  const porId = new Map(lista.map((b) => [b.id, b]));
   for (const [antigo, novo] of Object.entries(IDS_ANTIGOS)) {
     const b = porId.get(novo);
     if (b) porId.set(antigo, b);
@@ -50,7 +47,7 @@ export function Diario({ nomes }: { nomes: Record<string, string> }) {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 3)
     .map(([id]) => porId.get(id))
-    .filter((b): b is Item => !!b);
+    .filter((b): b is Brincadeira => !!b);
 
   async function exportar() {
     const copia = await gerarCopia();

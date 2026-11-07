@@ -1,7 +1,7 @@
 "use client";
 
 import { get, set, del } from "idb-keyval";
-import type { Faixa } from "./dominio";
+import type { Faixa } from "./esquema";
 import { chaveDia } from "./datas";
 
 /**
@@ -58,8 +58,6 @@ export type Registro = {
 export type EstadoApoio = {
   /** Última vez que o cartão de apoio foi mostrado (ISO). */
   ultimoCartao?: string;
-  /** Quando a pessoa tocou em "Já contribuí" (ISO): o site para de pedir por um tempo. */
-  declarouEm?: string;
 };
 
 const K_FAMILIA = "familia";
@@ -249,10 +247,7 @@ export async function apagarRegistro(id: string): Promise<Registro[]> {
 export async function lerApoio(): Promise<EstadoApoio> {
   return (await lerBruto<EstadoApoio>(K_APOIO)) ?? {};
 }
-/** Atualiza só os campos informados (o resto do estado continua). */
-export async function salvarApoio(parcial: EstadoApoio) {
-  await set(K_APOIO, { ...(await lerApoio()), ...parcial });
-}
+export const salvarApoio = (a: EstadoApoio) => set(K_APOIO, a);
 
 export async function lerUltimaSemanaMedida(): Promise<number> {
   return (await lerBruto<number>(K_SEMANA)) ?? 0;

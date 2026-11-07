@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { AVISO_1_2, NOME_AREA, NOME_FAIXA } from "@/lib/dominio";
-import type { Brincadeira } from "@/lib/esquema";
+import { AVISO_1_2, NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
 import { lerRegistros } from "@/lib/armazenamento";
 import { evento } from "@/lib/metricas";
 import { conteudoDaBrincadeira } from "@/lib/compartilhar";
@@ -195,7 +194,7 @@ export function Ficha({ b }: { b: Brincadeira }) {
         <Rodape />
       </main>
 
-      <div role="region" aria-label="Começar a brincadeira" className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}>
+      <div className="nao-imprimir fixed inset-x-0 bottom-0 z-20 border-t border-linha bg-white md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}>
         <div className="mx-auto max-w-md px-5 pb-5 pt-3">
           <Link
             href={`/brincadeira/${b.id}/brincando/`}

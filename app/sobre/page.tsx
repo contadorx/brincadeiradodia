@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import QRCode from "qrcode";
 import { SITE } from "@/config/site";
-import { opcoesPix } from "@/lib/apoio";
+import { codigoPix } from "@/lib/apoio";
 import { revisoras } from "@/lib/conteudo";
-import { placarRevisao } from "@/lib/revisao";
 import { CartaoApoio } from "@/components/CartaoApoio";
 import { ApagarDados } from "@/components/ApagarDados";
 import { NavInferior } from "@/components/NavInferior";
@@ -27,11 +27,13 @@ function Secao({ id, titulo, children }: { id: string; titulo: string; children:
   );
 }
 
-export default function Pagina() {
+export default async function Pagina() {
   const equipe = revisoras();
   const convite = SITE.revisao.convidar && !!SITE.contato;
-  const placar = placarRevisao();
-  const opcoes = opcoesPix("sobre");
+  const pix = codigoPix();
+  const qr = pix
+    ? await QRCode.toString(pix, { type: "svg", margin: 1, errorCorrectionLevel: "M", color: { dark: "#1C2333", light: "#FFFFFF" } })
+    : null;
 
   return (
     <>
@@ -193,16 +195,12 @@ export default function Pagina() {
               </>
             ) : null}
             {convite ? (
-              <>
-                <p className="m-0">
-                  {placar.revisadas} de {placar.total} brincadeiras já foram revisadas. É profissional de saúde ou de educação infantil? Doe uma
-                  revisão: você confere umas 8 brincadeiras e, se autorizar, seu nome aparece na ficha e nesta página. Começamos pelas que envolvem
-                  água, comida, faca, plantas e pela faixa de 1 a 2 anos.
-                </p>
-                <Link href="/revisar/" className="font-bold">
-                  Ver os lotes e como revisar
-                </Link>
-              </>
+              <p className="m-0">
+                É profissional de psicologia, psicopedagogia, terapia ocupacional, fonoaudiologia ou pediatria? Doe uma revisão: você confere uma ou
+                mais brincadeiras e, se autorizar, seu nome aparece na ficha e nesta página. Começamos pelas que envolvem água, comida, faca e
+                plantas. Escreva para{" "}
+                <span className="font-bold select-all">{SITE.contato}</span>.
+              </p>
             ) : null}
           </Secao>
         ) : null}
@@ -286,7 +284,13 @@ export default function Pagina() {
         </div>
 
         <div id="apoio" className="flex scroll-mt-4 flex-col gap-4 md:sticky md:top-6 md:col-span-5">
-          <CartaoApoio opcoes={opcoes} modo="secao" />
+          <CartaoApoio pix={pix} modo="secao" />
+          {qr ? (
+            <div className="flex flex-col items-center gap-2 rounded-3xl border border-linha p-5">
+              <div className="w-56 max-w-full" dangerouslySetInnerHTML={{ __html: qr }} role="img" aria-label="QR code do PIX para apoiar o site" />
+              <p className="m-0 text-center text-sm text-suave">Aponte a câmera do app do banco. Você escolhe o valor.</p>
+            </div>
+          ) : null}
           <div className="flex flex-col gap-2">
             <h2 className="m-0 font-display text-[19px] font-extrabold">O que o apoio ajuda a pagar</h2>
             <ul className="m-0 flex list-none flex-col p-0">

@@ -1,6 +1,6 @@
 /**
- * Gera o "PIX copia e cola" (BR Code estático, padrão EMV do Banco Central), com ou sem valor.
- * Manual de Padrões para Iniciação do Pix (Banco Central), seção do QR Code estático.
+ * Gera o "PIX copia e cola" (BR Code estático, padrão EMV do Banco Central)
+ * sem valor definido: a pessoa escolhe quanto quer apoiar.
  */
 
 function campo(id: string, valor: string): string {
@@ -30,22 +30,7 @@ export function crc16(texto: string): string {
   return crc.toString(16).toUpperCase().padStart(4, "0");
 }
 
-/**
- * Sem `valor`, quem paga digita o valor no banco; com `valor`, o código já vem com ele (campo 54).
- * `txid` (campo 62-05) é o identificador que o banco de quem paga repassa intacto a quem recebe:
- * só letras e números, até 25. Sem ele, o padrão manda usar "***".
- */
-export function pixCopiaECola(opts: {
-  chave: string;
-  nome: string;
-  cidade: string;
-  descricao?: string;
-  valor?: number;
-  txid?: string;
-}): string {
-  if (opts.txid && !/^[A-Za-z0-9]{1,25}$/.test(opts.txid)) {
-    throw new Error(`Identificador do PIX inválido: "${opts.txid}". Use só letras e números, até 25.`);
-  }
+export function pixCopiaECola(opts: { chave: string; nome: string; cidade: string; descricao?: string }): string {
   const conta =
     campo("00", "br.gov.bcb.pix") + campo("01", opts.chave.trim()) + (opts.descricao ? campo("02", opts.descricao.slice(0, 40)) : "");
   const semCrc =
@@ -54,11 +39,10 @@ export function pixCopiaECola(opts: {
     campo("26", conta) +
     campo("52", "0000") +
     campo("53", "986") +
-    (opts.valor && opts.valor > 0 ? campo("54", opts.valor.toFixed(2)) : "") +
     campo("58", "BR") +
     campo("59", semAcento(opts.nome).slice(0, 25)) +
     campo("60", semAcento(opts.cidade).slice(0, 15)) +
-    campo("62", campo("05", opts.txid || "***")) +
+    campo("62", campo("05", "***")) +
     "6304";
   return semCrc + crc16(semCrc);
 }

@@ -1,14 +1,12 @@
 import Link from "next/link";
+import { SITE } from "@/config/site";
 
 export function Rodape() {
   return (
     <footer className="nao-imprimir mt-4 flex flex-col items-center gap-2 border-t border-linha pt-5 text-center text-sm text-suave">
-      <nav aria-label="Sobre o site" className="flex flex-wrap justify-center gap-x-5 gap-y-1">
+      <nav aria-label="Informações legais" className="flex flex-wrap justify-center gap-x-5 gap-y-1">
         <Link href="/sobre/" className="text-suave hover:text-tinta">
-          Sobre
-        </Link>
-        <Link href="/apoiar/" className="text-suave hover:text-tinta">
-          Apoiar
+          Sobre e apoio
         </Link>
         <Link href="/termos/" className="text-suave hover:text-tinta">
           Termos de Uso
@@ -18,6 +16,16 @@ export function Rodape() {
         </Link>
       </nav>
       <p className="m-0">Brincadeiras para fazer sempre com um adulto acompanhando. Não substitui a orientação do pediatra.</p>
+      {/* Site irmão: só aparece com a url preenchida em config/site.ts. */}
+      {SITE.irmao.url ? (
+        <p className="m-0">
+          Criança de 7 a 12 anos? Conheça o{" "}
+          <a href={SITE.irmao.url} className="font-bold">
+            {SITE.irmao.nome}
+          </a>
+          , {SITE.irmao.chamada}.
+        </p>
+      ) : null}
     </footer>
   );
 }

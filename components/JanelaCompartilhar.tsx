@@ -13,7 +13,7 @@ import {
 } from "@/lib/compartilhar";
 import { Aviao, Baixar, Compartilhar, Elo, Envelope, Fechar, Imagem, Mensagem, Pessoas, Pontos, Qr, Voltar } from "./Icones";
 
-export type OrigemCompartilhar = "ficha" | "apoio-cartao" | "apoio-secao" | "apoio-pagina";
+export type OrigemCompartilhar = "ficha" | "apoio-cartao" | "apoio-secao";
 type Vista = "canais" | "instagram" | "qr";
 type Canal = "whatsapp" | "instagram" | "facebook" | "telegram" | "email" | "copiar" | "qrcode" | "mais" | "imagem" | "qr_baixado";
 type ImagemPronta = { blob: Blob; previa: string; arquivo: File; enviavel: boolean };

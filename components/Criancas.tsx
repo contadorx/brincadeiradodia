@@ -14,7 +14,7 @@ import {
   type Crianca,
   type Familia,
 } from "@/lib/armazenamento";
-import { NOME_FAIXA, type Faixa } from "@/lib/dominio";
+import { NOME_FAIXA, type Faixa } from "@/lib/esquema";
 import { evento } from "@/lib/metricas";
 import { useDados } from "@/lib/useDados";
 import { Cabecalho, CONTEUDO } from "./Cabecalho";

@@ -2,16 +2,13 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { AVISO_1_2 } from "@/lib/dominio";
-import type { Brincadeira } from "@/lib/esquema";
+import { AVISO_1_2, type Brincadeira } from "@/lib/esquema";
 import { useRouter } from "next/navigation";
 import { adicionarRegistro, lerApoio, lerFamilia, lerPerfil, nomeDaCrianca, type Reacao } from "@/lib/armazenamento";
 import { VERSAO_TERMOS } from "@/config/site";
 import { chaveDia, difDias } from "@/lib/datas";
-import { evento, MARCOS_DIARIO, type MarcoDiario } from "@/lib/metricas";
-import type { OpcaoPix } from "@/lib/apoio";
+import { evento } from "@/lib/metricas";
 import { CartaoApoio } from "./CartaoApoio";
-import { Lembrete } from "./Lembrete";
 import { chaveNivel, textoDoNivel, type Nivel } from "./Ficha";
 import { Alerta, Celular, Check, Fechar, Play } from "./Icones";
 
@@ -27,9 +24,15 @@ type NavComWakeLock = Navigator & { wakeLock?: { request: (t: "screen") => Promi
 const CIRCUNF = 2 * Math.PI * 96;
 const mmss = (s: number) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
-export type RegrasApoio = { aPartirDeRegistros: number; intervaloDias: number; soDepoisDeAdorou: boolean; silencioAposApoiarDias: number };
-
-export function Brincando({ b, opcoes, apoio }: { b: Brincadeira; opcoes: OpcaoPix[] | null; apoio: RegrasApoio }) {
+export function Brincando({
+  b,
+  pix,
+  apoio,
+}: {
+  b: Brincadeira;
+  pix: string | null;
+  apoio: { aPartirDeRegistros: number; intervaloDias: number };
+}) {
   const total = b.minutos * 60;
   const [passo, setPasso] = useState(0);
   const [restante, setRestante] = useState(total);
@@ -40,7 +43,6 @@ export function Brincando({ b, opcoes, apoio }: { b: Brincadeira; opcoes: OpcaoP
   const [reacao, setReacao] = useState<Reacao | null>(null);
   const [nota, setNota] = useState("");
   const [mostrarApoio, setMostrarApoio] = useState(false);
-  const [primeira, setPrimeira] = useState(false);
   const [paraQuem, setParaQuem] = useState<string | null>(null);
   const trava = useRef<WakeLock | null>(null);
   const router = useRouter();
@@ -48,8 +50,7 @@ export function Brincando({ b, opcoes, apoio }: { b: Brincadeira; opcoes: OpcaoP
   // Para brincar e registrar é preciso ter aceitado os termos (quem chega por um link compartilhado passa pelas boas-vindas).
   useEffect(() => {
     lerPerfil().then((p) => {
-      // Depois das boas-vindas, a pessoa volta para esta brincadeira (e não para a do dia).
-      if (!p || p.aceite?.versao !== VERSAO_TERMOS) router.replace(`/boas-vindas/?volta=${encodeURIComponent(window.location.pathname)}`);
+      if (!p || p.aceite?.versao !== VERSAO_TERMOS) router.replace("/boas-vindas/");
     });
     // Com mais de uma criança, o registro diz em qual diário vai entrar.
     lerFamilia().then((f) => {
@@ -123,23 +124,9 @@ export function Brincando({ b, opcoes, apoio }: { b: Brincadeira; opcoes: OpcaoP
     if (!reacao) return;
     const { total } = await adicionarRegistro({ dia: chaveDia(new Date()), brincadeira: b.id, reacao, nota: nota.trim().slice(0, 300) });
     evento("brincadeira_concluida", { id: b.id, area: b.area, reacao, nivel });
-    // Linha de base do hábito: quantas famílias chegam à 1ª, à 5ª e à 10ª brincadeira salva, e em quantos
-    // dias desde que entraram. Conta a família toda (todas as crianças), uma vez por aparelho.
-    if ((MARCOS_DIARIO as readonly number[]).includes(total)) {
-      const familia = await lerFamilia();
-      const desde = familia?.criancas.map((c) => c.criadaEm).sort()[0];
-      evento(`diario_marco_${total as MarcoDiario}`, { dias: desde ? Math.max(0, difDias(new Date(), new Date(desde))) : 0 });
-    }
-    // O pedido de apoio aparece quando a criança gostou, a partir de algumas brincadeiras salvas, no máximo
-    // uma vez por intervalo, e nunca para quem marcou "Já contribuí" há pouco tempo.
     const estado = await lerApoio();
-    const hoje = new Date();
-    const longeDoUltimo = !estado.ultimoCartao || difDias(hoje, new Date(estado.ultimoCartao)) >= apoio.intervaloDias;
-    const jaApoiou = !!estado.declarouEm && difDias(hoje, new Date(estado.declarouEm)) < apoio.silencioAposApoiarDias;
-    const gostou = !apoio.soDepoisDeAdorou || reacao === "adorou";
-    setMostrarApoio(gostou && total >= apoio.aPartirDeRegistros && longeDoUltimo && !jaApoiou);
-    // Na primeira brincadeira salva, oferece o lembrete diário.
-    setPrimeira(total === 1);
+    const longeDoUltimo = !estado.ultimoCartao || difDias(new Date(), new Date(estado.ultimoCartao)) >= apoio.intervaloDias;
+    setMostrarApoio(total >= apoio.aPartirDeRegistros && longeDoUltimo);
     setFase("feito");
   }
 
@@ -238,16 +225,7 @@ export function Brincando({ b, opcoes, apoio }: { b: Brincadeira; opcoes: OpcaoP
         </div>
         <h1 className="m-0 font-display text-[30px] font-extrabold leading-tight">Pronto! Está no diário.</h1>
         <p className="m-0 text-suave">Amanhã tem outra. Se ela pedir para repetir esta, ótimo: repetir também ensina.</p>
-        {mostrarApoio ? (
-          <CartaoApoio opcoes={opcoes} modo="cartao" aoFechar={() => setMostrarApoio(false)} />
-        ) : primeira ? (
-          <div className="flex flex-col gap-2">
-            <Lembrete origem="primeira-brincadeira" titulo="Quer um lembrete todo dia?" className="rounded-3xl bg-azul-claro p-5" />
-            <Link href="/instalar/" className="self-center text-[15px] font-bold">
-              Ou instale o app na tela inicial
-            </Link>
-          </div>
-        ) : null}
+        {mostrarApoio ? <CartaoApoio pix={pix} modo="cartao" aoFechar={() => setMostrarApoio(false)} /> : null}
         <div className="mt-auto flex flex-col gap-2.5 md:mt-2 md:flex-row">
           <Link href="/diario/" className="flex min-h-[54px] items-center justify-center rounded-2xl bg-azul text-[17px] font-bold text-white no-underline transition-colors hover:bg-azul-escuro md:flex-1">
             Ver o diário
@@ -266,7 +244,7 @@ export function Brincando({ b, opcoes, apoio }: { b: Brincadeira; opcoes: OpcaoP
         <div className="flex items-center justify-between gap-3">
           <div className="flex min-w-0 flex-col">
             <span className="text-xs font-bold uppercase tracking-wider text-noite-suave">Brincando agora</span>
-            <h1 className="m-0 truncate font-display text-xl font-extrabold">{b.nome}</h1>
+            <span className="truncate font-display text-xl font-extrabold">{b.nome}</span>
           </div>
           <Link
             href={`/brincadeira/${b.id}/`}

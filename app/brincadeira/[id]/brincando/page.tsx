@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Brincando } from "@/components/Brincando";
 import { brincadeiraPorId, brincadeirasNoSite } from "@/lib/conteudo";
-import { opcoesPix } from "@/lib/apoio";
+import { codigoPix } from "@/lib/apoio";
 import { SITE } from "@/config/site";
 
 export const dynamicParams = false;
@@ -17,5 +17,5 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function Pagina({ params }: { params: Promise<{ id: string }> }) {
   const b = brincadeiraPorId((await params).id);
-  return <Brincando b={b} opcoes={opcoesPix("cartao")} apoio={SITE.apoio} />;
+  return <Brincando b={b} pix={codigoPix()} apoio={SITE.apoio} />;
 }

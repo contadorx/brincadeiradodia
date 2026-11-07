@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { FAIXAS, NOME_AREA, NOME_FAIXA, type Resumo } from "@/lib/dominio";
+import { FAIXAS, NOME_AREA, NOME_FAIXA, type Brincadeira } from "@/lib/esquema";
 import { chaveDia, dataExtensa, deChave, meiaNoite, somaDias, DIAS, DIAS_CURTOS } from "@/lib/datas";
 import { brincadeiraDoDia, semMaterial } from "@/lib/plano";
 import { useDados } from "@/lib/useDados";
@@ -17,7 +17,7 @@ import { NavInferior } from "./NavInferior";
 
 const NOME_REACAO = { adorou: "Adorou", ok: "Foi ok", nao: "Não rolou" } as const;
 
-export function Hoje({ lista }: { lista: Resumo[] }) {
+export function Hoje({ lista }: { lista: Brincadeira[] }) {
   const { perfil, familia, registros, pronto, recarregar } = useDados();
   const [avisoInstalar, setAvisoInstalar] = useState(false);
 
