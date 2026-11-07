@@ -7,6 +7,12 @@ Lotes pequenos (5 a 8 fichas, uns 30 a 40 minutos) recebem mais "sim" do que um 
 primeiros cobrem o que tem mais risco (água, comida, faca, plantas) e toda a faixa de 1 a 2 anos.
 Depois de receber a revisão, siga o passo a passo do README ("Doação de revisão").
 
+O site tem a mesma coisa para quem chega sozinho: toda ficha sem revisão mostra "É profissional de saúde ou
+educação infantil? Revise esta brincadeira", que leva a [brincadeiradodia.com.br/revisar/](https://brincadeiradodia.com.br/revisar/)
+com o convite, o placar e estes lotes. Os botões de lá abrem um e-mail para o contato do site já com o modelo
+de resposta (assunto "Revisão voluntária: lote A (água)", por exemplo). Os lotes do site ficam em
+`lib/revisao.ts`: se mudar um lote aqui, mude lá também.
+
 ## Lotes
 
 | Lote | Tema | Para quem | Foco da revisão |
@@ -106,7 +112,8 @@ Depois de receber a revisão, siga o passo a passo do README ("Doação de revis
 >    brincadeiras que conferi, na página de cada uma e na página Sobre. Posso pedir para retirar a qualquer
 >    momento."
 >
-> Se agora não der, sem problema. Indicações de colegas também ajudam muito.
+> Se agora não der, sem problema. Indicações de colegas também ajudam muito: a página
+> brincadeiradodia.com.br/revisar/ explica tudo em um minuto e já abre o e-mail com o modelo.
 >
 > Obrigado,
 > Leandro Batista de Oliveira
@@ -127,3 +134,30 @@ limpos; brincadeira no chão, sem subir em nada. Vale dizer também se esse avis
 > Oi, [NOME]! As brincadeiras que você revisou já estão no ar com o seu nome: [links]. Obrigado por
 > ajudar as famílias a brincar com mais segurança. Se um dia quiser revisar outro lote, ou indicar alguém,
 > é só me dizer.
+
+## Levas de 5 e aceite
+
+Mande os convites em levas de 5 pessoas, não todos de uma vez. Assim dá para ver o que funciona e mudar
+o convite antes de gastar os bons contatos.
+
+1. Escolha 5 pessoas e os lotes de cada uma (comece por A, água, e B, comida). Mande o E-mail 1.
+2. Dez dias depois, mande o E-mail 2 para quem não respondeu.
+3. Aos 20 dias, feche a leva e faça a conta: **aceite = quem topou ÷ 5**. Anote também quem entregou a revisão.
+4. Decida a próxima leva pela regra abaixo, mudando uma coisa por vez.
+
+| Aceite da leva | O que fazer na próxima |
+|---|---|
+| 2 ou mais de 5 | Repita o convite como está e mande mais 5. |
+| 1 de 5 | Mude uma coisa: peça uma ficha só (5 minutos) em vez do lote, ou convide por alguém que conhece a pessoa. |
+| 0 de 5 | Mude o canal ou o público: conselhos regionais, grupos de profissionais, projetos de extensão de faculdade. |
+
+Controle das levas (uma linha por convite; registro profissional e observações não entram aqui, ficam
+só no e-mail):
+
+| Leva | Enviado em | Nome | Profissão | Lote | Lembrete em | Resposta | Revisão entregue em |
+|---|---|---|---|---|---|---|---|
+| 1 | | | | A | | | |
+
+O painel ajuda a ver o resto do caminho: `revisao_convite_clicado` conta quem tocou no convite das fichas e
+nos botões da página Revisar (veja `docs/metricas.md`).
+

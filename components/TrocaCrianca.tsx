@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { nomeDaCrianca, trocarCrianca, type Familia } from "@/lib/armazenamento";
-import { NOME_FAIXA } from "@/lib/esquema";
+import { NOME_FAIXA } from "@/lib/dominio";
 import { evento } from "@/lib/metricas";
 
 /** Botões para trocar a criança ativa. Só aparece quando a família tem mais de uma criança. */

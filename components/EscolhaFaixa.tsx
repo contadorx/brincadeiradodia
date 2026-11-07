@@ -1,6 +1,6 @@
 "use client";
 
-import { FAIXAS, NOME_FAIXA, type Faixa } from "@/lib/esquema";
+import { FAIXAS, NOME_FAIXA, type Faixa } from "@/lib/dominio";
 
 /** Botões de faixa de idade. Faixas sem brincadeiras aparecem como "em breve". */
 export function EscolhaFaixa({

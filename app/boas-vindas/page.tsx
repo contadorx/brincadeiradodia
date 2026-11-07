@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { BoasVindas } from "@/components/BoasVindas";
 import { brincadeirasNoSite } from "@/lib/conteudo";
-import { FAIXAS } from "@/lib/esquema";
+import { FAIXAS } from "@/lib/dominio";
 
 export const metadata: Metadata = { title: "Boas-vindas" };
 

@@ -1,6 +1,7 @@
 "use client";
 
-import { NOME_AREA, NOME_FAIXA, type Brincadeira } from "./esquema";
+import { NOME_AREA, NOME_FAIXA } from "./dominio";
+import type { Brincadeira } from "./esquema";
 
 /** O que vai junto quando alguém compartilha uma página. Nunca leva dados do diário. */
 export type ConteudoCompartilhar = {

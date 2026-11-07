@@ -1,4 +1,4 @@
-import { AREAS, type Brincadeira, type Faixa } from "./esquema";
+import { AREAS, type Faixa, type Resumo } from "./dominio";
 import { difDias, meiaNoite } from "./datas";
 
 /**
@@ -13,16 +13,19 @@ export function semanaDeUso(inicio: Date, hoje: Date): number {
   return Math.max(1, Math.floor(difDias(hoje, inicio) / 7) + 1);
 }
 
-export function paraAFaixa(lista: Brincadeira[], faixa: Faixa): Brincadeira[] {
+/** O mínimo que o plano precisa de cada brincadeira (serve para o resumo e para a ficha inteira). */
+type ParaPlano = Pick<Resumo, "id" | "area" | "ordem" | "faixas" | "etiquetas">;
+
+export function paraAFaixa<T extends ParaPlano>(lista: T[], faixa: Faixa): T[] {
   return lista.filter((b) => b.faixas.includes(faixa));
 }
 
-export function brincadeiraDoDia(
-  lista: Brincadeira[],
+export function brincadeiraDoDia<T extends ParaPlano>(
+  lista: T[],
   faixa: Faixa,
   inicio: Date,
   dia: Date,
-): { brincadeira: Brincadeira | null; semana: number } {
+): { brincadeira: T | null; semana: number } {
   const semana = semanaDeUso(inicio, dia);
   const area = AREAS[meiaNoite(dia).getDay()];
   const opcoes = paraAFaixa(lista, faixa)
@@ -33,7 +36,7 @@ export function brincadeiraDoDia(
 }
 
 /** Duas sugestões sem material, que mudam a cada dia. */
-export function semMaterial(lista: Brincadeira[], faixa: Faixa, dia: Date, excluir?: string): Brincadeira[] {
+export function semMaterial<T extends ParaPlano>(lista: T[], faixa: Faixa, dia: Date, excluir?: string): T[] {
   const opcoes = paraAFaixa(lista, faixa).filter((b) => b.etiquetas.length === 0 && b.id !== excluir);
   if (opcoes.length <= 2) return opcoes;
   const inicio = Math.abs(Math.floor(meiaNoite(dia).getTime() / 86400000)) % opcoes.length;

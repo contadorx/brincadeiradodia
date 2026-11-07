@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { esquemaBrincadeira, IDS_ANTIGOS, type Brincadeira } from "./esquema";
+import { esquemaBrincadeira, IDS_ANTIGOS, type Brincadeira, type Resumo } from "./esquema";
 
 const PASTA = path.join(process.cwd(), "content", "brincadeiras");
 
@@ -108,6 +108,31 @@ export function brincadeirasNoSite(): Brincadeira[] {
           }
         : b,
     );
+}
+
+/**
+ * Para Hoje e Explorar: só os campos que essas telas usam. Passos, conversa, fontes e revisão
+ * ficam de fora (estão na ficha), e a página fica bem mais leve no celular.
+ */
+export function resumosNoSite(): Resumo[] {
+  return brincadeirasNoSite().map(({ id, nome, area, ordem, faixas, minutos, lugares, serve, materiais, etiquetas, status }) => ({
+    id,
+    nome,
+    area,
+    ordem,
+    faixas,
+    minutos,
+    lugares,
+    serve,
+    materiais,
+    etiquetas,
+    status,
+  }));
+}
+
+/** Para o Diário: o nome de cada brincadeira pelo id. */
+export function nomesNoSite(): Record<string, string> {
+  return Object.fromEntries(brincadeirasNoSite().map((b) => [b.id, b.nome]));
 }
 
 export function brincadeiraPorId(id: string): Brincadeira {

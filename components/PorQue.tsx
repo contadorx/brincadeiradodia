@@ -1,5 +1,8 @@
+import Link from "next/link";
 import { SITE } from "@/config/site";
-import { NOME_EVIDENCIA, type Brincadeira } from "@/lib/esquema";
+import { evento } from "@/lib/metricas";
+import { NOME_EVIDENCIA } from "@/lib/dominio";
+import type { Brincadeira } from "@/lib/esquema";
 import { Alerta, Check, Livro } from "./Icones";
 
 const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
@@ -51,10 +54,19 @@ export function PorQue({ b }: { b: Brincadeira }) {
             : `Revisada por ${r.profissao.toLowerCase()} em ${mesAno(r.em)}`}
         </p>
       ) : (
-        <p className="m-0 flex items-start gap-2 font-bold">
-          <Alerta tamanho={19} className="mt-0.5 shrink-0 text-alerta" />
-          Ainda não revisada por profissional. Leia os cuidados antes de começar.
-        </p>
+        <>
+          <p className="m-0 flex items-start gap-2 font-bold">
+            <Alerta tamanho={19} className="mt-0.5 shrink-0 text-alerta" />
+            Ainda não revisada por profissional. Leia os cuidados antes de começar.
+          </p>
+          {SITE.revisao.convidar && SITE.contato ? (
+            <p className="m-0 text-sm">
+              <Link href={`/revisar/?b=${b.id}`} onClick={() => evento("revisao_convite_clicado", { origem: "ficha", id: b.id })}>
+                É profissional de saúde ou educação infantil? Revise esta brincadeira
+              </Link>
+            </p>
+          ) : null}
+        </>
       )}
       {SITE.contato ? (
         <p className="m-0 text-sm">
