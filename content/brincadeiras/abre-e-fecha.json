@@ -1,0 +1,50 @@
+{
+  "id": "abre-e-fecha",
+  "nome": "Abre e fecha",
+  "area": "explorar",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina abrir, fechar e descobrir o que tem dentro, usando as duas mãos.",
+  "materiais": [
+    "2 ou 3 caixas ou potes grandes com tampa fácil de tirar, como caixa de sapato ou pote de sorvete vazio e lavado",
+    "Um brinquedo grande para esconder dentro, como um bicho de pelúcia"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem no chão, com as caixas fechadas na frente dos dois.",
+    "Mostre devagar: tire a tampa, “Abriu!”, e ponha de volta, “Fechou!”",
+    "Com a criança olhando, esconda o bicho numa caixa e feche: “Cadê o urso?”",
+    "Deixe ela tentar abrir do jeito dela. Ajude só a começar, se precisar: “Achou!”",
+    "Agora ela esconde e você procura. Repitam enquanto ela quiser."
+  ],
+  "facil": "Uma caixa só, com a tampa apenas apoiada, sem encaixe. Se ela ainda não senta sozinha, fique atrás dela, dando apoio, e abram juntos, com as mãos dela nas suas.",
+  "dificil": "Duas caixas iguais: esconda o bicho numa delas e pergunte onde ele está antes de abrir. Ou use um pote com tampa de encaixar, que pede mais força nos dedos.",
+  "conversa": [
+    "Cadê o urso? Está dentro?",
+    "Abriu! Fechou! Quer de novo?",
+    "Agora você esconde para eu achar?"
+  ],
+  "seguranca": "Caixas e potes vazios, limpos, sem grampos e sem bordas cortantes, com tampas grandes, que não passem por dentro de um rolo de papel higiênico. Nada de pote de vidro, de remédio ou de produto de limpeza, nem tampinha de rosca. Se ela morder o papelão, troque por pote de plástico.",
+  "base": "Tampar e destampar caixas está no guia de culturas populares do Ministério da Cidadania para 6 a 9 meses, e o CDC sugere aos 2 anos brinquedos para descobrir como as coisas funcionam",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

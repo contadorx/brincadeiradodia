@@ -1,0 +1,41 @@
+{
+  "id": "vou-te-pegar",
+  "nome": "Vou te pegar!",
+  "area": "corpo",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina engatinhar, andar e mudar de direção depressa, rindo junto.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Antes, pergunte: “Vamos brincar de pegar?” Só comece se ela quiser.",
+    "Fique de quatro, como ela, e diga devagar: “Vou… te… pegar!”",
+    "Vá atrás dela bem devagar, engatinhando, deixando ela escapar.",
+    "Quando chegar perto, faça um carinho ou um abraço leve, se ela gostar: “Peguei!”",
+    "Troquem: agora ela vem atrás de você, e você foge devagar."
+  ],
+  "facil": "Se ela ainda não engatinha, deite de barriga no chão, perto dela, e faça o “Vou te pegar” só com os dedos andando devagar até a mão dela.",
+  "dificil": "Se ela já anda bem: ela foge andando até um lugar combinado, o pique, onde ninguém pega. Ou mudem o jeito de andar: rápido, devagar, de quatro.",
+  "conversa": [
+    "Vou te pegar! Foge!",
+    "Ufa, escapou! Quer de novo?",
+    "Agora é você que me pega?"
+  ],
+  "seguranca": "Só se a criança quiser: pare quando ela disser não, chorar, se afastar ou ficar com medo. Você sempre devagar, sem pular nem cair por cima dela. Chão livre, longe de quinas, escada e móveis que tombam.",
+  "base": "O Guia de Atividade Física do Ministério da Saúde recomenda, de 1 a 2 anos, pelo menos 3 horas por dia de brincadeiras com engatinhar, andar e correr, em qualquer intensidade",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

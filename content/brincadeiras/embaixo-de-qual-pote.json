@@ -1,0 +1,46 @@
+{
+  "id": "embaixo-de-qual-pote",
+  "nome": "Embaixo de qual pote?",
+  "area": "raciocinio",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina lembrar onde algo foi escondido e acompanhar com os olhos quando ele muda de lugar.",
+  "materiais": [
+    "2 ou 3 potes grandes de plástico, iguais e sem transparência, como potes de sorvete de 2 litros",
+    "Um brinquedo que caiba embaixo do pote e que não passe por dentro de um rolo de papel higiênico"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem no chão, de frente, com os potes virados de boca para baixo entre vocês.",
+    "Com a criança olhando, esconda o brinquedo embaixo de um pote: “Tchau, carrinho!”",
+    "Pergunte: “Cadê o carrinho?” e espere ela levantar um pote.",
+    "Achou? Comemore. Errou? Levantem juntos o outro: “Estava aqui!”",
+    "Quando ela acertar fácil, esconda e, devagar, troque os potes de lugar com ela olhando."
+  ],
+  "facil": "Um pote só, ou um paninho no lugar do pote. Esconda com o brinquedo ainda aparecendo um pouquinho.",
+  "dificil": "Três potes. Ou conte até três, bem devagar, antes de ela poder procurar: ela espera com as mãos nos joelhos.",
+  "conversa": [
+    "Onde ele foi?",
+    "Embaixo deste ou daquele?",
+    "Agora você esconde para eu achar?"
+  ],
+  "seguranca": "Brinquedo maior que um rolo de papel higiênico, inteiro e limpo. Potes de plástico leves, sem rachadura e sem tampa solta. Nada de copo de vidro.",
+  "base": "Esconder um brinquedo embaixo de um pano ou de copos, com a criança olhando, e depois mudar de lugar está no guia de funções executivas do Harvard Center para 6 a 18 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

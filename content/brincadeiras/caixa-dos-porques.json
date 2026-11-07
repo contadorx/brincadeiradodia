@@ -1,0 +1,47 @@
+{
+  "id": "caixa-dos-porques",
+  "nome": "Caixa dos porquês",
+  "area": "explorar",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina fazer perguntas, procurar a resposta de jeitos diferentes e contar o que descobriu.",
+  "materiais": [
+    "Uma caixa ou envelope para guardar as perguntas",
+    "Papel e lápis para o adulto anotar"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Durante a semana, cada “por quê?” da criança que ficar sem resposta vai para a caixa: você anota e ela põe lá dentro.",
+    "No dia da brincadeira, ela tira uma pergunta e você lê em voz alta.",
+    "Pensem juntos: “O que você acha? Como a gente pode descobrir?”",
+    "Escolham um jeito: olhar com atenção, testar em casa, perguntar a alguém que sabe ou procurar num livro.",
+    "Descubram e contem para alguém da casa. Se não descobrirem, tudo bem: a pergunta volta para a caixa."
+  ],
+  "facil": "Escolha você uma pergunta fácil de testar, como “Por que o gelo derrete?”, e descubram juntos na hora.",
+  "dificil": "Antes de procurar, ela dá um palpite e você anota. No fim, comparem o palpite com o que descobriram. Ou ela desenha a resposta para guardar.",
+  "conversa": [
+    "O que você achava antes?",
+    "Como a gente descobriu?",
+    "Que pergunta vai para a caixa agora?"
+  ],
+  "seguranca": "Testes só com coisas seguras, escolhidas pelo adulto: nada de fogo, tomada, remédio, produto de limpeza ou bicho que pica. Para perguntar a alguém, só pessoas conhecidas, com você junto.",
+  "base": "O CDC sugere aos 4 anos responder com paciência aos “por quês” e, quando não souber, procurar a resposta junto com a criança; a caixa é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

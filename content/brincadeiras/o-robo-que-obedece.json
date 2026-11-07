@@ -1,0 +1,45 @@
+{
+  "id": "o-robo-que-obedece",
+  "nome": "O robô que obedece",
+  "area": "linguagem",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina explicar uma tarefa em passos, na ordem, com palavras como primeiro, depois e por fim.",
+  "materiais": [
+    "Blocos para montar uma torre, ou uma meia e um sapato para calçar"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Conte que você virou um robô: só faz exatamente o que ela mandar, nada a mais.",
+    "Escolham a tarefa: montar uma torre de três blocos ou calçar a meia e o sapato no robô.",
+    "Ela dá as ordens e você obedece ao pé da letra, com voz de robô. Se ela disser “Põe o sapato”, ponha na mão.",
+    "Rindo juntos, ela percebe o que faltou dizer e explica melhor: “Primeiro a meia, no pé!”",
+    "Quando terminar, ela conta a receita toda, do começo ao fim: “Primeiro… depois… por fim…”"
+  ],
+  "facil": "Tarefa de dois passos, e você erra só uma vez, de leve. Ajude com perguntas: “E primeiro, o que eu faço?”",
+  "dificil": "Troquem: você dá as ordens e ela é o robô. Ou a tarefa tem mais passos, como arrumar a mochila com três coisas numa ordem.",
+  "conversa": [
+    "O que o robô precisava saber?",
+    "Qual foi o primeiro passo?",
+    "Que coisa engraçada o robô fez errado?"
+  ],
+  "seguranca": null,
+  "base": "O CDC sugere aos 4 anos usar palavras como primeiro, segundo e por fim nas brincadeiras e tarefas, e perguntar o que vem depois; o robô é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

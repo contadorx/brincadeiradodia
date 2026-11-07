@@ -1,0 +1,44 @@
+{
+  "id": "danca-das-cadeiras",
+  "nome": "Dança das cadeiras",
+  "area": "autocontrole",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina prestar atenção na música, parar na hora certa e lidar com ganhar e perder.",
+  "materiais": [
+    "Cadeiras firmes: uma a menos que o número de jogadores, ou uma para cada na versão mais fácil",
+    "Música no celular, com a tela virada para baixo, ou alguém cantando"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Arrumem as cadeiras em roda, com espaço para andar em volta: uma a menos que o número de jogadores.",
+    "Quem cuida da música toca ou canta de costas, sem olhar. Os outros andam em volta das cadeiras, dançando.",
+    "Quando a música para, cada um senta numa cadeira, sem empurrar ninguém.",
+    "Quem ficou de pé sai e vira o dono da música. Tirem uma cadeira, para continuar faltando uma.",
+    "Quando sobrar um só, comecem de novo com todo mundo."
+  ],
+  "facil": "Em dupla, ou para quem fica chateado de sair: uma cadeira para cada um e ninguém sai. O adulto canta de costas e a criança só precisa parar e sentar quando a música parar.",
+  "dificil": "Antes de sentar, cada um faz um gesto combinado, como bater duas palmas. Ou dancem do jeito que a música pedir: rápida ou lenta.",
+  "conversa": [
+    "Como foi ficar de pé?",
+    "O que ajudou a perceber quando a música parou?",
+    "Que regra nova a gente inventa?"
+  ],
+  "seguranca": "Cadeiras firmes, sem rodinhas e nunca dobráveis; ninguém sobe nelas. Sentar sem empurrar nem puxar a cadeira de ninguém. Andar em volta, sem correr, longe de quinas. O celular fica com o adulto.",
+  "base": "Jogos de reação rápida, como a dança das cadeiras e a estátua, estão no guia de funções executivas do Harvard Center para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

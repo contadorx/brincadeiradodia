@@ -1,0 +1,50 @@
+{
+  "id": "gomos-de-mexerica",
+  "nome": "Gomos de mexerica",
+  "area": "musica",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina descascar com os dedos, contar os gomos e dividir em partes iguais.",
+  "materiais": [
+    "Uma ou duas mexericas (tangerinas)",
+    "Um prato para cada pessoa"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Lavem as mãos e a fruta juntos.",
+    "Você começa a casca com a unha e ela termina de descascar, puxando aos pouquinhos.",
+    "Ela separa os gomos um a um no prato. Contem juntos, apontando cada um.",
+    "Agora dividam: um para você, um para mim, até acabar. “Ficou igual?”",
+    "O adulto confere as sementes e vocês comem sentados, um gomo de cada vez."
+  ],
+  "facil": "Você descasca e ela só separa os gomos e põe um em cada prato.",
+  "dificil": "Antes de abrir, ela dá um palpite de quantos gomos tem. Ou dividam entre três pessoas e vejam se sobra algum.",
+  "conversa": [
+    "Quantos gomos você acha que tem?",
+    "Sobrou algum?",
+    "O cheiro da casca é forte ou fraquinho?"
+  ],
+  "seguranca": "Só frutas que a criança já come e tolera, respeitando alergias e restrições. O adulto tira todas as sementes antes de ela comer, e gomos grandes podem ser partidos ao meio. Ela come sentada, com você junto. Lave as mãos depois: o óleo da casca arde nos olhos.",
+  "base": "O CDC sugere aos 3 anos dar à criança tarefas simples no preparo das refeições e, aos 4 anos, contar coisas do dia a dia, como bananas; aqui, com a mexerica",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

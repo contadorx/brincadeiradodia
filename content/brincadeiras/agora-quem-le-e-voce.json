@@ -1,0 +1,47 @@
+{
+  "id": "agora-quem-le-e-voce",
+  "nome": "Agora quem lê é você",
+  "area": "linguagem",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina contar uma história olhando as figuras, na ordem, com começo, meio e fim.",
+  "materiais": [
+    "Um livro de figuras que a criança já conhece bem",
+    "Bichos de pelúcia para a plateia"
+  ],
+  "etiquetas": [
+    "livro",
+    "brinquedos"
+  ],
+  "passos": [
+    "Ela escolhe um livro que já ouviu muitas vezes.",
+    "Arrumem a plateia: os bichos sentados em roda, e você também.",
+    "Ela “lê” para vocês do jeito dela, contando o que vê em cada figura. Não precisa ler as letras.",
+    "Escute até o fim da página antes de comentar. Se ela travar, pergunte: “O que está acontecendo aqui?”",
+    "No fim, a plateia aplaude e faz uma pergunta sobre a história."
+  ],
+  "facil": "Ela conta só algumas páginas, as preferidas, e você conta o resto.",
+  "dificil": "Um livro só de imagens, sem texto, ou um livro novo: ela inventa a história pelas figuras. Ou ela faz as vozes dos personagens.",
+  "conversa": [
+    "Qual parte você mais gosta de contar?",
+    "Como o personagem estava se sentindo?",
+    "Como termina a história?"
+  ],
+  "seguranca": null,
+  "base": "O CDC sugere aos 5 anos incentivar a criança a “ler” olhando as figuras e contando a história",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

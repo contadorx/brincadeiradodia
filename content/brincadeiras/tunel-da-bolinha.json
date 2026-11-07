@@ -1,0 +1,46 @@
+{
+  "id": "tunel-da-bolinha",
+  "nome": "Túnel da bolinha",
+  "area": "explorar",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina acompanhar com os olhos o que some e aparece de novo, e perceber que a bola continua lá dentro.",
+  "materiais": [
+    "Uma caixa de papelão comprida, como a de sapato, com as duas pontas abertas pelo adulto",
+    "Uma bola maior que um rolo de papel higiênico, de plástico ou de meia, que passe pela caixa"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Antes, o adulto abre as duas pontas da caixa e confere se a bola passa lá dentro.",
+    "Apoie uma ponta numa almofada, no chão, para virar uma rampa baixinha.",
+    "Ponha a bola na entrada, com a criança olhando: “Lá vai!”",
+    "Espere a bola sair do outro lado: “Saiu! Cadê? Achou!”",
+    "Agora é a vez dela pôr a bola. Esperem juntos do lado da saída."
+  ],
+  "facil": "Caixa deitada no chão, sem rampa: você empurra a bola devagar para dentro e ela espia pela outra ponta. Se ainda não engatinha, deixe-a sentada perto da saída.",
+  "dificil": "Tape a saída com a sua mão: a bola fica escondida lá dentro. Pergunte “Cadê a bola?” e espere ela tirar a sua mão para achar.",
+  "conversa": [
+    "Cadê a bola? Entrou no túnel!",
+    "Saiu! Por onde ela saiu?",
+    "Quer pôr de novo?"
+  ],
+  "seguranca": "Caixa limpa, sem grampos nem fita solta. O papelão não vai à boca: se ela morder, guarde a caixa. Bola maior que um rolo de papel higiênico, inteira, sem pedaços que soltem. A rampa é só a almofada no chão; ninguém sobe nela.",
+  "base": "Ver a bolinha entrar por uma ponta da caixa e sair pela outra está no guia de culturas populares do Ministério da Cidadania para 9 a 12 meses; aqui, com uma rampa baixa",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": "pega-a-sombra",
+  "nome": "Pega a sombra",
+  "area": "explorar",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina observar a própria sombra, perceber que ela se mexe junto e contar o que viu.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Num dia de sol, de manhã cedo ou no fim da tarde, procurem um chão claro com sol: quintal, praça cercada ou perto de uma janela.",
+    "Mostre a sua sombra: “Olha, sou eu! Cadê a sua?”",
+    "Façam a sombra mexer: levantar os braços, pular, dar tchau, ficar pequena agachando.",
+    "Brinquem de pisar na sombra um do outro, devagar: “Pisei na sua sombra!”",
+    "Vão para a sombra de uma árvore ou da casa e perguntem: “Cadê a sombra? Sumiu!”"
+  ],
+  "facil": "Só olhar a sombra e mexer os braços, com você do lado contando o que acontece: “Você levantou o braço, a sombra também!”",
+  "dificil": "Façam formas juntos: um bicho com as mãos, uma sombra de dois juntos, uma sombra de mãos dadas com a outra. Ou ela fica paradinha e você contorna a sombra no chão com giz.",
+  "conversa": [
+    "Para onde a sua sombra foi?",
+    "Por que ela sumiu embaixo da árvore?",
+    "A sombra faz tudo que você faz?"
+  ],
+  "seguranca": "Prefira o começo da manhã ou o fim da tarde, com boné, protetor e água; ninguém olha para o sol. Fora de casa, só em quintal ou praça cercada, longe da rua. Pisar na sombra é devagar, sem empurrar nem correr em chão liso.",
+  "base": "Proposta nossa de brincar com a própria sombra no sol, ligada ao objetivo EI02ET02 da BNCC (observar, relatar e descrever fenômenos naturais, como a luz solar)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET02"
+    }
+  ],
+  "revisao": null
+}

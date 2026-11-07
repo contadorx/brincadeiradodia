@@ -1,0 +1,42 @@
+{
+  "id": "roda-e-senta",
+  "nome": "Roda e senta",
+  "area": "musica",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina acompanhar a música com o corpo e esperar a palavra combinada para sentar.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Fiquem de pé, de mãos dadas, ou com você segurando as duas mãos dela.",
+    "Cante uma cantiga de roda que vocês conhecem, como Ciranda, cirandinha, andando em roda bem devagar.",
+    "Combinem a palavra do fim: no “…e senta!”, todo mundo senta no chão.",
+    "Cante de novo, esperando um pouquinho antes do “senta”, para ela ficar na expectativa.",
+    "Repitam. Na última, sentem e deem um abraço, se ela quiser."
+  ],
+  "facil": "Com ela no colo, você roda devagar cantando e, no “senta”, se abaixa e senta com ela no chão. Se ela ainda não anda, brinquem sentados, balançando para os lados, e no fim ela deita devagar no tapete, com a sua mão nas costas dela.",
+  "dificil": "Mude o que acontece no fim: “…e pula!”, “…e agacha!”, “…e bate palma!”. Ela espera a palavra para saber o que fazer.",
+  "conversa": [
+    "Vamos rodar de novo?",
+    "No fim a gente faz o quê?",
+    "Rápido ou devagar?"
+  ],
+  "seguranca": "Rodem devagar, em chão livre, sem tapete que escorrega e longe de quinas. Sentem devagar, sem se jogar. Se ela ficar tonta, parem e sentem um pouco. Fora de casa, só em quintal ou praça cercada.",
+  "base": "Cantigas de roda em que todos param ou sentam junto com a música, como Ring Around the Rosie, estão no guia do Harvard Center para 18 a 36 meses; aqui, com uma cantiga brasileira",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

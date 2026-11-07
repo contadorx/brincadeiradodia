@@ -1,0 +1,43 @@
+{
+  "id": "complete-a-parlenda",
+  "nome": "Complete a parlenda",
+  "area": "linguagem",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua",
+    "carro"
+  ],
+  "serve": "Treina ouvir as rimas, guardar a ordem dos versos e completar a palavra que falta.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolha uma parlenda que você sabe, como “Um, dois, feijão com arroz; três, quatro, feijão no prato…”",
+    "Diga inteira, devagar, duas ou três vezes, com ritmo.",
+    "Agora pare antes da rima: “Um, dois, feijão com…” e espere ela completar: “…arroz!”",
+    "Vá deixando mais palavras para ela, até ela dizer quase tudo.",
+    "Troquem: ela começa e para, e você completa. Erre de propósito às vezes, para ela corrigir."
+  ],
+  "facil": "Só o fim de um verso, sempre o mesmo, com você fazendo um gesto de ajuda.",
+  "dificil": "Aprendam uma parlenda nova com alguém mais velho da família. Ou digam a parlenda bem devagar e depois bem rápido, sem errar.",
+  "conversa": [
+    "Quais palavras terminam igual?",
+    "Qual parlenda você quer agora?",
+    "Quem te ensinou essa?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. Na calçada, de mãos dadas e longe do meio-fio.",
+  "base": "O CDC sugere aos 3 anos ensinar músicas e rimas simples à criança; aqui, com parlendas tradicionais brasileiras",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
+}

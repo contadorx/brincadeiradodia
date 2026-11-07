@@ -1,0 +1,51 @@
+{
+  "id": "pao-de-queijo-em-fileiras",
+  "nome": "Pão de queijo em fileiras",
+  "area": "musica",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 20,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina seguir uma receita, fazer bolinhas parecidas e contar em fileiras.",
+  "materiais": [
+    "Massa de pão de queijo pronta para modelar, ou mistura em pó preparada pelo adulto conforme a embalagem",
+    "Uma assadeira untada",
+    "Um pano para limpar as mãos"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Lavem as mãos. O adulto prepara a massa e deixa na mesa, já fria.",
+    "Combinem a receita: bolinhas do tamanho de uma noz, em fileiras na assadeira.",
+    "A criança faz as bolinhas girando a massa entre as mãos e põe em fila: 4 em cada fileira.",
+    "Contem juntos: “Quantas fileiras? Quantas em cada uma? Quantas ao todo?”",
+    "O adulto põe no forno. Esperem juntos, de longe. Comam quando esfriar."
+  ],
+  "facil": "Só fazer as bolinhas, de qualquer tamanho, e você arruma na assadeira.",
+  "dificil": "Ela decide a arrumação: 3 fileiras de 5 ou 5 fileiras de 3? Dá o mesmo número? Ou ela confere se as bolinhas ficaram do mesmo tamanho.",
+  "conversa": [
+    "Quantas bolinhas cabem na assadeira?",
+    "As duas arrumações deram o mesmo número?",
+    "O que mudou depois do forno?"
+  ],
+  "seguranca": "Só o que a criança já come e tolera: tem leite, queijo e, às vezes, ovo; respeite alergias e restrições. Massa crua não se come. Forno e assadeira quente só com o adulto, com a criança longe da porta do forno. Espere esfriar; ela come sentada, com você junto.",
+  "base": "Cozinhar seguindo instruções, esperando e contando está no guia de funções executivas do Harvard Center para 3 a 5 anos, e o CDC sugere aos 5 anos envolver a criança no preparo da comida",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

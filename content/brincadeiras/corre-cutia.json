@@ -1,0 +1,44 @@
+{
+  "id": "corre-cutia",
+  "nome": "Corre, cutia",
+  "area": "corpo",
+  "ordem": 6,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina correr e parar com controle, prestar atenção no que acontece atrás e reagir rápido.",
+  "materiais": [
+    "Um lenço ou um pano pequeno"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Quem não corre senta no chão, em roda, olhando para dentro. Com duas pessoas, uma senta e a outra corre em volta dela.",
+    "Quem corre dá voltas em torno da roda com o lenço na mão, cantando Corre, cutia, se vocês souberem, ou contando em voz alta.",
+    "Em algum momento, deixa o lenço cair atrás de alguém sentado, sem avisar, e continua correndo.",
+    "Quem tem o lenço atrás pega e corre atrás de quem deixou, dando a volta na roda.",
+    "Se quem deixou o lenço sentar no lugar vazio antes de ser pego, escapou. Troquem de papel."
+  ],
+  "facil": "Correr é andar depressa. E quem deixa o lenço avisa com uma palavra combinada, como “Cutia!”",
+  "dificil": "Com mais gente na roda, todos de olhos fechados até o lenço cair. Ou quem corre vai de lado, como caranguejo.",
+  "conversa": [
+    "Você percebeu o lenço?",
+    "Como você sabia que estava atrás de você?",
+    "Quem quer correr agora?"
+  ],
+  "seguranca": "Só se a criança quiser: pare quando ela disser não ou se afastar. Correr em espaço livre, sem tapete que escorrega, longe de quinas, móveis e escada; ninguém empurra quem é pego. Fora de casa, só em quintal ou praça cercada; no sol, boné e água.",
+  "base": "Brincadeira tradicional de roda e pega-pega com lenço, do guia de culturas populares do Ministério da Cidadania para 4 a 5 anos; aqui, também com um jeito de brincar em dupla",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

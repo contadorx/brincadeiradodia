@@ -1,0 +1,50 @@
+{
+  "id": "mesa-para-os-bonecos",
+  "nome": "Mesa para os bonecos",
+  "area": "raciocinio",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar um para cada, contar quantos são e perceber quando falta ou sobra.",
+  "materiais": [
+    "2 a 4 bonecos ou bichos de pelúcia",
+    "Pratos, copos e colheres de plástico ou de brinquedo: um de cada para cada boneco, e mais um ou dois sobrando"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Sentem os bonecos em roda, no chão ou numa mesinha baixa: “Vamos pôr a mesa para o almoço deles?”",
+    "Ela dá um prato para cada boneco. Contem juntos, apontando: “Um, dois, três bonecos. Um, dois, três pratos!”",
+    "Agora um copo para cada. Se sobrar ou faltar, perguntem: “Alguém ficou sem copo?”",
+    "Chega mais um convidado: sente outro boneco. “E agora? Do que ele precisa?”",
+    "Sirvam comida de mentirinha e desfaçam a mesa juntos, contando o que guardam."
+  ],
+  "facil": "Dois bonecos e só pratos: um prato para cada um. Você conta e ela aponta.",
+  "dificil": "Antes de buscar, ela diz quantos pratos vai precisar e confere depois. Ou um boneco não quer copo: quantos copos agora?",
+  "conversa": [
+    "Quantos bonecos estão na mesa?",
+    "Faltou alguém?",
+    "Sobrou um prato?"
+  ],
+  "seguranca": "Só louça de plástico ou de brinquedo: nada de vidro, louça de verdade ou talher de ponta. Peças de brinquedo maiores que um rolo de papel higiênico.",
+  "base": "Ajudar a criança a contar, nomear e comparar coisas está nos cartões de cuidado da OMS e do UNICEF a partir de 2 anos, e o CDC sugere aos 2 anos deixar ela ajudar a pôr a mesa",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

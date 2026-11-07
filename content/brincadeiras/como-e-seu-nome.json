@@ -1,0 +1,45 @@
+{
+  "id": "como-e-seu-nome",
+  "nome": "Como é seu nome?",
+  "area": "linguagem",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dizer o próprio nome e a idade, responder perguntas e corrigir quem errou, rindo junto.",
+  "materiais": [
+    "Um fantoche, boneco ou bicho de pelúcia"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "O boneco chega, tímido: “Oi! Eu sou o Coelho. E você, como é seu nome?”",
+    "Espere ela responder. Se ela não quiser falar, o boneco espera e conta o nome dele de novo.",
+    "O boneco erra de propósito: “Ah, você é o Pedro?” “Não!” “Então qual é?”",
+    "Agora ele pergunta a idade: “Quantos anos você tem?” Ela mostra nos dedos ou diz.",
+    "Troquem: ela pega o boneco e pergunta o seu nome. Responda errando também, para ela corrigir."
+  ],
+  "facil": "Só o nome, com você ajudando a dizer junto: “Eu sou a… Ana!” O boneco repete e comemora.",
+  "dificil": "O boneco quer saber mais: o nome inteiro dela, o nome de quem cuida dela, o bicho preferido. Saber o nome inteiro e o de quem cuida ajuda se um dia ela se perder.",
+  "conversa": [
+    "Qual é o nome do boneco?",
+    "Quantos anos ele tem?",
+    "Quem mais mora na sua casa?"
+  ],
+  "seguranca": "Boneco sem olhos, botões ou enfeites que soltem.",
+  "base": "O CDC sugere aos 3 anos incentivar a criança a dizer o próprio nome e a idade; aqui, numa conversa com um boneco",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
+}

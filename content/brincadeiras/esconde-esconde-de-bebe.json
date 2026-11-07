@@ -1,0 +1,45 @@
+{
+  "id": "esconde-esconde-de-bebe",
+  "nome": "Esconde-esconde de bebê",
+  "area": "autocontrole",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina acompanhar onde o outro está, lembrar onde ele sumiu e esperar o momento de achar.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Com a criança olhando, esconda-se atrás de uma cadeira ou do sofá, deixando um pé ou a mão aparecendo.",
+    "Chame a criança pelo nome: “Vem me achar!” e espere ela vir procurar, andando ou engatinhando.",
+    "Quando ela achar, comemore: “Achou!”",
+    "Agora é a vez dela: ela se esconde e você procura em voz alta, olhando primeiro nos lugares errados: “Será que está atrás da porta? Não!”",
+    "Ache devagar e comemorem juntos. Troquem de novo enquanto for divertido."
+  ],
+  "facil": "Esconda-se bem pertinho, com metade do corpo aparecendo, e chame até ela chegar. Se ela ainda não engatinha nem anda, esconda só o rosto atrás de uma almofada, ao lado dela.",
+  "dificil": "Esconda-se num lugar onde ela não viu você entrar, sempre no mesmo cômodo, e dê pistas com a voz: “Estou aqui!” Ou esconda um bicho de pelúcia com ela olhando e peça para ela buscar.",
+  "conversa": [
+    "Cadê? Onde eu estou?",
+    "Achou! Agora quem se esconde?",
+    "Vou procurar… será que está aqui?"
+  ],
+  "seguranca": "Só no cômodo onde vocês estão, com as portas abertas e nada trancado. Nada de esconder em armário, baú, caixa com tampa ou máquina de lavar, nem perto de cordão de cortina ou persiana. Quando é ela que se esconde, finja procurar, mas saiba sempre onde ela está.",
+  "base": "Esconder-se atrás de uma cadeira e esperar ser achado é dica do CDC aos 15 meses; o guia do Harvard Center sugere que o bebê também se esconda e acompanhe o adulto procurando",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

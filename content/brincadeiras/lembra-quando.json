@@ -1,0 +1,46 @@
+{
+  "id": "lembra-quando",
+  "nome": "Lembra quando…?",
+  "area": "linguagem",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina lembrar o que aconteceu, contar do próprio jeito e ouvir palavras novas sobre o que viveu.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Escolha algo que vocês fizeram juntos, hoje ou há pouco: o passeio na praça, o banho, a visita da avó.",
+    "Comece com uma pergunta aberta: “Lembra quando a gente foi à praça? O que a gente viu lá?”",
+    "Confirme o que ela disser e acrescente um detalhe: “Isso, o cachorro! Ele era grande e latiu bem alto.”",
+    "Siga o que mais interessou a ela, com outra pergunta: “E o que o cachorro fez depois?”",
+    "Se ela não lembrar, conte um pedacinho e pergunte de novo. Terminem quando ela quiser."
+  ],
+  "facil": "Perguntas com duas opções: “Na praça a gente viu um cachorro ou um gato?” Ou desenhem juntos o que aconteceu enquanto conversam.",
+  "dificil": "Peça a ordem: “O que a gente fez primeiro? E depois?” Ou façam um livrinho: ela desenha e você escreve embaixo o que ela contou, para ler outro dia.",
+  "conversa": [
+    "Do que você mais gostou?",
+    "Quem estava lá?",
+    "Como você se sentiu?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "Inspirada no treino de conversas sobre o passado estudado com 115 mães e filhos pequenos, a partir de 1 ano e meio, na Nova Zelândia (Reese e Newcombe, 2007). A ficha não foi testada",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Training mothers in elaborative reminiscing enhances children's autobiographical memory and narrative (Reese e Newcombe, 2007)",
+      "url": "https://doi.org/10.1111/j.1467-8624.2007.01058.x"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

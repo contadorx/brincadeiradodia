@@ -1,0 +1,50 @@
+{
+  "id": "domino-de-bolinhas",
+  "nome": "Dominó de bolinhas",
+  "area": "raciocinio",
+  "ordem": 6,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina reconhecer quantidades pelas bolinhas, achar a peça que combina e esperar a vez.",
+  "materiais": [
+    "Um dominó, ou cartões de papel feitos em casa, com 0 a 3 bolinhas em cada metade"
+  ],
+  "etiquetas": [
+    "brinquedos",
+    "papel"
+  ],
+  "passos": [
+    "Se for fazer em casa, desenhem juntos uns 15 cartões, cada um com duas metades e de 0 a 3 bolinhas em cada.",
+    "Virem as peças para baixo e cada um pega 5.",
+    "O primeiro põe uma peça na mesa. O próximo encosta uma metade com o mesmo número de bolinhas.",
+    "Quem não tem peça que combine compra uma do monte. Contem as bolinhas em voz alta quando precisar.",
+    "Ganha quem acabar as peças primeiro, mas o jogo segue até todo mundo terminar, se ela quiser."
+  ],
+  "facil": "Peças viradas para cima, todas à vista, e vocês ajudam um ao outro a achar a que combina.",
+  "dificil": "Dominó completo, de 0 a 6. Ou, no fim, ela soma as bolinhas das peças que sobraram na mão de cada um.",
+  "conversa": [
+    "Quantas bolinhas tem aqui?",
+    "Qual peça combina?",
+    "Quem tem mais peças agora?"
+  ],
+  "seguranca": "Peças de dominó são pequenas: guarde longe de irmãos menores de 3 anos e confira no fim se nenhuma ficou no chão.",
+  "base": "O CDC sugere aos 4 anos jogos simples de combinar e esperar a vez, e o guia do Harvard Center sugere para 5 a 7 anos jogos de juntar cartas pelo número; o dominó é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    },
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

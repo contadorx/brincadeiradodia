@@ -1,0 +1,47 @@
+{
+  "id": "rasga-a-alface",
+  "nome": "Rasga a alface",
+  "area": "musica",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina usar as duas mãos com força e cuidado e ajudar a preparar a refeição.",
+  "materiais": [
+    "Folhas de alface já lavadas pelo adulto",
+    "Uma tigela grande",
+    "Um pano para secar as mãos"
+  ],
+  "etiquetas": [
+    "cozinha"
+  ],
+  "passos": [
+    "Lavem as mãos juntos. O adulto já lavou e secou as folhas.",
+    "Mostre como rasgar: as duas mãos seguram a folha e cada uma puxa para um lado.",
+    "A criança rasga em pedaços pequenos e joga na tigela: “Mais um!”",
+    "Comparem: “Esse pedaço é grande ou pequeno? Rasga mais um pouquinho?”",
+    "Ela ajuda a levar a tigela para a mesa, com você junto, e a salada vai para o almoço."
+  ],
+  "facil": "Você começa o rasgo e ela termina. Ou ela só joga na tigela os pedaços que você rasgou.",
+  "dificil": "Ela conta os pedaços, ou separa as folhas mais escuras das mais claras. Também pode misturar com uma colher grande, devagar.",
+  "conversa": [
+    "Que barulho faz a alface quando rasga?",
+    "Esse pedaço cabe na boca?",
+    "Quem vai comer a salada?"
+  ],
+  "seguranca": "Só alimentos que a criança já come e tolera, respeitando alergias e restrições. O adulto lava as folhas. Para comer, pedaços pequenos, sentada e com você junto; se ela ainda não mastiga bem folhas cruas, a salada fica para os adultos. Faca e fogão só com o adulto, e ninguém sobe em cadeira.",
+  "base": "O CDC sugere aos 3 anos dar à criança tarefas simples no preparo das refeições, como lavar verduras e frutas ou mexer; aqui, rasgar a alface",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    }
+  ],
+  "revisao": null
+}

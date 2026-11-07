@@ -1,0 +1,43 @@
+{
+  "id": "ioga-dos-bichos",
+  "nome": "Ioga dos bichos",
+  "area": "autocontrole",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina mexer o corpo devagar, ficar parado numa posição e respirar com calma.",
+  "materiais": [
+    "Um tapete ou toalha no chão"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Sentem no tapete e combinem: no ioga, tudo é devagar e em silêncio.",
+    "Façam o gato: de quatro, costas para cima, como gato bravo, e para baixo, como gato preguiçoso. Devagar, três vezes.",
+    "Agora a árvore: de pé, mãos juntas e um pé encostado no tornozelo do outro. Contem até três.",
+    "O sapo: agachados, mãos no chão, respirando fundo pelo nariz.",
+    "Termine com o urso dormindo: deitados de barriga para cima, mão na barriga, sentindo ela subir e descer."
+  ],
+  "facil": "Só dois bichos, o gato e o urso dormindo, com você fazendo junto e falando baixinho.",
+  "dificil": "Ela escolhe a ordem dos bichos e você segue. Ou fiquem mais tempo em cada posição, contando até cinco bem devagar.",
+  "conversa": [
+    "Qual bicho foi mais fácil?",
+    "Como ficou a sua respiração?",
+    "Que bicho a gente inventa?"
+  ],
+  "seguranca": "Tapete que não escorrega, longe de quinas e móveis. Nada de forçar: cada um vai até onde o corpo deixa, sem dor. Na árvore, perto de você ou da parede para se apoiar. Respirar sempre confortável, sem segurar o ar.",
+  "base": "Posições de ioga com respiração lenta estão entre os desafios de movimento do guia de funções executivas do Harvard Center para 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

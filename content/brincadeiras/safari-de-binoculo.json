@@ -1,0 +1,49 @@
+{
+  "id": "safari-de-binoculo",
+  "nome": "Safári de binóculo",
+  "area": "fazdeconta",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina fazer o próprio brinquedo, planejar a brincadeira e procurar com atenção.",
+  "materiais": [
+    "2 rolos de papel higiênico vazios",
+    "Fita crepe e canetinhas",
+    "Bichos de pelúcia ou de brinquedo para esconder"
+  ],
+  "etiquetas": [
+    "papel",
+    "fita",
+    "brinquedos"
+  ],
+  "passos": [
+    "A criança pinta os dois rolos do jeito dela. Prendam um ao lado do outro com fita crepe: é o binóculo.",
+    "Enquanto ela termina de enfeitar, esconda os bichos pela sala, com uma parte aparecendo.",
+    "Comece o safári: “Estamos na floresta! Que bichos será que a gente vai ver?”",
+    "Ela procura olhando pelo binóculo e conta o que achou: “Achei um leão atrás da cortina!”",
+    "No fim, contem os bichos achados e escondam de novo para ela ser a guia do safári."
+  ],
+  "facil": "Bichos bem à vista, só para olhar pelo binóculo e dizer o nome.",
+  "dificil": "Antes de começar, ela faz um plano: quais bichos quer achar e onde acha que eles estão. Ou ela desenha um mapa para você procurar.",
+  "conversa": [
+    "Que bicho você achou?",
+    "Onde ele estava escondido?",
+    "Que bicho vive na floresta de verdade?"
+  ],
+  "seguranca": "Bichos escondidos só onde ela alcança do chão: nada de subir em móvel. Para andar olhando pelo binóculo, tire do caminho brinquedos e tapetes que escorregam. Ninguém olha para o sol ou para a lâmpada pelo binóculo.",
+  "base": "Deixar a criança fazer os próprios objetos para o faz de conta está no guia de funções executivas do Harvard Center para 3 a 5 anos; o binóculo é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

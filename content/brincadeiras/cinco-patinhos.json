@@ -1,0 +1,42 @@
+{
+  "id": "cinco-patinhos",
+  "nome": "Cinco patinhos",
+  "area": "musica",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina contar para trás com os dedos e acompanhar quantos sobram a cada volta da música.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Mostre cinco dedos levantados: são os cinco patinhos.",
+    "Cantem Cinco patinhos do jeito que vocês sabem: a cada volta, um patinho não volta para casa.",
+    "A cada volta, ela abaixa um dedo e vocês contam juntos quantos ficaram: “Quatro!”",
+    "Continuem até não sobrar nenhum. No fim, todos voltam: levantem os cinco dedos de novo, comemorando.",
+    "Na próxima vez, ela canta e você faz os dedos, errando às vezes para ela corrigir."
+  ],
+  "facil": "Comecem com três patinhos e três dedos, cantando bem devagar.",
+  "dificil": "Ela diz quantos sobraram antes de abaixar o dedo. Ou cantem com dez patinhos, usando as duas mãos.",
+  "conversa": [
+    "Quantos patinhos voltaram?",
+    "E se voltassem dois de uma vez?",
+    "Para onde os patinhos foram?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "Músicas que contam para trás, como Five Green and Speckled Frogs, estão no guia do Harvard Center para 3 a 5 anos; aqui, com a cantiga Cinco patinhos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

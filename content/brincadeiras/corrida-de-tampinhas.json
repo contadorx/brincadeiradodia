@@ -1,0 +1,48 @@
+{
+  "id": "corrida-de-tampinhas",
+  "nome": "Corrida de tampinhas",
+  "area": "corpo",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina a força e a precisão dos dedos no peteleco, seguir um caminho e esperar a vez.",
+  "materiais": [
+    "Uma tampinha de garrafa para cada jogador",
+    "Fita crepe ou giz para marcar a pista no chão"
+  ],
+  "etiquetas": [
+    "fita",
+    "brinquedos"
+  ],
+  "passos": [
+    "Desenhem uma pista no chão com fita ou giz: duas linhas lado a lado, com curvas, com uns dois palmos de largura.",
+    "Marquem a largada, a chegada e um ou dois pontos de passagem, como uma ponte de papel.",
+    "Mostre o peteleco: o dedo do meio preso no polegar e solta, empurrando a tampinha.",
+    "Cada um dá um peteleco por vez. Se a tampinha sair da pista, volta para onde estava.",
+    "Ganha quem chegar primeiro, ou quem completar as voltas combinadas."
+  ],
+  "facil": "Pista reta e larga, sem precisar voltar se sair. Ela pode empurrar com o dedo em vez do peteleco.",
+  "dificil": "Mais curvas, obstáculos de papelão e duas voltas. Contem quantos petelecos cada um precisou.",
+  "conversa": [
+    "Mais força ou menos força?",
+    "Quantos petelecos faltam?",
+    "Onde a pista ficou mais difícil?"
+  ],
+  "seguranca": "Tampinha é peça pequena: só para quem já não põe coisas na boca, e guardada longe de irmãos menores de 3 anos. Petelecos no chão, nunca na direção do rosto. Fita bem colada, sem pontas levantadas. Fora de casa, só em quintal ou praça cercada.",
+  "base": "Brincadeira tradicional do guia de culturas populares do Ministério da Cidadania para 4 a 5 anos, com pista, obstáculos, pontos de passagem e número de voltas combinado",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

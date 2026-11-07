@@ -1,0 +1,42 @@
+{
+  "id": "mamae-posso-ir",
+  "nome": "Mamãe, posso ir?",
+  "area": "autocontrole",
+  "ordem": 6,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina pedir licença, esperar a resposta e dar só os passos combinados.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Você fica numa ponta da sala ou do quintal e a criança na outra.",
+    "Ela pergunta: “Mamãe, posso ir?” (ou papai, vovó…). Você responde: “Pode!” “Quantos passos?” “Três de formiguinha!”",
+    "Ela dá exatamente os passos combinados: formiguinha é bem miudinho; elefante, grande e pesado; canguru, pulando.",
+    "Se ela andar sem perguntar, ou der passos a mais, volta um passo.",
+    "Quando chegar até você, comemorem e troquem de lugar."
+  ],
+  "facil": "Só dois tipos de passo e poucos de cada vez, com você mostrando como é cada um.",
+  "dificil": "Inclua o “Não pode!”: ela espera e pergunta de novo. Ou passos novos: de caranguejo (de lado), de gigante, de saci.",
+  "conversa": [
+    "Qual passo é o mais engraçado?",
+    "Quantos passos faltam para chegar?",
+    "Que passo novo a gente inventa?"
+  ],
+  "seguranca": "Espaço livre, sem tapete que escorrega e longe de quinas e escada. Pulos só no chão. Fora de casa, só em quintal ou praça cercada.",
+  "base": "Jogos em que a criança acompanha quem manda e espera a vez, como Mother May I?, que aqui é o Mamãe, posso ir?, estão no guia do Harvard Center para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

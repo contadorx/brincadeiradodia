@@ -1,0 +1,42 @@
+{
+  "id": "pipoca-na-panela",
+  "nome": "Pipoca na panela",
+  "area": "autocontrole",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina esperar a palavra combinada para pular, mesmo com vontade de pular antes.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Contem que vocês vão virar pipoca: agachados no chão, bem pequenininhos, como o milho na panela.",
+    "Você é o fogo: “A panela está esquentando… esquentando…” Ela espera agachada.",
+    "Só na palavra combinada, “Pipocou!”, todo mundo pula, abrindo os braços.",
+    "Agachem de novo e mudem o tempo de espera: às vezes rápido, às vezes bem devagar.",
+    "Depois de umas rodadas, ela é o fogo e você é a pipoca."
+  ],
+  "facil": "Espera curtinha: “Esquentando… pipocou!” Se ela pular antes, riam juntos e comecem de novo, sem bronca.",
+  "dificil": "Diga palavras parecidas para confundir: “Pipoqueiro! Pipa! Pi… pocou!” Ela só pula na palavra certa.",
+  "conversa": [
+    "Foi difícil esperar?",
+    "Como você fez para não pular antes?",
+    "Quer ser o fogo agora?"
+  ],
+  "seguranca": "Pulos no chão, em lugar livre e longe de quinas, nunca de cima de sofá ou cama. Em piso liso, descalço segura melhor que de meia. Fora de casa, só em quintal ou praça cercada. A pipoca é de mentirinha: de verdade, ela engasga criança pequena.",
+  "base": "Brincadeiras de esperar, parar e pular na hora certa, como Popcorn e Jack in the Box, estão no guia do Harvard Center para 18 a 36 meses; a nossa versão é a pipoca na panela",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

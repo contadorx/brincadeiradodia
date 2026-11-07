@@ -1,0 +1,43 @@
+{
+  "id": "palavra-nova-do-dia",
+  "nome": "Palavra nova do dia",
+  "area": "linguagem",
+  "ordem": 6,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua",
+    "carro"
+  ],
+  "serve": "Treina ouvir e usar palavras novas, mais caprichadas, nas conversas do dia.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "De manhã, escolha uma palavra nova e caprichada: enorme, minúsculo, exausto, delicioso, gelado, cuidadoso.",
+    "Explique com um exemplo: “Exausto é muito, muito cansado. Depois de correr muito, fico exausto.”",
+    "Combinem: durante o dia, quem ouvir a palavra levanta a mão ou dá uma piscada.",
+    "Use a palavra algumas vezes, em situações de verdade: “Que almoço delicioso!”",
+    "À noite, perguntem: “Qual foi a palavra de hoje? Quando você usou?”"
+  ],
+  "facil": "Uma palavra fácil de mostrar com o corpo, como enorme (braços abertos) ou minúsculo (dedinhos quase juntos).",
+  "dificil": "Ela escolhe a palavra do dia seguinte. Ou vocês procuram palavras parecidas: enorme, gigante, imenso.",
+  "conversa": [
+    "O que quer dizer essa palavra?",
+    "Quando você usou hoje?",
+    "Qual vai ser a de amanhã?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "O CDC sugere aos 4 anos falar com a criança em frases completas e com palavras de adulto, para ajudar a fala e, depois, a leitura; a palavra do dia é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

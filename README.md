@@ -113,9 +113,11 @@ afiliado ou venda exigem plano pago.
 1. Copie um arquivo de `content/brincadeiras/` e mude o nome do arquivo e o `id` (iguais, só minúsculas e hífen).
 2. Campos:
    - `area`: `explorar`, `linguagem`, `autocontrole`, `raciocinio`, `corpo`, `fazdeconta` ou `musica`. Cada área é um dia da semana.
-   - `ordem`: posição no rodízio da área (1 a 4). Semana 1 usa a de ordem 1, semana 2 a de ordem 2, e assim por diante.
+   - `ordem`: posição no rodízio da área (hoje, 1 a 6 em toda área e faixa). Semana 1 usa a de ordem 1, semana 2 a de
+     ordem 2, e assim por diante; com 6 por área, cada brincadeira volta a cada 6 semanas.
      Quando o rodízio dá a volta, a brincadeira volta igual: o nível nunca muda sozinho, a família escolhe
-     "Mais fácil", "Original" ou "Mais difícil". Não pode repetir ordem na mesma área e faixa.
+     "Mais fácil", "Original" ou "Mais difícil". Não pode repetir ordem na mesma área e faixa. Ao acrescentar
+     brincadeiras, mantenha o mesmo número em todas as áreas de uma faixa, para o rodízio andar junto.
    - `minutos`: tempo estimado de brincadeira (a família para quando a criança quiser).
    - `preparo` (opcional): preparo, limpeza ou observação em outros dias que não cabem nos minutos, até 160
      letras. Ex.: `"10 minutos para montar; depois, uma olhada por dia"`. Aparece na ficha, em "Você vai precisar".
@@ -175,7 +177,7 @@ afiliado ou venda exigem plano pago.
   sozinha o aviso `AVISO_1_2` (em `lib/esquema.ts`), na ficha e antes de começar.
 - **Doação de revisão:** com `contato` preenchido e `revisao.convidar: true` em `config/site.ts`, cada ficha
   sem revisão convida profissionais e leva a `/revisar/?b=<id>`, que destaca a ficha de onde a pessoa veio,
-  mostra o placar (quantas das 140 já foram revisadas) e os lotes, e abre um e-mail para o `contato` já com
+  mostra o placar (quantas já foram revisadas) e os lotes, e abre um e-mail para o `contato` já com
   o modelo de resposta. Os lotes estão em `lib/revisao.ts` e em `docs/revisoes.md`, com os e-mails de
   convite: se mudar um, mude o outro. Com `convidar: false`, o convite e a página somem.
   Quando alguém revisar:

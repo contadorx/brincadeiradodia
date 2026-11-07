@@ -1,0 +1,47 @@
+{
+  "id": "ajudante-da-mesa",
+  "nome": "Ajudante da mesa",
+  "area": "autocontrole",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina atender um pedido simples, levar algo até o lugar certo e terminar a tarefa.",
+  "materiais": [
+    "Coisas inquebráveis e leves da refeição: copo de plástico, guardanapo de pano, colher de plástico"
+  ],
+  "etiquetas": [],
+  "passos": [
+    "Antes de uma refeição, chame: “Vamos arrumar a mesa? Preciso de ajuda!”",
+    "Entregue uma coisa de cada vez: “Leva o copo para a mesa?”",
+    "Vá junto, ou espere do lado da mesa para receber: “Obrigado! Você trouxe o copo!”",
+    "Peça a próxima: o guardanapo, a colher. Uma de cada vez.",
+    "No fim, mostre a mesa pronta: “Olha o que a gente fez!”"
+  ],
+  "facil": "Uma coisa só, num caminho curto, com você do lado. Se ela ainda não anda, ela segura o guardanapo e entrega na sua mão quando você pedir.",
+  "dificil": "Dois pedidos de uma vez: “Leva o copo e depois o guardanapo.” Ou peça um copo para cada pessoa da casa.",
+  "conversa": [
+    "O que falta na mesa?",
+    "De quem é esse copo?",
+    "Você ajudou! Estava pesado?"
+  ],
+  "seguranca": "Só coisas inquebráveis e leves: nada de vidro, louça, faca, garfo de ponta ou comida quente. Ela anda devagar, sem correr com nada na mão, e não sobe em cadeira para alcançar a mesa. Toalha de mesa pendurada pode ser puxada: tire ou prenda.",
+  "base": "O CDC sugere aos 2 anos deixar a criança ajudar a preparar a refeição levando copos de plástico e guardanapos, e aos 15 meses envolvê-la em tarefas simples da casa",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

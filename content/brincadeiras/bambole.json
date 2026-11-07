@@ -1,0 +1,46 @@
+{
+  "id": "bambole",
+  "nome": "Bambolê",
+  "area": "corpo",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina coordenar o corpo no ritmo, pular para dentro e para fora e tentar de novo.",
+  "materiais": [
+    "Um bambolê"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Ponham o bambolê no chão: ela pula para dentro e para fora, com os pés juntos.",
+    "Agora rolem o bambolê de um para o outro, como uma roda.",
+    "Girar no braço: o bambolê no braço esticado, fazendo círculos.",
+    "Girar na cintura: ela empurra o bambolê com as mãos e mexe a cintura para a frente e para trás, não em círculo.",
+    "Comemorem cada volta: “Uma! Duas!” Cair faz parte."
+  ],
+  "facil": "Fiquem nos pulos para dentro e para fora e no bambolê rolando. A cintura fica para outro dia.",
+  "dificil": "Bambolê de pular corda: girar para a frente e pular por cima. Ou contar quantas voltas na cintura sem cair.",
+  "conversa": [
+    "Quantas voltas você deu?",
+    "Qual jeito foi mais difícil?",
+    "Que truque novo a gente inventa?"
+  ],
+  "seguranca": "Espaço livre, longe de quinas, móveis e objetos que quebram. Bambolê inteiro, sem rachadura e sem enfeite solto. Fora de casa, só em quintal ou praça cercada; no sol, boné e água.",
+  "base": "O Guia de Atividade Física do Ministério da Saúde recomenda brincadeiras com girar, pular e arremessar para crianças até 5 anos; o bambolê é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

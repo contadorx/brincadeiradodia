@@ -1,0 +1,50 @@
+{
+  "id": "passeio-do-carrinho",
+  "nome": "Passeio do carrinho",
+  "area": "fazdeconta",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina usar um brinquedo como se fosse de verdade e imitar o que vê no dia a dia.",
+  "materiais": [
+    "Um carrinho grande ou um caminhão de brinquedo",
+    "Um bichinho de pelúcia para ser o passageiro"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre o carrinho fazendo o que um carro faz: “Vrum! Lá vai o carro!”",
+    "Pare: “Bi-bi! Parou!” e ande de novo: “Vrum!”",
+    "Ponha o bichinho como passageiro: “O urso vai passear de carro!”",
+    "Passe o carrinho para ela e espere: ela pode empurrar, fazer o som ou levar até você.",
+    "Combinem um lugar de chegada, como a almofada: “Chegou na casa da vovó!”"
+  ],
+  "facil": "Só empurrar e fazer “Vrum”, um carrinho para cada um. Se ela ainda não engatinha, empurre devagar perto das mãos dela para ela pegar.",
+  "dificil": "O carro vai a vários lugares, um de cada vez: “Agora ele vai ao mercado… agora vai dormir na garagem, embaixo da cadeira.” Ou troquem de brinquedo: o cavalo galopa, o boneco é ninado.",
+  "conversa": [
+    "Para onde o carro vai?",
+    "Quem vai passear?",
+    "O carro parou! E agora?"
+  ],
+  "seguranca": "Carrinho grande e inteiro, sem rodinhas soltas, pecinhas ou pilha à mostra; confira antes e depois. Brinquem no chão, longe de escada.",
+  "base": "O guia do Harvard Center para 6 a 18 meses sugere mostrar o brinquedo fazendo o que a coisa de verdade faz, como o cavalo que galopa, e o CDC sugere aos 18 meses empurrar carrinhos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    }
+  ],
+  "revisao": null
+}

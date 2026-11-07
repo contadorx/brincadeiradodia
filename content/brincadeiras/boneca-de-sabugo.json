@@ -1,0 +1,50 @@
+{
+  "id": "boneca-de-sabugo",
+  "nome": "Boneca de sabugo",
+  "area": "fazdeconta",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 20,
+  "preparo": "Secar o sabugo do milho cozido por 3 a 5 dias, num lugar arejado e com sol",
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina criar um brinquedo com as próprias mãos e inventar a vida dele no faz de conta.",
+  "materiais": [
+    "Um sabugo de milho limpo e seco",
+    "Retalhos de pano para a roupa",
+    "Lã ou barbante para o cabelo",
+    "Cola branca e canetinha"
+  ],
+  "etiquetas": [
+    "brinquedos",
+    "papel"
+  ],
+  "passos": [
+    "Depois de comer milho cozido, guardem o sabugo e deixem secar no sol por alguns dias.",
+    "A criança desenha o rosto com canetinha na parte de cima do sabugo.",
+    "Colem a lã como cabelo. Amarrem um retalho como saia ou capa, e outro como braços.",
+    "Ela dá um nome à boneca e conta quem ela é: onde mora, do que gosta.",
+    "Brinquem com a boneca: ela pode ir à feira, à escola ou ganhar uma casa de caixa."
+  ],
+  "facil": "Você monta e ela escolhe as cores do pano e desenha o rosto.",
+  "dificil": "Façam uma família de bonecos com sabugos de tamanhos diferentes. Ou ela inventa uma história para eles e apresenta.",
+  "conversa": [
+    "Qual é o nome dela?",
+    "O que ela gosta de fazer?",
+    "Quem são os amigos dela?"
+  ],
+  "seguranca": "Sabugo bem seco: se aparecer mofo, vai para o lixo. Lã e barbante longe do pescoço e de irmãos pequenos. Cola branca com selo do Inmetro; cola e pedacinhos de pano não vão à boca. Tesoura sem ponta, com o adulto do lado.",
+  "base": "Bonecas de sabugo de milho, com lã no cabelo e retalhos na roupa, estão no guia de culturas populares do Ministério da Cidadania; lá, para 2 a 3 anos; aqui, feitas pela criança",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

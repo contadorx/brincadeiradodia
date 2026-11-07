@@ -1,0 +1,41 @@
+{
+  "id": "vem-andando",
+  "nome": "Vem andando!",
+  "area": "corpo",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina dar passos com equilíbrio, de mãos dadas ou sozinha, até um lugar combinado.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Abra um caminho livre no chão, sem tapete que escorrega.",
+    "Segure as duas mãos dela, de frente, e deem passos juntos: “Um passo, outro passo!”",
+    "Quando ela estiver firme, segure uma mão só.",
+    "Depois, ela fica de pé apoiada no sofá e você se ajoelha a dois ou três passos: “Vem!” Abra os braços para receber.",
+    "Comemore cada chegada, mesmo com tombo no caminho, e aumente a distância aos pouquinhos."
+  ],
+  "facil": "Se ela ainda não fica de pé, faça o mesmo engatinhando: você um pouco à frente, chamando com um brinquedo. Se fica de pé com apoio, deixe ela andar de lado ao longo do sofá.",
+  "dificil": "Se ela já anda sozinha: andar carregando uma bola com as duas mãos, andar para trás devagar, ou ir até a porta, dar a volta e voltar.",
+  "conversa": [
+    "Vem! Mais um passo!",
+    "Chegou! Quer de novo?",
+    "Vamos andar até a porta?"
+  ],
+  "seguranca": "Caminho livre, longe de quinas, escadas e portas de vidro. Em piso liso, descalço segura melhor que de meia. Nada de andador: não é recomendado. Ninguém sobe em nada; se ela cair sentada, deixe ela tentar de novo.",
+  "base": "O CDC sugere para 1 ano incentivar a criança a andar sozinha, segurando as mãos dela ou um móvel firme, e não recomenda o andador",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    }
+  ],
+  "revisao": null
+}

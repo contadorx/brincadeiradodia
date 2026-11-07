@@ -1,0 +1,41 @@
+{
+  "id": "cavalinho-no-joelho",
+  "nome": "Cavalinho no joelho",
+  "area": "musica",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina acompanhar o ritmo de uma rima e esperar a surpresa do final.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Sente no chão, com as costas apoiadas e as pernas juntas. A criança senta nos seus joelhos, de frente para você, e você segura firme pelo tronco.",
+    "Balance os joelhos devagar, no ritmo de uma rima inventada: “Lá vai o cavalinho, trotando devagar…”",
+    "No fim, avise com a voz: “…e pulou o buraco!” e afaste um pouco os joelhos, descendo ela devagar, sem soltar.",
+    "Suba ela de volta e repita a mesma rima, do mesmo jeito: ela vai começar a esperar o final.",
+    "Depois de algumas vezes, faça uma pausa antes do “buraco” e veja se ela já espera, rindo ou se segurando."
+  ],
+  "facil": "Só o balanço suave, sem a descida do final. Se ela não gostar do colo, balancem sentados lado a lado, de mãos dadas.",
+  "dificil": "Mude a velocidade da rima: devagar, a passo; depressa, a galope; e pare de repente. Ela segura firme e espera o “buraco” sem se jogar antes.",
+  "conversa": [
+    "Vamos de novo?",
+    "Devagar ou galopando?",
+    "Para onde o cavalinho vai?"
+  ],
+  "seguranca": "Segure firme pelo tronco o tempo todo, nunca pelos braços. Balanço suave: nada de sacudir, jogar para o alto ou deixar a cabeça dela balançar. Não brinque logo depois de ela comer. Pare se ela não gostar ou ficar com medo.",
+  "base": "Rimas de colo com balanço e uma surpresa no final, como Trot, Trot to Boston, estão no guia do Harvard Center para 6 a 18 meses: o bebê aprende o padrão e espera a hora certa",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 6- to 18-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-6-to-18-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

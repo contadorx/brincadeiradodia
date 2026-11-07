@@ -1,0 +1,50 @@
+{
+  "id": "ensaio-do-lugar-novo",
+  "nome": "Ensaio do lugar novo",
+  "area": "fazdeconta",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina imaginar uma situação nova antes de ela acontecer e conversar sobre o que sente.",
+  "materiais": [
+    "Bonecos ou bichos de pelúcia",
+    "Objetos da casa que lembrem o lugar: um pente para o salão, uma colher para o dentista, uma mochila para a escola"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Escolha um lugar novo que vem por aí: escola, dentista, cabeleireiro, uma viagem de ônibus.",
+    "Conte como vai ser, de verdade e sem promessas: “Lá tem uma cadeira que sobe, e a dentista olha os dentes com um espelhinho.”",
+    "Brinquem a cena com os bonecos: um é a criança, outro é quem atende. Ela escolhe o papel dela.",
+    "Incluam as partes difíceis, como esperar e se despedir, e o que ajuda: segurar o bicho, respirar fundo.",
+    "No fim, pergunte o que ela achou e se quer ensaiar de novo outro dia."
+  ],
+  "facil": "Só uma parte curta, como chegar e dar oi, com você fazendo os dois bonecos.",
+  "dificil": "Troquem: ela é quem atende e o boneco fica com medo. O que ela diz para ajudar? Depois do dia de verdade, brinquem de novo contando como foi.",
+  "conversa": [
+    "O que você acha que vai ter lá?",
+    "O que pode ajudar se der medo?",
+    "Quem vai com você?"
+  ],
+  "seguranca": "Objetos sem ponta e de brinquedo: nada de tesoura, agulha, remédio ou escova elétrica.",
+  "base": "O CDC sugere aos 3 e aos 4 anos preparar a criança para lugares e pessoas novas com histórias ou com faz de conta",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 3 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    }
+  ],
+  "revisao": null
+}

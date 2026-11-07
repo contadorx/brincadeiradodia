@@ -1,0 +1,52 @@
+{
+  "id": "viagem-de-aviao",
+  "nome": "Viagem de avião",
+  "area": "fazdeconta",
+  "ordem": 6,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina planejar uma cena, assumir um papel com regras e seguir os passos de uma viagem.",
+  "materiais": [
+    "Cadeiras em fila, como os assentos do avião",
+    "Papel e lápis para fazer as passagens",
+    "Uma mala ou mochila"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Planejem a viagem: para onde o avião vai? Quem é piloto, comissário e passageiro?",
+    "A criança faz as passagens, desenhando o lugar de destino e o número da cadeira.",
+    "Embarque: o comissário confere as passagens e leva cada passageiro até a sua cadeira.",
+    "O piloto avisa: “Apertem os cintos! Vamos decolar!” Façam o barulho do avião e a viagem.",
+    "Na chegada, contem o que tem no lugar de destino. Na volta, troquem de papel."
+  ],
+  "facil": "Ela é passageira e você faz todo o resto: piloto e comissário. A viagem é curtinha, só decolar e pousar.",
+  "dificil": "Algo acontece no caminho: turbulência, um passageiro com fome, chuva no destino. O piloto e o comissário resolvem.",
+  "conversa": [
+    "Para onde vamos hoje?",
+    "O que tem na sua mala?",
+    "O que o piloto faz?"
+  ],
+  "seguranca": "Cadeiras firmes, no chão: ninguém fica em pé em cima delas. Se tiver lanche de verdade na viagem, só o que a criança já come e tolera, sentada e com você junto.",
+  "base": "O CDC sugere aos 4 anos dar objetos que estimulam a imaginação e entrar no faz de conta, e o guia do Harvard Center sugere planejar os papéis antes de brincar",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

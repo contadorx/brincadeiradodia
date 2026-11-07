@@ -1,0 +1,45 @@
+{
+  "id": "dia-e-noite-trocados",
+  "nome": "Dia e noite trocados",
+  "area": "autocontrole",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina segurar a vontade de dizer o óbvio e responder o contrário, prestando atenção.",
+  "materiais": [
+    "Dois cartões de papel: um com o sol desenhado e outro com a lua"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Desenhem juntos o sol num cartão e a lua no outro.",
+    "Primeiro, do jeito normal: você mostra o sol e ela diz “Dia!”; mostra a lua e ela diz “Noite!”",
+    "Agora o jogo trocado: no sol, ela diz “Noite!”; na lua, ela diz “Dia!”",
+    "Mostre devagar, um de cada vez, misturando a ordem. Se ela errar, riam juntos e continuem.",
+    "Troquem: ela mostra os cartões e você responde trocado. Erre de vez em quando para ela pegar."
+  ],
+  "facil": "Fiquem no jogo normal, ou façam o trocado com gestos em vez de palavras: no sol, ela fecha os olhos como quem dorme; na lua, abre os braços como quem acorda.",
+  "dificil": "Mais rápido, ou com outros pares: gato e cachorro (ela faz o som do outro), quente e frio. Quando estiver fácil, troquem a regra no meio.",
+  "conversa": [
+    "O que foi mais difícil?",
+    "Como você fez para não errar?",
+    "Que outro par a gente troca?"
+  ],
+  "seguranca": null,
+  "base": "O bingo do contrário, em que a criança marca o oposto do que ouviu, como a figura da noite quando dizem “dia”, está no guia do Harvard Center para 3 a 5 anos; aqui, com dois cartões",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

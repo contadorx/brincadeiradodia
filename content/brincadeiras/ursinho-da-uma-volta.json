@@ -1,0 +1,42 @@
+{
+  "id": "ursinho-da-uma-volta",
+  "nome": "Ursinho, dá uma volta",
+  "area": "musica",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina ouvir o pedido da música e fazer o gesto certo na hora certa.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Fiquem de pé, de frente. Conte que ela é o ursinho e a música vai dizer o que ele faz.",
+    "Cante devagar, numa melodia qualquer: “Ursinho, ursinho, dá uma voltinha!” Ela gira.",
+    "Siga com outros pedidos: “…toca no chão!”, “…pula bem alto!”, “…faz um carinho!”",
+    "Termine sempre igual: “Ursinho, ursinho, vai dormir!” e deitem no chão, de olhos fechados.",
+    "Na próxima vez, ela canta e você faz."
+  ],
+  "facil": "Dois pedidos só, que você faz junto: girar e tocar no chão.",
+  "dificil": "Pedidos mais rápidos, e você para de fazer junto. Ou ela inventa um pedido novo para a música.",
+  "conversa": [
+    "O que o ursinho faz agora?",
+    "Que pedido você inventa?",
+    "Onde o ursinho vai dormir?"
+  ],
+  "seguranca": "Espaço livre, longe de quinas e móveis. Girar devagar e poucas vezes: se ficar tonta, senta. Em piso liso, descalço segura melhor que de meia.",
+  "base": "Músicas com muitos gestos para seguir, como Teddy Bear e Cabeça, ombro, joelho e pé, estão no guia do Harvard Center para 18 a 36 meses; esta é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

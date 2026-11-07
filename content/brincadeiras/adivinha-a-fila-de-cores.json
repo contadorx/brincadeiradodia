@@ -1,0 +1,46 @@
+{
+  "id": "adivinha-a-fila-de-cores",
+  "nome": "Adivinha a fila de cores",
+  "area": "raciocinio",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina testar palpites, usar as pistas da rodada anterior e mudar de estratégia.",
+  "materiais": [
+    "Tampinhas ou blocos de 3 cores, um de cada cor para cada jogador",
+    "Um pano ou uma caixa para esconder a fila"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Escondido atrás do pano, você monta uma fila secreta com as 3 cores, como azul, vermelho, amarelo.",
+    "A criança monta a fila dela, tentando adivinhar a sua.",
+    "Dê a pista: “Uma está no lugar certo.” Sem dizer qual.",
+    "Ela troca as cores de lugar e tenta de novo. Contem as tentativas.",
+    "Quando acertar, levante o pano e comparem. Depois, ela esconde e você adivinha."
+  ],
+  "facil": "Fila de 2 cores, e a pista mostra qual está certa: você aponta.",
+  "dificil": "Fila de 4 cores, ou com uma cor que pode se repetir. Anotem as tentativas num papel para lembrar o que já testaram.",
+  "conversa": [
+    "Qual pista te ajudou?",
+    "O que você mudou de uma vez para a outra?",
+    "Quantas tentativas foram?"
+  ],
+  "seguranca": "Tampinhas e blocos pequenos: só para quem já não põe coisas na boca, e guardados longe de irmãos menores de 3 anos.",
+  "base": "Jogos de lógica como o Mastermind, que tem versão mais simples para crianças pequenas, estão no guia de funções executivas do Harvard Center para 5 a 7 anos; esta é uma versão caseira",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

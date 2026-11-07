@@ -1,0 +1,46 @@
+{
+  "id": "levanta-a-aba",
+  "nome": "Levanta a aba",
+  "area": "linguagem",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina olhar o livro junto, esperar a surpresa e ouvir o nome do que estava escondido.",
+  "materiais": [
+    "Um livro de abas para levantar, ou de texturas para tocar, de papelão grosso",
+    "Sem livro de abas: um paninho para cobrir as figuras de um livro qualquer"
+  ],
+  "etiquetas": [
+    "livro"
+  ],
+  "passos": [
+    "Sentem juntos, com o livro na frente dos dois. Deixe ela virar as páginas do jeito dela.",
+    "Antes de levantar uma aba, pergunte baixinho: “O que será que tem aqui?”",
+    "Levante devagar, ou deixe ela levantar: “Um gato! Miau!”",
+    "Espere ela apontar, olhar para você ou fazer um som, e responda com o nome: “É o gato.”",
+    "Voltem às abas de que ela mais gostou. Repetir o mesmo livro faz parte."
+  ],
+  "facil": "Você levanta as abas e ela só olha e toca. Sem livro de abas, cubra uma figura com o paninho e tire: “Achou o cachorro!”",
+  "dificil": "Pergunte “Cadê o gato?” e espere ela procurar a aba certa, nas páginas que já conhece. Ou, antes de levantar, ela tenta adivinhar com um gesto ou um som o que está escondido.",
+  "conversa": [
+    "O que tem embaixo?",
+    "Achou! Quem é esse?",
+    "Como faz o gato?"
+  ],
+  "seguranca": "Livro de papelão grosso e inteiro: se uma aba soltar, guarde o pedaço. O paninho é só para cobrir a figura, nunca o rosto da criança.",
+  "base": "Ler com o bebê descrevendo as figuras, com livros de texturas ou de abas para levantar, é dica do CDC para 1 ano",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento a 1 ano (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+    }
+  ],
+  "revisao": null
+}

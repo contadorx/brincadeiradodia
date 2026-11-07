@@ -1,0 +1,42 @@
+{
+  "id": "trem-devagar-trem-depressa",
+  "nome": "Trem devagar, trem depressa",
+  "area": "autocontrole",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina mudar o jeito de andar quando a voz muda: devagar, depressa e parado.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Façam um trem: você na frente e a criança atrás, segurando a sua blusa ou a sua mão.",
+    "Você é o maquinista e avisa cantando: “O trem vai devagar… devagarinho…” e andam bem devagar.",
+    "Mude: “Agora vai depressa!” e andam mais rápido, sem correr.",
+    "De vez em quando: “Chegou na estação!” e o trem para, todo mundo parado.",
+    "Troquem: ela vira o maquinista e você segue o que ela mandar."
+  ],
+  "facil": "Só devagar e parar, com você dizendo e fazendo junto, de mãos dadas.",
+  "dificil": "Inclua o trem que apita parado, “Piuí!”, e o trem que anda para trás, bem devagar. Ou o sinal muda sem palavra: braço para cima, para; braço girando, anda.",
+  "conversa": [
+    "Para onde vai o trem?",
+    "Qual é a próxima estação?",
+    "Quer ser o maquinista?"
+  ],
+  "seguranca": "Caminho livre, sem tapete que escorrega e longe de quinas e escada. Depressa é passo rápido, sem correr. Fora de casa, só em quintal ou praça cercada.",
+  "base": "Músicas que mandam começar, parar e mudar de velocidade, como Motorboat, estão no guia do Harvard Center para 18 a 36 meses; aqui, com um trem",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qual-e-a-regra",
+  "nome": "Qual é a regra?",
+  "area": "raciocinio",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina observar o que é igual, dar palpites e testar até descobrir uma regra secreta.",
+  "materiais": [
+    "10 a 15 objetos de cores, tamanhos e formas diferentes: blocos, tampas de pote, brinquedos"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Pense numa regra secreta, sem contar: por exemplo, “só coisas azuis” ou “só coisas redondas”.",
+    "Ponha num lado da mesa dois objetos que seguem a regra e, no outro, dois que não seguem.",
+    "A criança pega um objeto e pergunta: “Esse entra?” Você diz sim ou não e ela põe no lado certo.",
+    "Quando achar que sabe, ela diz a regra. Acertou? Comemore. Errou? Continuem testando.",
+    "Troquem: ela pensa a regra e você adivinha."
+  ],
+  "facil": "Regras fáceis de ver, como a cor, com objetos de duas cores só.",
+  "dificil": "Regras de duas partes: “azuis e grandes”. Ou regras que não são de aparência: “coisas da cozinha”, “coisas que rolam”.",
+  "conversa": [
+    "Como você descobriu?",
+    "Qual objeto te enganou?",
+    "Que regra difícil você inventa?"
+  ],
+  "seguranca": "Objetos inteiros e sem ponta. Peças pequenas, longe de irmãos menores de 3 anos.",
+  "base": "Jogos de adivinhação como Guess My Rule, muitas vezes com blocos de cores, tamanhos e formas, estão no guia de funções executivas do Harvard Center para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

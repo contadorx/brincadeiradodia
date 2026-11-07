@@ -1,0 +1,42 @@
+{
+  "id": "eco-da-musica",
+  "nome": "Eco da música",
+  "area": "musica",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina ouvir com atenção e repetir igual: as mesmas palavras, o mesmo ritmo e o mesmo jeito.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Conte o que é eco: a voz que volta igualzinha.",
+    "Cante uma frase curta e ela repete igual: “Eu fui à praia!” “Eu fui à praia!”",
+    "Mude o jeito: bem baixinho, devagar, rapidinho, com voz grossa ou fininha. Ela repete do mesmo jeito.",
+    "Inventem uma música de eco: cada frase sua tem a resposta dela.",
+    "Troquem: ela canta e você é o eco."
+  ],
+  "facil": "Frases de duas ou três palavras, sempre do mesmo jeito, com uma pausa para ela responder.",
+  "dificil": "Frases mais longas, ou o eco que muda uma coisa só: você canta alto e ela repete baixinho. Ou o eco atrasado: ela espera duas palmas antes de repetir.",
+  "conversa": [
+    "O que eu cantei por último?",
+    "Qual jeito foi mais difícil de copiar?",
+    "Que frase você vai cantar?"
+  ],
+  "seguranca": "Volume confortável: ninguém precisa gritar. No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "Músicas de chamada e resposta, em que a criança guarda o que ouviu e repete, estão no guia do Harvard Center para 5 a 7 anos; aqui, numa versão para 4 a 5",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

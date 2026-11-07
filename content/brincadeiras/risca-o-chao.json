@@ -1,0 +1,47 @@
+{
+  "id": "risca-o-chao",
+  "nome": "Risca o chão",
+  "area": "corpo",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina segurar o giz, fazer riscos de propósito e copiar linhas e bolinhas.",
+  "materiais": [
+    "Giz de calçada ou giz escolar grosso",
+    "Em casa: uma folha grande ou papel pardo preso na mesa, e giz de cera grosso"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Fora de casa, escolham um chão de cimento num quintal ou praça cercada. Em casa, prendam o papel grande na mesa.",
+    "Deixe a criança riscar livre, do jeito dela, por um tempo.",
+    "Faça uma linha reta comprida e convide: “Faz uma igual do lado?”",
+    "Depois, uma linha em pé, uma deitada e uma bolinha. Ela tenta copiar.",
+    "No fim, ela escolhe um risco para você copiar. Fora de casa, a chuva limpa; em casa, guardem o desenho."
+  ],
+  "facil": "Só riscar à vontade, com o giz na mão inteira. Você comenta o que ela faz: “Que risco comprido!”",
+  "dificil": "Desenhe dois pontos e ela liga com uma linha. Ou desenhe uma estrada com curvas para ela riscar por dentro, sem sair.",
+  "conversa": [
+    "Que cor você escolheu?",
+    "O seu risco é comprido ou curtinho?",
+    "O que mais a gente desenha?"
+  ],
+  "seguranca": "Giz com selo do Inmetro, próprio para a idade. Giz não vai à boca; lavem as mãos no fim. Fora de casa, só em quintal ou praça cercada, longe da rua e dos carros; no sol, boné e água.",
+  "base": "Deixar a criança rabiscar com giz de cera ou giz de calçada, e tentar copiar linhas e depois círculos, é dica do CDC aos 30 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}

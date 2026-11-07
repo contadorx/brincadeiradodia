@@ -1,0 +1,47 @@
+{
+  "id": "a-historia-vira-teatro",
+  "nome": "A história vira teatro",
+  "area": "fazdeconta",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina lembrar a ordem de uma história, ficar no personagem e seguir o enredo até o fim.",
+  "materiais": [
+    "Um livro de história que a criança conhece bem",
+    "Roupas, panos e objetos da casa para o figurino"
+  ],
+  "etiquetas": [
+    "livro",
+    "brinquedos"
+  ],
+  "passos": [
+    "Leiam ou contem uma história curta que ela já sabe, como Os três porquinhos.",
+    "Combinem os personagens: quem é quem? Cada um pode fazer mais de um.",
+    "Escolham um figurino simples: um pano vira capa, uma almofada vira casa.",
+    "Encenem na ordem da história. Se alguém esquecer o que vem depois, olhem o livro juntos.",
+    "No fim, agradeçam à plateia: os bichos de pelúcia sentados em fila."
+  ],
+  "facil": "Só a parte de que ela mais gosta, com você contando e ela fazendo os gestos do personagem.",
+  "dificil": "Mudem o final: “E se o lobo virasse amigo dos porquinhos?” Ou ela inventa a história e vocês encenam.",
+  "conversa": [
+    "Quem você quer ser?",
+    "O que acontece depois?",
+    "Que final a gente inventa?"
+  ],
+  "seguranca": "Nada de subir em sofá ou cadeira nas cenas. Panos e capas sem cordão no pescoço: prenda no ombro ou segure com a mão. Espaço livre, longe de quinas.",
+  "base": "Encenar histórias seguindo o enredo está no guia de funções executivas do Harvard Center para 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

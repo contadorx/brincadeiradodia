@@ -1,0 +1,49 @@
+{
+  "id": "barco-de-papel-aluminio",
+  "nome": "Barco de papel-alumínio",
+  "area": "explorar",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina construir, testar, contar e mudar o projeto quando o barco afunda.",
+  "materiais": [
+    "Papel-alumínio: um pedaço do tamanho de uma folha para cada barco",
+    "Uma bacia com um pouco de água",
+    "Tampinhas, moedas ou pregadores para a carga",
+    "Uma toalha para forrar o chão"
+  ],
+  "etiquetas": [
+    "agua",
+    "brinquedos"
+  ],
+  "passos": [
+    "Ponham a bacia sobre a toalha, com pouca água.",
+    "Cada um faz um barco dobrando as bordas do alumínio para cima, como uma caixinha.",
+    "Antes de pôr na água, ela dá um palpite: “Quantas tampinhas o barco aguenta?”",
+    "Ponham a carga uma de cada vez, contando, até o barco afundar.",
+    "Mudem o barco, mais largo ou com bordas mais altas, e testem de novo. Qual aguentou mais?"
+  ],
+  "facil": "Um barco só, feito com você, e ela põe a carga contando junto até afundar.",
+  "dificil": "Anotem num papel o palpite e o resultado de cada barco. Ou testem onde pôr a carga: toda no meio ou espalhada.",
+  "conversa": [
+    "Por que ele afundou?",
+    "Qual barco aguentou mais?",
+    "Como você faria um barco ainda mais forte?"
+  ],
+  "seguranca": "Mesmo com pouca água, o adulto fica ao alcance dos braços o tempo todo, sem olhar o celular: criança pequena pode se afogar em poucos centímetros de água. Ninguém bebe a água. Moedas e tampinhas são peças pequenas: longe de irmãos menores de 3 anos. Esvazie a bacia assim que acabar e seque o chão.",
+  "base": "Proposta nossa de construir e testar barcos, ligada ao objetivo EI03ET02 da BNCC (observar e descrever mudanças em experimentos com fenômenos naturais e artificiais)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET02"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "cada-peca-no-seu-lugar",
+  "nome": "Cada peça no seu lugar",
+  "area": "raciocinio",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina olhar a forma, testar onde a peça entra e tentar de outro jeito quando não cabe.",
+  "materiais": [
+    "Um quebra-cabeça de encaixe com 2 a 4 peças grandes, de madeira ou plástico, ou um brinquedo de encaixar formas"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Tire as peças e deixe o tabuleiro na frente da criança.",
+    "Pegue uma peça e diga o nome: “O círculo!” ou “O pato!”",
+    "Mostre devagar como ela entra no buraco certo.",
+    "Entregue uma peça para ela. Se não entrar, pergunte: “Gira um pouquinho? Tenta no outro buraco?”",
+    "Comemore cada peça que entra: “Entrou!” No fim, desmontem e comecem de novo, se ela quiser."
+  ],
+  "facil": "Tire só uma peça, a mais fácil, como o círculo, que entra de qualquer lado. Ajude girando junto com a mão dela.",
+  "dificil": "Tire todas as peças e misture. Antes de ela tentar, pergunte: “Qual é o buraco dele?” e espere ela apontar.",
+  "conversa": [
+    "Qual peça falta?",
+    "Entrou! Onde vai essa?",
+    "Gira um pouquinho, será que cabe?"
+  ],
+  "seguranca": "Peças grandes, que não passem por dentro de um rolo de papel higiênico. Confira antes e depois se os pinos estão bem presos e se nada descasca; peça que soltou pedaço vai para o lixo. Nada de quebra-cabeça de EVA ou de espuma.",
+  "base": "O CDC sugere aos 2 anos quebra-cabeças simples de formas, cores ou bichos, e o guia do Harvard Center para 18 a 36 meses sugere perguntar onde a peça pode ir quando não encaixa",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    },
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

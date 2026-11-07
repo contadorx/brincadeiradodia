@@ -1,0 +1,45 @@
+{
+  "id": "tesouro-com-pistas",
+  "nome": "Tesouro com pistas",
+  "area": "raciocinio",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina entender palavras de lugar, como em cima, embaixo, dentro, atrás e do lado, para achar um objeto.",
+  "materiais": [
+    "Um brinquedo para ser o tesouro"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "A criança fecha os olhos e você esconde o tesouro na sala, num lugar que ela alcança do chão.",
+    "Dê uma pista de lugar: “Está embaixo de uma coisa macia.”",
+    "Se ela não achar, outra pista: “Está do lado do sofá.” “Está dentro de uma caixa.”",
+    "Achou? Comemore e pergunte: “Onde ele estava?” Ela responde com a palavra de lugar.",
+    "Troquem: ela esconde e dá as pistas para você."
+  ],
+  "facil": "Esconda com uma parte aparecendo e use uma pista só, apontando junto: “Está embaixo da almofada.”",
+  "dificil": "Duas pistas juntas: “Está atrás de uma coisa azul e embaixo de uma coisa macia.” Ou ela dá as pistas só com palavras, sem apontar.",
+  "conversa": [
+    "Onde ele estava escondido?",
+    "O que fica em cima da mesa?",
+    "Qual pista ajudou mais?"
+  ],
+  "seguranca": "Esconda só em lugares que ela alcança do chão: nada de subir em móvel nem mexer em gaveta de remédio ou produto de limpeza, tomada ou fogão. Ninguém se esconde dentro de armário ou baú.",
+  "base": "Proposta nossa de caça ao tesouro com palavras de lugar, ligada ao objetivo EI02ET04 da BNCC (identificar relações espaciais, como dentro e fora, em cima, embaixo e do lado)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET04 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET04"
+    }
+  ],
+  "revisao": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "so-se-o-mestre-mandar",
+  "nome": "Só se o mestre mandar",
+  "area": "autocontrole",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina prestar atenção na regra e não fazer o pedido que veio sem “o mestre mandou”.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Combine a regra: só vale fazer quando o pedido começa com “O mestre mandou”.",
+    "Comece devagar: “O mestre mandou pôr a mão na cabeça!” Ela faz.",
+    "De vez em quando, faça o pedido sem a frase: “Pula!” Ela fica parada.",
+    "Se ela fizer sem o mestre mandar, riam juntos e continuem: ninguém sai do jogo.",
+    "Troquem: ela é o mestre e tenta pegar você."
+  ],
+  "facil": "Pedidos lentos e quase sempre com “O mestre mandou”. Faça junto com ela no começo.",
+  "dificil": "Pedidos mais rápidos e mais pegadinhas. Ou o mestre faz um gesto diferente do que fala: diz “mão na cabeça” e põe a mão no ombro. Ela segue a fala.",
+  "conversa": [
+    "Qual pedido quase te pegou?",
+    "Como você fez para não cair na pegadinha?",
+    "O que você vai mandar quando for o mestre?"
+  ],
+  "seguranca": "O mestre só pede coisas seguras e combinadas: nada de subir em móvel, buscar coisas perigosas ou tocar o corpo de alguém. Espaço livre, longe de quinas. Fora de casa, só em quintal ou praça cercada.",
+  "base": "O CDC sugere aos 5 anos jogos com regras, como o Simon Says, que aqui virou Só se o mestre mandar, e o guia do Harvard Center traz variações dele para 5 a 7 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    },
+    {
+      "titulo": "Enhancing and Practicing Executive Function Skills with Children from Infancy to Adolescence (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Enhancing-and-Practicing-Executive-Function-Skills-with-Children-from-Infancy-to-Adolescence-1.pdf"
+    }
+  ],
+  "revisao": null
+}

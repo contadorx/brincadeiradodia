@@ -1,0 +1,45 @@
+{
+  "id": "conversa-com-o-bichinho",
+  "nome": "Conversa com o bichinho",
+  "area": "fazdeconta",
+  "ordem": 5,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina conversar de mentirinha, esperar a vez e copiar o que o bichinho faz.",
+  "materiais": [
+    "Um ou dois bichos de pelúcia ou bonecos que a criança conhece"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Pegue um bichinho e faça ele falar com uma voz engraçada: “Oi! Eu sou o urso. Tudo bem?”",
+    "Espere a resposta: um som, um sorriso, um gesto. O urso responde: “Que bom te ver!”",
+    "O urso faz coisas que ela conhece: espirra, dá tchau, pede um abraço, come de mentirinha.",
+    "Dê outro bichinho para ela: “O seu bichinho quer conversar com o meu?”",
+    "Deixe ela inventar. Você só acompanha, com o seu bicho respondendo."
+  ],
+  "facil": "Só o urso fala e faz gestos simples, como dar tchau e mandar beijo, e ela copia. Se ela ainda não fala, o urso faz perguntas de olhar e apontar: “Cadê o seu pé?”",
+  "dificil": "Os bichos têm um problema: o urso caiu e está triste. O que a gente faz? Ela pode dar um abraço, um curativo de mentira ou um paninho.",
+  "conversa": [
+    "O que o urso disse?",
+    "O seu bichinho está com fome?",
+    "Ele quer brincar de quê?"
+  ],
+  "seguranca": "Bichos de pelúcia sem olhos, botões, laços ou enfeites que soltem; confira as costuras antes.",
+  "base": "Usar um bicho de pelúcia para “conversar” com a criança e ver se ela copia ou começa a conversa com outro brinquedo é dica do CDC aos 15 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

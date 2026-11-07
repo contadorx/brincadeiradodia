@@ -1,0 +1,42 @@
+{
+  "id": "palmas-das-silabas",
+  "nome": "Palmas das sílabas",
+  "area": "linguagem",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina ouvir as partes das palavras, bater uma palma para cada sílaba e comparar palavras curtas e compridas.",
+  "materiais": [],
+  "etiquetas": [],
+  "passos": [
+    "Comece pelo nome dela: “A-na” são duas palmas; “Ga-bri-e-la”, quatro.",
+    "Bata uma palma para cada pedaço, falando devagar. Ela repete junto.",
+    "Agora palavras da casa: “mesa”, “sofá”, “geladeira”. Quantas palmas tem cada uma?",
+    "Comparem: qual palavra é mais comprida? Qual tem uma palma só, como “pão” e “sol”?",
+    "Troquem: ela escolhe a palavra e você bate as palmas, errando às vezes para ela corrigir."
+  ],
+  "facil": "Só nomes das pessoas da família, devagar, com você batendo as palmas junto.",
+  "dificil": "Desenhem uma trilha de 10 casas: na sua vez, cada um diz o nome de uma fruta e anda uma casa por sílaba. Ou tirem uma sílaba: “sapato” sem o “sa”?",
+  "conversa": [
+    "Qual nome tem mais palmas?",
+    "Que palavra tem uma palma só?",
+    "Qual é a palavra mais comprida que você conhece?"
+  ],
+  "seguranca": "No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos. No carro, quem dirige não bate palma.",
+  "base": "Inspirada no jogo de bater uma palma por sílaba, parte de um treino estudado com crianças de 1º ano, de uns 7 anos, em Marília, SP (Capovilla e Capovilla, 2000). Ficha não testada",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Efeitos do treino de consciência fonológica em crianças com baixo nível sócio-econômico (Capovilla e Capovilla, 2000)",
+      "url": "https://doi.org/10.1590/S0102-79722000000100003"
+    }
+  ],
+  "revisao": null
+}

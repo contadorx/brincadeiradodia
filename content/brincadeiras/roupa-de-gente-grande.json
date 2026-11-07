@@ -1,0 +1,45 @@
+{
+  "id": "roupa-de-gente-grande",
+  "nome": "Roupa de gente grande",
+  "area": "fazdeconta",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina fingir ser outra pessoa e imitar o que os adultos fazem no dia a dia.",
+  "materiais": [
+    "Roupas e acessórios de adulto que podem amassar: camisa, chapéu, bolsa, lenço, tênis ou sapato baixo"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Juntem as roupas numa caixa ou numa cadeira.",
+    "A criança escolhe o que vestir. Ajude com as mangas e os botões.",
+    "Pergunte: “Quem você é hoje? Para onde vai?”",
+    "Brinquem a cena que ela escolher: ir trabalhar, ir à feira, ir ao médico. Você pode ser quem atende.",
+    "No fim, ela tira as roupas e ajuda a guardar."
+  ],
+  "facil": "Uma peça só, como o chapéu ou a bolsa, e você diz quem ela parece: “Uma moça indo para o trabalho!”",
+  "dificil": "Ela se veste de alguém da família, como a avó, e imita o jeito dela: como fala, o que faz, para onde vai. Ou cada um se veste de alguém e vocês se encontram na rua de mentirinha.",
+  "conversa": [
+    "Quem você é hoje?",
+    "Aonde você vai com essa bolsa?",
+    "O que essa pessoa faz no trabalho?"
+  ],
+  "seguranca": "Sapato de adulto, só tênis ou sapato baixo, e só no chão livre, sem escada; nada de salto alto ou roupa comprida que arrasta. Nada de colar, cinto, cordão ou lenço enrolado no pescoço. Óculos de verdade e bijuteria pequena ficam guardados.",
+  "base": "Deixar a criança se fantasiar com roupas de adulto, como sapatos, chapéus e camisas, é dica do CDC aos 2 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 2 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+    }
+  ],
+  "revisao": null
+}

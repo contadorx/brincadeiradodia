@@ -1,0 +1,45 @@
+{
+  "id": "ponte-estreita",
+  "nome": "Ponte estreita",
+  "area": "corpo",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina andar devagar sobre um caminho estreito, se equilibrando, sem pressa.",
+  "materiais": [
+    "Uma tábua larga deitada no chão, ou duas linhas de fita crepe a um palmo uma da outra"
+  ],
+  "etiquetas": [
+    "fita"
+  ],
+  "passos": [
+    "Monte a ponte no chão: a tábua deitada, que não balança, ou as duas linhas de fita.",
+    "Conte a história: “É uma ponte por cima do rio. Vamos atravessar sem cair na água?”",
+    "Passe primeiro, devagar, com os braços abertos como asas.",
+    "Ela atravessa, segurando a sua mão se quiser. Comemore a chegada: “Atravessou!”",
+    "Repitam de outros jeitos: de lado, devagarinho, levando um bicho de pelúcia."
+  ],
+  "facil": "Ponte bem larga, de dois palmos, e você de mãos dadas o tempo todo. Se ela sair da ponte, tudo bem: volta e continua.",
+  "dificil": "Ponte mais estreita, de meio palmo. Ou parar no meio, num pé só por um segundo, e continuar.",
+  "conversa": [
+    "O que tem embaixo da ponte?",
+    "Foi devagar ou depressa?",
+    "De que jeito a gente atravessa agora?"
+  ],
+  "seguranca": "A ponte fica no chão, nunca no alto: nada de tábua apoiada em tijolo, cadeira ou degrau. Tábua lisa, sem farpas nem pregos, que não escorrega. Fita bem colada, sem pontas levantadas. Em piso liso, descalço segura melhor que de meia.",
+  "base": "Andar sobre uma trave de equilíbrio está entre as atividades de movimento do guia do Harvard Center para 18 a 36 meses; aqui, com a trave deitada no chão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

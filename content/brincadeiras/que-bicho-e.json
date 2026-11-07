@@ -1,0 +1,50 @@
+{
+  "id": "que-bicho-e",
+  "nome": "Que bicho é?",
+  "area": "linguagem",
+  "ordem": 6,
+  "faixas": [
+    "1-2"
+  ],
+  "minutos": 5,
+  "lugares": [
+    "casa",
+    "carro"
+  ],
+  "serve": "Treina ouvir e imitar o som dos bichos e ligar o som ao nome de cada um.",
+  "materiais": [
+    "2 ou 3 bichos de brinquedo, ou figuras de bichos num livro"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre um bicho de cada vez e diga o nome e o som: “O cachorro! Au-au!”",
+    "Espere: ela pode olhar, apontar ou tentar fazer o som.",
+    "Se ela disser um pedaço, complete: ela diz “au”, você diz “Isso, o cachorro faz au-au!”",
+    "Agora faça só o som, sem mostrar: “Muuu!” e pergunte: “Quem faz assim?”",
+    "No carro, sem os bichos: você faz o som e ela responde, ou ela faz e você adivinha."
+  ],
+  "facil": "Um bicho só e um som só, repetido algumas vezes, com o bicho na mão dela.",
+  "dificil": "Ela faz o som e você adivinha o bicho, às vezes errando de propósito: “É o gato?” Ou junte dois: “O cachorro faz au-au e o gato faz…?”",
+  "conversa": [
+    "Como faz a vaca?",
+    "Quem faz miau?",
+    "Qual bicho você quer agora?"
+  ],
+  "seguranca": "Bichos de brinquedo grandes, sem olhos, botões ou enfeites que soltem. No carro, a criança fica na cadeirinha, com o cinto, sem procurar nem pegar objetos. O motorista participa só com a voz, sem olhar para trás nem fazer gestos.",
+  "base": "O CDC sugere aos 18 meses ensinar palavras completando o que a criança diz, como “cachorro… o cachorro faz au-au”, e aos 15 meses repetir e aumentar as primeiras palavras dela",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 18 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 15 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+    }
+  ],
+  "revisao": null
+}

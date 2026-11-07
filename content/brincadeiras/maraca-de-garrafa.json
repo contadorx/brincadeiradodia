@@ -1,0 +1,48 @@
+{
+  "id": "maraca-de-garrafa",
+  "nome": "Maracá de garrafa",
+  "area": "musica",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina fazer um instrumento, perceber como o som muda e tocar no ritmo de uma música.",
+  "materiais": [
+    "Duas garrafas plásticas pequenas, vazias e secas, com tampa",
+    "Um punhado de grãos crus, como feijão ou arroz",
+    "Fita adesiva larga para lacrar a tampa"
+  ],
+  "etiquetas": [
+    "brinquedos",
+    "fita"
+  ],
+  "passos": [
+    "Conte que o maracá é um chocalho dos povos indígenas, feito de cabaça e sementes.",
+    "Com um funil de papel, a criança põe um punhado de feijão numa garrafa e de arroz na outra. O adulto fecha e lacra as tampas com fita.",
+    "Ela chacoalha e escuta: qual faz mais barulho? Qual é mais fininho?",
+    "Toquem junto com uma música: chacoalhar forte, fraquinho, rápido e devagar.",
+    "No fim, guardem os maracás num lugar alto, longe de irmãos pequenos."
+  ],
+  "facil": "Você enche e lacra; ela toca e escolhe as músicas.",
+  "dificil": "Ela inventa um ritmo de três batidas e você copia. Ou toquem um ritmo que se repete numa música conhecida, parando juntos no fim.",
+  "conversa": [
+    "Qual grão fez mais barulho?",
+    "Por que o som muda?",
+    "Que música a gente toca?"
+  ],
+  "seguranca": "Grão cru é peça pequena: só para quem já não põe coisas na boca. O adulto lacra bem as tampas com fita e confere sempre; se abrir, recolham todos os grãos. Guarde longe de irmãos menores de 3 anos. Volume confortável, longe dos ouvidos.",
+  "base": "O chocalho ou maracá, feito de cabaça e sementes, está no guia de culturas populares do Ministério da Cidadania; aqui, com garrafa e grãos, feito pela criança com o adulto",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

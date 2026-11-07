@@ -1,0 +1,49 @@
+{
+  "id": "regador-de-garrafa",
+  "nome": "Regador de garrafa",
+  "area": "explorar",
+  "ordem": 6,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "preparo": "5 minutos para o adulto furar a tampa da garrafa",
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina cuidar de uma planta, perceber a terra seca e molhada e controlar a água que sai.",
+  "materiais": [
+    "Uma garrafa plástica pequena, com furinhos na tampa feitos pelo adulto",
+    "Água",
+    "Uma planta que o adulto conhece, num vaso ou no canteiro"
+  ],
+  "etiquetas": [
+    "agua"
+  ],
+  "passos": [
+    "Antes, longe da criança, o adulto faz uns furinhos na tampa com um prego e enche a garrafa até a metade.",
+    "Com a criança, toquem a terra do vaso: “Está seca ou molhada?”",
+    "Ela vira a garrafa e aperta de leve: a água sai em chuvinha. Mostre como regar a terra, perto do pé da planta.",
+    "Toquem a terra de novo: “E agora? Molhou!”",
+    "Combinem quando voltar: amanhã, ver se a terra secou."
+  ],
+  "facil": "Você segura a garrafa junto com ela e conta: “Um, dois, três… chega!” para ela parar.",
+  "dificil": "Duas plantas: uma com a terra seca e outra ainda molhada. Ela decide qual precisa de água e conta por quê.",
+  "conversa": [
+    "A planta está com sede?",
+    "Como ficou a terra?",
+    "Quando a gente volta para ver?"
+  ],
+  "seguranca": "Só plantas que o adulto sabe que não são tóxicas; ninguém põe folha, flor ou terra na boca, e lavem as mãos no fim. O prego fica com o adulto. Ninguém bebe a água do regador. Vaso pesado: ninguém puxa nem sobe. Nada de balde ou bacia cheia por perto.",
+  "base": "Proposta nossa de cuidar de uma planta com um regador feito em casa, ligada ao objetivo EI02ET03 da BNCC (situações de cuidado de plantas e animais)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI02ET03 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI02ET03"
+    }
+  ],
+  "revisao": null
+}

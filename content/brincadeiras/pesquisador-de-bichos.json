@@ -1,0 +1,48 @@
+{
+  "id": "pesquisador-de-bichos",
+  "nome": "Pesquisador de bichos",
+  "area": "explorar",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 20,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina escolher uma pergunta, procurar a resposta em mais de um lugar e contar o que aprendeu.",
+  "materiais": [
+    "Um livro de bichos, de casa ou da biblioteca, ou um passeio à praça ou ao zoológico",
+    "Papel e lápis de cor para o cartaz"
+  ],
+  "etiquetas": [
+    "livro",
+    "papel"
+  ],
+  "passos": [
+    "A criança escolhe um bicho de que gosta muito.",
+    "Façam juntos três perguntas sobre ele: “O que ele come? Onde mora? Como nasce?”",
+    "Procurem as respostas: num livro, num passeio à praça ou ao zoológico, ou perguntando a quem sabe.",
+    "Ela desenha o cartaz do bicho, e você escreve embaixo o que ela descobriu, com as palavras dela.",
+    "Ela apresenta o cartaz para alguém da casa, como uma cientista."
+  ],
+  "facil": "Uma pergunta só, com a resposta num livro de figuras que vocês leem juntos.",
+  "dificil": "Ela compara dois bichos: o que têm de igual e de diferente. Ou observa um bicho de verdade, como formiga ou passarinho, e anota o que ele faz.",
+  "conversa": [
+    "O que mais te surpreendeu?",
+    "Onde a gente achou a resposta?",
+    "Que bicho vai ser o próximo?"
+  ],
+  "seguranca": "Bicho de verdade, só olhar: nada de pegar, cutucar ou dar comida. Na rua, de mãos dadas e longe do meio-fio; no sol, boné, protetor e água. Lavem as mãos ao voltar.",
+  "base": "O CDC sugere aos 5 anos explorar os assuntos de que a criança gosta com livros da biblioteca e passeios a parques e zoológicos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

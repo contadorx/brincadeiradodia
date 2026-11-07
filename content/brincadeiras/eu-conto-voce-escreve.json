@@ -1,0 +1,46 @@
+{
+  "id": "eu-conto-voce-escreve",
+  "nome": "Eu conto, você escreve",
+  "area": "linguagem",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina inventar uma história, contar em voz alta e perceber que o que a gente fala pode virar escrita.",
+  "materiais": [
+    "Duas ou três folhas dobradas ao meio, como um livrinho",
+    "Lápis e lápis de cor"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Convide: “Vamos fazer um livro? Você conta a história e eu escrevo.”",
+    "Ela conta e você escreve o que ela disser, do jeito que ela disser, uma ou duas frases por página. Leia em voz alta o que escreveu.",
+    "Se ela parar, ajude com perguntas: “E depois? Quem apareceu?”",
+    "Ela desenha em cada página o que aconteceu.",
+    "No fim, ela escolhe o título e vocês leem o livro inteiro juntos, ela mostrando os desenhos."
+  ],
+  "facil": "Uma página só: ela conta uma coisa, você escreve, ela desenha. Pode ser algo que aconteceu de verdade.",
+  "dificil": "A história tem começo, meio e fim: pergunte quem é o personagem, qual é o problema e como ele resolve. Depois, leiam para outra pessoa da casa.",
+  "conversa": [
+    "Como a história começa?",
+    "O que vai acontecer agora?",
+    "Quem vai ouvir o seu livro?"
+  ],
+  "seguranca": null,
+  "base": "Escrever as histórias que a criança conta e deixar que ela faça desenhos ou livrinhos para reler está no guia de funções executivas do Harvard Center para 3 a 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

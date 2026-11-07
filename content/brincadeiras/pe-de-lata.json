@@ -1,0 +1,49 @@
+{
+  "id": "pe-de-lata",
+  "nome": "Pé de lata",
+  "area": "corpo",
+  "ordem": 6,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "preparo": "15 minutos para o adulto montar as latas",
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina equilíbrio, coordenar a mão e o pé do mesmo lado e andar com calma.",
+  "materiais": [
+    "2 latas iguais, vazias e fortes, como as de leite em pó, com a tampa",
+    "Um cordão grosso de uns 3 metros, cortado em dois pedaços",
+    "Um prego e um martelo, só para o adulto"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Longe da criança, o adulto faz dois furos em cada lata, em lados opostos, perto do fundo (a parte fechada).",
+    "Passe as duas pontas de um cordão pelos furos, de fora para dentro, e dê um nó grosso em cada ponta, por dentro. Feche bem a tampa.",
+    "Vire as latas com o fundo para cima. A alça de cordão deve chegar à mão da criança em pé em cima da lata, de braço esticado.",
+    "Ela sobe com um pé em cada lata, segurando as alças esticadas, com você do lado. Para andar, puxa a alça e levanta o pé do mesmo lado, juntos.",
+    "Andem devagar no chão liso, até a porta e de volta. Nos primeiros passos, segure a mão dela."
+  ],
+  "facil": "Uma lata só, com o outro pé no chão. Ou ela fica parada em cima das duas, só se equilibrando segurando as alças.",
+  "dificil": "Andar de lado, dar a volta numa almofada ou fazer um caminho com curvas. Pular, não: o guia avisa para evitar pulos com o brinquedo.",
+  "conversa": [
+    "Ficou mais alta?",
+    "Qual pé vai agora?",
+    "Como você faz para não cair?"
+  ],
+  "seguranca": "Latas fortes, sem ferrugem e sem bordas cortantes, com a tampa bem presa. Furos e nós só pelo adulto, que guarda prego e martelo. A corda fica nas mãos, nunca no pescoço; guarde depois. Chão plano e livre, longe de escada e quinas. Nada de pular com as latas.",
+  "base": "Brinquedo tradicional do guia de culturas populares do Ministério da Cidadania, a partir de 3 anos, sempre com um adulto junto e sem pular com ele",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

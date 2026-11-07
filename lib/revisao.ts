@@ -50,6 +50,28 @@ export const LOTES: readonly Lote[] = [
     foco: "pano no rosto, objetos que vão à boca, o que se pede da criança",
     ids: ["cade-achou", "rola-a-bola", "copia-o-gesto", "qual-voce-quer", "dentro-e-fora", "cada-um-na-sua-caixa", "comidinha-do-ursinho", "ursinho-vai-dormir"],
   },
+  // G a I: as fichas novas de ordem 5 e 6 que têm mais risco e as de 1 a 2 anos.
+  {
+    id: "G",
+    tema: "Água, comida e plantas (fichas novas)",
+    para: "Pediatria, enfermagem pediátrica ou nutrição infantil",
+    foco: "afogamento, mosquito em água parada, engasgo, alergias, plantas tóxicas, forno",
+    ids: ["regador-de-garrafa", "pluviometro-de-garrafa", "barco-de-papel-aluminio", "rasga-a-alface", "gomos-de-mexerica", "espetinho-de-padrao", "pao-de-queijo-em-fileiras"],
+  },
+  {
+    id: "H",
+    tema: "1 a 2 anos: explorar e se mexer (fichas novas)",
+    para: "Terapia ocupacional ou fisioterapia pediátrica",
+    foco: "peças pequenas, quedas, o que vai à boca, primeiros passos",
+    ids: ["abre-e-fecha", "tunel-da-bolinha", "embaixo-de-qual-pote", "cada-peca-no-seu-lugar", "vem-andando", "vou-te-pegar", "ajudante-da-mesa"],
+  },
+  {
+    id: "I",
+    tema: "1 a 2 anos: fala, música e faz de conta (fichas novas)",
+    para: "Fonoaudiologia, psicologia ou educação infantil",
+    foco: "balanço no colo, esconder-se, objetos à boca, linguagem para a idade",
+    ids: ["levanta-a-aba", "que-bicho-e", "esconde-esconde-de-bebe", "conversa-com-o-bichinho", "passeio-do-carrinho", "roda-e-senta", "cavalinho-no-joelho"],
+  },
 ];
 
 export type FichaDoLote = { id: string; nome: string; revisada: boolean };

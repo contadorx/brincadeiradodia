@@ -1,0 +1,46 @@
+{
+  "id": "piao",
+  "nome": "Pião",
+  "area": "corpo",
+  "ordem": 5,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "rua",
+    "casa"
+  ],
+  "serve": "Treina enrolar a fieira, lançar com controle e tentar de novo até o pião girar.",
+  "materiais": [
+    "Um pião de madeira com fieira (a cordinha)"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre como enrolar a fieira: começa perto da ponta do pião e vai enrolando bem apertado até o meio.",
+    "Segure o pião com a ponta para baixo e a ponta solta da fieira presa entre os dedos.",
+    "Lance para o chão, puxando a fieira para trás no mesmo movimento.",
+    "Ela tenta muitas vezes: enrolar de novo faz parte da brincadeira.",
+    "Quando conseguir, contem quanto tempo ele gira, ou desenhem um círculo no chão para o pião girar dentro."
+  ],
+  "facil": "Ela gira o pião com a mão, torcendo os dedos na parte de cima. Ou você enrola e ela só lança.",
+  "dificil": "Fazer o pião girar dentro do círculo, ou ver quem consegue o giro mais longo, contando em voz alta.",
+  "conversa": [
+    "O que mudou quando ele girou?",
+    "Quanto tempo ele girou?",
+    "Quem da família sabe outro truque?"
+  ],
+  "seguranca": "O pião tem ponta: lance só no chão, longe de pés, rosto e pessoas, sem mirar em ninguém. A fieira fica na mão, nunca no pescoço nem apertada no dedo. Em casa, em piso que não arranha e longe de vidro. Fora de casa, só em quintal ou praça cercada.",
+  "base": "Brinquedo tradicional do guia de culturas populares do Ministério da Cidadania, lá indicado para 4 a 5 anos: enrolar a corda, lançar e fazer o pião girar",
+  "status": "publicada",
+  "evidencia": "C",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

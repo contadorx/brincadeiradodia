@@ -1,0 +1,50 @@
+{
+  "id": "os-tres-ursos",
+  "nome": "Os três ursos",
+  "area": "raciocinio",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina comparar tamanhos, pôr em ordem do menor para o maior e achar o que combina com cada um.",
+  "materiais": [
+    "3 bichos ou bonecos de tamanhos diferentes: grande, médio e pequeno",
+    "3 potes, 3 colheres e 3 paninhos de tamanhos diferentes"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Conte a história dos três ursos do jeito que você sabe: o urso grande, o médio e o filhote pequeno.",
+    "Ponham os ursos em fila, do menor para o maior: “Quem é o menor? E o maior?”",
+    "Na hora do mingau, ela dá a cada urso o pote do tamanho dele.",
+    "Depois, a colher e o paninho de cobrir para dormir: grande com grande, pequeno com pequeno.",
+    "Bagunce tudo de mentirinha, como a menina da história, e ela arruma de novo."
+  ],
+  "facil": "Só dois tamanhos, grande e pequeno, e só os potes.",
+  "dificil": "Quatro ursos, ou ela arruma a fila do maior para o menor. Ou ela conta a história enquanto arruma.",
+  "conversa": [
+    "Qual pote é do urso pequeno?",
+    "Por que esse não serve?",
+    "Quem é o do meio?"
+  ],
+  "seguranca": "Potes e colheres de plástico: nada de vidro ou talher de ponta. Brinquedos inteiros, sem peças pequenas soltas.",
+  "base": "O CDC sugere aos 4 anos mostrar cores, formas e tamanhos no dia a dia, e os cartões da OMS e do UNICEF sugerem comparar coisas; a história dos três ursos é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 4 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/4-years.html"
+    },
+    {
+      "titulo": "Care for Child Development: cartões de aconselhamento (OMS e UNICEF, 2012)",
+      "url": "https://www.unicef.org/media/91181/file/4-CCD-Counselling-Cards.pdf"
+    }
+  ],
+  "revisao": null
+}

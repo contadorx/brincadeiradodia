@@ -1,0 +1,47 @@
+{
+  "id": "sombra-de-lanterna",
+  "nome": "Sombra de lanterna",
+  "area": "explorar",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina testar o que muda a sombra, observar com atenção e contar o que descobriu.",
+  "materiais": [
+    "Uma lanterna",
+    "Uma parede clara",
+    "2 ou 3 brinquedos para fazer sombra"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Deixem o quarto na meia-luz e apontem a lanterna para a parede.",
+    "Ponham a mão entre a lanterna e a parede: “Olha a sombra da mão!”",
+    "Testem um brinquedo perto da lanterna e longe dela: “Quando a sombra fica grande? E pequena?”",
+    "Façam bichos com as mãos: um cachorro, um passarinho batendo asas.",
+    "Antes de cada teste, ela dá um palpite; depois, conta o que aconteceu."
+  ],
+  "facil": "Só a sombra da mão e de um brinquedo, com você segurando a lanterna e ela mexendo.",
+  "dificil": "Contem uma história curta com as sombras dos brinquedos. Ou ela contorna com lápis, numa folha presa na parede, a sombra grande e a pequena do mesmo brinquedo.",
+  "conversa": [
+    "O que acontece se chegar perto da lanterna?",
+    "Por que a sombra é escura?",
+    "Que bicho a sua mão vira?"
+  ],
+  "seguranca": "Lanterna com a tampa das pilhas bem fechada: pilha não fica solta nem vai à boca. Nada de apontar a luz para os olhos. Na meia-luz, tirem do chão brinquedos e tapetes que escorregam. Nada de vela.",
+  "base": "Proposta nossa de testar sombras com uma lanterna, ligada ao objetivo EI03ET02 da BNCC (observar e descrever mudanças em experimentos com fenômenos naturais e artificiais)",
+  "status": "publicada",
+  "evidencia": "D",
+  "fontes": [
+    {
+      "titulo": "BNCC, Educação Infantil, objetivo EI03ET02 (MEC), na Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/habilidades/EI03ET02"
+    }
+  ],
+  "revisao": null
+}

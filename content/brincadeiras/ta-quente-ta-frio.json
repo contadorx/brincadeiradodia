@@ -1,0 +1,45 @@
+{
+  "id": "ta-quente-ta-frio",
+  "nome": "Tá quente, tá frio",
+  "area": "autocontrole",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina prestar atenção nas pistas, mudar de direção e procurar com calma.",
+  "materiais": [
+    "Um objeto para esconder, como um bichinho ou uma colher de pau"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "A criança sai da sala ou fecha os olhos enquanto você esconde o objeto num lugar que ela alcança.",
+    "Ela procura e você dá as pistas: perto, “Tá quente!”; longe, “Tá frio!”",
+    "Bem pertinho: “Tá pegando fogo!” Bem longe: “Tá congelando!”",
+    "Achou? Comemore e troquem: ela esconde e dá as pistas para você.",
+    "Combinem: quem procura só anda depois de ouvir a pista."
+  ],
+  "facil": "Esconda num lugar meio à vista e dê as pistas com gestos também: mãos abanando para quente, braços cruzados tremendo para frio.",
+  "dificil": "Escondam em outro cômodo, ou dois objetos de uma vez. Ou só vale um passo depois de cada pista.",
+  "conversa": [
+    "Qual pista ajudou mais?",
+    "Onde estava escondido?",
+    "Onde você vai esconder?"
+  ],
+  "seguranca": "Esconda só em lugares que ela alcança do chão: nada de subir em móvel nem abrir gaveta de remédio ou produto de limpeza, tomada ou fogão. Ninguém se esconde em armário, baú ou máquina de lavar.",
+  "base": "Jogos de memória e atenção, como Hot and Cold, que aqui é o Tá quente, tá frio, estão entre as dicas do CDC aos 5 anos",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

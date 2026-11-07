@@ -1,0 +1,47 @@
+{
+  "id": "boliche-de-garrafas",
+  "nome": "Boliche de garrafas",
+  "area": "corpo",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa",
+    "rua"
+  ],
+  "serve": "Treina rolar a bola mirando um alvo, medir a força do braço e contar o que caiu.",
+  "materiais": [
+    "6 garrafas plásticas vazias, com tampa",
+    "Uma bola macia, de tamanho médio"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Arrumem as garrafas em pé, juntinhas, em triângulo ou em fila.",
+    "Marquem a linha de onde se joga, a uns três passos grandes.",
+    "Mostre como rolar a bola no chão: abaixa, leva o braço para trás e solta rolando, sem jogar para o alto.",
+    "Ela joga e vocês contam juntos as garrafas que caíram.",
+    "Ela arruma as garrafas de novo e é a sua vez. Revezem."
+  ],
+  "facil": "Garrafas mais perto e bem juntinhas, ou uma garrafa só. Ela pode empurrar a bola com as duas mãos.",
+  "dificil": "Mais longe, ou com as garrafas espalhadas. Anotem os pontos com risquinhos e somem no fim: quem derrubou mais?",
+  "conversa": [
+    "Quantas caíram?",
+    "Quantas ficaram em pé?",
+    "Mais força ou menos força agora?"
+  ],
+  "seguranca": "Só garrafas plásticas, nunca de vidro, vazias e com a tampa bem fechada. Bola macia, rolando no chão. Em casa, longe de janelas, TV e objetos que quebram. Fora de casa, só em quintal ou praça cercada: se a bola escapar, quem vai buscar é o adulto.",
+  "base": "O Guia de Atividade Física do Ministério da Saúde recomenda de 3 a 5 anos brincadeiras com arremessar, chutar e correr; o boliche de garrafas é a nossa versão",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Guia de Atividade Física para a População Brasileira (Ministério da Saúde, 2021)",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_atividade_fisica_populacao_brasileira.pdf"
+    }
+  ],
+  "revisao": null
+}

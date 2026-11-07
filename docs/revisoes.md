@@ -4,7 +4,9 @@ Em uma frase, para quem recebe o convite: **você lê umas 8 brincadeiras curtas
 quiser, seu nome aparece como revisor(a).**
 
 Lotes pequenos (5 a 8 fichas, uns 30 a 40 minutos) recebem mais "sim" do que um pedido grande. Os seis
-primeiros cobrem o que tem mais risco (água, comida, faca, plantas) e toda a faixa de 1 a 2 anos.
+primeiros cobrem o que tem mais risco (água, comida, faca, plantas) e toda a faixa de 1 a 2 anos. Os lotes
+G, H e I fazem o mesmo com as fichas novas (as de ordem 5 e 6): água, comida e plantas, e as 14 novas de
+1 a 2 anos.
 Depois de receber a revisão, siga o passo a passo do README ("Doação de revisão").
 
 O site tem a mesma coisa para quem chega sozinho: toda ficha sem revisão mostra "É profissional de saúde ou
@@ -23,6 +25,9 @@ de resposta (assunto "Revisão voluntária: lote A (água)", por exemplo). Os lo
 | D | 1 a 2 anos: exploração e movimento (8) | Terapia ocupacional, fisioterapia pediátrica | peças pequenas, quedas, o que vai à boca |
 | E | 1 a 2 anos: fala, livros e música (8) | Fonoaudiologia | peças pequenas, volume, linguagem para a idade |
 | F | 1 a 2 anos: brincar junto e faz de conta (8) | Psicologia, psicopedagogia, terapia ocupacional | pano no rosto, objetos à boca, o que se pede da criança |
+| G | Água, comida e plantas, fichas novas (7) | Pediatria, enfermagem pediátrica, nutrição infantil | afogamento, mosquito em água parada, engasgo, alergias, plantas tóxicas, forno |
+| H | 1 a 2 anos: explorar e se mexer, fichas novas (7) | Terapia ocupacional, fisioterapia pediátrica | peças pequenas, quedas, o que vai à boca, primeiros passos |
+| I | 1 a 2 anos: fala, música e faz de conta, fichas novas (7) | Fonoaudiologia, psicologia, educação infantil | balanço no colo, esconder-se, objetos à boca, linguagem para a idade |
 
 **A · Água:** [Brinquedos no banho](https://brincadeiradodia.com.br/brincadeira/brinquedos-no-banho/) (1 a 2),
 [Passa a água](https://brincadeiradodia.com.br/brincadeira/passa-a-agua/) (2 a 3),
@@ -74,6 +79,30 @@ de resposta (assunto "Revisão voluntária: lote A (água)", por exemplo). Os lo
 [Comidinha do ursinho](https://brincadeiradodia.com.br/brincadeira/comidinha-do-ursinho/),
 [O ursinho vai dormir](https://brincadeiradodia.com.br/brincadeira/ursinho-vai-dormir/).
 
+**G · Água, comida e plantas (fichas novas):** [Regador de garrafa](https://brincadeiradodia.com.br/brincadeira/regador-de-garrafa/) (2 a 3),
+[Pluviômetro de garrafa](https://brincadeiradodia.com.br/brincadeira/pluviometro-de-garrafa/) (4 a 5),
+[Barco de papel-alumínio](https://brincadeiradodia.com.br/brincadeira/barco-de-papel-aluminio/) (5 a 6),
+[Rasga a alface](https://brincadeiradodia.com.br/brincadeira/rasga-a-alface/) (2 a 3),
+[Gomos de mexerica](https://brincadeiradodia.com.br/brincadeira/gomos-de-mexerica/) (3 a 4),
+[Espetinho de padrão](https://brincadeiradodia.com.br/brincadeira/espetinho-de-padrao/) (4 a 5),
+[Pão de queijo em fileiras](https://brincadeiradodia.com.br/brincadeira/pao-de-queijo-em-fileiras/) (5 a 6).
+
+**H · 1 a 2 anos, explorar e se mexer (fichas novas):** [Abre e fecha](https://brincadeiradodia.com.br/brincadeira/abre-e-fecha/),
+[Túnel da bolinha](https://brincadeiradodia.com.br/brincadeira/tunel-da-bolinha/),
+[Embaixo de qual pote?](https://brincadeiradodia.com.br/brincadeira/embaixo-de-qual-pote/),
+[Cada peça no seu lugar](https://brincadeiradodia.com.br/brincadeira/cada-peca-no-seu-lugar/),
+[Vem andando!](https://brincadeiradodia.com.br/brincadeira/vem-andando/),
+[Vou te pegar!](https://brincadeiradodia.com.br/brincadeira/vou-te-pegar/),
+[Ajudante da mesa](https://brincadeiradodia.com.br/brincadeira/ajudante-da-mesa/).
+
+**I · 1 a 2 anos, fala, música e faz de conta (fichas novas):** [Levanta a aba](https://brincadeiradodia.com.br/brincadeira/levanta-a-aba/),
+[Que bicho é?](https://brincadeiradodia.com.br/brincadeira/que-bicho-e/),
+[Esconde-esconde de bebê](https://brincadeiradodia.com.br/brincadeira/esconde-esconde-de-bebe/),
+[Conversa com o bichinho](https://brincadeiradodia.com.br/brincadeira/conversa-com-o-bichinho/),
+[Passeio do carrinho](https://brincadeiradodia.com.br/brincadeira/passeio-do-carrinho/),
+[Roda e senta](https://brincadeiradodia.com.br/brincadeira/roda-e-senta/),
+[Cavalinho no joelho](https://brincadeiradodia.com.br/brincadeira/cavalinho-no-joelho/).
+
 ## E-mail 1: convite
 
 **Assunto:** Convite para revisão voluntária: [N] brincadeiras para crianças ([tema do lote])
@@ -119,7 +148,7 @@ de resposta (assunto "Revisão voluntária: lote A (água)", por exemplo). Os lo
 > Leandro Batista de Oliveira
 > Brincadeira do Dia · brincadeiradodia.com.br
 
-Nos lotes D, E e F (1 a 2 anos), acrescente antes de "Como funciona": "Nessa faixa o site mostra sozinho,
+Nos lotes D, E, F, H e I (1 a 2 anos), acrescente antes de "Como funciona": "Nessa faixa o site mostra sozinho,
 em toda ficha, o aviso: tudo vai à boca; só objetos maiores que um rolo de papel higiênico, inteiros e
 limpos; brincadeira no chão, sem subir em nada. Vale dizer também se esse aviso está bom."
 

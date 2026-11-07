@@ -1,0 +1,47 @@
+{
+  "id": "o-segredo-das-formas",
+  "nome": "O segredo das formas",
+  "area": "raciocinio",
+  "ordem": 5,
+  "faixas": [
+    "4-5"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina descobrir o que faz um triângulo ser triângulo, mesmo quando ele parece diferente.",
+  "materiais": [
+    "Papel e caneta para o adulto desenhar triângulos diferentes: um comum, um bem comprido, um de ponta para baixo, um torto",
+    "Palitos de picolé ou canudos, para montar formas",
+    "Um chapéu ou boné, que vira chapéu de detetive"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Ponham o chapéu de detetive: “Sabia que as formas têm um segredo? Vamos descobrir o do triângulo?”",
+    "Mostre os triângulos desenhados e conte que todos são triângulos de verdade, mesmo os diferentes.",
+    "Pergunte e espere: “O que eles têm de igual?” Ela passa o dedo pelos lados e conta: “Um, dois, três!”",
+    "Ajude a achar o segredo: três lados retos, três pontas e tudo fechado.",
+    "Agora ela monta um triângulo com os palitos e conta como sabe que é um."
+  ],
+  "facil": "Só triângulos comuns e um quadrado para comparar: ela conta os lados de cada um.",
+  "dificil": "Desenhe também formas que parecem, mas não são: um triângulo aberto, um com um lado curvo. Ela usa o segredo para dizer qual é de verdade. Depois, o segredo do retângulo.",
+  "conversa": [
+    "Qual é o segredo do triângulo?",
+    "Esse aberto é triângulo? Por quê?",
+    "Onde tem triângulo aqui em casa?"
+  ],
+  "seguranca": "Palitos de picolé lisos, sem farpas, e canudos inteiros. Nada de palito de dente ou de churrasco.",
+  "base": "Inspirada na brincadeira de detetive das formas estudada com crianças de 4 e 5 anos nos EUA, em sessões curtas com pesquisadores (Fisher e outros, 2013). A ficha não foi testada",
+  "status": "publicada",
+  "evidencia": "A",
+  "fontes": [
+    {
+      "titulo": "Taking shape: supporting preschoolers' acquisition of geometric knowledge through guided play (Fisher e outros, 2013)",
+      "url": "https://doi.org/10.1111/cdev.12091"
+    }
+  ],
+  "revisao": null
+}

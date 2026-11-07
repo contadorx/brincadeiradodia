@@ -1,0 +1,46 @@
+{
+  "id": "separacao-maluca",
+  "nome": "Separação maluca",
+  "area": "raciocinio",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 10,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina separar por tamanho e trocar de regra, mesmo quando a cabeça quer fazer do jeito de antes.",
+  "materiais": [
+    "Um cesto grande e um pote pequeno",
+    "Brinquedos grandes e pequenos, todos maiores que um rolo de papel higiênico, como bolas, blocos e bichos"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre o cesto grande, o pote pequeno e os brinquedos misturados no chão.",
+    "Primeiro, o jogo normal: os grandes vão no cesto grande e os pequenos no pote pequeno. Revezem: um você, um ela.",
+    "Esvaziem tudo e anunciem o jogo maluco: “Agora é ao contrário! Os pequenos vão no cesto grande!”",
+    "Ela pega um pequeno e põe no cesto grande. Se errar, riam e lembrem a regra maluca.",
+    "Os grandes vão para o pote pequeno: se não couberem, ficam encostados nele."
+  ],
+  "facil": "Fiquem no jogo normal, com dois tipos bem diferentes, como bolas grandes e blocos pequenos. O jogo maluco fica para outro dia.",
+  "dificil": "Troquem de regra várias vezes, sem aviso: “Normal!” “Maluco!” Ou separem por cor e depois por tamanho, com os mesmos brinquedos.",
+  "conversa": [
+    "Qual é o maior?",
+    "No jogo maluco, onde vai esse?",
+    "Por que é engraçado?"
+  ],
+  "seguranca": "Só brinquedos maiores que um rolo de papel higiênico, inteiros, sem pecinhas que soltem.",
+  "base": "Separar coisas por tamanho, revezando a vez, e a separação maluca, com os pequenos no balde grande e os grandes no pequeno, estão no guia do Harvard Center para 18 a 36 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 18- to 36-month-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-18-to-36-month-olds.pdf"
+    }
+  ],
+  "revisao": null
+}

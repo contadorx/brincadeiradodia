@@ -1,0 +1,48 @@
+{
+  "id": "tinta-de-papel-crepom",
+  "nome": "Tinta de papel crepom",
+  "area": "explorar",
+  "ordem": 5,
+  "faixas": [
+    "3-4"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina observar a cor saindo do papel na água, misturar e testar o que acontece.",
+  "materiais": [
+    "Tiras de papel crepom de 2 ou 3 cores",
+    "Um copo com um pouco de água",
+    "Folhas de papel branco, de preferência mais grosso",
+    "Pano velho ou jornal para forrar a mesa"
+  ],
+  "etiquetas": [
+    "papel"
+  ],
+  "passos": [
+    "Forrem a mesa e vistam roupa que pode sujar.",
+    "A criança enrola uma tira de crepom bem apertada, como um pincel.",
+    "Ela molha a ponta do rolinho na água e passa na folha: “Olha, a cor saiu!”",
+    "Testem as outras cores e o que acontece quando uma passa por cima da outra.",
+    "Deixem secar perto da janela e conversem sobre as cores que apareceram."
+  ],
+  "facil": "Você enrola o rolinho e ela só pinta, com uma cor. Ou ela molha a folha com o dedo e encosta um pedaço de crepom em cima, para ver a cor manchar.",
+  "dificil": "Antes de misturar, ela adivinha: “Amarelo com azul vai dar que cor?” Depois confere. Ou façam um desenho com contorno e ela pinta só por dentro.",
+  "conversa": [
+    "Para onde a cor foi?",
+    "Que cor apareceu quando misturou?",
+    "O papel crepom ficou mais clarinho?"
+  ],
+  "seguranca": "A cor do crepom mancha pele, roupa e móveis: forre a mesa. Papel e água colorida não vão à boca, e ninguém bebe a água. Use só água, sem álcool. Lavem as mãos no fim e joguem a água fora.",
+  "base": "Pintar com pincéis de papel crepom molhado está no guia de culturas populares do Ministério da Cidadania para 3 a 4 anos; aqui, só com água, sem o álcool da receita original",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Jogos e brincadeiras das culturas populares na Primeira Infância (Ministério da Cidadania, 2019)",
+      "url": "https://movimentopelabase.org.br/wp-content/uploads/2021/11/jogos-brincadeiras-culturas-populares-primeira-infancia.pdf"
+    }
+  ],
+  "revisao": null
+}

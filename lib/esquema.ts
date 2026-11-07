@@ -38,7 +38,7 @@ export const esquemaBrincadeira = z
     id: z.string().regex(/^[a-z0-9-]+$/, "use só letras minúsculas, números e hífen"),
     nome: z.string().trim().min(3).max(40),
     area: z.enum(AREAS),
-    /** Posição no rodízio semanal da área (1 a 4): semana 1 usa a de ordem 1, semana 2 a de ordem 2… */
+    /** Posição no rodízio semanal da área (hoje, 1 a 6): semana 1 usa a de ordem 1, semana 2 a de ordem 2… */
     ordem: z.number().int().min(1).max(9),
     faixas: z.array(z.enum(FAIXAS)).min(1),
     /** Tempo estimado de brincadeira. É estimativa: a família para quando a criança quiser. */

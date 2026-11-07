@@ -1,0 +1,52 @@
+{
+  "id": "salao-de-beleza",
+  "nome": "Salão de beleza",
+  "area": "fazdeconta",
+  "ordem": 6,
+  "faixas": [
+    "5-6"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina assumir um papel do dia a dia, conversar com o cliente e seguir os passos do atendimento.",
+  "materiais": [
+    "Escova e pente",
+    "Uma toalha e um borrifador com um pouco de água",
+    "Prendedores de cabelo grandes",
+    "Bonecas, ou o adulto como cliente"
+  ],
+  "etiquetas": [
+    "brinquedos"
+  ],
+  "passos": [
+    "Montem o salão: uma cadeira para o cliente, a toalha nos ombros e os materiais na mesa.",
+    "A criança é a cabeleireira e recebe o cliente: “Bom dia! O que vai ser hoje?”",
+    "Ela atende em passos: borrifa um pouco de água, penteia, faz o penteado e mostra o resultado.",
+    "O cliente conversa como no salão de verdade: conta do dia, pede um ajuste.",
+    "No fim, o cliente paga com dinheiro de papel e agradece. Troquem de papel."
+  ],
+  "facil": "Bonecas como clientes, e só pentear e prender o cabelo.",
+  "dificil": "Façam uma tabela de preços desenhada e uma agenda com a hora de cada cliente. Ela confere quem é o próximo.",
+  "conversa": [
+    "Qual penteado você vai fazer?",
+    "Como se fala com o cliente?",
+    "Quem é o próximo da agenda?"
+  ],
+  "seguranca": "Tesoura não entra no salão: cortar cabelo, nem de boneca nem de gente, nunca. Nada de secador, chapinha, produto químico ou maquiagem de adulto. Pentear com cuidado e parar se doer. Borrifador só com água, longe dos olhos.",
+  "base": "O guia do Harvard Center para 3 a 5 anos sugere encenar situações conhecidas usando objetos da casa, e o CDC sugere aos 5 anos dar adereços para o faz de conta",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Executive Function Activities for 3- to 5-year-olds (Harvard Center on the Developing Child)",
+      "url": "https://developingchild.harvard.edu/wp-content/uploads/2024/10/Executive-Function-Activities-for-3-to-5-year-olds.pdf"
+    },
+    {
+      "titulo": "Marcos do desenvolvimento aos 5 anos (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+    }
+  ],
+  "revisao": null
+}

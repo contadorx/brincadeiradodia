@@ -1,0 +1,48 @@
+{
+  "id": "caixa-que-vira-carro",
+  "nome": "Caixa que vira carro",
+  "area": "fazdeconta",
+  "ordem": 5,
+  "faixas": [
+    "2-3"
+  ],
+  "minutos": 15,
+  "lugares": [
+    "casa"
+  ],
+  "serve": "Treina imaginar que uma coisa é outra e inventar uma história curta dentro dela.",
+  "materiais": [
+    "Uma caixa de papelão grande, onde a criança cabe sentada, sem grampos",
+    "Giz de cera ou canetinhas para enfeitar",
+    "Um prato de plástico para ser o volante (opcional)"
+  ],
+  "etiquetas": [
+    "papel",
+    "brinquedos"
+  ],
+  "passos": [
+    "Mostre a caixa e pergunte: “O que essa caixa podia ser? Um carro? Um barco? Uma casa?”",
+    "Enfeitem juntos: rodas, janelas, faróis. Ela desenha do jeito dela.",
+    "Ela entra e vocês vão passear: “Para onde vamos?”",
+    "Você é o passageiro, o cliente ou quem acena na rua, e ela comanda a viagem.",
+    "No fim, estacionem a caixa num canto. Amanhã ela pode virar outra coisa."
+  ],
+  "facil": "A caixa é só um carro, e você empurra devagar com ela dentro, no chão liso, fazendo “vrum”.",
+  "dificil": "A caixa muda no meio da história: o carro vira barco, o barco vira nave. Ela conta o que aconteceu em cada viagem.",
+  "conversa": [
+    "Para onde a gente vai hoje?",
+    "O que o carro precisa ter?",
+    "Amanhã ela vai virar o quê?"
+  ],
+  "seguranca": "Caixa sem grampos, fita metálica ou isopor. Se empurrar com ela dentro, só devagar, em chão liso e livre, longe de escada e quinas. A caixa nunca fica fechada com a criança dentro, e nada de saco plástico. Canetinha e giz com selo do Inmetro.",
+  "base": "Deixar a criança brincar com caixas grandes, fingindo que são um carro ou uma casa, e enfeitar a caixa é dica do CDC aos 30 meses",
+  "status": "publicada",
+  "evidencia": "B",
+  "fontes": [
+    {
+      "titulo": "Marcos do desenvolvimento aos 30 meses (CDC)",
+      "url": "https://www.cdc.gov/act-early/milestones/30-months.html"
+    }
+  ],
+  "revisao": null
+}
